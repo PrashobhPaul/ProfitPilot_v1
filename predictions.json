@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:53:04.481514+05:30",
+  "generated_at": "2026-05-15T20:13:04.845781+05:30",
   "market_date": "2026-05-15",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -401,7 +401,7 @@
       },
       {
         "symbol": "TATASTEEL",
-        "score": 56,
+        "score": 58,
         "signal": "BUY",
         "confidence": "MEDIUM",
         "current_price": 216.84,
@@ -471,27 +471,144 @@
             "days": 1,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 59.0,
+            "composite": 64.0,
             "price_band": {
               "low": 212.87,
               "mid": 218.01,
               "high": 223.14,
               "move_pct_mid": 0.54
             },
-            "catalyst": "Full Bull (>20>50>200) setup, score 56/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 57.8,
+            "composite": 61.6,
             "price_band": {
               "low": 207.96,
               "mid": 219.45,
               "high": 230.94,
               "move_pct_mid": 1.2
+            },
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 59.8,
+            "price_band": {
+              "low": 198.65,
+              "mid": 222.19,
+              "high": 245.73,
+              "move_pct_mid": 2.47
+            },
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is positive \u2014 4 items in the last 48 hours \u2014 'Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+        "rank": 4
+      },
+      {
+        "symbol": "APOLLOHOSP",
+        "score": 49,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 8082.5,
+        "change_pct": -0.45,
+        "change": -36.5,
+        "target_price": 8802.02,
+        "stop_loss": 7597.55,
+        "risk_reward": 1.6,
+        "holding_category": "short",
+        "sector": "Healthcare",
+        "penalty": 0,
+        "scores": {
+          "trend": 22,
+          "momentum": 17,
+          "volume": 0,
+          "breakout": 5,
+          "price_action": 5
+        },
+        "indicators": {
+          "rsi": 64.1,
+          "macd_signal": "Bullish",
+          "sma_alignment": "Full Bull (>20>50>200)",
+          "volume_ratio": 0.79,
+          "week52_pct": 1.2,
+          "bb_position": 0.87,
+          "adx": null
+        },
+        "reasons": [
+          "Full bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "RSI ideal zone (64.1)",
+          "MACD bullish",
+          "Near upper BB",
+          "Near 52W high (1.2%)"
+        ],
+        "trade_plan": {
+          "category": "medium",
+          "cat_score": 10,
+          "atr": 130.82,
+          "atr_pct": 1.62,
+          "entry": {
+            "ideal_price": 8017.09,
+            "limit_order": 8011.48,
+            "acceptable_max": 8122.91,
+            "entry_window": "09:15\u201309:45 AM IST",
+            "order_strategy": "Patient limit order",
+            "note": "Prev close \u20b98,082.50 | Dip ~\u20b965.41"
+          },
+          "exit": {
+            "target_conservative": 8540.38,
+            "target_ideal": 8802.02,
+            "target_stretch": 9129.07,
+            "upside_conservative": 6.5,
+            "upside_ideal": 9.8,
+            "upside_stretch": 13.9,
+            "hold_min_days": 30,
+            "hold_max_days": 90,
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b98,802.02",
+            "hold_note": "Review weekly"
+          }
+        },
+        "name": "Apollo Hospitals",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
+            "price_band": {
+              "low": 7938.6,
+              "mid": 8082.5,
+              "high": 8226.4,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Full Bull (>20>50>200) setup, score 49/100",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
+            "price_band": {
+              "low": 7760.73,
+              "mid": 8082.5,
+              "high": 8404.27,
+              "move_pct_mid": 0.0
             },
             "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -499,136 +616,20 @@
           "1m": {
             "label": "1 Month",
             "days": 21,
-            "bias": "Mildly Bullish",
-            "confidence": "Medium",
-            "composite": 56.9,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
             "price_band": {
-              "low": 198.65,
-              "mid": 222.19,
-              "high": 245.73,
-              "move_pct_mid": 2.47
+              "low": 7423.06,
+              "mid": 8082.5,
+              "high": 8741.94,
+              "move_pct_mid": 0.0
             },
-            "catalyst": "Structural trend full bull (>20>50>200); SIDEWAYS regime supportive",
+            "catalyst": "Consolidation phase in SIDEWAYS regime",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Tata Steel Q4 Results 2026 LIVE: Expect strong earnings with net profit to double; Europe' (Mint Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
-        "rank": 4
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "score": 50,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1278.8,
-        "change_pct": -1.4,
-        "change": -18.1,
-        "target_price": 1854.26,
-        "stop_loss": 1202.07,
-        "risk_reward": 7.8,
-        "holding_category": "short",
-        "sector": "Metals",
-        "penalty": 0,
-        "scores": {
-          "trend": 22,
-          "momentum": 8,
-          "volume": 6,
-          "breakout": 3,
-          "price_action": 6
-        },
-        "indicators": {
-          "rsi": 48.8,
-          "macd_signal": "Bearish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 1.94,
-          "week52_pct": 2.7,
-          "bb_position": 0.66,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "RSI building (48.8)",
-          "Above avg vol 1.9x",
-          "Near 52W high (2.7%)"
-        ],
-        "trade_plan": {
-          "category": "long",
-          "cat_score": 10,
-          "atr": 25.74,
-          "atr_pct": 2.01,
-          "entry": {
-            "ideal_price": 1259.49,
-            "limit_order": 1258.61,
-            "acceptable_max": 1291.59,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "GTC limit \u2014 no urgency",
-            "note": "Prev close \u20b91,278.80 | Dip ~\u20b919.31"
-          },
-          "exit": {
-            "target_conservative": 1598.5,
-            "target_ideal": 1854.26,
-            "target_stretch": 2110.02,
-            "upside_conservative": 26.9,
-            "upside_ideal": 47.2,
-            "upside_stretch": 67.5,
-            "hold_min_days": 180,
-            "hold_max_days": 540,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit if fundamentals deteriorate or \u20b91,854.26 hit",
-            "hold_note": "Review monthly"
-          }
-        },
-        "name": "JSW Steel",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bullish",
-            "confidence": "Medium",
-            "composite": 57.5,
-            "price_band": {
-              "low": 1256.92,
-              "mid": 1285.23,
-              "high": 1313.55,
-              "move_pct_mid": 0.5
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-            "primary_risk": "News-driven spike may fade without volume confirmation"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 54.5,
-            "price_band": {
-              "low": 1215.49,
-              "mid": 1278.8,
-              "high": 1342.11,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-            "primary_risk": "News-driven spike may fade without volume confirmation"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 52.2,
-            "price_band": {
-              "low": 1149.05,
-              "mid": 1278.8,
-              "high": 1408.55,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-            "primary_risk": "News-driven spike may fade without volume confirmation"
-          }
-        },
-        "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 49. Neutral. Nothing to act on from momentum alone. Above-average volume (1.9x) adds weight to the move. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b91,279 and pushes towards \u20b91,342 as trend followers pile in. Bear case: a slip below \u20b91,215 triggers trailing stops and dents the short-term thesis. Above \u20b91,279, the setup stays alive. \u20b91,309 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 64. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b97,840 and \u20b98,276. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
         "rank": 5
       }
     ]
@@ -872,7 +873,7 @@
       },
       {
         "symbol": "TATASTEEL",
-        "score": 56,
+        "score": 58,
         "signal": "BUY",
         "confidence": "MEDIUM",
         "current_price": 216.84,
@@ -942,165 +943,48 @@
             "days": 1,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 59.0,
+            "composite": 64.0,
             "price_band": {
               "low": 212.87,
               "mid": 218.01,
               "high": 223.14,
               "move_pct_mid": 0.54
             },
-            "catalyst": "Full Bull (>20>50>200) setup, score 56/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 57.8,
+            "composite": 61.6,
             "price_band": {
               "low": 207.96,
               "mid": 219.45,
               "high": 230.94,
               "move_pct_mid": 1.2
             },
-            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1m": {
             "label": "1 Month",
             "days": 21,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 56.9,
+            "composite": 59.8,
             "price_band": {
               "low": 198.65,
               "mid": 222.19,
               "high": 245.73,
               "move_pct_mid": 2.47
             },
-            "catalyst": "Structural trend full bull (>20>50>200); SIDEWAYS regime supportive",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           }
         },
-        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Tata Steel Q4 Results 2026 LIVE: Expect strong earnings with net profit to double; Europe' (Mint Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
-        "rank": 4
-      },
-      {
-        "symbol": "APOLLOHOSP",
-        "score": 49,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 8082.5,
-        "change_pct": -0.45,
-        "change": -36.5,
-        "target_price": 8802.02,
-        "stop_loss": 7597.55,
-        "risk_reward": 1.6,
-        "holding_category": "medium",
-        "sector": "Healthcare",
-        "penalty": 0,
-        "scores": {
-          "trend": 22,
-          "momentum": 17,
-          "volume": 0,
-          "breakout": 5,
-          "price_action": 5
-        },
-        "indicators": {
-          "rsi": 64.1,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 0.79,
-          "week52_pct": 1.2,
-          "bb_position": 0.87,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "RSI ideal zone (64.1)",
-          "MACD bullish",
-          "Near upper BB",
-          "Near 52W high (1.2%)"
-        ],
-        "trade_plan": {
-          "category": "medium",
-          "cat_score": 10,
-          "atr": 130.82,
-          "atr_pct": 1.62,
-          "entry": {
-            "ideal_price": 8017.09,
-            "limit_order": 8011.48,
-            "acceptable_max": 8122.91,
-            "entry_window": "09:15\u201310:15 AM IST",
-            "order_strategy": "Patient limit order",
-            "note": "Prev close \u20b98,082.50 | Dip ~\u20b965.41"
-          },
-          "exit": {
-            "target_conservative": 8540.38,
-            "target_ideal": 8802.02,
-            "target_stretch": 9129.07,
-            "upside_conservative": 6.5,
-            "upside_ideal": 9.8,
-            "upside_stretch": 13.9,
-            "hold_min_days": 30,
-            "hold_max_days": 90,
-            "hold_duration": "4\u201312 weeks",
-            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b98,802.02",
-            "hold_note": "Review weekly"
-          }
-        },
-        "name": "Apollo Hospitals",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 49.0,
-            "price_band": {
-              "low": 7938.6,
-              "mid": 8082.5,
-              "high": 8226.4,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Full Bull (>20>50>200) setup, score 49/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 49.0,
-            "price_band": {
-              "low": 7760.73,
-              "mid": 8082.5,
-              "high": 8404.27,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 49.0,
-            "price_band": {
-              "low": 7423.06,
-              "mid": 8082.5,
-              "high": 8741.94,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in SIDEWAYS regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 64. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b97,840 and \u20b98,276. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is positive \u2014 4 items in the last 48 hours \u2014 'Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
         "rank": 4
       },
       {
@@ -1217,6 +1101,122 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 51. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b91,035\u2013\u20b91,093 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "rank": 4
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "score": 49,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 1278.8,
+        "change_pct": -1.4,
+        "change": -18.1,
+        "target_price": 1854.26,
+        "stop_loss": 1202.07,
+        "risk_reward": 7.8,
+        "holding_category": "medium",
+        "sector": "Metals",
+        "penalty": 0,
+        "scores": {
+          "trend": 22,
+          "momentum": 8,
+          "volume": 6,
+          "breakout": 3,
+          "price_action": 6
+        },
+        "indicators": {
+          "rsi": 48.8,
+          "macd_signal": "Bearish",
+          "sma_alignment": "Full Bull (>20>50>200)",
+          "volume_ratio": 1.94,
+          "week52_pct": 2.7,
+          "bb_position": 0.66,
+          "adx": null
+        },
+        "reasons": [
+          "Full bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "RSI building (48.8)",
+          "Above avg vol 1.9x",
+          "Near 52W high (2.7%)"
+        ],
+        "trade_plan": {
+          "category": "long",
+          "cat_score": 10,
+          "atr": 25.74,
+          "atr_pct": 2.01,
+          "entry": {
+            "ideal_price": 1259.49,
+            "limit_order": 1258.61,
+            "acceptable_max": 1291.59,
+            "entry_window": "09:15\u201310:15 AM IST",
+            "order_strategy": "GTC limit \u2014 no urgency",
+            "note": "Prev close \u20b91,278.80 | Dip ~\u20b919.31"
+          },
+          "exit": {
+            "target_conservative": 1598.5,
+            "target_ideal": 1854.26,
+            "target_stretch": 2110.02,
+            "upside_conservative": 26.9,
+            "upside_ideal": 47.2,
+            "upside_stretch": 67.5,
+            "hold_min_days": 180,
+            "hold_max_days": 540,
+            "hold_duration": "4\u201312 weeks",
+            "sell_trigger": "Exit if fundamentals deteriorate or \u20b91,854.26 hit",
+            "hold_note": "Review monthly"
+          }
+        },
+        "name": "JSW Steel",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 55.0,
+            "price_band": {
+              "low": 1256.92,
+              "mid": 1285.23,
+              "high": 1313.55,
+              "move_pct_mid": 0.5
+            },
+            "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 52.6,
+            "price_band": {
+              "low": 1215.49,
+              "mid": 1278.8,
+              "high": 1342.11,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 50.8,
+            "price_band": {
+              "low": 1149.05,
+              "mid": 1278.8,
+              "high": 1408.55,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 49. Neutral. Nothing to act on from momentum alone. Above-average volume (1.9x) adds weight to the move. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'JSW Steel shares erase early gains, brokerages optimistic after Q4 results' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Above \u20b91,279, the setup stays alive. \u20b91,309 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
         "rank": 5
       }
     ]
@@ -1457,6 +1457,121 @@
         },
         "narrative": "TATACONSUM scores 43/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is picking up nicely \u2014 RSI at 65 has room to run before hitting overbought territory. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. FMCG is lagging the broader tape (score 20) \u2014 an extra headwind. \u20b91,197 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
         "rank": 2
+      },
+      {
+        "symbol": "COALINDIA",
+        "score": 41,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 462.2,
+        "change_pct": 1.79,
+        "change": 8.15,
+        "target_price": 498.44,
+        "stop_loss": 434.47,
+        "risk_reward": 1.4,
+        "holding_category": "long",
+        "sector": "Mining",
+        "penalty": 0,
+        "scores": {
+          "trend": 15,
+          "momentum": 16,
+          "volume": 0,
+          "breakout": 0,
+          "price_action": 5
+        },
+        "indicators": {
+          "rsi": 56.0,
+          "macd_signal": "Bearish",
+          "sma_alignment": "Bull (>50>200)",
+          "volume_ratio": 0.71,
+          "week52_pct": 5.9,
+          "bb_position": 0.49,
+          "adx": null
+        },
+        "reasons": [
+          "Bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "RSI ideal zone (56.0)",
+          "MACD histogram expanding"
+        ],
+        "trade_plan": {
+          "category": "short",
+          "cat_score": 11,
+          "atr": 12.94,
+          "atr_pct": 2.8,
+          "entry": {
+            "ideal_price": 458.58,
+            "limit_order": 458.26,
+            "acceptable_max": 463.59,
+            "entry_window": "09:15 AM IST (GTC)",
+            "order_strategy": "Place limit order before 9:14 AM",
+            "note": "Prev close \u20b9462.20 | Dip ~\u20b93.62"
+          },
+          "exit": {
+            "target_conservative": 485.5,
+            "target_ideal": 498.44,
+            "target_stretch": 513.97,
+            "upside_conservative": 5.9,
+            "upside_ideal": 8.7,
+            "upside_stretch": 12.1,
+            "hold_min_days": 5,
+            "hold_max_days": 15,
+            "hold_duration": "6\u201318 months",
+            "sell_trigger": "Exit when RSI > 72 or price hits \u20b9498.44",
+            "hold_note": "Review daily"
+          }
+        },
+        "name": "Coal India",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 48.5,
+            "price_band": {
+              "low": 447.97,
+              "mid": 462.2,
+              "high": 476.43,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 45.5,
+            "price_band": {
+              "low": 430.37,
+              "mid": 462.2,
+              "high": 494.03,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 43.2,
+            "price_band": {
+              "low": 382.15,
+              "mid": 447.38,
+              "high": 512.6,
+              "move_pct_mid": -3.21
+            },
+            "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "The move higher is happening on thin volume. Low-conviction rallies have a habit of fading just when you commit. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. The momentum profile is constructive. RSI at 56 means the move is early-to-mid phase, not late innings. Newsflow is positive \u2014 1 item in the last 48 hours \u2014 'Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Mining is lagging the broader tape (score 36) \u2014 an extra headwind. Range-bound between \u20b9448 and \u20b9473. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Mildly Bearish.",
+        "rank": 3
       }
     ]
   },
@@ -1814,7 +1929,7 @@
     },
     {
       "symbol": "TATASTEEL",
-      "score": 56,
+      "score": 58,
       "signal": "BUY",
       "confidence": "MEDIUM",
       "current_price": 216.84,
@@ -1884,165 +1999,49 @@
           "days": 1,
           "bias": "Mildly Bullish",
           "confidence": "Medium",
-          "composite": 59.0,
+          "composite": 64.0,
           "price_band": {
             "low": 212.87,
             "mid": 218.01,
             "high": 223.14,
             "move_pct_mid": 0.54
           },
-          "catalyst": "Full Bull (>20>50>200) setup, score 56/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
+          "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         },
         "1w": {
           "label": "1 Week",
           "days": 5,
           "bias": "Mildly Bullish",
           "confidence": "Medium",
-          "composite": 57.8,
+          "composite": 61.6,
           "price_band": {
             "low": 207.96,
             "mid": 219.45,
             "high": 230.94,
             "move_pct_mid": 1.2
           },
-          "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         },
         "1m": {
           "label": "1 Month",
           "days": 21,
           "bias": "Mildly Bullish",
           "confidence": "Medium",
-          "composite": 56.9,
+          "composite": 59.8,
           "price_band": {
             "low": 198.65,
             "mid": 222.19,
             "high": 245.73,
             "move_pct_mid": 2.47
           },
-          "catalyst": "Structural trend full bull (>20>50>200); SIDEWAYS regime supportive",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         }
       },
-      "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Tata Steel Q4 Results 2026 LIVE: Expect strong earnings with net profit to double; Europe' (Mint Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+      "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is positive \u2014 4 items in the last 48 hours \u2014 'Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
       "rank": 4
-    },
-    {
-      "symbol": "JSWSTEEL",
-      "score": 50,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 1278.8,
-      "change_pct": -1.4,
-      "change": -18.1,
-      "target_price": 1854.26,
-      "stop_loss": 1202.07,
-      "risk_reward": 7.8,
-      "holding_category": "long",
-      "sector": "Metals",
-      "penalty": 0,
-      "scores": {
-        "trend": 22,
-        "momentum": 8,
-        "volume": 6,
-        "breakout": 3,
-        "price_action": 6
-      },
-      "indicators": {
-        "rsi": 48.8,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 1.94,
-        "week52_pct": 2.7,
-        "bb_position": 0.66,
-        "adx": null
-      },
-      "reasons": [
-        "Full bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI building (48.8)",
-        "Above avg vol 1.9x",
-        "Near 52W high (2.7%)"
-      ],
-      "trade_plan": {
-        "category": "long",
-        "cat_score": 10,
-        "atr": 25.74,
-        "atr_pct": 2.01,
-        "entry": {
-          "ideal_price": 1259.49,
-          "limit_order": 1258.61,
-          "acceptable_max": 1291.59,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b91,278.80 | Dip ~\u20b919.31"
-        },
-        "exit": {
-          "target_conservative": 1598.5,
-          "target_ideal": 1854.26,
-          "target_stretch": 2110.02,
-          "upside_conservative": 26.9,
-          "upside_ideal": 47.2,
-          "upside_stretch": 67.5,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b91,854.26 hit",
-          "hold_note": "Review monthly"
-        }
-      },
-      "name": "JSW Steel",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bullish",
-          "confidence": "Medium",
-          "composite": 57.5,
-          "price_band": {
-            "low": 1256.92,
-            "mid": 1285.23,
-            "high": 1313.55,
-            "move_pct_mid": 0.5
-          },
-          "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-          "primary_risk": "News-driven spike may fade without volume confirmation"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 54.5,
-          "price_band": {
-            "low": 1215.49,
-            "mid": 1278.8,
-            "high": 1342.11,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-          "primary_risk": "News-driven spike may fade without volume confirmation"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 52.2,
-          "price_band": {
-            "low": 1149.05,
-            "mid": 1278.8,
-            "high": 1408.55,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-          "primary_risk": "News-driven spike may fade without volume confirmation"
-        }
-      },
-      "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 49. Neutral. Nothing to act on from momentum alone. Above-average volume (1.9x) adds weight to the move. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b91,279 and pushes towards \u20b91,342 as trend followers pile in. Bear case: a slip below \u20b91,215 triggers trailing stops and dents the short-term thesis. Above \u20b91,279, the setup stays alive. \u20b91,309 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
-      "rank": 5
     },
     {
       "symbol": "APOLLOHOSP",
@@ -2091,7 +2090,7 @@
           "ideal_price": 8017.09,
           "limit_order": 8011.48,
           "acceptable_max": 8122.91,
-          "entry_window": "09:15\u201310:15 AM IST",
+          "entry_window": "09:15\u201309:45 AM IST",
           "order_strategy": "Patient limit order",
           "note": "Prev close \u20b98,082.50 | Dip ~\u20b965.41"
         },
@@ -2104,7 +2103,7 @@
           "upside_stretch": 13.9,
           "hold_min_days": 30,
           "hold_max_days": 90,
-          "hold_duration": "4\u201312 weeks",
+          "hold_duration": "5\u201315 trading days",
           "sell_trigger": "Exit on weekly MACD bearish cross or \u20b98,802.02",
           "hold_note": "Review weekly"
         }
@@ -2159,7 +2158,7 @@
         }
       },
       "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 64. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b97,840 and \u20b98,276. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 6
+      "rank": 5
     },
     {
       "symbol": "HINDALCO",
@@ -2275,6 +2274,122 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 51. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b91,035\u2013\u20b91,093 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+      "rank": 6
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "score": 49,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 1278.8,
+      "change_pct": -1.4,
+      "change": -18.1,
+      "target_price": 1854.26,
+      "stop_loss": 1202.07,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Metals",
+      "penalty": 0,
+      "scores": {
+        "trend": 22,
+        "momentum": 8,
+        "volume": 6,
+        "breakout": 3,
+        "price_action": 6
+      },
+      "indicators": {
+        "rsi": 48.8,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Full Bull (>20>50>200)",
+        "volume_ratio": 1.94,
+        "week52_pct": 2.7,
+        "bb_position": 0.66,
+        "adx": null
+      },
+      "reasons": [
+        "Full bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI building (48.8)",
+        "Above avg vol 1.9x",
+        "Near 52W high (2.7%)"
+      ],
+      "trade_plan": {
+        "category": "long",
+        "cat_score": 10,
+        "atr": 25.74,
+        "atr_pct": 2.01,
+        "entry": {
+          "ideal_price": 1259.49,
+          "limit_order": 1258.61,
+          "acceptable_max": 1291.59,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b91,278.80 | Dip ~\u20b919.31"
+        },
+        "exit": {
+          "target_conservative": 1598.5,
+          "target_ideal": 1854.26,
+          "target_stretch": 2110.02,
+          "upside_conservative": 26.9,
+          "upside_ideal": 47.2,
+          "upside_stretch": 67.5,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b91,854.26 hit",
+          "hold_note": "Review monthly"
+        }
+      },
+      "name": "JSW Steel",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bullish",
+          "confidence": "Medium",
+          "composite": 55.0,
+          "price_band": {
+            "low": 1256.92,
+            "mid": 1285.23,
+            "high": 1313.55,
+            "move_pct_mid": 0.5
+          },
+          "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 52.6,
+          "price_band": {
+            "low": 1215.49,
+            "mid": 1278.8,
+            "high": 1342.11,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 50.8,
+          "price_band": {
+            "low": 1149.05,
+            "mid": 1278.8,
+            "high": 1408.55,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: JSW Steel shares erase early gains, brokerages optimistic after Q4 results",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 49. Neutral. Nothing to act on from momentum alone. Above-average volume (1.9x) adds weight to the move. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'JSW Steel shares erase early gains, brokerages optimistic after Q4 results' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Above \u20b91,279, the setup stays alive. \u20b91,309 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
       "rank": 7
     },
     {
@@ -2512,6 +2627,121 @@
       "rank": 9
     },
     {
+      "symbol": "COALINDIA",
+      "score": 41,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 462.2,
+      "change_pct": 1.79,
+      "change": 8.15,
+      "target_price": 498.44,
+      "stop_loss": 434.47,
+      "risk_reward": 1.4,
+      "holding_category": "short",
+      "sector": "Mining",
+      "penalty": 0,
+      "scores": {
+        "trend": 15,
+        "momentum": 16,
+        "volume": 0,
+        "breakout": 0,
+        "price_action": 5
+      },
+      "indicators": {
+        "rsi": 56.0,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 0.71,
+        "week52_pct": 5.9,
+        "bb_position": 0.49,
+        "adx": null
+      },
+      "reasons": [
+        "Bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI ideal zone (56.0)",
+        "MACD histogram expanding"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 11,
+        "atr": 12.94,
+        "atr_pct": 2.8,
+        "entry": {
+          "ideal_price": 458.58,
+          "limit_order": 458.26,
+          "acceptable_max": 463.59,
+          "entry_window": "09:15 AM IST (GTC)",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9462.20 | Dip ~\u20b93.62"
+        },
+        "exit": {
+          "target_conservative": 485.5,
+          "target_ideal": 498.44,
+          "target_stretch": 513.97,
+          "upside_conservative": 5.9,
+          "upside_ideal": 8.7,
+          "upside_stretch": 12.1,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "6\u201318 months",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9498.44",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Coal India",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 48.5,
+          "price_band": {
+            "low": 447.97,
+            "mid": 462.2,
+            "high": 476.43,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 45.5,
+          "price_band": {
+            "low": 430.37,
+            "mid": 462.2,
+            "high": 494.03,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 43.2,
+          "price_band": {
+            "low": 382.15,
+            "mid": 447.38,
+            "high": 512.6,
+            "move_pct_mid": -3.21
+          },
+          "catalyst": "News flow: Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "The move higher is happening on thin volume. Low-conviction rallies have a habit of fading just when you commit. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. The momentum profile is constructive. RSI at 56 means the move is early-to-mid phase, not late innings. Newsflow is positive \u2014 1 item in the last 48 hours \u2014 'Mahanadi Coalfields gets govt nod for IPO; Coal India to dilute up to 25% stake' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Mining is lagging the broader tape (score 36) \u2014 an extra headwind. Range-bound between \u20b9448 and \u20b9473. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Mildly Bearish.",
+      "rank": 10
+    },
+    {
       "symbol": "BAJAJ-AUTO",
       "score": 39,
       "signal": "AVOID",
@@ -2624,7 +2854,7 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 66 sits in no-man's land. The stock is waiting for a trigger. Volume is thin (0.5x) \u2014 take any move with a pinch of salt. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Automobiles is lagging the broader tape (score 13) \u2014 an extra headwind. Watch \u20b910,066 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 10
+      "rank": 11
     },
     {
       "symbol": "KOTAKBANK",
@@ -2741,121 +2971,6 @@
         }
       },
       "narrative": "KOTAKBANK scores 36/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 62 means the move is early-to-mid phase, not late innings. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Banking is lagging the broader tape (score 14) \u2014 an extra headwind. \u20b9375 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 11
-    },
-    {
-      "symbol": "COALINDIA",
-      "score": 36,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 462.2,
-      "change_pct": 1.79,
-      "change": 8.15,
-      "target_price": 498.44,
-      "stop_loss": 434.47,
-      "risk_reward": 1.4,
-      "holding_category": "short",
-      "sector": "Mining",
-      "penalty": 0,
-      "scores": {
-        "trend": 15,
-        "momentum": 16,
-        "volume": 0,
-        "breakout": 0,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 56.0,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 0.71,
-        "week52_pct": 5.9,
-        "bb_position": 0.49,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI ideal zone (56.0)",
-        "MACD histogram expanding"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 11,
-        "atr": 12.94,
-        "atr_pct": 2.8,
-        "entry": {
-          "ideal_price": 458.58,
-          "limit_order": 458.26,
-          "acceptable_max": 463.59,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b9462.20 | Dip ~\u20b93.62"
-        },
-        "exit": {
-          "target_conservative": 485.5,
-          "target_ideal": 498.44,
-          "target_stretch": 513.97,
-          "upside_conservative": 5.9,
-          "upside_ideal": 8.7,
-          "upside_stretch": 12.1,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9498.44",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Coal India",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 36.0,
-          "price_band": {
-            "low": 444.73,
-            "mid": 458.96,
-            "high": 473.2,
-            "move_pct_mid": -0.7
-          },
-          "catalyst": "Bull (>50>200) setup, score 36/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 36.0,
-          "price_band": {
-            "low": 423.14,
-            "mid": 454.97,
-            "high": 486.79,
-            "move_pct_mid": -1.57
-          },
-          "catalyst": "Weak setup (36/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 36.0,
-          "price_band": {
-            "low": 382.15,
-            "mid": 447.38,
-            "high": 512.6,
-            "move_pct_mid": -3.21
-          },
-          "catalyst": "Structural weakness; SIDEWAYS regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "The move higher is happening on thin volume. Low-conviction rallies have a habit of fading just when you commit. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. The momentum profile is constructive. RSI at 56 means the move is early-to-mid phase, not late innings. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Mining is lagging the broader tape (score 36) \u2014 an extra headwind. Watch \u20b9448 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
       "rank": 12
     },
     {
@@ -3209,15 +3324,6 @@
   ],
   "watchlist": [
     {
-      "symbol": "JSWSTEEL",
-      "name": "JSW Steel",
-      "sector": "Metals",
-      "current_price": 1278.8,
-      "score": 50,
-      "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
-    },
-    {
       "symbol": "APOLLOHOSP",
       "name": "Apollo Hospitals",
       "sector": "Healthcare",
@@ -3231,6 +3337,15 @@
       "name": "Hindalco Industries",
       "sector": "Metals",
       "current_price": 1067.5,
+      "score": 49,
+      "signal": "WATCH",
+      "reason": "Full bullish SMA alignment"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "name": "JSW Steel",
+      "sector": "Metals",
+      "current_price": 1278.8,
       "score": 49,
       "signal": "WATCH",
       "reason": "Full bullish SMA alignment"
@@ -3272,12 +3387,12 @@
       "reason": "EMA 12/26 bullish"
     },
     {
-      "symbol": "COALINDIA",
-      "name": "Coal India",
-      "sector": "Mining",
-      "current_price": 462.2,
-      "score": 36,
-      "reason": "Bullish SMA alignment"
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel",
+      "sector": "Telecom",
+      "current_price": 1905.4,
+      "score": 35,
+      "reason": "RSI ideal zone (60.2)"
     }
   ],
   "sector_momentum": [
@@ -3343,10 +3458,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-05-15T17:53:21.262433+05:30",
+    "generated_at": "2026-05-15T20:13:21.944092+05:30",
     "date": "2026-05-15",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "SIDEWAYS tape \u2014 4 ADDs, 0 cautious; 166 macro items in focus",
+    "headline": "SIDEWAYS tape \u2014 4 ADDs, 0 cautious; 163 macro items in focus",
     "regime": {
       "label": "SIDEWAYS",
       "breadth_pct": 52.1,
@@ -3355,9 +3470,9 @@
       "notes": "48 stocks analyzed"
     },
     "macro_context": {
-      "label": "MILDLY_NEGATIVE",
-      "score": -0.36,
-      "count": 166,
+      "label": "NEUTRAL",
+      "score": -0.27,
+      "count": 163,
       "highlights": [
         {
           "title": "Hindustan Copper Q4 Results: Cons PAT surges 135% YoY to Rs 444 crore, revenue jumps 58%",
@@ -3376,6 +3491,14 @@
           "sentiment": "BEARISH",
           "sectors": [],
           "link": "https://www.cnbc.com/2026/05/15/global-markets-stocks-bonds-silver-gold-trump-inflation.html"
+        },
+        {
+          "title": "Gems & jewellery exports fall 9% in April to Rs 20952 cr",
+          "source": "ET Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [],
+          "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/gems-jewellery-exports-fall-9-in-april-to-rs-20952-cr/articleshow/131118352.cms"
         },
         {
           "title": "India's forex reserves jump by $6.295 billion to $696.988 billion",
@@ -3404,24 +3527,14 @@
             "Telecom"
           ],
           "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-european-shares-tumble-on-iran-war-linked-inflation-woes/articleshow/131113877.cms"
-        },
-        {
-          "title": "Rupee falls 7% year-to-date, and it may fall more this year; here's why",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BEARISH",
-          "sectors": [
-            "Oil & Gas"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/rupee-falls-7-year-to-date-and-it-may-fall-more-this-year-heres-why-11778831460945.html"
         }
       ]
     },
-    "key_insight": "Range-bound tape with 52% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is mildly negative with 166 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Oil & Gas leads at 60 while Retail lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Range-bound tape with 52% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 163 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Oil & Gas leads at 60 while Retail lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: SIDEWAYS \u00b7 breadth 52% \u00b7 median momentum -0.3% \u00b7 ATR 2.4%",
       "Book: 4 ADD \u00b7 0 ACCUMULATE \u00b7 44 HOLD \u00b7 0 EXIT",
-      "Macro tone: MILDLY NEGATIVE from 166 items across 11 sources",
+      "Macro tone: NEUTRAL from 163 items across 11 sources",
       "Strongest sector: Oil & Gas (avg score 60)"
     ],
     "market_pulse": {
@@ -3456,7 +3569,7 @@
         "change_pct": 1.79,
         "price": 462.2,
         "action": "HOLD",
-        "score": 36
+        "score": 41
       },
       {
         "symbol": "PERSISTENT",
@@ -3722,134 +3835,66 @@
         "sector": "Metals",
         "action": "ADD",
         "verdict": "BUY",
-        "score": 56,
+        "score": 58,
         "rsi": 55.4,
         "trend": "Full Bull (>20>50>200)",
         "reason": "Full bullish SMA alignment",
-        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Tata Steel Q4 Results 2026 LIVE: Expect strong earnings with net profit to double; Europe' (Mint Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Newsflow is positive \u2014 4 items in the last 48 hours \u2014 'Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%' (ET Markets) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b9217 and pushes towards \u20b9231 as trend followers pile in. Bear case: a slip below \u20b9208 triggers trailing stops and dents the short-term thesis. Above \u20b9217, the setup stays alive. \u20b9222 is the next hurdle. Verdict: BUY. Entry zone near \u20b9218 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
             "days": 1,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 59.0,
+            "composite": 64.0,
             "price_band": {
               "low": 212.87,
               "mid": 218.01,
               "high": 223.14,
               "move_pct_mid": 0.54
             },
-            "catalyst": "Full Bull (>20>50>200) setup, score 56/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 57.8,
+            "composite": 61.6,
             "price_band": {
               "low": 207.96,
               "mid": 219.45,
               "high": 230.94,
               "move_pct_mid": 1.2
             },
-            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1m": {
             "label": "1 Month",
             "days": 21,
             "bias": "Mildly Bullish",
             "confidence": "Medium",
-            "composite": 56.9,
+            "composite": 59.8,
             "price_band": {
               "low": 198.65,
               "mid": 222.19,
               "high": 245.73,
               "move_pct_mid": 2.47
             },
-            "catalyst": "Structural trend full bull (>20>50>200); SIDEWAYS regime supportive",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": 1.2,
-          "label": "MILDLY_BULLISH",
-          "count": 2,
-          "modifier": 2,
-          "top_headline": "Tata Steel Q4 Results 2026 LIVE: Expect strong earnings with net profit to double; Europe business, dividend in focus",
-          "top_source": "Mint Markets",
-          "top_link": "https://www.livemint.com/market/stock-market-news/tata-steel-q4-results-2026-live-tata-steel-q4-earnings-tata-steel-share-price-tata-steel-dividend-europe-15-may-2026-11778823910031.html"
-        }
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "name": "JSW Steel",
-        "sector": "Metals",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 50,
-        "rsi": 48.8,
-        "trend": "Full Bull (>20>50>200)",
-        "reason": "Full bullish SMA alignment",
-        "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 49. Neutral. Nothing to act on from momentum alone. Above-average volume (1.9x) adds weight to the move. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Bull case: sustains above \u20b91,279 and pushes towards \u20b91,342 as trend followers pile in. Bear case: a slip below \u20b91,215 triggers trailing stops and dents the short-term thesis. Above \u20b91,279, the setup stays alive. \u20b91,309 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bullish",
-            "confidence": "Medium",
-            "composite": 57.5,
-            "price_band": {
-              "low": 1256.92,
-              "mid": 1285.23,
-              "high": 1313.55,
-              "move_pct_mid": 0.5
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-            "primary_risk": "News-driven spike may fade without volume confirmation"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 54.5,
-            "price_band": {
-              "low": 1215.49,
-              "mid": 1278.8,
-              "high": 1342.11,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-            "primary_risk": "News-driven spike may fade without volume confirmation"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 52.2,
-            "price_band": {
-              "low": 1149.05,
-              "mid": 1278.8,
-              "high": 1408.55,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
+            "catalyst": "News flow: Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
             "primary_risk": "News-driven spike may fade without volume confirmation"
           }
         },
         "news_info": {
-          "score": 3.3,
+          "score": 3.0,
           "label": "BULLISH",
-          "count": 2,
-          "modifier": 5,
-          "top_headline": "JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-          "top_source": "Hindu BusinessLine",
-          "top_link": "https://www.thehindubusinessline.com/markets/jsw-steel-shares-hit-52-week-high-after-strong-q4-earnings-brokerages-raise-expansion-optimism/article70981538.ece"
+          "count": 4,
+          "modifier": 4,
+          "top_headline": "Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+          "top_source": "ET Markets",
+          "top_link": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-steel-q4-results-cons-pat-soars-147-yoy-to-rs-2965-crore-revenue-jumps-13/articleshow/131117752.cms"
         }
       },
       {
@@ -3904,6 +3949,72 @@
               "low": 7423.06,
               "mid": 8082.5,
               "high": 8741.94,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Consolidation phase in SIDEWAYS regime",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "news_info": {
+          "score": 0,
+          "label": "NEUTRAL",
+          "count": 0,
+          "modifier": 0,
+          "top_headline": null
+        }
+      },
+      {
+        "symbol": "HINDALCO",
+        "name": "Hindalco Industries",
+        "sector": "Metals",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 49,
+        "rsi": 51.2,
+        "trend": "Full Bull (>20>50>200)",
+        "reason": "Full bullish SMA alignment",
+        "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 51. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. The tape is chopping sideways with 52% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b91,035\u2013\u20b91,093 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
+            "price_band": {
+              "low": 1037.53,
+              "mid": 1067.5,
+              "high": 1097.47,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Full Bull (>20>50>200) setup, score 49/100",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
+            "price_band": {
+              "low": 1000.47,
+              "mid": 1067.5,
+              "high": 1134.53,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Low",
+            "composite": 49.0,
+            "price_band": {
+              "low": 930.14,
+              "mid": 1067.5,
+              "high": 1204.86,
               "move_pct_mid": 0.0
             },
             "catalyst": "Consolidation phase in SIDEWAYS regime",
@@ -4019,7 +4130,7 @@
         "symbol": "TATASTEEL",
         "name": "Tata Steel",
         "pct_from_52h": 3.4,
-        "score": 56,
+        "score": 58,
         "action": "ADD"
       }
     ],
@@ -4034,7 +4145,7 @@
       },
       {
         "sector": "Metals",
-        "avg_score": 51.7,
+        "avg_score": 52.0,
         "count": 3,
         "trend": "flat",
         "news_count": 2,
@@ -4049,11 +4160,19 @@
         "news_label": "NEUTRAL"
       },
       {
+        "sector": "Mining",
+        "avg_score": 41.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 0,
+        "news_label": "NEUTRAL"
+      },
+      {
         "sector": "Pharma",
         "avg_score": 40.0,
         "count": 4,
         "trend": "down",
-        "news_count": 2,
+        "news_count": 1,
         "news_label": "NEUTRAL"
       },
       {
@@ -4061,23 +4180,15 @@
         "avg_score": 37.0,
         "count": 2,
         "trend": "down",
-        "news_count": 5,
-        "news_label": "NEUTRAL"
-      },
-      {
-        "sector": "Mining",
-        "avg_score": 36.0,
-        "count": 1,
-        "trend": "down",
-        "news_count": 0,
-        "news_label": "NEUTRAL"
+        "news_count": 6,
+        "news_label": "BEARISH"
       },
       {
         "sector": "Telecom",
         "avg_score": 35.0,
         "count": 1,
         "trend": "down",
-        "news_count": 16,
+        "news_count": 15,
         "news_label": "BEARISH"
       },
       {
@@ -4169,26 +4280,16 @@
     ],
     "news_highlights": [
       {
-        "title": "Kaynes Technology share price nosedives 24% in two days to hit 52-week low after multiple downgrades. Check details",
-        "source": "Mint Markets",
+        "title": "Tata Steel Q4 Results: Cons PAT soars 147% YoY to Rs 2,965 crore, revenue jumps 13%",
+        "source": "ET Markets",
         "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-05-15T04:38:40+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/kaynes-technology-share-price-nosedives-24-in-two-days-to-hit-52-week-low-after-multiple-downgrades-check-details-11778819367091.html"
-      },
-      {
-        "title": "CBI raids multiple locations in Haryana bank scam probe, seizes digital evidence",
-        "source": "ET Industry",
-        "category": "sector",
-        "sentiment": "BEARISH",
+        "sentiment": "BULLISH",
         "tickers": [
-          "IDFCFIRSTB"
+          "TATASTEEL"
         ],
         "sectors": [],
-        "published": "2026-05-15T06:32:33+00:00",
-        "link": "https://economictimes.indiatimes.com/industry/banking/finance/banking/cbi-raids-multiple-locations-in-haryana-bank-scam-probe-seizes-digital-evidence/articleshow/131110195.cms"
+        "published": "2026-05-15T12:36:10+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-steel-q4-results-cons-pat-soars-147-yoy-to-rs-2965-crore-revenue-jumps-13/articleshow/131117752.cms"
       },
       {
         "title": "Hindustan Copper Q4 Results: Cons PAT surges 135% YoY to Rs 444 crore, revenue jumps 58%",
@@ -4213,16 +4314,56 @@
         "link": "https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-pearl-global-surges-14-to-3-month-high-after-q4-results-11778834694150.html"
       },
       {
-        "title": "JSW Steel shares hit 52-week high after Q4 results, brokerages optimistic",
-        "source": "Hindu BusinessLine",
-        "category": "market",
-        "sentiment": "BULLISH",
+        "title": "Gems & jewellery exports fall 9% in April to Rs 20952 cr",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
         "tickers": [
-          "JSWSTEEL"
+          "RELIANCE"
         ],
         "sectors": [],
-        "published": "2026-05-15T05:39:39+00:00",
-        "link": "https://www.thehindubusinessline.com/markets/jsw-steel-shares-hit-52-week-high-after-strong-q4-earnings-brokerages-raise-expansion-optimism/article70981538.ece"
+        "published": "2026-05-15T12:56:19+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/gems-jewellery-exports-fall-9-in-april-to-rs-20952-cr/articleshow/131118352.cms"
+      },
+      {
+        "title": "India's forex reserves jump by $6.295 billion to $696.988 billion",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-15T12:09:03+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-jump-by-6-295-billion-to-696-988-billion/articleshow/131117207.cms"
+      },
+      {
+        "title": "Sugar export ban to free up 4-5 lakh tonne for domestic use",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-14T18:16:07+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/sugar-export-ban-to-free-up-4-5-lakh-tonne-for-domestic-use/articleshow/131100777.cms"
+      },
+      {
+        "title": "Sugar stocks fall up to 7% on export ban; analysts see limited long-term impact",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-14T18:11:53+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/sugar-stocks-fall-up-to-7-on-export-ban-analysts-see-limited-long-term-impact/articleshow/131100775.cms"
+      },
+      {
+        "title": "India bans sugar exports till September to stabilise domestic prices",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-14T18:07:32+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-bans-sugar-exports-till-september-to-stabilise-domestic-prices/articleshow/131100773.cms"
       },
       {
         "title": "ITC Hotels Q4 results: Profit rises 23% YoY to Rs 317 crore; co declares Re 1/share dividend",
@@ -4271,46 +4412,14 @@
         ],
         "published": "2026-05-15T07:57:26+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/rupee-falls-7-year-to-date-and-it-may-fall-more-this-year-heres-why-11778831460945.html"
-      },
-      {
-        "title": "What happens if Indian rupee hits 100 against US dollar? Here\u2019s how a weaker currency could reshape Indian stock markets",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Oil & Gas"
-        ],
-        "published": "2026-05-15T05:47:12+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/what-happens-if-indian-rupee-hits-100-against-us-dollar-here-s-how-a-weaker-currency-could-reshape-indian-stock-markets-11778823266325.html"
-      },
-      {
-        "title": "Mint Explainer | Behind India's abrupt sugar export ban, a worry over sufficient stocks",
-        "source": "Mint Economy",
-        "category": "macro",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-05-14T10:13:08+00:00",
-        "link": "https://www.livemint.com/economy/sugar-export-ban-india-mills-inflation-global-trade-11778747217798.html"
-      },
-      {
-        "title": "India's forex reserves jump by $6.295 billion to $696.988 billion",
-        "source": "ET Economy",
-        "category": "macro",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-05-15T12:09:03+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-jump-by-6-295-billion-to-696-988-billion/articleshow/131117207.cms"
       }
     ],
     "news_stats": {
-      "total_items": 275,
+      "total_items": 274,
       "sources": 11,
-      "with_tickers": 37,
-      "bullish": 68,
-      "bearish": 69
+      "with_tickers": 43,
+      "bullish": 70,
+      "bearish": 66
     }
   }
 }
