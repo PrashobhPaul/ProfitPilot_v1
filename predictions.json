@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T18:04:31.944611+05:30",
+  "generated_at": "2026-05-22T18:44:56.722546+05:30",
   "market_date": "2026-05-22",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -2852,6 +2852,121 @@
       "rank": 12
     },
     {
+      "symbol": "DRREDDY",
+      "score": 33,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1307.2,
+      "change_pct": -0.86,
+      "change": -11.3,
+      "target_price": 1395.84,
+      "stop_loss": 1228.77,
+      "risk_reward": 1.2,
+      "holding_category": "short",
+      "sector": "Pharma",
+      "penalty": 0,
+      "scores": {
+        "trend": 13,
+        "momentum": 17,
+        "volume": 0,
+        "breakout": 0,
+        "price_action": 3
+      },
+      "indicators": {
+        "rsi": 54.8,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 0.82,
+        "week52_pct": 5.0,
+        "bb_position": 0.47,
+        "adx": null
+      },
+      "reasons": [
+        "Bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI ideal zone (54.8)",
+        "MACD bullish"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 6,
+        "atr": 31.66,
+        "atr_pct": 2.42,
+        "entry": {
+          "ideal_price": 1298.34,
+          "limit_order": 1297.43,
+          "acceptable_max": 1311.12,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b91,307.20 | Dip ~\u20b98.86"
+        },
+        "exit": {
+          "target_conservative": 1364.18,
+          "target_ideal": 1395.84,
+          "target_stretch": 1433.83,
+          "upside_conservative": 5.1,
+          "upside_ideal": 7.5,
+          "upside_stretch": 10.4,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,395.84",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Dr. Reddy's",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 33.0,
+          "price_band": {
+            "low": 1264.46,
+            "mid": 1299.29,
+            "high": 1334.11,
+            "move_pct_mid": -0.61
+          },
+          "catalyst": "Bull (>50>200) setup, score 33/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 33.0,
+          "price_band": {
+            "low": 1211.63,
+            "mid": 1289.5,
+            "high": 1367.37,
+            "move_pct_mid": -1.35
+          },
+          "catalyst": "Weak setup (33/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 33.0,
+          "price_band": {
+            "low": 1111.34,
+            "mid": 1270.93,
+            "high": 1430.52,
+            "move_pct_mid": -2.77
+          },
+          "catalyst": "Structural weakness; SIDEWAYS regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "DRREDDY scores 33/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 55. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 48% breadth. Stock-picking matters more than market direction here. Pharma is lagging the broader tape (score 33) \u2014 an extra headwind. Watch \u20b91,268 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 13
+    },
+    {
       "symbol": "POLYCAB",
       "score": 33,
       "signal": "AVOID",
@@ -2966,7 +3081,7 @@
         }
       },
       "narrative": "RSI is stretched and the volume is thinning. That's the kind of setup where profit-taking hits without warning. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI at 81 \u2014 that's overcooked. The easy gains are behind you on this leg. Volume is thin (0.4x) \u2014 take any move with a pinch of salt. The tape is chopping sideways with 48% breadth. Stock-picking matters more than market direction here. Electricals is lagging the broader tape (score 33) \u2014 an extra headwind. Watch \u20b98,986 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 13
+      "rank": 14
     },
     {
       "symbol": "TRENT",
@@ -3083,121 +3198,6 @@
         }
       },
       "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 58 means the move is early-to-mid phase, not late innings. Above-average volume (1.6x) adds weight to the move. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Nifty pushes toward resistance as broader market rallies' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 48% breadth. Stock-picking matters more than market direction here. Retail is lagging the broader tape (score 30) \u2014 an extra headwind. \u20b94,168 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 14
-    },
-    {
-      "symbol": "DRREDDY",
-      "score": 31,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 1307.2,
-      "change_pct": -0.86,
-      "change": -11.3,
-      "target_price": 1395.84,
-      "stop_loss": 1228.77,
-      "risk_reward": 1.2,
-      "holding_category": "short",
-      "sector": "Pharma",
-      "penalty": 0,
-      "scores": {
-        "trend": 13,
-        "momentum": 17,
-        "volume": 0,
-        "breakout": 0,
-        "price_action": 3
-      },
-      "indicators": {
-        "rsi": 54.8,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 0.82,
-        "week52_pct": 5.0,
-        "bb_position": 0.47,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI ideal zone (54.8)",
-        "MACD bullish"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 6,
-        "atr": 31.66,
-        "atr_pct": 2.42,
-        "entry": {
-          "ideal_price": 1298.34,
-          "limit_order": 1297.43,
-          "acceptable_max": 1311.12,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,307.20 | Dip ~\u20b98.86"
-        },
-        "exit": {
-          "target_conservative": 1364.18,
-          "target_ideal": 1395.84,
-          "target_stretch": 1433.83,
-          "upside_conservative": 5.1,
-          "upside_ideal": 7.5,
-          "upside_stretch": 10.4,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,395.84",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Dr. Reddy's",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 28.0,
-          "price_band": {
-            "low": 1253.38,
-            "mid": 1288.2,
-            "high": 1323.03,
-            "move_pct_mid": -1.45
-          },
-          "catalyst": "Bull (>50>200) setup, score 31/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 29.2,
-          "price_band": {
-            "low": 1186.85,
-            "mid": 1264.72,
-            "high": 1342.6,
-            "move_pct_mid": -3.25
-          },
-          "catalyst": "Weak setup (31/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 30.1,
-          "price_band": {
-            "low": 1060.56,
-            "mid": 1220.15,
-            "high": 1379.74,
-            "move_pct_mid": -6.66
-          },
-          "catalyst": "Structural weakness; SIDEWAYS regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "DRREDDY scores 31/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 55. Neutral. Nothing to act on from momentum alone. News sentiment is cautious across 1 recent item \u2014 'Aurobindo Pharma edges past Dr Reddy\u2019s in FY26 revenue race' (Hindu BusinessLine) is the headline to watch. The tape is chopping sideways with 48% breadth. Stock-picking matters more than market direction here. Pharma is lagging the broader tape (score 33) \u2014 an extra headwind. Downside risk towards \u20b91,268 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
       "rank": 15
     }
   ],
@@ -3250,6 +3250,14 @@
   ],
   "avoid": [
     {
+      "symbol": "DRREDDY",
+      "name": "Dr. Reddy's",
+      "sector": "Pharma",
+      "current_price": 1307.2,
+      "score": 33,
+      "reason": "Bullish SMA alignment"
+    },
+    {
       "symbol": "POLYCAB",
       "name": "Polycab India",
       "sector": "Electricals",
@@ -3264,14 +3272,6 @@
       "current_price": 4296.5,
       "score": 33,
       "reason": "EMA 12/26 bullish"
-    },
-    {
-      "symbol": "DRREDDY",
-      "name": "Dr. Reddy's",
-      "sector": "Pharma",
-      "current_price": 1307.2,
-      "score": 31,
-      "reason": "Bullish SMA alignment"
     }
   ],
   "sector_momentum": [
@@ -3337,7 +3337,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-05-22T18:04:45.861720+05:30",
+    "generated_at": "2026-05-22T18:45:11.698855+05:30",
     "date": "2026-05-22",
     "source": "rules_engine_v4_news_fusion",
     "headline": "SIDEWAYS regime \u2014 48% breadth, selective stance; macro neutral",
@@ -3350,7 +3350,7 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.12,
+      "score": -0.05,
       "count": 169,
       "highlights": [
         {
@@ -3573,9 +3573,9 @@
           }
         },
         "news_info": {
-          "score": 2.77,
+          "score": 2.98,
           "label": "BULLISH",
-          "count": 3,
+          "count": 4,
           "modifier": 4,
           "top_headline": "Apollo Hospitals among 5 stocks hitting 52-week highs; rally up to 15% in a month",
           "top_source": "ET Markets",
@@ -4024,7 +4024,7 @@
       },
       {
         "sector": "Pharma",
-        "avg_score": 34.2,
+        "avg_score": 34.8,
         "count": 4,
         "trend": "down",
         "news_count": 8,
@@ -4052,15 +4052,15 @@
         "count": 2,
         "trend": "down",
         "news_count": 5,
-        "news_label": "BULLISH"
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Oil & Gas",
         "avg_score": 26.0,
         "count": 1,
         "trend": "down",
-        "news_count": 13,
-        "news_label": "BEARISH"
+        "news_count": 14,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Power",
@@ -4075,8 +4075,8 @@
         "avg_score": 21.7,
         "count": 6,
         "trend": "down",
-        "news_count": 32,
-        "news_label": "BEARISH"
+        "news_count": 33,
+        "news_label": "BULLISH"
       },
       {
         "sector": "Mining",
@@ -4204,18 +4204,6 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/mtar-tech-shares-soar-24-in-just-three-sessions-whats-triggering-this-renewed-buying-spree/articleshow/131258175.cms"
       },
       {
-        "title": "India\u2019s core sector growth edges up to 1.7% in April on steel, cement boost",
-        "source": "Mint Economy",
-        "category": "macro",
-        "sentiment": "BULLISH",
-        "tickers": [
-          "RELIANCE"
-        ],
-        "sectors": [],
-        "published": "2026-05-20T16:25:26+00:00",
-        "link": "https://www.livemint.com/economy/indias-core-sector-growth-edges-up-to-1-7-in-april-on-steel-cement-boost-11779285870993.html"
-      },
-      {
         "title": "US stock market today: Dow, Nasdaq futures edge higher after 2-day rally; S&P 500 eyes eighth weekly gain",
         "source": "Mint Markets",
         "category": "market",
@@ -4238,14 +4226,24 @@
         "sectors": [],
         "published": "2026-05-22T09:26:16+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/sun-pharma-q4-results-2026-profit-jumps-26-yoy-to-2-714-crore-recommends-final-dividend-of-5-for-fy26-11779440580538.html"
+      },
+      {
+        "title": "LIC shares surge nearly 5% after robust Q4 results: Should you buy, sell or hold the PSU stock now?",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-22T04:30:21+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/lic-shares-surge-nearly-5-after-robust-q4-results-should-you-buy-sell-or-hold-the-psu-stock-now-11779424023789.html"
       }
     ],
     "news_stats": {
       "total_items": 278,
       "sources": 11,
-      "with_tickers": 41,
-      "bullish": 102,
-      "bearish": 55
+      "with_tickers": 39,
+      "bullish": 104,
+      "bearish": 50
     }
   }
 }
