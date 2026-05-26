@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T19:09:12.355309+05:30",
+  "generated_at": "2026-05-26T21:44:16.105169+05:30",
   "market_date": "2026-05-26",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -3098,8 +3098,124 @@
       "rank": 11
     },
     {
+      "symbol": "COALINDIA",
+      "score": 38,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 458.15,
+      "change_pct": 0.03,
+      "change": 0.15,
+      "target_price": 491.3,
+      "stop_loss": 430.66,
+      "risk_reward": 1.3,
+      "holding_category": "short",
+      "sector": "Mining",
+      "penalty": 0,
+      "scores": {
+        "trend": 15,
+        "momentum": 6,
+        "volume": 10,
+        "breakout": 0,
+        "price_action": 5
+      },
+      "indicators": {
+        "rsi": 38.9,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 1.68,
+        "week52_pct": 6.7,
+        "bb_position": 0.31,
+        "adx": null
+      },
+      "reasons": [
+        "Bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "MACD histogram expanding",
+        "Above avg vol 1.7x",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 9,
+        "atr": 11.84,
+        "atr_pct": 2.58,
+        "entry": {
+          "ideal_price": 454.83,
+          "limit_order": 454.51,
+          "acceptable_max": 459.52,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9458.15 | Dip ~\u20b93.31"
+        },
+        "exit": {
+          "target_conservative": 479.46,
+          "target_ideal": 491.3,
+          "target_stretch": 505.51,
+          "upside_conservative": 5.4,
+          "upside_ideal": 8.0,
+          "upside_stretch": 11.1,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9491.30",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Coal India",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 41.0,
+          "price_band": {
+            "low": 442.17,
+            "mid": 455.19,
+            "high": 468.21,
+            "move_pct_mid": -0.65
+          },
+          "catalyst": "Bull (>50>200) setup, score 38/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 39.8,
+          "price_band": {
+            "low": 422.41,
+            "mid": 451.53,
+            "high": 480.65,
+            "move_pct_mid": -1.44
+          },
+          "catalyst": "Weak setup (38/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 38.9,
+          "price_band": {
+            "low": 384.9,
+            "mid": 444.59,
+            "high": 504.27,
+            "move_pct_mid": -2.96
+          },
+          "catalyst": "Structural weakness; SIDEWAYS regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. The momentum read is weak. RSI at 39 suggests sellers are gradually gaining the upper hand. Above-average volume (1.7x) adds weight to the move. Newsflow is mildly positive \u2014 5 items in the last 48 hours \u2014 'Coal India arm SECL vows to meet nation's energy needs as power demand hits record high' (ET Industry) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Mining is lagging the broader tape (score 36) \u2014 an extra headwind. Watch \u20b9444 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 12
+    },
+    {
       "symbol": "WIPRO",
-      "score": 39,
+      "score": 37,
       "signal": "AVOID",
       "confidence": "LOW",
       "current_price": 203.73,
@@ -3170,7 +3286,7 @@
           "days": 1,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 42.0,
+          "composite": 37.0,
           "price_band": {
             "low": 197.87,
             "mid": 202.64,
@@ -3185,14 +3301,14 @@
           "days": 5,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 40.8,
+          "composite": 37.0,
           "price_band": {
             "low": 190.63,
             "mid": 201.3,
             "high": 211.98,
             "move_pct_mid": -1.19
           },
-          "catalyst": "Weak setup (39/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -3200,7 +3316,7 @@
           "days": 21,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 39.9,
+          "composite": 37.0,
           "price_band": {
             "low": 176.88,
             "mid": 198.76,
@@ -3211,8 +3327,8 @@
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 57 sits in no-man's land. The stock is waiting for a trigger. Volume at 2.2x average is speaking loudly. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Wipro share price extends rally to ninth straight session. What\u2019s fueling the Indian IT giant?' (Mint Markets) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. IT is lagging the broader tape (score 15) \u2014 an extra headwind. \u20b9198 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 12
+      "narrative": "WIPRO scores 37/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 57 sits in no-man's land. The stock is waiting for a trigger. Volume at 2.2x average is speaking loudly. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. IT is lagging the broader tape (score 16) \u2014 an extra headwind. \u20b9198 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 13
     },
     {
       "symbol": "DIVISLAB",
@@ -3326,122 +3442,6 @@
         }
       },
       "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 53. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Pharma is lagging the broader tape (score 33) \u2014 an extra headwind. \u20b96,550 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 13
-    },
-    {
-      "symbol": "COALINDIA",
-      "score": 37,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 458.15,
-      "change_pct": 0.03,
-      "change": 0.15,
-      "target_price": 491.3,
-      "stop_loss": 430.66,
-      "risk_reward": 1.3,
-      "holding_category": "short",
-      "sector": "Mining",
-      "penalty": 0,
-      "scores": {
-        "trend": 15,
-        "momentum": 6,
-        "volume": 10,
-        "breakout": 0,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 38.9,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 1.68,
-        "week52_pct": 6.7,
-        "bb_position": 0.31,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "MACD histogram expanding",
-        "Above avg vol 1.7x",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 9,
-        "atr": 11.84,
-        "atr_pct": 2.58,
-        "entry": {
-          "ideal_price": 454.83,
-          "limit_order": 454.51,
-          "acceptable_max": 459.52,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b9458.15 | Dip ~\u20b93.31"
-        },
-        "exit": {
-          "target_conservative": 479.46,
-          "target_ideal": 491.3,
-          "target_stretch": 505.51,
-          "upside_conservative": 5.4,
-          "upside_ideal": 8.0,
-          "upside_stretch": 11.1,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9491.30",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Coal India",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 38.5,
-          "price_band": {
-            "low": 442.17,
-            "mid": 455.19,
-            "high": 468.21,
-            "move_pct_mid": -0.65
-          },
-          "catalyst": "Bull (>50>200) setup, score 37/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 37.9,
-          "price_band": {
-            "low": 422.41,
-            "mid": 451.53,
-            "high": 480.65,
-            "move_pct_mid": -1.44
-          },
-          "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 37.5,
-          "price_band": {
-            "low": 384.9,
-            "mid": 444.59,
-            "high": 504.27,
-            "move_pct_mid": -2.96
-          },
-          "catalyst": "Structural weakness; SIDEWAYS regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "COALINDIA scores 37/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. The momentum read is weak. RSI at 39 suggests sellers are gradually gaining the upper hand. Above-average volume (1.7x) adds weight to the move. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Mining is lagging the broader tape (score 36) \u2014 an extra headwind. Watch \u20b9444 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
       "rank": 14
     },
     {
@@ -3609,11 +3609,19 @@
   ],
   "avoid": [
     {
+      "symbol": "COALINDIA",
+      "name": "Coal India",
+      "sector": "Mining",
+      "current_price": 458.15,
+      "score": 38,
+      "reason": "Bullish SMA alignment"
+    },
+    {
       "symbol": "WIPRO",
       "name": "Wipro",
       "sector": "IT",
       "current_price": 203.73,
-      "score": 39,
+      "score": 37,
       "reason": "EMA 12/26 bullish"
     },
     {
@@ -3623,14 +3631,6 @@
       "current_price": 6753.0,
       "score": 37,
       "reason": "Full bullish SMA alignment"
-    },
-    {
-      "symbol": "COALINDIA",
-      "name": "Coal India",
-      "sector": "Mining",
-      "current_price": 458.15,
-      "score": 37,
-      "reason": "Bullish SMA alignment"
     }
   ],
   "sector_momentum": [
@@ -3696,10 +3696,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-05-26T19:09:25.622112+05:30",
+    "generated_at": "2026-05-26T21:44:29.448952+05:30",
     "date": "2026-05-26",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "SIDEWAYS tape \u2014 4 ADDs, 3 cautious; 144 macro items in focus",
+    "headline": "SIDEWAYS tape \u2014 4 ADDs, 3 cautious; 146 macro items in focus",
     "regime": {
       "label": "SIDEWAYS",
       "breadth_pct": 54.2,
@@ -3709,8 +3709,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.11,
-      "count": 144,
+      "score": -0.08,
+      "count": 146,
       "highlights": [
         {
           "title": "\u2018Terrible year ahead\u2019: Zerodha\u2019s Nithin Kamath warns of possible RBI rate hikes amid inflation fears from US-Iran war",
@@ -3722,17 +3722,6 @@
             "Oil & Gas"
           ],
           "link": "https://www.livemint.com/market/stock-market-news/terrible-year-ahead-zerodha-nithin-kamath-warns-of-possible-rbi-rate-hikes-amid-inflation-fears-from-us-iran-war-11779783531121.html"
-        },
-        {
-          "title": "Global Markets: Japan's Nikkei retreats from record high on profit-booking, strength in oil prices",
-          "source": "ET Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Banking",
-            "Oil & Gas"
-          ],
-          "link": "https://economictimes.indiatimes.com/markets/us-stocks/global-markets-japans-nikkei-retreats-from-record-high-on-profit-booking-strength-in-oil-prices/articleshow/131323994.cms"
         },
         {
           "title": "RBI unlikely to hike rates soon despite inflation risk, rate action only in Dec if needed: Icra's Aditi Nayar",
@@ -3771,14 +3760,24 @@
           "sentiment": "BEARISH",
           "sectors": [],
           "link": "https://www.ft.com/content/3cf63a2a-f0a8-4a3b-86e8-77476af5caf7"
+        },
+        {
+          "title": "US stocks today: US stocks rise near record highs on Iran deal hopes, oil climbs",
+          "source": "ET Markets",
+          "category": "market",
+          "sentiment": "BULLISH",
+          "sectors": [
+            "Oil & Gas"
+          ],
+          "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-rise-and-catch-up-with-gains-in-overseas-markets/articleshow/131330762.cms"
         }
       ]
     },
-    "key_insight": "Range-bound tape with 54% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 144 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 49 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Range-bound tape with 54% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 146 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 49 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: SIDEWAYS \u00b7 breadth 54% \u00b7 median momentum -0.1% \u00b7 ATR 2.3%",
       "Book: 4 ADD \u00b7 0 ACCUMULATE \u00b7 41 HOLD \u00b7 3 EXIT",
-      "Macro tone: NEUTRAL from 144 items across 11 sources",
+      "Macro tone: NEUTRAL from 146 items across 11 sources",
       "Strongest sector: Healthcare (avg score 49)"
     ],
     "market_pulse": {
@@ -3847,7 +3846,7 @@
         "change_pct": -1.5,
         "price": 203.73,
         "action": "HOLD",
-        "score": 39
+        "score": 37
       },
       {
         "symbol": "BHARTIARTL",
@@ -4345,7 +4344,6 @@
         "name": "Tata Consultancy Svc",
         "action": "EXIT",
         "flags": [
-          "RSI 25 oversold",
           "rule \u2192 EXIT",
           "negative news (1)"
         ],
@@ -4410,7 +4408,7 @@
       },
       {
         "sector": "Mining",
-        "avg_score": 37.0,
+        "avg_score": 38.0,
         "count": 1,
         "trend": "down",
         "news_count": 0,
@@ -4421,7 +4419,7 @@
         "avg_score": 33.2,
         "count": 4,
         "trend": "down",
-        "news_count": 4,
+        "news_count": 5,
         "news_label": "BULLISH"
       },
       {
@@ -4437,7 +4435,7 @@
         "avg_score": 30.3,
         "count": 6,
         "trend": "down",
-        "news_count": 34,
+        "news_count": 33,
         "news_label": "BEARISH"
       },
       {
@@ -4579,19 +4577,6 @@
         "link": "https://economictimes.indiatimes.com/news/economy/policy/rbi-unlikely-to-hike-rates-soon-despite-inflation-risk-rate-action-only-in-dec-if-needed-icras-aditi-nayar/articleshow/131313594.cms"
       },
       {
-        "title": "Global Markets: Japan's Nikkei retreats from record high on profit-booking, strength in oil prices",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Banking",
-          "Oil & Gas"
-        ],
-        "published": "2026-05-26T07:07:07+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/global-markets-japans-nikkei-retreats-from-record-high-on-profit-booking-strength-in-oil-prices/articleshow/131323994.cms"
-      },
-      {
         "title": "Astra Microwave Products shares rise over 12% to fresh record high after Q4 results",
         "source": "Mint Markets",
         "category": "market",
@@ -4602,14 +4587,14 @@
         "link": "https://www.livemint.com/market/stock-market-news/astra-microwave-products-shares-rise-over-12-to-fresh-record-high-after-q4-results-11779785161946.html"
       },
       {
-        "title": "Astra Microwave Q4 Results: Profit jumps 44% YoY to Rs 106 crore; Rs 2.4/share dividend declared",
+        "title": "JK Tyre Q4 Results: Profit soars 80% to Rs 178 crore, to invest Rs 4,980 crore on expansion",
         "source": "ET Markets",
         "category": "market",
         "sentiment": "BULLISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-05-26T06:53:02+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/astra-microwave-q4-results-cons-pat-jumps-44-to-rs-106-crore-co-announces-rs-2-4/share-dividend/articleshow/131323738.cms"
+        "published": "2026-05-26T15:18:10+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/jk-tyre-q4-results-profit-soars-80-to-rs-178-crore-to-invest-rs-4980-crore-on-expansion/articleshow/131332204.cms"
       },
       {
         "title": "Multibagger pharma stock declares 2:1 bonus shares, strong Q4 results 2026",
@@ -4656,6 +4641,18 @@
         "link": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-17-paise-to-9543-against-us-dollar-in-early-trade/article71023643.ece"
       },
       {
+        "title": "US stocks today: US stocks rise near record highs on Iran deal hopes, oil climbs",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [
+          "Oil & Gas"
+        ],
+        "published": "2026-05-26T13:43:16+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-rise-and-catch-up-with-gains-in-overseas-markets/articleshow/131330762.cms"
+      },
+      {
         "title": "RBI, rating firms assess Iran war risks on Indian companies",
         "source": "ET Economy",
         "category": "macro",
@@ -4668,6 +4665,16 @@
         "link": "https://economictimes.indiatimes.com/news/economy/policy/rbi-rating-firms-assess-iran-war-risks-on-indian-companies/articleshow/131325197.cms"
       },
       {
+        "title": "Small-cap stock under \u20b950 jumps 3% despite stock market sell-off. Do you own?",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-05-26T13:50:27+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-jumps-3-despite-stock-market-sell-off-do-you-own-11779800493246.html"
+      },
+      {
         "title": "Jewellery stock hits record despite profit-booking trigger on Dalal Street",
         "source": "Mint Markets",
         "category": "market",
@@ -4676,24 +4683,14 @@
         "sectors": [],
         "published": "2026-05-26T08:47:17+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/jewellery-stock-utssav-cz-gold-jewels-hits-record-despite-profit-booking-trigger-on-dalal-street-11779782265200.html"
-      },
-      {
-        "title": "Multibagger small-cap stock Dee Development hits record high, surges 160% YTD; Mirae Asset Sharekhan sees further upside",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-05-26T07:16:07+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/multibagger-small-cap-stock-dee-development-hits-record-high-surges-160-ytd-mirae-asset-sharekhan-sees-further-upside-11779776725788.html"
       }
     ],
     "news_stats": {
-      "total_items": 258,
+      "total_items": 263,
       "sources": 11,
       "with_tickers": 33,
-      "bullish": 78,
-      "bearish": 51
+      "bullish": 81,
+      "bearish": 50
     }
   }
 }
