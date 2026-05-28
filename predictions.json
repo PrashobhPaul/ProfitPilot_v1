@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T19:52:46.405238+05:30",
+  "generated_at": "2026-05-28T22:06:47.446858+05:30",
   "market_date": "2026-05-28",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -1106,6 +1106,128 @@
         "rank": 4
       },
       {
+        "symbol": "COALINDIA",
+        "score": 49,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 463.05,
+        "change_pct": 1.07,
+        "change": 4.9,
+        "target_price": 500.83,
+        "stop_loss": 435.27,
+        "risk_reward": 1.5,
+        "holding_category": "medium",
+        "sector": "Mining",
+        "penalty": 0,
+        "scores": {
+          "trend": 15,
+          "momentum": 12,
+          "volume": 14,
+          "breakout": 0,
+          "price_action": 5
+        },
+        "indicators": {
+          "rsi": 46.8,
+          "macd_signal": "Bearish",
+          "sma_alignment": "Bull (>50>200)",
+          "volume_ratio": 7.74,
+          "week52_pct": 5.7,
+          "bb_position": 0.46,
+          "adx": null
+        },
+        "reasons": [
+          "Bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "RSI building (46.8)",
+          "MACD histogram expanding",
+          "Volume surge 7.7x",
+          "OBV trending up"
+        ],
+        "trade_plan": {
+          "category": "short",
+          "cat_score": 11,
+          "atr": 13.49,
+          "atr_pct": 2.91,
+          "entry": {
+            "ideal_price": 459.27,
+            "limit_order": 458.95,
+            "acceptable_max": 464.44,
+            "entry_window": "09:15\u201310:15 AM IST",
+            "order_strategy": "Place limit order before 9:14 AM",
+            "note": "Prev close \u20b9463.05 | Dip ~\u20b93.78"
+          },
+          "exit": {
+            "target_conservative": 487.34,
+            "target_ideal": 500.83,
+            "target_stretch": 517.02,
+            "upside_conservative": 6.1,
+            "upside_ideal": 9.0,
+            "upside_stretch": 12.6,
+            "hold_min_days": 5,
+            "hold_max_days": 15,
+            "hold_duration": "4\u201312 weeks",
+            "sell_trigger": "Exit when RSI > 72 or price hits \u20b9500.83",
+            "hold_note": "Review daily"
+          }
+        },
+        "name": "Coal India",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 53.5,
+            "price_band": {
+              "low": 448.21,
+              "mid": 463.05,
+              "high": 477.89,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 51.7,
+            "price_band": {
+              "low": 429.87,
+              "mid": 463.05,
+              "high": 496.23,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 50.4,
+            "price_band": {
+              "low": 395.05,
+              "mid": 463.05,
+              "high": 531.05,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 47. Neutral. Nothing to act on from momentum alone. Volume at 7.7x average is speaking loudly. Newsflow is mildly positive \u2014 3 items in the last 48 hours \u2014 'Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU' (Mint Markets) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9449 and \u20b9474. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "rank": 5
+      }
+    ]
+  },
+  "long_term": {
+    "label": "Long Term (6\u201318 months)",
+    "picks": [
+      {
         "symbol": "NTPC",
         "score": 48,
         "signal": "WATCH",
@@ -1116,7 +1238,7 @@
         "target_price": 420.86,
         "stop_loss": 374.26,
         "risk_reward": 1.0,
-        "holding_category": "medium",
+        "holding_category": "long",
         "sector": "Power",
         "penalty": 0,
         "scores": {
@@ -1151,7 +1273,7 @@
             "ideal_price": 395.88,
             "limit_order": 395.6,
             "acceptable_max": 399.34,
-            "entry_window": "09:15\u201310:15 AM IST",
+            "entry_window": "09:15 AM IST (GTC)",
             "order_strategy": "Place limit order before 9:14 AM",
             "note": "Prev close \u20b9398.15 | Dip ~\u20b92.27"
           },
@@ -1164,7 +1286,7 @@
             "upside_stretch": 8.8,
             "hold_min_days": 5,
             "hold_max_days": 15,
-            "hold_duration": "4\u201312 weeks",
+            "hold_duration": "6\u201318 months",
             "sell_trigger": "Exit when RSI > 72 or price hits \u20b9420.86",
             "hold_note": "Review daily"
           }
@@ -1219,13 +1341,8 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 48. Neutral. Nothing to act on from momentum alone. Above-average volume (1.7x) adds weight to the move. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Power is lagging the broader tape (score 34) \u2014 an extra headwind. Needs to resolve \u20b9386\u2013\u20b9408 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 5
-      }
-    ]
-  },
-  "long_term": {
-    "label": "Long Term (6\u201318 months)",
-    "picks": [
+        "rank": 1
+      },
       {
         "symbol": "INDUSINDBK",
         "score": 48,
@@ -1340,123 +1457,6 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is deteriorating \u2014 RSI has slipped to 45. Buying interest is drying up. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Banking is lagging the broader tape (score 27) \u2014 an extra headwind. Range-bound between \u20b9904 and \u20b9955. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 1
-      },
-      {
-        "symbol": "COALINDIA",
-        "score": 48,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 463.05,
-        "change_pct": 1.07,
-        "change": 4.9,
-        "target_price": 500.83,
-        "stop_loss": 435.27,
-        "risk_reward": 1.5,
-        "holding_category": "long",
-        "sector": "Mining",
-        "penalty": 0,
-        "scores": {
-          "trend": 15,
-          "momentum": 12,
-          "volume": 14,
-          "breakout": 0,
-          "price_action": 5
-        },
-        "indicators": {
-          "rsi": 46.8,
-          "macd_signal": "Bearish",
-          "sma_alignment": "Bull (>50>200)",
-          "volume_ratio": 7.74,
-          "week52_pct": 5.7,
-          "bb_position": 0.46,
-          "adx": null
-        },
-        "reasons": [
-          "Bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "RSI building (46.8)",
-          "MACD histogram expanding",
-          "Volume surge 7.7x",
-          "OBV trending up"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 11,
-          "atr": 13.49,
-          "atr_pct": 2.91,
-          "entry": {
-            "ideal_price": 459.27,
-            "limit_order": 458.95,
-            "acceptable_max": 464.44,
-            "entry_window": "09:15 AM IST (GTC)",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b9463.05 | Dip ~\u20b93.78"
-          },
-          "exit": {
-            "target_conservative": 487.34,
-            "target_ideal": 500.83,
-            "target_stretch": 517.02,
-            "upside_conservative": 6.1,
-            "upside_ideal": 9.0,
-            "upside_stretch": 12.6,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "6\u201318 months",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b9500.83",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "Coal India",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 51.0,
-            "price_band": {
-              "low": 448.21,
-              "mid": 463.05,
-              "high": 477.89,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Heavy volume today (7.7x avg) with bull (>50>200)",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 49.8,
-            "price_band": {
-              "low": 429.87,
-              "mid": 463.05,
-              "high": 496.23,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Range-bound week; Bull (>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 48.9,
-            "price_band": {
-              "low": 395.05,
-              "mid": 463.05,
-              "high": 531.05,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in SIDEWAYS regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 47. Neutral. Nothing to act on from momentum alone. Volume at 7.7x average is speaking loudly. Newsflow is mildly positive \u2014 4 items in the last 48 hours \u2014 'Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU' (Mint Markets) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9449 and \u20b9474. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
         "rank": 2
       },
       {
@@ -2747,6 +2747,123 @@
       "rank": 8
     },
     {
+      "symbol": "COALINDIA",
+      "score": 49,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 463.05,
+      "change_pct": 1.07,
+      "change": 4.9,
+      "target_price": 500.83,
+      "stop_loss": 435.27,
+      "risk_reward": 1.5,
+      "holding_category": "short",
+      "sector": "Mining",
+      "penalty": 0,
+      "scores": {
+        "trend": 15,
+        "momentum": 12,
+        "volume": 14,
+        "breakout": 0,
+        "price_action": 5
+      },
+      "indicators": {
+        "rsi": 46.8,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 7.74,
+        "week52_pct": 5.7,
+        "bb_position": 0.46,
+        "adx": null
+      },
+      "reasons": [
+        "Bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI building (46.8)",
+        "MACD histogram expanding",
+        "Volume surge 7.7x",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 11,
+        "atr": 13.49,
+        "atr_pct": 2.91,
+        "entry": {
+          "ideal_price": 459.27,
+          "limit_order": 458.95,
+          "acceptable_max": 464.44,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9463.05 | Dip ~\u20b93.78"
+        },
+        "exit": {
+          "target_conservative": 487.34,
+          "target_ideal": 500.83,
+          "target_stretch": 517.02,
+          "upside_conservative": 6.1,
+          "upside_ideal": 9.0,
+          "upside_stretch": 12.6,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9500.83",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Coal India",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 53.5,
+          "price_band": {
+            "low": 448.21,
+            "mid": 463.05,
+            "high": 477.89,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 51.7,
+          "price_band": {
+            "low": 429.87,
+            "mid": 463.05,
+            "high": 496.23,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 50.4,
+          "price_band": {
+            "low": 395.05,
+            "mid": 463.05,
+            "high": 531.05,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 47. Neutral. Nothing to act on from momentum alone. Volume at 7.7x average is speaking loudly. Newsflow is mildly positive \u2014 3 items in the last 48 hours \u2014 'Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU' (Mint Markets) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9449 and \u20b9474. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+      "rank": 9
+    },
+    {
       "symbol": "NTPC",
       "score": 48,
       "signal": "WATCH",
@@ -2792,7 +2909,7 @@
           "ideal_price": 395.88,
           "limit_order": 395.6,
           "acceptable_max": 399.34,
-          "entry_window": "09:15\u201310:15 AM IST",
+          "entry_window": "09:15 AM IST (GTC)",
           "order_strategy": "Place limit order before 9:14 AM",
           "note": "Prev close \u20b9398.15 | Dip ~\u20b92.27"
         },
@@ -2805,7 +2922,7 @@
           "upside_stretch": 8.8,
           "hold_min_days": 5,
           "hold_max_days": 15,
-          "hold_duration": "4\u201312 weeks",
+          "hold_duration": "6\u201318 months",
           "sell_trigger": "Exit when RSI > 72 or price hits \u20b9420.86",
           "hold_note": "Review daily"
         }
@@ -2860,7 +2977,7 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 48. Neutral. Nothing to act on from momentum alone. Above-average volume (1.7x) adds weight to the move. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Power is lagging the broader tape (score 34) \u2014 an extra headwind. Needs to resolve \u20b9386\u2013\u20b9408 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 9
+      "rank": 10
     },
     {
       "symbol": "INDUSINDBK",
@@ -2976,123 +3093,6 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is deteriorating \u2014 RSI has slipped to 45. Buying interest is drying up. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Banking is lagging the broader tape (score 27) \u2014 an extra headwind. Range-bound between \u20b9904 and \u20b9955. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 10
-    },
-    {
-      "symbol": "COALINDIA",
-      "score": 48,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 463.05,
-      "change_pct": 1.07,
-      "change": 4.9,
-      "target_price": 500.83,
-      "stop_loss": 435.27,
-      "risk_reward": 1.5,
-      "holding_category": "short",
-      "sector": "Mining",
-      "penalty": 0,
-      "scores": {
-        "trend": 15,
-        "momentum": 12,
-        "volume": 14,
-        "breakout": 0,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 46.8,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 7.74,
-        "week52_pct": 5.7,
-        "bb_position": 0.46,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI building (46.8)",
-        "MACD histogram expanding",
-        "Volume surge 7.7x",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 11,
-        "atr": 13.49,
-        "atr_pct": 2.91,
-        "entry": {
-          "ideal_price": 459.27,
-          "limit_order": 458.95,
-          "acceptable_max": 464.44,
-          "entry_window": "09:15 AM IST (GTC)",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b9463.05 | Dip ~\u20b93.78"
-        },
-        "exit": {
-          "target_conservative": 487.34,
-          "target_ideal": 500.83,
-          "target_stretch": 517.02,
-          "upside_conservative": 6.1,
-          "upside_ideal": 9.0,
-          "upside_stretch": 12.6,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "6\u201318 months",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9500.83",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Coal India",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 51.0,
-          "price_band": {
-            "low": 448.21,
-            "mid": 463.05,
-            "high": 477.89,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Heavy volume today (7.7x avg) with bull (>50>200)",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 49.8,
-          "price_band": {
-            "low": 429.87,
-            "mid": 463.05,
-            "high": 496.23,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Range-bound week; Bull (>50>200) bias",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 48.9,
-          "price_band": {
-            "low": 395.05,
-            "mid": 463.05,
-            "high": 531.05,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Consolidation phase in SIDEWAYS regime",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI 47. Neutral. Nothing to act on from momentum alone. Volume at 7.7x average is speaking loudly. Newsflow is mildly positive \u2014 4 items in the last 48 hours \u2014 'Coal India OFS to open for retail investors on Friday: Should you bid in for Maharatna PSU' (Mint Markets) is the headline to watch. The tape is chopping sideways with 54% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9449 and \u20b9474. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
       "rank": 11
     },
     {
@@ -3597,13 +3597,13 @@
       "reason": "Full bullish SMA alignment"
     },
     {
-      "symbol": "NTPC",
-      "name": "NTPC",
-      "sector": "Power",
-      "current_price": 398.15,
-      "score": 48,
+      "symbol": "COALINDIA",
+      "name": "Coal India",
+      "sector": "Mining",
+      "current_price": 463.05,
+      "score": 49,
       "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
+      "reason": "Bullish SMA alignment"
     }
   ],
   "avoid": [
@@ -3695,10 +3695,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-05-28T19:52:59.216493+05:30",
+    "generated_at": "2026-05-28T22:07:02.149541+05:30",
     "date": "2026-05-28",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "SIDEWAYS tape \u2014 4 ADDs, 2 cautious; 170 macro items in focus",
+    "headline": "SIDEWAYS tape \u2014 4 ADDs, 2 cautious; 167 macro items in focus",
     "regime": {
       "label": "SIDEWAYS",
       "breadth_pct": 54.2,
@@ -3708,8 +3708,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.05,
-      "count": 170,
+      "score": 0.02,
+      "count": 167,
       "highlights": [
         {
           "title": "Karnataka Politics: Inside Siddaramaiah\u2019s economic model \u2014 welfare push, record revenues and excise reforms",
@@ -3718,6 +3718,16 @@
           "sentiment": "BULLISH",
           "sectors": [],
           "link": "https://www.livemint.com/economy/karnataka-model-of-siddaramaiah-welfare-push-record-revenues-and-excise-reforms-economic-policies-gst-dk-shivakumar-11779948389071.html"
+        },
+        {
+          "title": "IBC 10-year anniversary scorecard: Over Rs 4 lakh crore realised, big implications for credit markets, economic efficiency",
+          "source": "ET Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Banking"
+          ],
+          "link": "https://economictimes.indiatimes.com/news/economy/policy/ibc-10-year-anniversary-scorecard-over-rs-4-lakh-crore-realised-big-implications-for-credit-markets-economic-efficiency/articleshow/131372445.cms"
         },
         {
           "title": "Ashok Leyland Q4 Results: Net profit rises 14% to Rs 1,291 crore, firm announces Rs 2.5 interim dividend",
@@ -3750,16 +3760,6 @@
           "link": "https://www.livemint.com/market/stock-market-news/gift-nifty-crashes-2-after-fresh-us-iran-strikes-signals-gap-down-opening-for-indian-stock-markets-tomorrow-29-may-11779955551976.html"
         },
         {
-          "title": "Gold, Silver prices tumble amid fresh US strikes on Iran, strong US dollar; should investors worry now?",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BEARISH",
-          "sectors": [
-            "Oil & Gas"
-          ],
-          "link": "https://www.livemint.com/market/commodities/gold-price-today-silver-rate-today-tumbles-amid-fresh-us-strikes-on-iran-strong-us-dollar-should-investors-worry-now-11779936784114.html"
-        },
-        {
           "title": "From dirty dozen to IBC 2.0: how debt resolution changed in India",
           "source": "Mint Economy",
           "category": "macro",
@@ -3769,11 +3769,11 @@
         }
       ]
     },
-    "key_insight": "Range-bound tape with 54% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 170 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Metals leads at 55 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Range-bound tape with 54% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 167 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Metals leads at 55 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: SIDEWAYS \u00b7 breadth 54% \u00b7 median momentum +0.2% \u00b7 ATR 2.3%",
       "Book: 4 ADD \u00b7 0 ACCUMULATE \u00b7 42 HOLD \u00b7 2 EXIT",
-      "Macro tone: NEUTRAL from 170 items across 11 sources",
+      "Macro tone: NEUTRAL from 167 items across 11 sources",
       "Strongest sector: Metals (avg score 55)"
     ],
     "market_pulse": {
@@ -4364,7 +4364,7 @@
         "avg_score": 52.5,
         "count": 2,
         "trend": "flat",
-        "news_count": 6,
+        "news_count": 7,
         "news_label": "BULLISH"
       },
       {
@@ -4377,7 +4377,7 @@
       },
       {
         "sector": "Mining",
-        "avg_score": 48.0,
+        "avg_score": 49.0,
         "count": 1,
         "trend": "flat",
         "news_count": 0,
@@ -4420,7 +4420,7 @@
         "avg_score": 34.0,
         "count": 4,
         "trend": "down",
-        "news_count": 6,
+        "news_count": 5,
         "news_label": "BULLISH"
       },
       {
@@ -4436,7 +4436,7 @@
         "avg_score": 27.5,
         "count": 6,
         "trend": "down",
-        "news_count": 21,
+        "news_count": 24,
         "news_label": "BEARISH"
       },
       {
@@ -4540,6 +4540,30 @@
         "link": "https://www.livemint.com/economy/karnataka-model-of-siddaramaiah-welfare-push-record-revenues-and-excise-reforms-economic-policies-gst-dk-shivakumar-11779948389071.html"
       },
       {
+        "title": "Ashok Leyland Q4 Results: Net profit rises 14% to Rs 1,291 crore, firm announces Rs 2.5 interim dividend",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [
+          "Defence"
+        ],
+        "published": "2026-05-28T11:50:25+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/ashok-leyland-q4-results-net-profit-rises-14-to-rs-1291-crore-firm-announces-rs-2-5-interim-dividend/articleshow/131369826.cms"
+      },
+      {
+        "title": "IBC 10-year anniversary scorecard: Over Rs 4 lakh crore realised, big implications for credit markets, economic efficiency",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking"
+        ],
+        "published": "2026-05-28T14:27:00+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/policy/ibc-10-year-anniversary-scorecard-over-rs-4-lakh-crore-realised-big-implications-for-credit-markets-economic-efficiency/articleshow/131372445.cms"
+      },
+      {
         "title": "Mid-cap & small-cap indices near record highs: Should you be greedy or fearful? Technical experts weigh in",
         "source": "Mint Markets",
         "category": "market",
@@ -4574,30 +4598,6 @@
         "link": "https://www.livemint.com/market/stock-market-news/gift-nifty-crashes-2-after-fresh-us-iran-strikes-signals-gap-down-opening-for-indian-stock-markets-tomorrow-29-may-11779955551976.html"
       },
       {
-        "title": "Gold, Silver prices tumble amid fresh US strikes on Iran, strong US dollar; should investors worry now?",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Oil & Gas"
-        ],
-        "published": "2026-05-28T03:06:16+00:00",
-        "link": "https://www.livemint.com/market/commodities/gold-price-today-silver-rate-today-tumbles-amid-fresh-us-strikes-on-iran-strong-us-dollar-should-investors-worry-now-11779936784114.html"
-      },
-      {
-        "title": "Ashok Leyland Q4 Results: Net profit rises 14% to Rs 1,291 crore, firm announces Rs 2.5 interim dividend",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Defence"
-        ],
-        "published": "2026-05-28T11:50:25+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/ashok-leyland-q4-results-net-profit-rises-14-to-rs-1291-crore-firm-announces-rs-2-5-interim-dividend/articleshow/131369826.cms"
-      },
-      {
         "title": "From dirty dozen to IBC 2.0: how debt resolution changed in India",
         "source": "Mint Economy",
         "category": "macro",
@@ -4622,44 +4622,47 @@
         "link": "https://economictimes.indiatimes.com/industry/banking/finance/ibc-creditors-realised-rs-4-lakh-cr-cases-involving-rs-14-lakh-cr-settled-in-pre-admission-stage/articleshow/131367332.cms"
       },
       {
-        "title": "India rice exports decline as Iran war curbs basmati shipments to Gulf",
-        "source": "ET Economy",
-        "category": "macro",
-        "sentiment": "BEARISH",
+        "title": "Nebius shares jump as former OpenAI employee's fund buys stake",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-05-27T10:20:58+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/agriculture/india-rice-exports-decline-as-iran-war-curbs-basmati-shipments-to-gulf/articleshow/131346829.cms"
+        "published": "2026-05-28T15:32:05+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nebius-shares-jump-as-former-openai-employees-fund-buys-stake/articleshow/131373316.cms"
       },
       {
-        "title": "US stock market today: Dow Jones, Nasdaq slip as Middle East tensions intensify; Brent crude rebounds",
-        "source": "Mint Markets",
+        "title": "Asia Pacific real estate investment rises 19% in Q1; India emerges as key logistics, data centre growth market: Savills",
+        "source": "ET Markets",
         "category": "market",
-        "sentiment": "BEARISH",
+        "sentiment": "BULLISH",
         "tickers": [],
         "sectors": [
-          "Oil & Gas"
+          "Infrastructure",
+          "Realty"
         ],
-        "published": "2026-05-28T12:54:35+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-dow-jones-nasdaq-slip-as-middle-east-tensions-intensify-brent-crude-rebounds-11779968575521.html"
+        "published": "2026-05-28T13:54:02+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/asia-pacific-real-estate-investment-rises-19-in-q1-india-emerges-as-key-logistics-data-centre-growth-market-savills/articleshow/131371872.cms"
       },
       {
-        "title": "US Stock Market Today Live Updates: US stocks edge marginally lower; traders assess inflation data, Mideast developments",
-        "source": "Mint Markets",
+        "title": "Mukesh Ambani-led Reliance Industries' contribution to national exchequer rises to Rs 2.16 lakh crore",
+        "source": "ET Markets",
         "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
+        "sentiment": "BULLISH",
+        "tickers": [
+          "RELIANCE"
+        ],
         "sectors": [],
-        "published": "2026-05-28T11:32:05+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-live-updates-dow-sp-500-nasdaq-wall-street-latest-updates-us-iran-war-oil-prices-on-may-28-2026-11779966838007.html"
+        "published": "2026-05-28T10:37:01+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mukesh-ambani-led-reliance-industries-contribution-to-national-exchequer-rises-to-rs-2-16-lakh-crore/articleshow/131368264.cms"
       }
     ],
     "news_stats": {
       "total_items": 279,
       "sources": 11,
-      "with_tickers": 44,
-      "bullish": 77,
-      "bearish": 62
+      "with_tickers": 42,
+      "bullish": 82,
+      "bearish": 57
     }
   }
 }
