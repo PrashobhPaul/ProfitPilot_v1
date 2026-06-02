@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T20:08:52.625792+05:30",
+  "generated_at": "2026-06-02T22:28:32.880108+05:30",
   "market_date": "2026-06-02",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -2870,7 +2870,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-06-02T20:09:16.417791+05:30",
+    "generated_at": "2026-06-02T22:29:00.785405+05:30",
     "date": "2026-06-02",
     "source": "rules_engine_v4_news_fusion",
     "headline": "SIDEWAYS regime \u2014 46% breadth, selective stance; macro neutral",
@@ -2883,8 +2883,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.06,
-      "count": 153,
+      "score": -0.01,
+      "count": 151,
       "highlights": [
         {
           "title": "HFCL, Acme Solar Holdings among 6 stocks that hit 52-week high; rally up to 64% in a month",
@@ -2937,30 +2937,28 @@
           "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-manufacturing-sector-surges-to-3-month-high-amid-rising-costs-and-strong-demand/articleshow/131449651.cms"
         },
         {
-          "title": "India's fuel exports plunge in May as domestic demand takes priority",
-          "source": "ET Industry",
-          "category": "sector",
+          "title": "Gunvor offices raided by Swiss prosecutor as part of bribery probe",
+          "source": "FT Markets",
+          "category": "global",
           "sentiment": "BEARISH",
-          "sectors": [
-            "Oil & Gas"
-          ],
-          "link": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indias-fuel-exports-plunge-in-may-as-domestic-demand-takes-priority/articleshow/131461374.cms"
+          "sectors": [],
+          "link": "https://www.ft.com/content/197c00cb-ac74-410d-9370-a5d23b066954"
         }
       ]
     },
-    "key_insight": "Range-bound tape with 46% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 153 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Mining leads at 60 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Range-bound tape with 46% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 151 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Mining leads at 60 while Conglomerate lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: SIDEWAYS \u00b7 breadth 46% \u00b7 median momentum +0.4% \u00b7 ATR 2.2%",
-      "Book: 1 ADD \u00b7 0 ACCUMULATE \u00b7 47 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 153 items across 11 sources",
+      "Book: 1 ADD \u00b7 0 ACCUMULATE \u00b7 46 HOLD \u00b7 1 EXIT",
+      "Macro tone: NEUTRAL from 151 items across 11 sources",
       "Strongest sector: Mining (avg score 60)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
       "strong_buys": 0,
       "actionable_buys": 1,
-      "holds": 47,
-      "risk_alerts": 0,
+      "holds": 46,
+      "risk_alerts": 1,
       "earnings_blackouts": 0,
       "do_not_trade": 0
     },
@@ -3504,11 +3502,13 @@
       {
         "symbol": "HINDUNILVR",
         "name": "Hindustan Unilever",
-        "action": "HOLD",
+        "action": "EXIT",
         "flags": [
-          "RSI 22 oversold"
+          "RSI 22 oversold",
+          "rule \u2192 EXIT",
+          "negative news (1)"
         ],
-        "verdict": "HOLD"
+        "verdict": "EXIT"
       },
       {
         "symbol": "BRITANNIA",
@@ -3535,7 +3535,7 @@
         "avg_score": 46.7,
         "count": 3,
         "trend": "flat",
-        "news_count": 2,
+        "news_count": 1,
         "news_label": "NEUTRAL"
       },
       {
@@ -3551,8 +3551,8 @@
         "avg_score": 42.5,
         "count": 2,
         "trend": "down",
-        "news_count": 3,
-        "news_label": "NEUTRAL"
+        "news_count": 4,
+        "news_label": "BULLISH"
       },
       {
         "sector": "Healthcare",
@@ -3568,7 +3568,7 @@
         "count": 6,
         "trend": "down",
         "news_count": 4,
-        "news_label": "NEUTRAL"
+        "news_label": "BULLISH"
       },
       {
         "sector": "Paints",
@@ -3615,11 +3615,22 @@
         "avg_score": 15.0,
         "count": 1,
         "trend": "down",
-        "news_count": 12,
+        "news_count": 10,
         "news_label": "BEARISH"
       }
     ],
     "action_plan": [
+      {
+        "priority": 1,
+        "type": "EXIT",
+        "symbol": "HINDUNILVR",
+        "name": "Hindustan Unilever",
+        "price": 2093.7,
+        "instruction": "Market order at open \u2014 rule ladder triggered.",
+        "reason": "Exit signal",
+        "confidence": "LOW",
+        "verdict": "EXIT"
+      },
       {
         "priority": 3,
         "type": "ADD",
@@ -3633,18 +3644,6 @@
       }
     ],
     "news_highlights": [
-      {
-        "title": "Vedanta shares crash over 4% from day's high after ED raids premises; details here",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [
-          "VEDL"
-        ],
-        "sectors": [],
-        "published": "2026-06-02T07:24:27+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/vedanta-shares-crash-over-4-from-days-high-after-ed-raids-premises-details-here-11780384566014.html"
-      },
       {
         "title": "HFCL, Acme Solar Holdings among 6 stocks that hit 52-week high; rally up to 64% in a month",
         "source": "ET Markets",
@@ -3670,14 +3669,16 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-shares-soar-7-up-nearly-10-in-just-two-sessions-what-are-technical-charts-indicating/articleshow/131460701.cms"
       },
       {
-        "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: US stocks slip at open after record highs; Hewlett Packard soars",
-        "source": "ET Markets",
+        "title": "Vedanta shares crash over 4% from day's high after ED raids premises; details here",
+        "source": "Mint Markets",
         "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
+        "sentiment": "BEARISH",
+        "tickers": [
+          "VEDL"
+        ],
         "sectors": [],
-        "published": "2026-06-02T11:38:54+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-iran-israel-war-crude-brent-oil-price-nvidia-google-marvell-hewlett-packard-stock-price-news-2nd-june-2026/liveblog/131463019.cms"
+        "published": "2026-06-02T07:24:27+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/vedanta-shares-crash-over-4-from-days-high-after-ed-raids-premises-details-here-11780384566014.html"
       },
       {
         "title": "Vodafone Idea share price: Citi removes \u2018High Risk\u2019 rating, sees up to 22% upside potential; here\u2019s why",
@@ -3724,6 +3725,55 @@
         "link": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-29th-april-2026/article70916125.ece"
       },
       {
+        "title": "A \u20b93 lakh crore rain check? India\u2019s monsoon now comes with a Hormuz fine print",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Telecom"
+        ],
+        "published": "2026-06-02T06:00:15+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/agriculture/a-3-lakh-crore-rain-check-indias-monsoon-now-comes-with-a-hormuz-fine-print/articleshow/131455930.cms"
+      },
+      {
+        "title": "Manufacturing activity at 3-month high in May despite cost woes",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [
+          "Infrastructure"
+        ],
+        "published": "2026-06-01T19:18:13+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-manufacturing-sector-surges-to-3-month-high-amid-rising-costs-and-strong-demand/articleshow/131449651.cms"
+      },
+      {
+        "title": "Market wrap: Sensex rises 383 points, Nifty closes near 23,500 as IT stocks shine",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [
+          "TCS",
+          "INFY",
+          "HCLTECH",
+          "TECHM"
+        ],
+        "sectors": [],
+        "published": "2026-06-02T10:13:12+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-sensex-rises-383-points-nifty-closes-near-23500-as-it-stocks-shine/articleshow/131461150.cms"
+      },
+      {
+        "title": "Global Markets: South Korean shares post record-high close as Nvidia hopes lift tech stocks",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-06-02T07:26:50+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-south-korean-shares-post-record-high-close-as-nvidia-hopes-lift-tech-stocks/articleshow/131458266.cms"
+      },
+      {
         "title": "Metal stock Rajputana Stainless trades green after strong FY26 business update",
         "source": "Mint Markets",
         "category": "market",
@@ -3732,48 +3782,14 @@
         "sectors": [],
         "published": "2026-06-02T10:07:31+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/metal-stock-rajputana-stainless-trades-green-after-strong-fy26-business-update-11780393588226.html"
-      },
-      {
-        "title": "Rail Vikas Nigam shares extend losing streak to fifth session, drop over 3.5% to 2-year low",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-06-02T09:23:07+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/rail-vikas-nigam-shares-extend-losing-streak-to-fifth-session-drop-over-3-5-to-2-year-low-11780391035240.html"
-      },
-      {
-        "title": "Infosys share price jumps 5% in trade today; here's why",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [
-          "INFY"
-        ],
-        "sectors": [],
-        "published": "2026-06-02T09:05:16+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/infosys-share-price-jumps-5-in-trade-today-heres-why-other-it-stocks-also-jump-nifty-it-up-4-11780389871214.html"
-      },
-      {
-        "title": "NSE SME stock close to 52-week high despite muted trends in Indian stock market",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "FMCG"
-        ],
-        "published": "2026-06-02T06:55:21+00:00",
-        "link": "https://www.livemint.com/market/nse-sme-stock-close-to-52-week-high-despite-muted-trends-in-indian-stock-market-11780381781255.html"
       }
     ],
     "news_stats": {
-      "total_items": 269,
+      "total_items": 270,
       "sources": 11,
-      "with_tickers": 41,
-      "bullish": 75,
-      "bearish": 62
+      "with_tickers": 40,
+      "bullish": 76,
+      "bearish": 61
     }
   }
 }
