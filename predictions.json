@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T21:07:09.981693+05:30",
+  "generated_at": "2026-06-22T22:44:13.488855+05:30",
   "market_date": "2026-06-22",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -755,7 +755,7 @@
       },
       {
         "symbol": "PFC",
-        "score": 50,
+        "score": 49,
         "signal": "WATCH",
         "confidence": "MEDIUM",
         "current_price": 440.95,
@@ -826,7 +826,7 @@
             "days": 1,
             "bias": "Neutral",
             "confidence": "Medium",
-            "composite": 53.0,
+            "composite": 50.5,
             "price_band": {
               "low": 428.41,
               "mid": 440.95,
@@ -841,7 +841,7 @@
             "days": 5,
             "bias": "Neutral",
             "confidence": "Medium",
-            "composite": 51.8,
+            "composite": 49.9,
             "price_band": {
               "low": 412.91,
               "mid": 440.95,
@@ -856,7 +856,7 @@
             "days": 21,
             "bias": "Neutral",
             "confidence": "Medium",
-            "composite": 50.9,
+            "composite": 49.5,
             "price_band": {
               "low": 383.48,
               "mid": 440.95,
@@ -867,8 +867,125 @@
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "PFC scores 50/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is picking up nicely \u2014 RSI at 67 has room to run before hitting overbought territory. Above-average volume (1.6x) adds weight to the move. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Resonia wins Telangana transmission project to boost renewable energy connectivity' (ET Industry) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Bull case: momentum carries to \u20b9469 if volume confirms. Bear case: fades below \u20b9413 \u2014 failed rally territory. Range-bound between \u20b9428 and \u20b9452. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "narrative": "PFC scores 49/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is picking up nicely \u2014 RSI at 67 has room to run before hitting overbought territory. Above-average volume (1.6x) adds weight to the move. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Resonia wins Telangana transmission project to boost renewable energy connectivity' (ET Industry) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9428 and \u20b9452. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
         "rank": 2
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 48,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 1415.7,
+        "change_pct": 4.73,
+        "change": 63.9,
+        "target_price": 1491.93,
+        "stop_loss": 1330.76,
+        "risk_reward": 1.0,
+        "holding_category": "medium",
+        "sector": "Pharma",
+        "penalty": 6,
+        "scores": {
+          "trend": 12,
+          "momentum": 16,
+          "volume": 12,
+          "breakout": 7,
+          "price_action": 5
+        },
+        "indicators": {
+          "rsi": 62.8,
+          "macd_signal": "Bearish",
+          "sma_alignment": "Above 200 SMA",
+          "volume_ratio": 2.02,
+          "week52_pct": 14.6,
+          "bb_position": 0.95,
+          "adx": null
+        },
+        "reasons": [
+          "Above 200 SMA",
+          "EMA 12/26 bullish",
+          "RSI ideal zone (62.8)",
+          "MACD histogram expanding",
+          "High volume 2.0x",
+          "OBV trending up"
+        ],
+        "trade_plan": {
+          "category": "short",
+          "cat_score": 11,
+          "atr": 27.22,
+          "atr_pct": 1.92,
+          "entry": {
+            "ideal_price": 1408.08,
+            "limit_order": 1407.09,
+            "acceptable_max": 1419.95,
+            "entry_window": "09:15\u201310:15 AM IST",
+            "order_strategy": "Place limit order before 9:14 AM",
+            "note": "Prev close \u20b91,415.70 | Dip ~\u20b97.62"
+          },
+          "exit": {
+            "target_conservative": 1464.7,
+            "target_ideal": 1491.93,
+            "target_stretch": 1524.6,
+            "upside_conservative": 4.0,
+            "upside_ideal": 6.0,
+            "upside_stretch": 8.3,
+            "hold_min_days": 5,
+            "hold_max_days": 15,
+            "hold_duration": "4\u201312 weeks",
+            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,491.93",
+            "hold_note": "Review daily"
+          }
+        },
+        "name": "Cipla",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 51.0,
+            "price_band": {
+              "low": 1385.76,
+              "mid": 1415.7,
+              "high": 1445.64,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Heavy volume today (2.0x avg) with above 200 sma",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 49.8,
+            "price_band": {
+              "low": 1348.75,
+              "mid": 1415.7,
+              "high": 1482.65,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Range-bound week; Above 200 SMA bias",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 48.9,
+            "price_band": {
+              "low": 1278.49,
+              "mid": 1415.7,
+              "high": 1552.91,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "Consolidation phase in SIDEWAYS regime",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "narrative": "CIPLA scores 48/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum profile is constructive. RSI at 63 means the move is early-to-mid phase, not late innings. Volume at 2.0x average is speaking loudly. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Market trading guide: Cipla among 2 stock recommendations for Tuesday' (ET Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b91,373 and \u20b91,450. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+        "rank": 3
       },
       {
         "symbol": "ADANIPORTS",
@@ -984,7 +1101,7 @@
           }
         },
         "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 54. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b91,772\u2013\u20b91,871 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 3
+        "rank": 4
       },
       {
         "symbol": "LT",
@@ -1101,123 +1218,6 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 66 sits in no-man's land. The stock is waiting for a trigger. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b94,075\u2013\u20b94,302 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 4
-      },
-      {
-        "symbol": "CIPLA",
-        "score": 46,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1415.7,
-        "change_pct": 4.73,
-        "change": 63.9,
-        "target_price": 1491.93,
-        "stop_loss": 1330.76,
-        "risk_reward": 1.0,
-        "holding_category": "medium",
-        "sector": "Pharma",
-        "penalty": 6,
-        "scores": {
-          "trend": 12,
-          "momentum": 16,
-          "volume": 12,
-          "breakout": 7,
-          "price_action": 5
-        },
-        "indicators": {
-          "rsi": 62.8,
-          "macd_signal": "Bearish",
-          "sma_alignment": "Above 200 SMA",
-          "volume_ratio": 2.02,
-          "week52_pct": 14.6,
-          "bb_position": 0.95,
-          "adx": null
-        },
-        "reasons": [
-          "Above 200 SMA",
-          "EMA 12/26 bullish",
-          "RSI ideal zone (62.8)",
-          "MACD histogram expanding",
-          "High volume 2.0x",
-          "OBV trending up"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 11,
-          "atr": 27.22,
-          "atr_pct": 1.92,
-          "entry": {
-            "ideal_price": 1408.08,
-            "limit_order": 1407.09,
-            "acceptable_max": 1419.95,
-            "entry_window": "09:15\u201310:15 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b91,415.70 | Dip ~\u20b97.62"
-          },
-          "exit": {
-            "target_conservative": 1464.7,
-            "target_ideal": 1491.93,
-            "target_stretch": 1524.6,
-            "upside_conservative": 4.0,
-            "upside_ideal": 6.0,
-            "upside_stretch": 8.3,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "4\u201312 weeks",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,491.93",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "Cipla",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 46.0,
-            "price_band": {
-              "low": 1385.76,
-              "mid": 1415.7,
-              "high": 1445.64,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Heavy volume today (2.0x avg) with above 200 sma",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 46.0,
-            "price_band": {
-              "low": 1348.75,
-              "mid": 1415.7,
-              "high": 1482.65,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Range-bound week; Above 200 SMA bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 46.0,
-            "price_band": {
-              "low": 1278.49,
-              "mid": 1415.7,
-              "high": 1552.91,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in SIDEWAYS regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "CIPLA scores 46/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum profile is constructive. RSI at 63 means the move is early-to-mid phase, not late innings. Volume at 2.0x average is speaking loudly. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b91,373 and \u20b91,450. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
         "rank": 5
       }
     ]
@@ -1577,7 +1577,7 @@
       },
       {
         "symbol": "BAJAJ-AUTO",
-        "score": 41,
+        "score": 42,
         "signal": "WATCH",
         "confidence": "MEDIUM",
         "current_price": 10191.0,
@@ -1646,7 +1646,7 @@
             "days": 1,
             "bias": "Neutral",
             "confidence": "Medium",
-            "composite": 45.5,
+            "composite": 48.0,
             "price_band": {
               "low": 9984.2,
               "mid": 10191.0,
@@ -1654,29 +1654,29 @@
               "move_pct_mid": 0.0
             },
             "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-            "primary_risk": "Gap risk at open; size positions accordingly"
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
-            "bias": "Mildly Bearish",
+            "bias": "Neutral",
             "confidence": "Medium",
-            "composite": 43.7,
+            "composite": 45.6,
             "price_band": {
-              "low": 9623.49,
-              "mid": 10085.9,
-              "high": 10548.32,
-              "move_pct_mid": -1.03
+              "low": 9728.58,
+              "mid": 10191.0,
+              "high": 10653.42,
+              "move_pct_mid": 0.0
             },
             "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           },
           "1m": {
             "label": "1 Month",
             "days": 21,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 42.4,
+            "composite": 43.8,
             "price_band": {
               "low": 9027.94,
               "mid": 9975.62,
@@ -1684,10 +1684,10 @@
               "move_pct_mid": -2.11
             },
             "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+            "primary_risk": "News-driven spike may fade without volume confirmation"
           }
         },
-        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. Volume at 2.3x average is speaking loudly. Newsflow is mildly positive \u2014 3 items in the last 48 hours \u2014 'Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurchase' (Mint Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Automobiles is lagging the broader tape (score 28) \u2014 an extra headwind. Needs to resolve \u20b99,885\u2013\u20b910,436 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. Volume at 2.3x average is speaking loudly. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurchase' (Mint Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Automobiles is lagging the broader tape (score 28) \u2014 an extra headwind. Needs to resolve \u20b99,885\u2013\u20b910,436 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Mildly Bearish.",
         "rank": 4
       },
       {
@@ -2512,7 +2512,7 @@
     },
     {
       "symbol": "PFC",
-      "score": 50,
+      "score": 49,
       "signal": "WATCH",
       "confidence": "MEDIUM",
       "current_price": 440.95,
@@ -2583,7 +2583,7 @@
           "days": 1,
           "bias": "Neutral",
           "confidence": "Medium",
-          "composite": 53.0,
+          "composite": 50.5,
           "price_band": {
             "low": 428.41,
             "mid": 440.95,
@@ -2598,7 +2598,7 @@
           "days": 5,
           "bias": "Neutral",
           "confidence": "Medium",
-          "composite": 51.8,
+          "composite": 49.9,
           "price_band": {
             "low": 412.91,
             "mid": 440.95,
@@ -2613,7 +2613,7 @@
           "days": 21,
           "bias": "Neutral",
           "confidence": "Medium",
-          "composite": 50.9,
+          "composite": 49.5,
           "price_band": {
             "low": 383.48,
             "mid": 440.95,
@@ -2624,8 +2624,125 @@
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "PFC scores 50/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is picking up nicely \u2014 RSI at 67 has room to run before hitting overbought territory. Above-average volume (1.6x) adds weight to the move. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Resonia wins Telangana transmission project to boost renewable energy connectivity' (ET Industry) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Bull case: momentum carries to \u20b9469 if volume confirms. Bear case: fades below \u20b9413 \u2014 failed rally territory. Range-bound between \u20b9428 and \u20b9452. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+      "narrative": "PFC scores 49/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is picking up nicely \u2014 RSI at 67 has room to run before hitting overbought territory. Above-average volume (1.6x) adds weight to the move. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Resonia wins Telangana transmission project to boost renewable energy connectivity' (ET Industry) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b9428 and \u20b9452. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
       "rank": 7
+    },
+    {
+      "symbol": "CIPLA",
+      "score": 48,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 1415.7,
+      "change_pct": 4.73,
+      "change": 63.9,
+      "target_price": 1491.93,
+      "stop_loss": 1330.76,
+      "risk_reward": 1.0,
+      "holding_category": "short",
+      "sector": "Pharma",
+      "penalty": 6,
+      "scores": {
+        "trend": 12,
+        "momentum": 16,
+        "volume": 12,
+        "breakout": 7,
+        "price_action": 5
+      },
+      "indicators": {
+        "rsi": 62.8,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 2.02,
+        "week52_pct": 14.6,
+        "bb_position": 0.95,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "EMA 12/26 bullish",
+        "RSI ideal zone (62.8)",
+        "MACD histogram expanding",
+        "High volume 2.0x",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 11,
+        "atr": 27.22,
+        "atr_pct": 1.92,
+        "entry": {
+          "ideal_price": 1408.08,
+          "limit_order": 1407.09,
+          "acceptable_max": 1419.95,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b91,415.70 | Dip ~\u20b97.62"
+        },
+        "exit": {
+          "target_conservative": 1464.7,
+          "target_ideal": 1491.93,
+          "target_stretch": 1524.6,
+          "upside_conservative": 4.0,
+          "upside_ideal": 6.0,
+          "upside_stretch": 8.3,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,491.93",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Cipla",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 51.0,
+          "price_band": {
+            "low": 1385.76,
+            "mid": 1415.7,
+            "high": 1445.64,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "Heavy volume today (2.0x avg) with above 200 sma",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 49.8,
+          "price_band": {
+            "low": 1348.75,
+            "mid": 1415.7,
+            "high": 1482.65,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "Range-bound week; Above 200 SMA bias",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 48.9,
+          "price_band": {
+            "low": 1278.49,
+            "mid": 1415.7,
+            "high": 1552.91,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "Consolidation phase in SIDEWAYS regime",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "CIPLA scores 48/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum profile is constructive. RSI at 63 means the move is early-to-mid phase, not late innings. Volume at 2.0x average is speaking loudly. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Market trading guide: Cipla among 2 stock recommendations for Tuesday' (ET Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b91,373 and \u20b91,450. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
+      "rank": 8
     },
     {
       "symbol": "ADANIPORTS",
@@ -2741,7 +2858,7 @@
         }
       },
       "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI 54. Neutral. Nothing to act on from momentum alone. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b91,772\u2013\u20b91,871 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 8
+      "rank": 9
     },
     {
       "symbol": "LT",
@@ -2858,123 +2975,6 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Momentum is flat \u2014 RSI at 66 sits in no-man's land. The stock is waiting for a trigger. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Needs to resolve \u20b94,075\u2013\u20b94,302 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 9
-    },
-    {
-      "symbol": "CIPLA",
-      "score": 46,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 1415.7,
-      "change_pct": 4.73,
-      "change": 63.9,
-      "target_price": 1491.93,
-      "stop_loss": 1330.76,
-      "risk_reward": 1.0,
-      "holding_category": "short",
-      "sector": "Pharma",
-      "penalty": 6,
-      "scores": {
-        "trend": 12,
-        "momentum": 16,
-        "volume": 12,
-        "breakout": 7,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 62.8,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 2.02,
-        "week52_pct": 14.6,
-        "bb_position": 0.95,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "EMA 12/26 bullish",
-        "RSI ideal zone (62.8)",
-        "MACD histogram expanding",
-        "High volume 2.0x",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 11,
-        "atr": 27.22,
-        "atr_pct": 1.92,
-        "entry": {
-          "ideal_price": 1408.08,
-          "limit_order": 1407.09,
-          "acceptable_max": 1419.95,
-          "entry_window": "09:15\u201310:15 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,415.70 | Dip ~\u20b97.62"
-        },
-        "exit": {
-          "target_conservative": 1464.7,
-          "target_ideal": 1491.93,
-          "target_stretch": 1524.6,
-          "upside_conservative": 4.0,
-          "upside_ideal": 6.0,
-          "upside_stretch": 8.3,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,491.93",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Cipla",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 46.0,
-          "price_band": {
-            "low": 1385.76,
-            "mid": 1415.7,
-            "high": 1445.64,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Heavy volume today (2.0x avg) with above 200 sma",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 46.0,
-          "price_band": {
-            "low": 1348.75,
-            "mid": 1415.7,
-            "high": 1482.65,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Range-bound week; Above 200 SMA bias",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 46.0,
-          "price_band": {
-            "low": 1278.49,
-            "mid": 1415.7,
-            "high": 1552.91,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Consolidation phase in SIDEWAYS regime",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "CIPLA scores 46/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum profile is constructive. RSI at 63 means the move is early-to-mid phase, not late innings. Volume at 2.0x average is speaking loudly. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Range-bound between \u20b91,373 and \u20b91,450. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
       "rank": 10
     },
     {
@@ -3329,7 +3329,7 @@
     },
     {
       "symbol": "BAJAJ-AUTO",
-      "score": 41,
+      "score": 42,
       "signal": "WATCH",
       "confidence": "MEDIUM",
       "current_price": 10191.0,
@@ -3398,7 +3398,7 @@
           "days": 1,
           "bias": "Neutral",
           "confidence": "Medium",
-          "composite": 45.5,
+          "composite": 48.0,
           "price_band": {
             "low": 9984.2,
             "mid": 10191.0,
@@ -3406,29 +3406,29 @@
             "move_pct_mid": 0.0
           },
           "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-          "primary_risk": "Gap risk at open; size positions accordingly"
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         },
         "1w": {
           "label": "1 Week",
           "days": 5,
-          "bias": "Mildly Bearish",
+          "bias": "Neutral",
           "confidence": "Medium",
-          "composite": 43.7,
+          "composite": 45.6,
           "price_band": {
-            "low": 9623.49,
-            "mid": 10085.9,
-            "high": 10548.32,
-            "move_pct_mid": -1.03
+            "low": 9728.58,
+            "mid": 10191.0,
+            "high": 10653.42,
+            "move_pct_mid": 0.0
           },
           "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         },
         "1m": {
           "label": "1 Month",
           "days": 21,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 42.4,
+          "composite": 43.8,
           "price_band": {
             "low": 9027.94,
             "mid": 9975.62,
@@ -3436,10 +3436,10 @@
             "move_pct_mid": -2.11
           },
           "catalyst": "News flow: Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurch",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          "primary_risk": "News-driven spike may fade without volume confirmation"
         }
       },
-      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. Volume at 2.3x average is speaking loudly. Newsflow is mildly positive \u2014 3 items in the last 48 hours \u2014 'Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurchase' (Mint Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Automobiles is lagging the broader tape (score 28) \u2014 an extra headwind. Needs to resolve \u20b99,885\u2013\u20b910,436 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. Volume at 2.3x average is speaking loudly. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'Bajaj Auto buyback record date nears. Should you participate in \u20b95,633 crore share repurchase' (Mint Markets) is the headline to watch. The tape is chopping sideways with 58% breadth. Stock-picking matters more than market direction here. Automobiles is lagging the broader tape (score 28) \u2014 an extra headwind. Needs to resolve \u20b99,885\u2013\u20b910,436 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Mildly Bearish.",
       "rank": 14
     },
     {
@@ -3602,7 +3602,7 @@
       "name": "Power Finance Corp",
       "sector": "NBFC",
       "current_price": 440.95,
-      "score": 50,
+      "score": 49,
       "signal": "WATCH",
       "reason": "Above 200 SMA"
     }
@@ -3696,7 +3696,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-06-22T21:07:23.423445+05:30",
+    "generated_at": "2026-06-22T22:44:27.010021+05:30",
     "date": "2026-06-22",
     "source": "rules_engine_v4_news_fusion",
     "headline": "SIDEWAYS regime \u2014 58% breadth, selective stance; macro neutral",
@@ -3709,8 +3709,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.12,
-      "count": 122,
+      "score": -0.13,
+      "count": 124,
       "highlights": [
         {
           "title": "World Bank approves USD 1.5 bn loan to support India's reforms, job creation",
@@ -3721,16 +3721,6 @@
             "Banking"
           ],
           "link": "https://economictimes.indiatimes.com/news/economy/finance/world-bank-approves-15-billion-loan-to-drive-job-creation-and-economic-reforms-in-india/articleshow/131909557.cms"
-        },
-        {
-          "title": "Rupee falls 15 paise to 94.48 against US dollar in early trade",
-          "source": "Hindu BusinessLine",
-          "category": "market",
-          "sentiment": "BEARISH",
-          "sectors": [
-            "Banking"
-          ],
-          "link": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-15-paise-to-9448-against-us-dollar-in-early-trade/article71131792.ece"
         },
         {
           "title": "Top Gainers & Losers on June 22: Kirloskar Oil Engines, Delhivery, Gabriel India, Urban Company among top gainers",
@@ -3770,14 +3760,24 @@
             "Oil & Gas"
           ],
           "link": "https://www.thehindubusinessline.com/markets/forex/rbi-intervenes-with-894-billion-forex-sales-as-rupee-weakens-gold-holdings-unchanged/article71133419.ece"
+        },
+        {
+          "title": "Indian Railways approves Kavach deployment worth Rs 270 crore on 631 route kms",
+          "source": "ET Industry",
+          "category": "sector",
+          "sentiment": "BULLISH",
+          "sectors": [
+            "Telecom"
+          ],
+          "link": "https://economictimes.indiatimes.com/industry/transportation/railways/indian-railways-approves-kavach-deployment-worth-rs-270-crore-on-631-route-kms/articleshow/131905596.cms"
         }
       ]
     },
-    "key_insight": "Range-bound tape with 58% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 122 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Defence leads at 50 while IT lags at 3 \u2014 a stock-picker's tape.",
+    "key_insight": "Range-bound tape with 58% breadth. No directional edge \u2014 let existing positions work, avoid fresh breakout trades, save dry powder for the next regime shift. Macro flow is neutral with 124 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Defence leads at 50 while IT lags at 3 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: SIDEWAYS \u00b7 breadth 58% \u00b7 median momentum +0.2% \u00b7 ATR 2.1%",
       "Book: 2 ADD \u00b7 0 ACCUMULATE \u00b7 46 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 122 items across 11 sources",
+      "Macro tone: NEUTRAL from 124 items across 11 sources",
       "Strongest sector: Defence (avg score 50)"
     ],
     "market_pulse": {
@@ -3796,7 +3796,7 @@
         "change_pct": 4.73,
         "price": 1415.7,
         "action": "HOLD",
-        "score": 46
+        "score": 48
       },
       {
         "symbol": "RECLTD",
@@ -3820,7 +3820,7 @@
         "change_pct": 2.31,
         "price": 440.95,
         "action": "HOLD",
-        "score": 50
+        "score": 49
       },
       {
         "symbol": "DRREDDY",
@@ -4354,8 +4354,8 @@
         "avg_score": 50.5,
         "count": 2,
         "trend": "flat",
-        "news_count": 3,
-        "news_label": "BULLISH"
+        "news_count": 2,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Electricals",
@@ -4367,7 +4367,7 @@
       },
       {
         "sector": "Pharma",
-        "avg_score": 48.5,
+        "avg_score": 49.0,
         "count": 4,
         "trend": "flat",
         "news_count": 3,
@@ -4378,7 +4378,7 @@
         "avg_score": 46.5,
         "count": 2,
         "trend": "flat",
-        "news_count": 3,
+        "news_count": 5,
         "news_label": "BULLISH"
       },
       {
@@ -4391,7 +4391,7 @@
       },
       {
         "sector": "NBFC",
-        "avg_score": 41.8,
+        "avg_score": 41.5,
         "count": 4,
         "trend": "down",
         "news_count": 0,
@@ -4415,7 +4415,7 @@
       },
       {
         "sector": "Automobiles",
-        "avg_score": 29.5,
+        "avg_score": 29.2,
         "count": 4,
         "trend": "down",
         "news_count": 0,
@@ -4522,7 +4522,7 @@
         "sectors": [
           "Banking"
         ],
-        "published": "2026-06-22T15:37:11.052979+00:00",
+        "published": "2026-06-22T17:14:14.345976+00:00",
         "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62991"
       },
       {
@@ -4534,7 +4534,7 @@
         "sectors": [
           "Banking"
         ],
-        "published": "2026-06-22T15:37:11.053072+00:00",
+        "published": "2026-06-22T17:14:14.346074+00:00",
         "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62990"
       },
       {
@@ -4546,7 +4546,7 @@
         "sectors": [
           "Banking"
         ],
-        "published": "2026-06-22T15:37:11.053305+00:00",
+        "published": "2026-06-22T17:14:14.346297+00:00",
         "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62988"
       },
       {
@@ -4560,18 +4560,6 @@
         "sectors": [],
         "published": "2026-06-22T10:35:04+00:00",
         "link": "https://www.thehindubusinessline.com/markets/reliance-industries-jump-3-clsa-sees-highest-upside-at-1800-brokerages-upbeat-on-jio-ipo-ai-and-new-energy-plans/article71131772.ece"
-      },
-      {
-        "title": "Rupee falls 15 paise to 94.48 against US dollar in early trade",
-        "source": "Hindu BusinessLine",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Banking"
-        ],
-        "published": "2026-06-22T04:51:09+00:00",
-        "link": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-15-paise-to-9448-against-us-dollar-in-early-trade/article71131792.ece"
       },
       {
         "title": "PSBs told to tighten scrutiny of government accounts amid fraud concerns",
@@ -4596,22 +4584,37 @@
         "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/uk-fta-calls-for-standards-upgrade-experts/articleshow/131896121.cms"
       },
       {
-        "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: Nasdaq slides over 1% as investors weigh Iran talks; SpaceX plunges nearly 10%",
-        "source": "ET Markets",
+        "title": "Top Gainers & Losers on June 22: Kirloskar Oil Engines, Delhivery, Gabriel India, Urban Company among top gainers",
+        "source": "Mint Markets",
         "category": "market",
-        "sentiment": "BEARISH",
+        "sentiment": "BULLISH",
         "tickers": [],
+        "sectors": [
+          "Pharma"
+        ],
+        "published": "2026-06-22T10:13:59+00:00",
+        "link": "https://www.livemint.com/market/top-gainers-losers-on-june-22-kirloskar-oil-engines-delhivery-gabriel-india-urban-company-among-top-gainers-11782122353381.html"
+      },
+      {
+        "title": "For Tata Capital, narrowing profitability gap with Bajaj Finance is a tough task",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [
+          "BAJFINANCE",
+          "TATACAP"
+        ],
         "sectors": [],
-        "published": "2026-06-22T12:16:07+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-hormuz-deal-brent-crude-oil-fed-warsh-sandisk-micron-technology-spacex-apogee-therapeutics-chip-stock-price-news-22nd-june-2026/liveblog/131909318.cms"
+        "published": "2026-06-22T08:39:49+00:00",
+        "link": "https://www.livemint.com/market/mark-to-market/tata-capital-stock-bajaj-finance-nbfc-stocks-11782113415410.html"
       }
     ],
     "news_stats": {
-      "total_items": 230,
+      "total_items": 237,
       "sources": 11,
-      "with_tickers": 36,
-      "bullish": 57,
-      "bearish": 40
+      "with_tickers": 33,
+      "bullish": 61,
+      "bearish": 38
     }
   }
 }
