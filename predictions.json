@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:31:57.764675+05:30",
+  "generated_at": "2026-07-23T17:42:24.055339+05:30",
   "market_date": "2026-07-23",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -3349,7 +3349,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-07-23T17:32:12.369062+05:30",
+    "generated_at": "2026-07-23T17:42:38.887438+05:30",
     "date": "2026-07-23",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 46% breadth, tighten stops; macro neutral",
@@ -3362,8 +3362,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.04,
-      "count": 166,
+      "score": -0.07,
+      "count": 167,
       "highlights": [
         {
           "title": "Global Market: BNP Paribas Q2 profit jumps 33% on strong trading, retail rebound; beats estimates",
@@ -3423,19 +3423,19 @@
         }
       ]
     },
-    "key_insight": "Risk-off regime with 46% breadth and median momentum -0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 166 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 42 while Retail lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 46% breadth and median momentum -0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 167 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 42 while Retail lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 46% \u00b7 median momentum -0.6% \u00b7 ATR 2.1%",
-      "Book: 2 ADD \u00b7 0 ACCUMULATE \u00b7 46 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 166 items across 11 sources",
+      "Book: 2 ADD \u00b7 0 ACCUMULATE \u00b7 45 HOLD \u00b7 1 EXIT",
+      "Macro tone: NEUTRAL from 167 items across 11 sources",
       "Strongest sector: Healthcare (avg score 42)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
       "strong_buys": 0,
       "actionable_buys": 2,
-      "holds": 46,
-      "risk_alerts": 0,
+      "holds": 45,
+      "risk_alerts": 1,
       "earnings_blackouts": 0,
       "do_not_trade": 0
     },
@@ -3955,6 +3955,16 @@
         "verdict": "HOLD"
       },
       {
+        "symbol": "ITC",
+        "name": "ITC",
+        "action": "EXIT",
+        "flags": [
+          "rule \u2192 EXIT",
+          "negative news (1)"
+        ],
+        "verdict": "EXIT"
+      },
+      {
         "symbol": "LT",
         "name": "Larsen & Toubro",
         "action": "HOLD",
@@ -3987,15 +3997,6 @@
         "action": "HOLD",
         "flags": [
           "RSI 30 oversold"
-        ],
-        "verdict": "HOLD"
-      },
-      {
-        "symbol": "AXISBANK",
-        "name": "Axis Bank",
-        "action": "HOLD",
-        "flags": [
-          "RSI 23 oversold"
         ],
         "verdict": "HOLD"
       }
@@ -4063,7 +4064,7 @@
         "avg_score": 28.2,
         "count": 4,
         "trend": "down",
-        "news_count": 7,
+        "news_count": 8,
         "news_label": "BEARISH"
       },
       {
@@ -4084,7 +4085,7 @@
       },
       {
         "sector": "FMCG",
-        "avg_score": 25.0,
+        "avg_score": 24.4,
         "count": 5,
         "trend": "down",
         "news_count": 1,
@@ -4108,6 +4109,17 @@
       }
     ],
     "action_plan": [
+      {
+        "priority": 1,
+        "type": "EXIT",
+        "symbol": "ITC",
+        "name": "ITC",
+        "price": 281.3,
+        "instruction": "Market order at open \u2014 rule ladder triggered.",
+        "reason": "MACD bullish",
+        "confidence": "LOW",
+        "verdict": "EXIT"
+      },
       {
         "priority": 3,
         "type": "ADD",
@@ -4241,7 +4253,7 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/waaree-renewable-shares-crash-7-even-after-q1-net-profit-rises-34-yoy-whats-spooking-investors/articleshow/132572933.cms"
       },
       {
-        "title": "RBI imposes monetary penalty on Mandya District Co-operative Central Bank Ltd., Karnataka",
+        "title": "RBI imposes monetary penalty on Shri Baria Nagarik Sahakari Bank Ltd., Baria, Gujarat",
         "source": "RBI Press",
         "category": "policy",
         "sentiment": "BEARISH",
@@ -4249,11 +4261,11 @@
         "sectors": [
           "Banking"
         ],
-        "published": "2026-07-23T12:01:58.668758+00:00",
-        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63218"
+        "published": "2026-07-23T12:12:24.949633+00:00",
+        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63220"
       },
       {
-        "title": "RBI imposes monetary penalty on The City Co-operative Bank, Hassan, Karnataka",
+        "title": "RBI imposes monetary penalty on Sindhudurg District Central Co-operative Bank Ltd., Sindhudurg, Maharashtra",
         "source": "RBI Press",
         "category": "policy",
         "sentiment": "BEARISH",
@@ -4261,15 +4273,15 @@
         "sectors": [
           "Banking"
         ],
-        "published": "2026-07-23T12:01:58.668783+00:00",
-        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63217"
+        "published": "2026-07-23T12:12:24.949772+00:00",
+        "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63219"
       }
     ],
     "news_stats": {
       "total_items": 271,
       "sources": 11,
-      "with_tickers": 41,
-      "bullish": 73,
+      "with_tickers": 42,
+      "bullish": 71,
       "bearish": 66
     }
   }
