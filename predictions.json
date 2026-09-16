@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T20:39:21.592877+05:30",
+  "generated_at": "2026-09-16T22:39:55.424610+05:30",
   "market_date": "2026-09-16",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -1089,6 +1089,232 @@
       "rank": 9
     },
     {
+      "symbol": "PERSISTENT",
+      "score": 18,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 5440.0,
+      "change_pct": -0.68,
+      "change": -37.5,
+      "target_price": 6411.73,
+      "stop_loss": 5113.6,
+      "risk_reward": 3.2,
+      "holding_category": "medium",
+      "sector": "IT",
+      "penalty": 0,
+      "scores": {
+        "trend": 13,
+        "momentum": 4,
+        "volume": 0,
+        "breakout": 0,
+        "price_action": 1
+      },
+      "indicators": {
+        "rsi": 44.5,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 0.81,
+        "week52_pct": 17.0,
+        "bb_position": 0.14,
+        "adx": null
+      },
+      "reasons": [
+        "Bullish SMA alignment",
+        "EMA 12/26 bullish"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 3,
+        "atr": 176.68,
+        "atr_pct": 3.25,
+        "entry": {
+          "ideal_price": 5351.66,
+          "limit_order": 5347.91,
+          "acceptable_max": 5467.2,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b95,440.00 | Dip ~\u20b988.34"
+        },
+        "exit": {
+          "target_conservative": 6058.38,
+          "target_ideal": 6411.73,
+          "target_stretch": 6853.43,
+          "upside_conservative": 13.2,
+          "upside_ideal": 19.8,
+          "upside_stretch": 28.1,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,411.73",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Persistent Systems",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 13.2,
+          "price_band": {
+            "low": 5139.64,
+            "mid": 5333.99,
+            "high": 5528.34,
+            "move_pct_mid": -1.95
+          },
+          "catalyst": "Bull (>50>200) setup, score 18/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 14.4,
+          "price_band": {
+            "low": 4768.38,
+            "mid": 5202.96,
+            "high": 5637.53,
+            "move_pct_mid": -4.36
+          },
+          "catalyst": "Weak setup (18/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 16.2,
+          "price_band": {
+            "low": 4063.6,
+            "mid": 4954.21,
+            "high": 5844.82,
+            "move_pct_mid": -8.93
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "PERSISTENT scores 18/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 7) \u2014 an extra headwind. Downside risk towards \u20b95,277 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 10
+    },
+    {
+      "symbol": "HINDALCO",
+      "score": 18,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 972.7,
+      "change_pct": 1.46,
+      "change": 14.0,
+      "target_price": 1035.01,
+      "stop_loss": 914.34,
+      "risk_reward": 1.2,
+      "holding_category": "short",
+      "sector": "Metals",
+      "penalty": 0,
+      "scores": {
+        "trend": 6,
+        "momentum": 4,
+        "volume": 2,
+        "breakout": 0,
+        "price_action": 2
+      },
+      "indicators": {
+        "rsi": 26.9,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 1.17,
+        "week52_pct": 16.9,
+        "bb_position": 0.09,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "MACD histogram expanding"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 5,
+        "atr": 22.25,
+        "atr_pct": 2.29,
+        "entry": {
+          "ideal_price": 966.47,
+          "limit_order": 965.79,
+          "acceptable_max": 975.62,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9972.70 | Dip ~\u20b96.23"
+        },
+        "exit": {
+          "target_conservative": 1012.76,
+          "target_ideal": 1035.01,
+          "target_stretch": 1061.71,
+          "upside_conservative": 4.8,
+          "upside_ideal": 7.1,
+          "upside_stretch": 9.9,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,035.01",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Hindalco Industries",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 19.2,
+          "price_band": {
+            "low": 934.88,
+            "mid": 959.35,
+            "high": 983.83,
+            "move_pct_mid": -1.37
+          },
+          "catalyst": "News flow: Market Trading Guide: PVR Inox, Radico Khaitan among 5 stock recommendations for Thursday",
+          "primary_risk": "Oversold (RSI 27) \u2014 short-squeeze possible"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 18.0,
+          "price_band": {
+            "low": 888.12,
+            "mid": 942.85,
+            "high": 997.58,
+            "move_pct_mid": -3.07
+          },
+          "catalyst": "News flow: Market Trading Guide: PVR Inox, Radico Khaitan among 5 stock recommendations for Thursday",
+          "primary_risk": "Oversold (RSI 27) \u2014 short-squeeze possible"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 18.0,
+          "price_band": {
+            "low": 799.36,
+            "mid": 911.52,
+            "high": 1023.68,
+            "move_pct_mid": -6.29
+          },
+          "catalyst": "News flow: Market Trading Guide: PVR Inox, Radico Khaitan among 5 stock recommendations for Thursday",
+          "primary_risk": "Oversold (RSI 27) \u2014 short-squeeze possible"
+        }
+      },
+      "narrative": "The newsflow around HINDALCO is constructive \u2014 'Market Trading Guide: PVR Inox, Radico Khaitan among 5 stock recommendations for Thursday' is the lead story driving sentiment. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. RSI has cratered to 27. Oversold bounces are possible but tend to be sharp and unreliable. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 8) \u2014 an extra headwind. Downside risk towards \u20b9944 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 11
+    },
+    {
       "symbol": "SUNPHARMA",
       "score": 17,
       "signal": "AVOID",
@@ -1199,7 +1425,7 @@
         }
       },
       "narrative": "SUNPHARMA scores 17/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. The momentum read is weak. RSI at 38 suggests sellers are gradually gaining the upper hand. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b91,798 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 10
+      "rank": 12
     },
     {
       "symbol": "DIXON",
@@ -1312,120 +1538,7 @@
         }
       },
       "narrative": "DIXON is deeply oversold at RSI 15. The selling may be overdone, but catching falling knives requires conviction. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Electronics is lagging the broader tape (score 17) \u2014 an extra headwind. Downside risk towards \u20b912,786 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 11
-    },
-    {
-      "symbol": "PERSISTENT",
-      "score": 16,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 5440.0,
-      "change_pct": -0.68,
-      "change": -37.5,
-      "target_price": 6411.73,
-      "stop_loss": 5113.6,
-      "risk_reward": 3.2,
-      "holding_category": "medium",
-      "sector": "IT",
-      "penalty": 0,
-      "scores": {
-        "trend": 13,
-        "momentum": 4,
-        "volume": 0,
-        "breakout": 0,
-        "price_action": 1
-      },
-      "indicators": {
-        "rsi": 44.5,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 0.81,
-        "week52_pct": 17.0,
-        "bb_position": 0.14,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish"
-      ],
-      "trade_plan": {
-        "category": "medium",
-        "cat_score": 3,
-        "atr": 176.68,
-        "atr_pct": 3.25,
-        "entry": {
-          "ideal_price": 5351.66,
-          "limit_order": 5347.91,
-          "acceptable_max": 5467.2,
-          "entry_window": "09:15\u201310:15 AM IST",
-          "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b95,440.00 | Dip ~\u20b988.34"
-        },
-        "exit": {
-          "target_conservative": 6058.38,
-          "target_ideal": 6411.73,
-          "target_stretch": 6853.43,
-          "upside_conservative": 13.2,
-          "upside_ideal": 19.8,
-          "upside_stretch": 28.1,
-          "hold_min_days": 30,
-          "hold_max_days": 90,
-          "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,411.73",
-          "hold_note": "Review weekly"
-        }
-      },
-      "name": "Persistent Systems",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 8.2,
-          "price_band": {
-            "low": 5139.64,
-            "mid": 5333.99,
-            "high": 5528.34,
-            "move_pct_mid": -1.95
-          },
-          "catalyst": "Bull (>50>200) setup, score 16/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 10.6,
-          "price_band": {
-            "low": 4768.38,
-            "mid": 5202.96,
-            "high": 5637.53,
-            "move_pct_mid": -4.36
-          },
-          "catalyst": "Weak setup (16/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 13.3,
-          "price_band": {
-            "low": 4063.6,
-            "mid": 4954.21,
-            "high": 5844.82,
-            "move_pct_mid": -8.93
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "PERSISTENT scores 16/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. Momentum is deteriorating \u2014 RSI has slipped to 44. Buying interest is drying up. News sentiment is cautious across 2 recent items \u2014 'US Market: Fed\u2019s Warsh faces tough rate call as inflation remains sticky' (ET Markets) is the headline to watch. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 7) \u2014 an extra headwind. Downside risk towards \u20b95,277 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 12
+      "rank": 13
     },
     {
       "symbol": "HAL",
@@ -1538,7 +1651,7 @@
         }
       },
       "narrative": "HAL scores 16/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. The momentum read is weak. RSI at 39 suggests sellers are gradually gaining the upper hand. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 8) \u2014 an extra headwind. Downside risk towards \u20b94,555 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 13
+      "rank": 14
     },
     {
       "symbol": "ICICIBANK",
@@ -1651,120 +1764,6 @@
         }
       },
       "narrative": "ICICIBANK is deeply oversold at RSI 26. The selling may be overdone, but catching falling knives requires conviction. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b91,318 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 14
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "score": 15,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 415.0,
-      "change_pct": 1.27,
-      "change": 5.2,
-      "target_price": 601.75,
-      "stop_loss": 390.1,
-      "risk_reward": 7.7,
-      "holding_category": "long",
-      "sector": "Banking",
-      "penalty": 6,
-      "scores": {
-        "trend": 9,
-        "momentum": 4,
-        "volume": 4,
-        "breakout": 0,
-        "price_action": 4
-      },
-      "indicators": {
-        "rsi": 40.3,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 0.86,
-        "week52_pct": 8.3,
-        "bb_position": 0.48,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "EMA 12/26 bullish",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "long",
-        "cat_score": 4,
-        "atr": 6.22,
-        "atr_pct": 1.5,
-        "entry": {
-          "ideal_price": 410.34,
-          "limit_order": 410.05,
-          "acceptable_max": 419.15,
-          "entry_window": "09:15 AM IST (GTC)",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b9415.00 | Dip ~\u20b94.66"
-        },
-        "exit": {
-          "target_conservative": 518.75,
-          "target_ideal": 601.75,
-          "target_stretch": 684.75,
-          "upside_conservative": 26.4,
-          "upside_ideal": 46.6,
-          "upside_stretch": 66.9,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "6\u201318 months",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b9601.75 hit",
-          "hold_note": "Review monthly"
-        }
-      },
-      "name": "Kotak Mahindra Bank",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 10.2,
-          "price_band": {
-            "low": 404.43,
-            "mid": 411.27,
-            "high": 418.11,
-            "move_pct_mid": -0.9
-          },
-          "catalyst": "Above 200 SMA setup, score 15/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 11.4,
-          "price_band": {
-            "low": 391.36,
-            "mid": 406.65,
-            "high": 421.95,
-            "move_pct_mid": -2.01
-          },
-          "catalyst": "Weak setup (15/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 13.2,
-          "price_band": {
-            "low": 366.54,
-            "mid": 397.9,
-            "high": 429.25,
-            "move_pct_mid": -4.12
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "KOTAKBANK scores 15/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum read is weak. RSI at 40 suggests sellers are gradually gaining the upper hand. Market headwinds are real \u2014 40% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b9403 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
       "rank": 15
     }
   ],
@@ -1858,7 +1857,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-09-16T20:40:35.804128+05:30",
+    "generated_at": "2026-09-16T22:41:38.704999+05:30",
     "date": "2026-09-16",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 40% breadth, tighten stops; macro neutral",
@@ -1871,8 +1870,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.15,
-      "count": 163,
+      "score": -0.1,
+      "count": 167,
       "highlights": [
         {
           "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
@@ -1933,11 +1932,11 @@
         }
       ]
     },
-    "key_insight": "Risk-off regime with 40% breadth and median momentum +0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 163 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Oil & Gas leads at 25 while Electricals lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 40% breadth and median momentum +0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 167 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Oil & Gas leads at 25 while Electricals lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 40% \u00b7 median momentum +0.5% \u00b7 ATR 2.0%",
       "Book: 0 ADD \u00b7 0 ACCUMULATE \u00b7 48 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 163 items across 11 sources",
+      "Macro tone: NEUTRAL from 167 items across 11 sources",
       "Strongest sector: Oil & Gas (avg score 25)"
     ],
     "market_pulse": {
@@ -2435,6 +2434,15 @@
     ],
     "risk_watchlist": [
       {
+        "symbol": "HINDALCO",
+        "name": "Hindalco Industries",
+        "action": "HOLD",
+        "flags": [
+          "RSI 27 oversold"
+        ],
+        "verdict": "HOLD"
+      },
+      {
         "symbol": "DIXON",
         "name": "Dixon Technologies",
         "action": "HOLD",
@@ -2455,15 +2463,6 @@
       {
         "symbol": "TITAN",
         "name": "Titan Company",
-        "action": "HOLD",
-        "flags": [
-          "RSI 27 oversold"
-        ],
-        "verdict": "HOLD"
-      },
-      {
-        "symbol": "HINDALCO",
-        "name": "Hindalco Industries",
         "action": "HOLD",
         "flags": [
           "RSI 27 oversold"
@@ -2514,7 +2513,7 @@
         "avg_score": 25.0,
         "count": 1,
         "trend": "down",
-        "news_count": 13,
+        "news_count": 15,
         "news_label": "BEARISH"
       },
       {
@@ -2538,15 +2537,15 @@
         "avg_score": 20.0,
         "count": 2,
         "trend": "down",
-        "news_count": 8,
-        "news_label": "BEARISH"
+        "news_count": 9,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Pharma",
         "avg_score": 17.2,
         "count": 4,
         "trend": "down",
-        "news_count": 1,
+        "news_count": 2,
         "news_label": "NEUTRAL"
       },
       {
@@ -2570,7 +2569,7 @@
         "avg_score": 14.7,
         "count": 6,
         "trend": "down",
-        "news_count": 15,
+        "news_count": 18,
         "news_label": "NEUTRAL"
       },
       {
@@ -2583,23 +2582,23 @@
       },
       {
         "sector": "Metals",
-        "avg_score": 8.7,
+        "avg_score": 10.0,
         "count": 3,
         "trend": "down",
-        "news_count": 5,
-        "news_label": "NEUTRAL"
+        "news_count": 6,
+        "news_label": "BULLISH"
       },
       {
         "sector": "Defence",
         "avg_score": 8.0,
         "count": 2,
         "trend": "down",
-        "news_count": 2,
+        "news_count": 1,
         "news_label": "NEUTRAL"
       },
       {
         "sector": "IT",
-        "avg_score": 6.8,
+        "avg_score": 7.2,
         "count": 6,
         "trend": "down",
         "news_count": 0,
@@ -2608,28 +2607,6 @@
     ],
     "action_plan": [],
     "news_highlights": [
-      {
-        "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Banking"
-        ],
-        "published": "2026-09-16T10:22:43+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-languishes-at-six-week-low-ahead-of-fed-outcome-rbi-limits-losses/articleshow/134284941.cms"
-      },
-      {
-        "title": "Why can no one win a trade war? WTO warns tariffs and trade blocs could hurt everyone",
-        "source": "Mint Economy",
-        "category": "macro",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-09-15T13:07:22+00:00",
-        "link": "https://www.livemint.com/economy/why-no-one-can-win-trade-war-wto-warns-tariffs-and-trade-blocs-could-hurt-everyone-11789474020709.html"
-      },
       {
         "title": "Newly listed MV Electrosystems shares soar 10%: Stock jumps from \u20b9425 IPO price to \u20b9848 \u2014 what\u2019s driving the rally?",
         "source": "Mint Markets",
@@ -2653,6 +2630,28 @@
         "link": "https://www.livemint.com/market/stock-market-news/pnc-infratech-shares-slump-17-to-fresh-52-week-low-what-s-the-reason-11789541723254.html"
       },
       {
+        "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking"
+        ],
+        "published": "2026-09-16T10:22:43+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-languishes-at-six-week-low-ahead-of-fed-outcome-rbi-limits-losses/articleshow/134284941.cms"
+      },
+      {
+        "title": "Why can no one win a trade war? WTO warns tariffs and trade blocs could hurt everyone",
+        "source": "Mint Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-09-15T13:07:22+00:00",
+        "link": "https://www.livemint.com/economy/why-no-one-can-win-trade-war-wto-warns-tariffs-and-trade-blocs-could-hurt-everyone-11789474020709.html"
+      },
+      {
         "title": "\u2018Biggest crash in history has begun\u2019: Rich Dad Poor Dad author Robert Kiyosaki sounds the alarm",
         "source": "ET Markets",
         "category": "market",
@@ -2673,16 +2672,6 @@
         "sectors": [],
         "published": "2026-09-16T09:09:55+00:00",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/jm-financial-sees-up-to-28-upside-in-dr-reddys-and-aurobindo-pharma-should-you-buy/articleshow/134283456.cms"
-      },
-      {
-        "title": "\u201cBiggest crash in history has started\u201d: Robert Kiyosaki warns investors as AI, war and debt fuel fears",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-09-16T06:46:37+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/biggest-crash-in-history-has-started-robert-kiyosaki-warns-investors-of-market-crash-as-ai-war-and-debt-fuel-fears-11789539662627.html"
       },
       {
         "title": "Sensex today | Stock Market Highlights: Sensex gains 333 points, Nifty rises 99 points; FMCG, PSU banks outperform",
@@ -2718,34 +2707,44 @@
         "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-russian-crude-oil-imports-40-8-billion-trump-100-percent-tariff-russia-sanctions-bill/articleshow/134280491.cms"
       },
       {
-        "title": "How much of the current market movement is linked to the CLARITY Act vote?",
-        "source": "ET Markets",
+        "title": "Bitcoin under renewed pressure as looming Fed hike adds to woes",
+        "source": "Mint Markets",
         "category": "market",
         "sentiment": "BEARISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-09-16T08:19:44+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-much-of-the-current-market-movement-is-linked-to-the-clarity-act-vote/articleshow/134282320.cms"
+        "published": "2026-09-16T15:51:03+00:00",
+        "link": "https://www.livemint.com/market/cryptocurrency/bitcoin-under-renewed-pressure-as-looming-fed-hike-adds-to-woes-11789573570118.html"
       },
       {
-        "title": "GE Vernova, CG Power, other power capex stocks tumble up to 16% in 2 days amid global AI caution. What's ahead?",
-        "source": "ET Markets",
+        "title": "Ahead of US Fed rate hike impact prediction on American Treasuries: FOMC outcome likely effects decoded",
+        "source": "Mint Markets",
         "category": "market",
         "sentiment": "BEARISH",
         "tickers": [],
         "sectors": [
-          "Infrastructure"
+          "Oil & Gas"
         ],
-        "published": "2026-09-16T07:40:52+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ge-vernova-cg-power-other-power-capex-stocks-tumble-up-to-16-in-2-days-amid-global-ai-caution-whats-ahead/articleshow/134281372.cms"
+        "published": "2026-09-16T12:07:55+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/ahead-of-us-fed-rate-hike-impact-prediction-on-american-treasuries-fomc-outcome-likely-effects-decoded-11789558513675.html"
+      },
+      {
+        "title": "Penny stock under 10 rupees hits 5% upper circuit after this acquisition update",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-09-16T10:52:43+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-10-rupees-hits-5-upper-circuit-after-this-acquisition-update-11789554689805.html"
       }
     ],
     "news_stats": {
       "total_items": 276,
       "sources": 11,
-      "with_tickers": 18,
-      "bullish": 75,
-      "bearish": 63
+      "with_tickers": 17,
+      "bullish": 71,
+      "bearish": 58
     }
   }
 }
