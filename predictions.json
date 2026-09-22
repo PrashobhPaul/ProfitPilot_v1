@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:39:45.783262+05:30",
+  "generated_at": "2026-09-22T22:35:33.617725+05:30",
   "market_date": "2026-09-22",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -515,6 +515,126 @@
         "rank": 4
       },
       {
+        "symbol": "HAL",
+        "score": 42,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 4800.0,
+        "change_pct": -0.54,
+        "change": -26.0,
+        "target_price": 5121.02,
+        "stop_loss": 4512.0,
+        "risk_reward": 1.2,
+        "holding_category": "short",
+        "sector": "Defence",
+        "penalty": 0,
+        "scores": {
+          "trend": 12,
+          "momentum": 16,
+          "volume": 4,
+          "breakout": 0,
+          "price_action": 5
+        },
+        "indicators": {
+          "rsi": 51.3,
+          "macd_signal": "Bearish",
+          "sma_alignment": "Bull (>50>200)",
+          "volume_ratio": 0.71,
+          "week52_pct": 6.8,
+          "bb_position": 0.37,
+          "adx": null
+        },
+        "reasons": [
+          "Bullish SMA alignment",
+          "RSI ideal zone (51.3)",
+          "MACD histogram expanding",
+          "OBV trending up"
+        ],
+        "trade_plan": {
+          "category": "short",
+          "cat_score": 9,
+          "atr": 114.65,
+          "atr_pct": 2.39,
+          "entry": {
+            "ideal_price": 4767.9,
+            "limit_order": 4764.56,
+            "acceptable_max": 4814.4,
+            "entry_window": "09:15\u201309:45 AM IST",
+            "order_strategy": "Place limit order before 9:14 AM",
+            "note": "Prev close \u20b94,800.00 | Dip ~\u20b932.1"
+          },
+          "exit": {
+            "target_conservative": 5006.37,
+            "target_ideal": 5121.02,
+            "target_stretch": 5258.6,
+            "upside_conservative": 5.0,
+            "upside_ideal": 7.4,
+            "upside_stretch": 10.3,
+            "hold_min_days": 5,
+            "hold_max_days": 15,
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit when RSI > 72 or price hits \u20b95,121.02",
+            "hold_note": "Review daily"
+          }
+        },
+        "name": "Hindustan Aeronautics",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 44.7,
+            "price_band": {
+              "low": 4645.22,
+              "mid": 4771.34,
+              "high": 4897.45,
+              "move_pct_mid": -0.6
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 42.9,
+            "price_band": {
+              "low": 4453.91,
+              "mid": 4735.91,
+              "high": 5017.91,
+              "move_pct_mid": -1.34
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 42.5,
+            "price_band": {
+              "low": 4090.72,
+              "mid": 4668.65,
+              "high": 5246.58,
+              "move_pct_mid": -2.74
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 51. Neutral. Nothing to act on from momentum alone. Newsflow is positive \u2014 1 item in the last 48 hours \u2014 'Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborundum' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 20) \u2014 an extra headwind. Watch \u20b94,656 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "rank": 5
+      }
+    ]
+  },
+  "medium_term": {
+    "label": "Medium Term (4\u201312 weeks)",
+    "picks": [
+      {
         "symbol": "HEROMOTOCO",
         "score": 41,
         "signal": "WATCH",
@@ -525,7 +645,7 @@
         "target_price": 5881.55,
         "stop_loss": 5050.62,
         "risk_reward": 1.7,
-        "holding_category": "short",
+        "holding_category": "medium",
         "sector": "Automobiles",
         "penalty": 0,
         "scores": {
@@ -560,7 +680,7 @@
             "ideal_price": 5326.77,
             "limit_order": 5323.04,
             "acceptable_max": 5399.86,
-            "entry_window": "09:15\u201309:45 AM IST",
+            "entry_window": "09:15\u201310:15 AM IST",
             "order_strategy": "Patient limit order",
             "note": "Prev close \u20b95,373.00 | Dip ~\u20b946.23"
           },
@@ -573,7 +693,7 @@
             "upside_stretch": 14.8,
             "hold_min_days": 30,
             "hold_max_days": 90,
-            "hold_duration": "5\u201315 trading days",
+            "hold_duration": "4\u201312 weeks",
             "sell_trigger": "Exit on weekly MACD bearish cross or \u20b95,881.55",
             "hold_note": "Review weekly"
           }
@@ -628,13 +748,9 @@
           }
         },
         "narrative": "HEROMOTOCO scores 41/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 16) \u2014 an extra headwind. \u20b95,212 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 5
+        "rank": 1
       }
     ]
-  },
-  "medium_term": {
-    "label": "Medium Term (4\u201312 weeks)",
-    "picks": []
   },
   "long_term": {
     "label": "Long Term (6\u201318 months)",
@@ -1108,126 +1224,10 @@
       "rank": 4
     },
     {
-      "symbol": "HEROMOTOCO",
-      "score": 41,
+      "symbol": "HAL",
+      "score": 42,
       "signal": "WATCH",
       "confidence": "MEDIUM",
-      "current_price": 5373.0,
-      "change_pct": -0.85,
-      "change": -46.0,
-      "target_price": 5881.55,
-      "stop_loss": 5050.62,
-      "risk_reward": 1.7,
-      "holding_category": "medium",
-      "sector": "Automobiles",
-      "penalty": 0,
-      "scores": {
-        "trend": 9,
-        "momentum": 21,
-        "volume": 6,
-        "breakout": 0,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 54.7,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 0.96,
-        "week52_pct": 13.0,
-        "bb_position": 0.54,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "RSI ideal zone (54.7)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "medium",
-        "cat_score": 9,
-        "atr": 92.46,
-        "atr_pct": 1.72,
-        "entry": {
-          "ideal_price": 5326.77,
-          "limit_order": 5323.04,
-          "acceptable_max": 5399.86,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b95,373.00 | Dip ~\u20b946.23"
-        },
-        "exit": {
-          "target_conservative": 5696.62,
-          "target_ideal": 5881.55,
-          "target_stretch": 6112.71,
-          "upside_conservative": 6.9,
-          "upside_ideal": 10.4,
-          "upside_stretch": 14.8,
-          "hold_min_days": 30,
-          "hold_max_days": 90,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b95,881.55",
-          "hold_note": "Review weekly"
-        }
-      },
-      "name": "Hero MotoCorp",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 36.2,
-          "price_band": {
-            "low": 5248.18,
-            "mid": 5349.89,
-            "high": 5451.59,
-            "move_pct_mid": -0.43
-          },
-          "catalyst": "Above 200 SMA setup, score 41/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 37.4,
-          "price_band": {
-            "low": 5093.89,
-            "mid": 5321.31,
-            "high": 5548.73,
-            "move_pct_mid": -0.96
-          },
-          "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 39.2,
-          "price_band": {
-            "low": 4801.0,
-            "mid": 5267.07,
-            "high": 5733.15,
-            "move_pct_mid": -1.97
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "HEROMOTOCO scores 41/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 16) \u2014 an extra headwind. \u20b95,212 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 5
-    },
-    {
-      "symbol": "HAL",
-      "score": 37,
-      "signal": "AVOID",
-      "confidence": "LOW",
       "current_price": 4800.0,
       "change_pct": -0.54,
       "change": -26.0,
@@ -1294,14 +1294,130 @@
           "days": 1,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 32.2,
+          "composite": 44.7,
           "price_band": {
             "low": 4645.22,
             "mid": 4771.34,
             "high": 4897.45,
             "move_pct_mid": -0.6
           },
-          "catalyst": "Bull (>50>200) setup, score 37/100",
+          "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 42.9,
+          "price_band": {
+            "low": 4453.91,
+            "mid": 4735.91,
+            "high": 5017.91,
+            "move_pct_mid": -1.34
+          },
+          "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 42.5,
+          "price_band": {
+            "low": 4090.72,
+            "mid": 4668.65,
+            "high": 5246.58,
+            "move_pct_mid": -2.74
+          },
+          "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 51. Neutral. Nothing to act on from momentum alone. Newsflow is positive \u2014 1 item in the last 48 hours \u2014 'Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborundum' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 20) \u2014 an extra headwind. Watch \u20b94,656 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 5
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "score": 41,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 5373.0,
+      "change_pct": -0.85,
+      "change": -46.0,
+      "target_price": 5881.55,
+      "stop_loss": 5050.62,
+      "risk_reward": 1.7,
+      "holding_category": "medium",
+      "sector": "Automobiles",
+      "penalty": 0,
+      "scores": {
+        "trend": 9,
+        "momentum": 21,
+        "volume": 6,
+        "breakout": 0,
+        "price_action": 5
+      },
+      "indicators": {
+        "rsi": 54.7,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 0.96,
+        "week52_pct": 13.0,
+        "bb_position": 0.54,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "RSI ideal zone (54.7)",
+        "MACD bullish",
+        "MACD histogram expanding",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 9,
+        "atr": 92.46,
+        "atr_pct": 1.72,
+        "entry": {
+          "ideal_price": 5326.77,
+          "limit_order": 5323.04,
+          "acceptable_max": 5399.86,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b95,373.00 | Dip ~\u20b946.23"
+        },
+        "exit": {
+          "target_conservative": 5696.62,
+          "target_ideal": 5881.55,
+          "target_stretch": 6112.71,
+          "upside_conservative": 6.9,
+          "upside_ideal": 10.4,
+          "upside_stretch": 14.8,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b95,881.55",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Hero MotoCorp",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 36.2,
+          "price_band": {
+            "low": 5248.18,
+            "mid": 5349.89,
+            "high": 5451.59,
+            "move_pct_mid": -0.43
+          },
+          "catalyst": "Above 200 SMA setup, score 41/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -1309,14 +1425,14 @@
           "days": 5,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 33.4,
+          "composite": 37.4,
           "price_band": {
-            "low": 4453.91,
-            "mid": 4735.91,
-            "high": 5017.91,
-            "move_pct_mid": -1.34
+            "low": 5093.89,
+            "mid": 5321.31,
+            "high": 5548.73,
+            "move_pct_mid": -0.96
           },
-          "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -1324,18 +1440,18 @@
           "days": 21,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 35.2,
+          "composite": 39.2,
           "price_band": {
-            "low": 4090.72,
-            "mid": 4668.65,
-            "high": 5246.58,
-            "move_pct_mid": -2.74
+            "low": 4801.0,
+            "mid": 5267.07,
+            "high": 5733.15,
+            "move_pct_mid": -1.97
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "HAL scores 37/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 51. Neutral. Nothing to act on from momentum alone. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 20) \u2014 an extra headwind. Watch \u20b94,656 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "narrative": "HEROMOTOCO scores 41/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 16) \u2014 an extra headwind. \u20b95,212 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
       "rank": 6
     },
     {
@@ -2411,24 +2527,16 @@
       "reason": "Full bullish SMA alignment"
     },
     {
-      "symbol": "HEROMOTOCO",
-      "name": "Hero MotoCorp",
-      "sector": "Automobiles",
-      "current_price": 5373.0,
-      "score": 41,
-      "signal": "WATCH",
-      "reason": "Above 200 SMA"
-    }
-  ],
-  "avoid": [
-    {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics",
       "sector": "Defence",
       "current_price": 4800.0,
-      "score": 37,
+      "score": 42,
+      "signal": "WATCH",
       "reason": "Bullish SMA alignment"
-    },
+    }
+  ],
+  "avoid": [
     {
       "symbol": "DRREDDY",
       "name": "Dr. Reddy's",
@@ -2443,6 +2551,14 @@
       "sector": "Consumer Disc.",
       "current_price": 4928.5,
       "score": 31,
+      "reason": "Above 200 SMA"
+    },
+    {
+      "symbol": "CIPLA",
+      "name": "Cipla",
+      "sector": "Pharma",
+      "current_price": 1384.1,
+      "score": 28,
       "reason": "Above 200 SMA"
     }
   ],
@@ -2509,7 +2625,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-09-22T20:41:22.023610+05:30",
+    "generated_at": "2026-09-22T22:38:40.558112+05:30",
     "date": "2026-09-22",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 38% breadth, tighten stops; macro neutral",
@@ -2522,8 +2638,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.12,
-      "count": 163,
+      "score": 0.04,
+      "count": 167,
       "highlights": [
         {
           "title": "US stock market today: Nasdaq hits another record high as tech rally extends; oil prices fall",
@@ -2558,16 +2674,6 @@
           "link": "https://economictimes.indiatimes.com/markets/stocks/news/engineers-india-among-7-small-cap-stocks-that-hit-52-week-highs-and-rallied-up-to-25-in-a-month/slideshow/134411302.cms"
         },
         {
-          "title": "US stock market rally explained: Why did Nasdaq climb 2% to close at a fresh record high?",
-          "source": "ET Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Oil & Gas"
-          ],
-          "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-rally-explained-why-did-nasdaq-climb-2-to-close-at-a-fresh-record-high/articleshow/134406348.cms"
-        },
-        {
           "title": "Trump media ban lawsuit set for Wednesday court hearing",
           "source": "CNBC World",
           "category": "global",
@@ -2584,14 +2690,22 @@
             "Infrastructure"
           ],
           "link": "https://economictimes.indiatimes.com/industry/transportation/roadways/nhais-new-rules-no-median-cuts-or-surface-level-intersections-on-future-high-speed-nh-corridors-exits-to-be-marked-5-km-2-km-1-km-and-500m-ahead/articleshow/134411611.cms"
+        },
+        {
+          "title": "Taiwan benchmark Taiex rises to record intraday high as tech stocks advance",
+          "source": "CNBC World",
+          "category": "global",
+          "sentiment": "BULLISH",
+          "sectors": [],
+          "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html"
         }
       ]
     },
-    "key_insight": "Risk-off regime with 38% breadth and median momentum -0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 163 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 48 while Conglomerate lags at 1 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 38% breadth and median momentum -0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 167 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Healthcare leads at 48 while Conglomerate lags at 1 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 38% \u00b7 median momentum -0.6% \u00b7 ATR 1.7%",
       "Book: 0 ADD \u00b7 0 ACCUMULATE \u00b7 46 HOLD \u00b7 2 EXIT",
-      "Macro tone: NEUTRAL from 163 items across 11 sources",
+      "Macro tone: NEUTRAL from 167 items across 11 sources",
       "Strongest sector: Healthcare (avg score 48)"
     ],
     "market_pulse": {
@@ -2955,6 +3069,74 @@
         }
       },
       {
+        "symbol": "HAL",
+        "name": "Hindustan Aeronautics",
+        "sector": "Defence",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 42,
+        "rsi": 51.3,
+        "trend": "Bull (>50>200)",
+        "reason": "Bullish SMA alignment",
+        "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 51. Neutral. Nothing to act on from momentum alone. Newsflow is positive \u2014 1 item in the last 48 hours \u2014 'Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborundum' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 20) \u2014 an extra headwind. Watch \u20b94,656 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 44.7,
+            "price_band": {
+              "low": 4645.22,
+              "mid": 4771.34,
+              "high": 4897.45,
+              "move_pct_mid": -0.6
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 42.9,
+            "price_band": {
+              "low": 4453.91,
+              "mid": 4735.91,
+              "high": 5017.91,
+              "move_pct_mid": -1.34
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 42.5,
+            "price_band": {
+              "low": 4090.72,
+              "mid": 4668.65,
+              "high": 5246.58,
+              "move_pct_mid": -2.74
+            },
+            "catalyst": "News flow: Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborund",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "news_info": {
+          "score": 3.6,
+          "label": "BULLISH",
+          "count": 1,
+          "modifier": 5,
+          "top_headline": "Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborundum by Sumeet Bagadia | Targets",
+          "top_source": "Mint Markets",
+          "top_link": "https://www.livemint.com/market/stock-market-news/top-breakout-stocks-to-buy-tomorrow-swiggy-welspun-finolex-vishal-mega-mart-carborundum-by-sumeet-bagadia-targets-11790089705944.html"
+        }
+      },
+      {
         "symbol": "HEROMOTOCO",
         "name": "Hero MotoCorp",
         "sector": "Automobiles",
@@ -3007,72 +3189,6 @@
               "mid": 5267.07,
               "high": 5733.15,
               "move_pct_mid": -1.97
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": 0,
-          "label": "NEUTRAL",
-          "count": 0,
-          "modifier": 0,
-          "top_headline": null
-        }
-      },
-      {
-        "symbol": "HAL",
-        "name": "Hindustan Aeronautics",
-        "sector": "Defence",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 37,
-        "rsi": 51.3,
-        "trend": "Bull (>50>200)",
-        "reason": "Bullish SMA alignment",
-        "narrative": "HAL scores 37/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 51. Neutral. Nothing to act on from momentum alone. Market headwinds are real \u2014 38% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 20) \u2014 an extra headwind. Watch \u20b94,656 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 32.2,
-            "price_band": {
-              "low": 4645.22,
-              "mid": 4771.34,
-              "high": 4897.45,
-              "move_pct_mid": -0.6
-            },
-            "catalyst": "Bull (>50>200) setup, score 37/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 33.4,
-            "price_band": {
-              "low": 4453.91,
-              "mid": 4735.91,
-              "high": 5017.91,
-              "move_pct_mid": -1.34
-            },
-            "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 35.2,
-            "price_band": {
-              "low": 4090.72,
-              "mid": 4668.65,
-              "high": 5246.58,
-              "move_pct_mid": -2.74
             },
             "catalyst": "Structural weakness; BEAR regime adds pressure",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
@@ -3194,7 +3310,7 @@
         "avg_score": 30.8,
         "count": 4,
         "trend": "down",
-        "news_count": 3,
+        "news_count": 4,
         "news_label": "NEUTRAL"
       },
       {
@@ -3202,12 +3318,12 @@
         "avg_score": 27.0,
         "count": 2,
         "trend": "down",
-        "news_count": 6,
+        "news_count": 7,
         "news_label": "BULLISH"
       },
       {
         "sector": "Defence",
-        "avg_score": 20.5,
+        "avg_score": 23.0,
         "count": 2,
         "trend": "down",
         "news_count": 1,
@@ -3226,8 +3342,8 @@
         "avg_score": 19.0,
         "count": 1,
         "trend": "down",
-        "news_count": 17,
-        "news_label": "BULLISH"
+        "news_count": 18,
+        "news_label": "BEARISH"
       },
       {
         "sector": "Automobiles",
@@ -3242,7 +3358,7 @@
         "avg_score": 15.0,
         "count": 3,
         "trend": "down",
-        "news_count": 4,
+        "news_count": 5,
         "news_label": "BULLISH"
       },
       {
@@ -3255,7 +3371,7 @@
       },
       {
         "sector": "Banking",
-        "avg_score": 12.0,
+        "avg_score": 12.7,
         "count": 6,
         "trend": "down",
         "news_count": 28,
@@ -3287,16 +3403,6 @@
       }
     ],
     "news_highlights": [
-      {
-        "title": "Meesho shares rally 12% after UBS hikes target price by 24%. What\u2019s keeping analysts bullish?",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-09-22T06:44:18+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/meesho-shares-rally-12-after-ubs-hikes-target-price-by-24-whats-keeping-analysts-bullish/articleshow/134404902.cms"
-      },
       {
         "title": "US stock market today: Nasdaq hits another record high as tech rally extends; oil prices fall",
         "source": "Mint Markets",
@@ -3346,18 +3452,6 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/engineers-india-among-7-small-cap-stocks-that-hit-52-week-highs-and-rallied-up-to-25-in-a-month/slideshow/134411302.cms"
       },
       {
-        "title": "US stock market rally explained: Why did Nasdaq climb 2% to close at a fresh record high?",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Oil & Gas"
-        ],
-        "published": "2026-09-22T07:52:07+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-rally-explained-why-did-nasdaq-climb-2-to-close-at-a-fresh-record-high/articleshow/134406348.cms"
-      },
-      {
         "title": "NHAI\u2019s new rules: No median cuts or surface-level intersections on future high-speed NH corridors; exits to be marked 5 km, 2 km, 1 km and 500m ahead",
         "source": "ET Industry",
         "category": "sector",
@@ -3390,6 +3484,19 @@
         "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-soyoil-imports-to-rise-to-record-high-on-price-competitiveness/articleshow/134386850.cms"
       },
       {
+        "title": "Market Trading Guide: Finolex Cables among 3 stock recommendations for Wednesday",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [
+          "Oil & Gas",
+          "Infrastructure"
+        ],
+        "published": "2026-09-22T15:41:16+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-finolex-cables-among-3-stock-recommendations-for-wednesday/slideshow/134415805.cms"
+      },
+      {
         "title": "Sebi sees potential for Rs 2 lakh crore IPO fundraising as fresh capital gains prominence",
         "source": "ET Markets",
         "category": "market",
@@ -3412,22 +3519,38 @@
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-diesel-prices-surge-to-record-highs-as-wars-squeeze-global-fuel-supplies/articleshow/134406432.cms"
       },
       {
-        "title": "Bitcoin jumps nearly 5% to cross $85,000 as strong ETF inflows and institutional buying boost crypto momentum",
-        "source": "ET Markets",
+        "title": "Top breakout stocks to buy tomorrow: Swiggy, Welspun, Finolex, Vishal Mega Mart, Carborundum by Sumeet Bagadia | Targets",
+        "source": "Mint Markets",
         "category": "market",
         "sentiment": "BULLISH",
-        "tickers": [],
+        "tickers": [
+          "SWIGGY",
+          "HAL"
+        ],
         "sectors": [],
-        "published": "2026-09-22T07:50:07+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-jumps-nearly-5-to-cross-85000-as-strong-etf-inflows-and-institutional-buying-boost-crypto-momentum/articleshow/134406404.cms"
+        "published": "2026-09-22T15:50:18+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/top-breakout-stocks-to-buy-tomorrow-swiggy-welspun-finolex-vishal-mega-mart-carborundum-by-sumeet-bagadia-targets-11790089705944.html"
+      },
+      {
+        "title": "Top stocks to buy tomorrow: HBL, Precision Wires, GHCL by Vaishali Parekh | Target, stop-loss, Nifty, Bank Nifty outlook",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking",
+          "FMCG"
+        ],
+        "published": "2026-09-22T13:38:06+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-tomorrow-hbl-precision-wires-ghcl-by-vaishali-parekh-target-stop-loss-nifty-bank-nifty-outlook-11790082155610.html"
       }
     ],
     "news_stats": {
-      "total_items": 268,
+      "total_items": 272,
       "sources": 11,
-      "with_tickers": 21,
-      "bullish": 80,
-      "bearish": 55
+      "with_tickers": 22,
+      "bullish": 72,
+      "bearish": 61
     }
   }
 }
