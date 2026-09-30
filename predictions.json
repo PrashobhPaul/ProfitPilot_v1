@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:00:06.460090+05:30",
+  "generated_at": "2026-09-30T23:32:14.635846+05:30",
   "market_date": "2026-09-30",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -2103,10 +2103,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-09-30T22:01:52.727335+05:30",
+    "generated_at": "2026-09-30T23:33:49.969710+05:30",
     "date": "2026-09-30",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "Risk-off: 25% breadth, tighten stops; macro neutral",
+    "headline": "BEAR regime \u2014 6 exits flagged, defensive day; macro tone mildly negative",
     "regime": {
       "label": "BEAR",
       "breadth_pct": 25.0,
@@ -2115,10 +2115,21 @@
       "notes": "48 stocks analyzed"
     },
     "macro_context": {
-      "label": "NEUTRAL",
-      "score": -0.3,
-      "count": 162,
+      "label": "MILDLY_NEGATIVE",
+      "score": -0.35,
+      "count": 158,
       "highlights": [
+        {
+          "title": "Weak monsoon unlikely to dent rural demand, Crisil says; Diamond, specialty chemicals, polyester textiles face war risks",
+          "source": "Mint Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Banking",
+            "FMCG"
+          ],
+          "link": "https://www.livemint.com/economy/weak-monsoon-unlikely-to-dent-rural-demand-crisil-says-diamond-specialty-chemicals-polyester-textiles-face-war-risks-11790788262768.html"
+        },
         {
           "title": "Top 2 stocks to buy or sell for short-term: Cyient, Max Healthcare by Nagaraj Shetti - Check stop loss, targets",
           "source": "Mint Markets",
@@ -2168,30 +2179,22 @@
             "Banking"
           ],
           "link": "https://www.livemint.com/economy/rbi-rate-hike-nomura-prediction-inflation-pressures-11790678218774.html"
-        },
-        {
-          "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
-          "source": "BBC Business",
-          "category": "global",
-          "sentiment": "BEARISH",
-          "sectors": [],
-          "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
-    "key_insight": "Risk-off regime with 25% breadth and median momentum -0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 162 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Infrastructure leads at 29 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 25% breadth and median momentum -0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is mildly negative with 158 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Infrastructure leads at 29 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 25% \u00b7 median momentum -0.5% \u00b7 ATR 1.9%",
-      "Book: 1 ADD \u00b7 0 ACCUMULATE \u00b7 43 HOLD \u00b7 4 EXIT",
-      "Macro tone: NEUTRAL from 162 items across 11 sources",
+      "Book: 1 ADD \u00b7 0 ACCUMULATE \u00b7 41 HOLD \u00b7 6 EXIT",
+      "Macro tone: MILDLY NEGATIVE from 158 items across 11 sources",
       "Strongest sector: Infrastructure (avg score 29)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
       "strong_buys": 0,
       "actionable_buys": 1,
-      "holds": 43,
-      "risk_alerts": 4,
+      "holds": 41,
+      "risk_alerts": 6,
       "earnings_blackouts": 0,
       "do_not_trade": 0
     },
@@ -2728,15 +2731,6 @@
         "verdict": "HOLD"
       },
       {
-        "symbol": "BAJAJFINSV",
-        "name": "Bajaj Finserv",
-        "action": "HOLD",
-        "flags": [
-          "RSI 17 oversold"
-        ],
-        "verdict": "HOLD"
-      },
-      {
         "symbol": "MARUTI",
         "name": "Maruti Suzuki",
         "action": "HOLD",
@@ -2753,6 +2747,17 @@
           "RSI 25 oversold"
         ],
         "verdict": "HOLD"
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "name": "Bajaj Finserv",
+        "action": "EXIT",
+        "flags": [
+          "RSI 17 oversold",
+          "rule \u2192 EXIT",
+          "negative news (1)"
+        ],
+        "verdict": "EXIT"
       }
     ],
     "breakout_watch": [],
@@ -2762,7 +2767,7 @@
         "avg_score": 30.0,
         "count": 2,
         "trend": "down",
-        "news_count": 4,
+        "news_count": 5,
         "news_label": "BULLISH"
       },
       {
@@ -2786,7 +2791,7 @@
         "avg_score": 15.2,
         "count": 6,
         "trend": "down",
-        "news_count": 28,
+        "news_count": 25,
         "news_label": "BEARISH"
       },
       {
@@ -2802,8 +2807,8 @@
         "avg_score": 14.8,
         "count": 4,
         "trend": "down",
-        "news_count": 4,
-        "news_label": "BEARISH"
+        "news_count": 3,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Consumer Disc.",
@@ -2815,10 +2820,10 @@
       },
       {
         "sector": "Defence",
-        "avg_score": 12.0,
+        "avg_score": 10.5,
         "count": 2,
         "trend": "down",
-        "news_count": 4,
+        "news_count": 3,
         "news_label": "BULLISH"
       },
       {
@@ -2826,7 +2831,7 @@
         "avg_score": 9.7,
         "count": 3,
         "trend": "down",
-        "news_count": 2,
+        "news_count": 1,
         "news_label": "BEARISH"
       },
       {
@@ -2839,7 +2844,7 @@
       },
       {
         "sector": "IT",
-        "avg_score": 8.2,
+        "avg_score": 8.0,
         "count": 6,
         "trend": "down",
         "news_count": 0,
@@ -2855,6 +2860,28 @@
       }
     ],
     "action_plan": [
+      {
+        "priority": 1,
+        "type": "EXIT",
+        "symbol": "BAJAJFINSV",
+        "name": "Bajaj Finserv",
+        "price": 1731.0,
+        "instruction": "Market order at open \u2014 rule ladder triggered.",
+        "reason": "MACD histogram expanding",
+        "confidence": "LOW",
+        "verdict": "EXIT"
+      },
+      {
+        "priority": 1,
+        "type": "EXIT",
+        "symbol": "BEL",
+        "name": "Bharat Electronics",
+        "price": 388.3,
+        "instruction": "Market order at open \u2014 rule ladder triggered.",
+        "reason": "MACD histogram expanding",
+        "confidence": "LOW",
+        "verdict": "EXIT"
+      },
       {
         "priority": 1,
         "type": "EXIT",
@@ -2926,6 +2953,19 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/macquarie-sees-strong-earnings-recovery-for-banks-picks-5-stocks-to-outperform/articleshow/134593479.cms"
       },
       {
+        "title": "Weak monsoon unlikely to dent rural demand, Crisil says; Diamond, specialty chemicals, polyester textiles face war risks",
+        "source": "Mint Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking",
+          "FMCG"
+        ],
+        "published": "2026-09-30T17:34:13+00:00",
+        "link": "https://www.livemint.com/economy/weak-monsoon-unlikely-to-dent-rural-demand-crisil-says-diamond-specialty-chemicals-polyester-textiles-face-war-risks-11790788262768.html"
+      },
+      {
         "title": "Top 2 stocks to buy or sell for short-term: Cyient, Max Healthcare by Nagaraj Shetti - Check stop loss, targets",
         "source": "Mint Markets",
         "category": "market",
@@ -2938,6 +2978,40 @@
         "link": "https://www.livemint.com/market/stock-market-news/top-2-stocks-to-buy-or-sell-for-short-term-cyient-max-healthcare-by-nagaraj-shetti-check-stop-loss-targets-11790768211784.html"
       },
       {
+        "title": "Tata Group stock! BofA turns bullish on Trent, initiates coverage with Buy, pegs 17% upside",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [
+          "TRENT"
+        ],
+        "sectors": [],
+        "published": "2026-09-30T13:18:56+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/tata-group-stock-bofa-turns-bullish-on-trent-initiates-coverage-with-buy-pegs-17-upside/articleshow/134595513.cms"
+      },
+      {
+        "title": "Rupee lingers around bottom of Asia FX pile as global headwinds deepen",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking"
+        ],
+        "published": "2026-09-30T10:35:54+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-lingers-around-bottom-of-asia-fx-pile-as-global-headwinds-deepen/articleshow/134591316.cms"
+      },
+      {
+        "title": "Global Market: Eurozone bond yields ease from highs as rate-hike bets cool",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-09-30T09:55:47+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-yields-ease-from-highs-as-rate-hike-bets-cool/articleshow/134590223.cms"
+      },
+      {
         "title": "RBI may raise repo rate by 100 bps through H1 2027: BofA Securities",
         "source": "ET Economy",
         "category": "macro",
@@ -2948,18 +3022,6 @@
         ],
         "published": "2026-09-30T05:23:31+00:00",
         "link": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-may-raise-repo-rate-by-100-bps-through-h1-2027-bofa-securities/articleshow/134582472.cms"
-      },
-      {
-        "title": "RBI rate hikes: Nomura predicts only 50 bps against market\u2019s 125 bps bet, anticipating moderation in inflation pressures",
-        "source": "Mint Economy",
-        "category": "macro",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Banking"
-        ],
-        "published": "2026-09-29T11:21:49+00:00",
-        "link": "https://www.livemint.com/economy/rbi-rate-hike-nomura-prediction-inflation-pressures-11790678218774.html"
       },
       {
         "title": "Up 410% in 5 yrs, why MOFSL sees another 52% upside in Time Technoplast- check target price, rationale behind buy rating",
@@ -3014,48 +3076,14 @@
         "sectors": [],
         "published": "2026-09-30T09:00:36+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/up-over-40-in-6-months-yet-further-47-upside-possible-why-is-nirmal-bang-bullish-on-wework-india-stock-11790757000639.html"
-      },
-      {
-        "title": "US yields pull back as rate hike bets ease after inflation data",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-09-30T15:20:52+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-pull-back-as-rate-hike-bets-ease-after-inflation-data/articleshow/134597756.cms"
-      },
-      {
-        "title": "Tata Group stock! BofA turns bullish on Trent, initiates coverage with Buy, pegs 17% upside",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [
-          "TRENT"
-        ],
-        "sectors": [],
-        "published": "2026-09-30T13:18:56+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/tata-group-stock-bofa-turns-bullish-on-trent-initiates-coverage-with-buy-pegs-17-upside/articleshow/134595513.cms"
-      },
-      {
-        "title": "Rupee lingers around bottom of Asia FX pile as global headwinds deepen",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Banking"
-        ],
-        "published": "2026-09-30T10:35:54+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-lingers-around-bottom-of-asia-fx-pile-as-global-headwinds-deepen/articleshow/134591316.cms"
       }
     ],
     "news_stats": {
-      "total_items": 284,
+      "total_items": 281,
       "sources": 11,
-      "with_tickers": 31,
+      "with_tickers": 33,
       "bullish": 63,
-      "bearish": 59
+      "bearish": 62
     }
   }
 }
