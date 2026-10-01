@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:57:12.218094+05:30",
+  "generated_at": "2026-10-01T16:28:35.802187+05:30",
   "market_date": "2026-10-01",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -2221,7 +2221,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-10-01T15:58:45.247372+05:30",
+    "generated_at": "2026-10-01T16:29:56.045010+05:30",
     "date": "2026-10-01",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 19% breadth, tighten stops; macro neutral",
@@ -2234,7 +2234,7 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": -0.1,
+      "score": -0.11,
       "count": 151,
       "highlights": [
         {
@@ -2807,7 +2807,7 @@
         "action": "EXIT",
         "flags": [
           "rule \u2192 EXIT",
-          "negative news (5)"
+          "negative news (4)"
         ],
         "verdict": "EXIT"
       },
@@ -2848,6 +2848,15 @@
         "verdict": "HOLD"
       },
       {
+        "symbol": "NTPC",
+        "name": "NTPC",
+        "action": "HOLD",
+        "flags": [
+          "RSI 26 oversold"
+        ],
+        "verdict": "HOLD"
+      },
+      {
         "symbol": "EICHERMOT",
         "name": "Eicher Motors",
         "action": "HOLD",
@@ -2865,15 +2874,6 @@
           "negative news (1)"
         ],
         "verdict": "EXIT"
-      },
-      {
-        "symbol": "RELIANCE",
-        "name": "Reliance Industries",
-        "action": "HOLD",
-        "flags": [
-          "RSI 26 oversold"
-        ],
-        "verdict": "HOLD"
       }
     ],
     "breakout_watch": [],
@@ -2923,7 +2923,7 @@
         "avg_score": 13.0,
         "count": 2,
         "trend": "down",
-        "news_count": 5,
+        "news_count": 4,
         "news_label": "BULLISH"
       },
       {
@@ -2943,6 +2943,14 @@
         "news_label": "NEUTRAL"
       },
       {
+        "sector": "Mining",
+        "avg_score": 6.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 0,
+        "news_label": "NEUTRAL"
+      },
+      {
         "sector": "Defence",
         "avg_score": 5.0,
         "count": 2,
@@ -2956,14 +2964,6 @@
         "count": 3,
         "trend": "down",
         "news_count": 6,
-        "news_label": "NEUTRAL"
-      },
-      {
-        "sector": "Mining",
-        "avg_score": 4.0,
-        "count": 1,
-        "trend": "down",
-        "news_count": 0,
         "news_label": "NEUTRAL"
       },
       {
@@ -3116,28 +3116,6 @@
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bonds-face-pressure-as-energy-shock-fuels-rate-hike-bets/articleshow/134614126.cms"
       },
       {
-        "title": "Why is market crashing today? Sensex slumps 700 points, Nifty below 22,400. 5 key factors behind Rs 6 lakh crore wipeout",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-10-01T07:34:54+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-crashing-today-sensex-slumps-800-points-nifty-below-22400-5-key-factors-behind-rs-8-lakh-crore-wipeout/articleshow/134611854.cms"
-      },
-      {
-        "title": "Global Market: BOJ policymakers see scope for faster rate hikes as inflation pressure builds",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [
-          "PERSISTENT"
-        ],
-        "sectors": [],
-        "published": "2026-10-01T05:41:56+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boj-policymakers-see-scope-for-faster-rate-hikes-as-inflation-pressure-builds/articleshow/134609392.cms"
-      },
-      {
         "title": "Nifty IT jumps 2%; Mphasis, Coforge, Infosys, TCS among top gainers - Reason behind the rally, Q2 results expectations",
         "source": "Mint Markets",
         "category": "market",
@@ -3170,14 +3148,38 @@
         "sectors": [],
         "published": "2026-10-01T05:36:28+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/pace-digitek-share-price-jumps-11-what-s-driving-the-stock-11790829979528.html"
+      },
+      {
+        "title": "RBI rate hikes: Nomura predicts only 50 bps against market\u2019s 125 bps bet, anticipating moderation in inflation pressures",
+        "source": "Mint Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Banking"
+        ],
+        "published": "2026-09-29T11:21:49+00:00",
+        "link": "https://www.livemint.com/economy/rbi-rate-hike-nomura-prediction-inflation-pressures-11790678218774.html"
+      },
+      {
+        "title": "Sensex today | Stock Market Live: Sensex falls 650 points, Nifty slips 1%, dragged by auto stocks",
+        "source": "Hindu BusinessLine",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [
+          "PERSISTENT"
+        ],
+        "sectors": [],
+        "published": "2026-10-01T10:18:08+00:00",
+        "link": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-1-october-2026/article71528461.ece"
       }
     ],
     "news_stats": {
-      "total_items": 273,
+      "total_items": 272,
       "sources": 11,
-      "with_tickers": 36,
-      "bullish": 86,
-      "bearish": 60
+      "with_tickers": 37,
+      "bullish": 84,
+      "bearish": 61
     }
   }
 }
