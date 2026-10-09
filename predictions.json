@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:40:34.890608+05:30",
+  "generated_at": "2026-10-09T23:55:58.055383+05:30",
   "market_date": "2026-10-09",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -2727,10 +2727,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-10-09T22:42:19.847675+05:30",
+    "generated_at": "2026-10-09T23:58:24.061326+05:30",
     "date": "2026-10-09",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "BEAR tape \u2014 3 ADDs, 1 cautious; 164 macro items in focus",
+    "headline": "BEAR tape \u2014 3 ADDs, 0 cautious; 163 macro items in focus",
     "regime": {
       "label": "BEAR",
       "breadth_pct": 20.8,
@@ -2740,8 +2740,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.15,
-      "count": 164,
+      "score": 0.14,
+      "count": 163,
       "highlights": [
         {
           "title": "Bitcoin falls to $82,000 as OpenAI revenue concerns and geopolitical tensions trigger nearly $1 billion in crypto liquidations",
@@ -2785,36 +2785,38 @@
           "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-posts-weekly-fall-despite-rate-hike-amid-adverse-flows-weak-sentiment/articleshow/134831035.cms"
         },
         {
-          "title": "No rate cuts, but big GST relief: 8 reforms on refunds, ITC, registration and enforcement | Explained",
-          "source": "ET Economy",
-          "category": "macro",
-          "sentiment": "BULLISH",
-          "sectors": [],
-          "link": "https://economictimes.indiatimes.com/news/economy/policy/gst-council-2026-8-key-reforms-on-registration-refunds-itc-and-enforcement/articleshow/134789303.cms"
-        },
-        {
           "title": "India's forex reserves fall $12.95 billion to $734.60 billion in week ended October 2",
           "source": "ET Economy",
           "category": "macro",
           "sentiment": "MILDLY_BEARISH",
           "sectors": [],
           "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-forex-reserves-fall-12-95-billion-to-734-60-billion-in-week-ended-october-2/articleshow/134832407.cms"
+        },
+        {
+          "title": "Canara Bank to declare Q2 results 2026 on this date | Share price jumps on credit growth expectations",
+          "source": "Mint Markets",
+          "category": "market",
+          "sentiment": "MILDLY_BULLISH",
+          "sectors": [
+            "Banking"
+          ],
+          "link": "https://www.livemint.com/market/stock-market-news/canara-bank-to-declare-q2-results-2026-on-this-date-share-price-jumps-on-credit-growth-expectations-11791538217693.html"
         }
       ]
     },
-    "key_insight": "Risk-off regime with 21% breadth and median momentum +1.2%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 164 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 47 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 21% breadth and median momentum +1.2%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 163 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 47 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 21% \u00b7 median momentum +1.2% \u00b7 ATR 2.2%",
-      "Book: 3 ADD \u00b7 0 ACCUMULATE \u00b7 44 HOLD \u00b7 1 EXIT",
-      "Macro tone: NEUTRAL from 164 items across 11 sources",
+      "Book: 3 ADD \u00b7 0 ACCUMULATE \u00b7 45 HOLD \u00b7 0 EXIT",
+      "Macro tone: NEUTRAL from 163 items across 11 sources",
       "Strongest sector: Retail (avg score 47)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
       "strong_buys": 0,
       "actionable_buys": 3,
-      "holds": 44,
-      "risk_alerts": 1,
+      "holds": 45,
+      "risk_alerts": 0,
       "earnings_blackouts": 0,
       "do_not_trade": 0
     },
@@ -3349,16 +3351,6 @@
         "verdict": "HOLD"
       },
       {
-        "symbol": "SBIN",
-        "name": "State Bank of India",
-        "action": "EXIT",
-        "flags": [
-          "rule \u2192 EXIT",
-          "negative news (1)"
-        ],
-        "verdict": "EXIT"
-      },
-      {
         "symbol": "BEL",
         "name": "Bharat Electronics",
         "action": "HOLD",
@@ -3373,6 +3365,15 @@
         "action": "HOLD",
         "flags": [
           "RSI 16 oversold"
+        ],
+        "verdict": "HOLD"
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "name": "IndusInd Bank",
+        "action": "HOLD",
+        "flags": [
+          "RSI 24 oversold"
         ],
         "verdict": "HOLD"
       }
@@ -3421,10 +3422,10 @@
       },
       {
         "sector": "Banking",
-        "avg_score": 22.7,
+        "avg_score": 23.0,
         "count": 6,
         "trend": "down",
-        "news_count": 25,
+        "news_count": 24,
         "news_label": "BULLISH"
       },
       {
@@ -3485,17 +3486,6 @@
       }
     ],
     "action_plan": [
-      {
-        "priority": 1,
-        "type": "EXIT",
-        "symbol": "SBIN",
-        "name": "State Bank of India",
-        "price": 959.1,
-        "instruction": "Market order at open \u2014 rule ladder triggered.",
-        "reason": "MACD histogram expanding",
-        "confidence": "LOW",
-        "verdict": "EXIT"
-      },
       {
         "priority": 3,
         "type": "ADD",
@@ -3574,16 +3564,6 @@
         "link": "https://www.livemint.com/market/stock-market-news/up-70-in-2026-yet-choice-sees-another-22-rally-initiates-coverage-with-buy-check-target-price-and-stoploss-11791535537550.html"
       },
       {
-        "title": "No rate cuts, but big GST relief: 8 reforms on refunds, ITC, registration and enforcement | Explained",
-        "source": "ET Economy",
-        "category": "macro",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-10-08T12:58:38+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/policy/gst-council-2026-8-key-reforms-on-registration-refunds-itc-and-enforcement/articleshow/134789303.cms"
-      },
-      {
         "title": "Anand Rathi Wealth Q2 Results: Profit rises 22% to Rs 122 crore; co declares dividend of Rs 4 per share",
         "source": "ET Markets",
         "category": "market",
@@ -3629,16 +3609,6 @@
         "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-posts-weekly-fall-despite-rate-hike-amid-adverse-flows-weak-sentiment/articleshow/134831035.cms"
       },
       {
-        "title": "Ashish Kacholia sells over 2 lakh Carysil shares in Q2. How has the stock fared?",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-10-09T08:34:25+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ashish-kacholia-sells-over-2-lakh-carysil-shares-in-q2-how-has-the-stock-fared/articleshow/134824722.cms"
-      },
-      {
         "title": "Share price down 29% in 2026, retail investors\u2019 favourite wind energy stock under pressure - Where is the bottom?",
         "source": "Mint Markets",
         "category": "market",
@@ -3659,14 +3629,37 @@
         "sectors": [],
         "published": "2026-10-09T15:20:51+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/bonus-share-105-returns-in-6-months-record-date-12-oct-2026-do-you-own-check-ratio-11791558999962.html"
+      },
+      {
+        "title": "Relief rally in Indian stock market; biggest weekly losing streak in 25 years snapped: What's next for Sensex, Nifty?",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [
+          "IT",
+          "Oil & Gas"
+        ],
+        "published": "2026-10-09T13:25:35+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/relief-rally-in-indian-stock-market-biggest-weekly-losing-streak-in-25-years-snapped-whats-next-for-sensex-nifty-11791550093630.html"
+      },
+      {
+        "title": "Anand Rathi Wealth Q2 results 2026: Dividend declared; check amount, record date, net profit, revenue and key financials",
+        "source": "Mint Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-10-09T13:25:34+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/anand-rathi-wealth-q2-results-2026-dividend-declared-check-amount-record-date-net-profit-revenue-and-key-financials-11791550522687.html"
       }
     ],
     "news_stats": {
-      "total_items": 279,
+      "total_items": 278,
       "sources": 11,
-      "with_tickers": 42,
-      "bullish": 99,
-      "bearish": 33
+      "with_tickers": 40,
+      "bullish": 98,
+      "bearish": 32
     }
   }
 }
