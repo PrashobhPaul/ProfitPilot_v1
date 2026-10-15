@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:49:11.572454+05:30",
+  "generated_at": "2026-10-15T22:41:58.697755+05:30",
   "market_date": "2026-10-15",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -1816,7 +1816,7 @@
     },
     {
       "symbol": "TATACONSUM",
-      "score": 31,
+      "score": 33,
       "signal": "AVOID",
       "confidence": "LOW",
       "current_price": 991.45,
@@ -1885,38 +1885,38 @@
           "label": "Tomorrow",
           "days": 1,
           "bias": "Bearish",
-          "confidence": "High",
-          "composite": 23.2,
+          "confidence": "Medium",
+          "composite": 28.2,
           "price_band": {
             "low": 958.42,
             "mid": 979.79,
             "high": 1001.17,
             "move_pct_mid": -1.18
           },
-          "catalyst": "Bearish setup, score 31/100",
+          "catalyst": "Bearish setup, score 33/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
           "label": "1 Week",
           "days": 5,
           "bias": "Bearish",
-          "confidence": "High",
-          "composite": 25.6,
+          "confidence": "Medium",
+          "composite": 29.4,
           "price_band": {
             "low": 917.59,
             "mid": 965.38,
             "high": 1013.17,
             "move_pct_mid": -2.63
           },
-          "catalyst": "Weak setup (31/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (33/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
           "label": "1 Month",
           "days": 21,
           "bias": "Bearish",
-          "confidence": "High",
-          "composite": 28.3,
+          "confidence": "Medium",
+          "composite": 31.2,
           "price_band": {
             "low": 840.08,
             "mid": 938.03,
@@ -1927,7 +1927,7 @@
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "TATACONSUM scores 31/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 52 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'Nykaa, Tata Consumer, Blue Star shares: Top stocks to buy | What Kotak Neo suggests - Target' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. FMCG is lagging the broader tape (score 18) \u2014 an extra headwind. Downside risk towards \u20b9962 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "narrative": "TATACONSUM scores 33/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 52 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.6x) adds weight to the move. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. FMCG is lagging the broader tape (score 18) \u2014 an extra headwind. Downside risk towards \u20b9962 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
       "rank": 9
     },
     {
@@ -2281,6 +2281,123 @@
       "rank": 12
     },
     {
+      "symbol": "WIPRO",
+      "score": 29,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 174.05,
+      "change_pct": 1.83,
+      "change": 3.13,
+      "target_price": 185.76,
+      "stop_loss": 163.61,
+      "risk_reward": 1.2,
+      "holding_category": "short",
+      "sector": "IT",
+      "penalty": 11,
+      "scores": {
+        "trend": 3,
+        "momentum": 15,
+        "volume": 4,
+        "breakout": 10,
+        "price_action": 4
+      },
+      "indicators": {
+        "rsi": 65.3,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Bearish",
+        "volume_ratio": 0.54,
+        "week52_pct": 33.9,
+        "bb_position": 1.09,
+        "adx": null
+      },
+      "reasons": [
+        "RSI strong (65.3)",
+        "MACD bullish",
+        "MACD histogram expanding",
+        "OBV trending up",
+        "Near upper BB",
+        "Breaking 20-day high!"
+      ],
+      "trade_plan": {
+        "category": "short",
+        "cat_score": 12,
+        "atr": 4.18,
+        "atr_pct": 2.4,
+        "entry": {
+          "ideal_price": 172.88,
+          "limit_order": 172.76,
+          "acceptable_max": 174.57,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9174.05 | Dip ~\u20b91.17"
+        },
+        "exit": {
+          "target_conservative": 181.58,
+          "target_ideal": 185.76,
+          "target_stretch": 190.78,
+          "upside_conservative": 5.0,
+          "upside_ideal": 7.5,
+          "upside_stretch": 10.4,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9185.76",
+          "hold_note": "Review daily"
+        }
+      },
+      "name": "Wipro",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 30.2,
+          "price_band": {
+            "low": 166.94,
+            "mid": 171.54,
+            "high": 176.14,
+            "move_pct_mid": -1.44
+          },
+          "catalyst": "News flow: Wipro ADRs surge 5% to two-month high despite Q2 profit dip: Is anti-AI trade driving gain",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 29.0,
+          "price_band": {
+            "low": 158.16,
+            "mid": 168.44,
+            "high": 178.72,
+            "move_pct_mid": -3.22
+          },
+          "catalyst": "News flow: Wipro ADRs surge 5% to two-month high despite Q2 profit dip: Is anti-AI trade driving gain",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 29.0,
+          "price_band": {
+            "low": 141.49,
+            "mid": 162.56,
+            "high": 183.63,
+            "move_pct_mid": -6.6
+          },
+          "catalyst": "News flow: Wipro ADRs surge 5% to two-month high despite Q2 profit dip: Is anti-AI trade driving gain",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "Volume isn't backing this advance. That's a yellow flag \u2014 real breakouts come with participation. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 65 means the move is early-to-mid phase, not late innings. Volume is thin (0.5x) \u2014 take any move with a pinch of salt. Newsflow is positive \u2014 4 items in the last 48 hours \u2014 'Wipro ADRs surge 5% to two-month high despite Q2 profit dip: Is anti-AI trade driving gains?' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 38) \u2014 an extra headwind. Downside risk towards \u20b9169 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 13
+    },
+    {
       "symbol": "TCS",
       "score": 28,
       "signal": "AVOID",
@@ -2395,73 +2512,72 @@
         }
       },
       "narrative": "A word of caution \u2014 momentum is surging but the moving average structure hasn't confirmed. This could be a counter-trend bounce rather than a genuine reversal. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. RSI at 76 with 1.9x volume \u2014 buyers mean business. Above-average volume (1.9x) adds weight to the move. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 38) \u2014 an extra headwind. Downside risk towards \u20b92,280 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 13
+      "rank": 14
     },
     {
-      "symbol": "RELIANCE",
-      "score": 28,
+      "symbol": "EICHERMOT",
+      "score": 27,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 1215.0,
-      "change_pct": 3.44,
-      "change": 40.4,
-      "target_price": 1352.66,
-      "stop_loss": 1142.1,
-      "risk_reward": 2.1,
+      "current_price": 7225.0,
+      "change_pct": 2.01,
+      "change": 142.5,
+      "target_price": 8122.68,
+      "stop_loss": 6791.5,
+      "risk_reward": 2.3,
       "holding_category": "medium",
-      "sector": "Conglomerate",
-      "penalty": 11,
+      "sector": "Automobiles",
+      "penalty": 5,
       "scores": {
         "trend": 3,
         "momentum": 17,
-        "volume": 10,
-        "breakout": 3,
-        "price_action": 4
+        "volume": 6,
+        "breakout": 0,
+        "price_action": 6
       },
       "indicators": {
-        "rsi": 49.1,
+        "rsi": 46.2,
         "macd_signal": "Bullish",
         "sma_alignment": "Bearish",
-        "volume_ratio": 1.68,
-        "week52_pct": 24.3,
-        "bb_position": 0.6,
+        "volume_ratio": 1.1,
+        "week52_pct": 11.5,
+        "bb_position": 0.53,
         "adx": null
       },
       "reasons": [
-        "RSI building (49.1)",
+        "RSI building (46.2)",
         "MACD bullish",
         "MACD histogram expanding",
-        "Above avg vol 1.7x",
         "OBV trending up"
       ],
       "trade_plan": {
         "category": "medium",
-        "cat_score": 11,
-        "atr": 25.03,
-        "atr_pct": 2.06,
+        "cat_score": 9,
+        "atr": 163.21,
+        "atr_pct": 2.26,
         "entry": {
-          "ideal_price": 1202.49,
-          "limit_order": 1201.65,
-          "acceptable_max": 1221.07,
+          "ideal_price": 7143.39,
+          "limit_order": 7138.39,
+          "acceptable_max": 7261.12,
           "entry_window": "09:15\u201310:15 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b91,215.00 | Dip ~\u20b912.51"
+          "note": "Prev close \u20b97,225.00 | Dip ~\u20b981.61"
         },
         "exit": {
-          "target_conservative": 1302.6,
-          "target_ideal": 1352.66,
-          "target_stretch": 1415.23,
-          "upside_conservative": 8.3,
-          "upside_ideal": 12.5,
-          "upside_stretch": 17.7,
+          "target_conservative": 7796.25,
+          "target_ideal": 8122.68,
+          "target_stretch": 8530.71,
+          "upside_conservative": 9.1,
+          "upside_ideal": 13.7,
+          "upside_stretch": 19.4,
           "hold_min_days": 30,
           "hold_max_days": 90,
           "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,352.66",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b98,122.68",
           "hold_note": "Review weekly"
         }
       },
-      "name": "Reliance Industries",
+      "name": "Eicher Motors",
       "verdict": "HOLD",
       "forecasts": {
         "1d": {
@@ -2469,14 +2585,14 @@
           "days": 1,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 26.2,
+          "composite": 22.2,
           "price_band": {
-            "low": 1172.45,
-            "mid": 1199.98,
-            "high": 1227.51,
-            "move_pct_mid": -1.24
+            "low": 6947.54,
+            "mid": 7127.07,
+            "high": 7306.6,
+            "move_pct_mid": -1.36
           },
-          "catalyst": "Bearish setup, score 28/100",
+          "catalyst": "Bearish setup, score 27/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -2484,14 +2600,14 @@
           "days": 5,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 26.2,
+          "composite": 23.4,
           "price_band": {
-            "low": 1119.85,
-            "mid": 1181.42,
-            "high": 1242.98,
-            "move_pct_mid": -2.76
+            "low": 6604.59,
+            "mid": 7006.03,
+            "high": 7407.47,
+            "move_pct_mid": -3.03
           },
-          "catalyst": "Weak setup (28/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (27/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -2499,135 +2615,18 @@
           "days": 21,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 27.1,
+          "composite": 25.2,
           "price_band": {
-            "low": 1020.01,
-            "mid": 1146.18,
-            "high": 1272.35,
-            "move_pct_mid": -5.66
+            "low": 5953.53,
+            "mid": 6776.25,
+            "high": 7598.96,
+            "move_pct_mid": -6.21
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 49 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.7x) adds weight to the move. Newsflow is mildly positive \u2014 13 items in the last 48 hours \u2014 'Why IMF\u2019s growth upgrade for India doesn\u2019t tell the full story' (Mint Economy) is the headline to watch. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. Conglomerate is lagging the broader tape (score 26) \u2014 an extra headwind. Downside risk towards \u20b91,179 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 14
-    },
-    {
-      "symbol": "WIPRO",
-      "score": 28,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 174.05,
-      "change_pct": 1.83,
-      "change": 3.13,
-      "target_price": 185.76,
-      "stop_loss": 163.61,
-      "risk_reward": 1.2,
-      "holding_category": "short",
-      "sector": "IT",
-      "penalty": 11,
-      "scores": {
-        "trend": 3,
-        "momentum": 15,
-        "volume": 4,
-        "breakout": 10,
-        "price_action": 4
-      },
-      "indicators": {
-        "rsi": 65.3,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Bearish",
-        "volume_ratio": 0.54,
-        "week52_pct": 33.9,
-        "bb_position": 1.09,
-        "adx": null
-      },
-      "reasons": [
-        "RSI strong (65.3)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up",
-        "Near upper BB",
-        "Breaking 20-day high!"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 12,
-        "atr": 4.18,
-        "atr_pct": 2.4,
-        "entry": {
-          "ideal_price": 172.88,
-          "limit_order": 172.76,
-          "acceptable_max": 174.57,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b9174.05 | Dip ~\u20b91.17"
-        },
-        "exit": {
-          "target_conservative": 181.58,
-          "target_ideal": 185.76,
-          "target_stretch": 190.78,
-          "upside_conservative": 5.0,
-          "upside_ideal": 7.5,
-          "upside_stretch": 10.4,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9185.76",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Wipro",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 27.7,
-          "price_band": {
-            "low": 166.94,
-            "mid": 171.54,
-            "high": 176.14,
-            "move_pct_mid": -1.44
-          },
-          "catalyst": "News flow: Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 27.1,
-          "price_band": {
-            "low": 158.16,
-            "mid": 168.44,
-            "high": 178.72,
-            "move_pct_mid": -3.22
-          },
-          "catalyst": "News flow: Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 27.6,
-          "price_band": {
-            "low": 141.49,
-            "mid": 162.56,
-            "high": 183.63,
-            "move_pct_mid": -6.6
-          },
-          "catalyst": "News flow: Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "Volume isn't backing this advance. That's a yellow flag \u2014 real breakouts come with participation. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 65 means the move is early-to-mid phase, not late innings. Volume is thin (0.5x) \u2014 take any move with a pinch of salt. Newsflow is mildly positive \u2014 3 items in the last 48 hours \u2014 'Q2 Results Highlights, 15 Oct: Wipro PAT rises 9% year-on-year; Tech Mahindra profit jumps' (Hindu BusinessLine) is the headline to watch. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 38) \u2014 an extra headwind. Downside risk towards \u20b9169 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "narrative": "EICHERMOT scores 27/100 on our engine. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. Momentum is flat \u2014 RSI at 46 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 27% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 21) \u2014 an extra headwind. Downside risk towards \u20b97,008 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
       "rank": 15
     }
   ],
@@ -2691,7 +2690,7 @@
       "name": "Tata Consumer Prods",
       "sector": "FMCG",
       "current_price": 991.45,
-      "score": 31,
+      "score": 33,
       "reason": "RSI ideal zone (51.7)"
     }
   ],
@@ -2758,7 +2757,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-10-15T20:51:01.575480+05:30",
+    "generated_at": "2026-10-15T22:43:41.855216+05:30",
     "date": "2026-10-15",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 27% breadth, tighten stops; macro neutral",
@@ -2771,19 +2770,9 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.21,
-      "count": 169,
+      "score": 0.16,
+      "count": 168,
       "highlights": [
-        {
-          "title": "Gallantt Ispat shares rally 14% today: What's fuelling surge? Buy, sell or hold? Check target price, support, resistance",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Metals"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/gallantt-ispat-shares-rally-14-today-whats-fuelling-surge-buy-sell-or-hold-check-target-price-support-resistance-11792045246408.html"
-        },
         {
           "title": "Why IMF\u2019s growth upgrade for India doesn\u2019t tell the full story",
           "source": "Mint Economy",
@@ -2813,6 +2802,16 @@
           "link": "https://economictimes.indiatimes.com/industry/energy/power/indias-data-centre-capacity-may-surge-to-24-26-gw-impact-on-overall-power-demand-to-remain-limited-cea-chairman/articleshow/134969168.cms"
         },
         {
+          "title": "Copper hits 10-day low on profit-taking as supply worries ease",
+          "source": "ET Markets",
+          "category": "market",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Metals"
+          ],
+          "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/copper-hits-10-day-low-on-profit-taking-as-supply-worries-ease/articleshow/134971534.cms"
+        },
+        {
           "title": "US wholesale inflation hits four-year high of 6.3% in September as gas prices surge",
           "source": "Mint Economy",
           "category": "macro",
@@ -2830,11 +2829,11 @@
         }
       ]
     },
-    "key_insight": "Risk-off regime with 27% breadth and median momentum +0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 169 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: IT leads at 38 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 27% breadth and median momentum +0.6%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 168 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: IT leads at 38 while Oil & Gas lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 27% \u00b7 median momentum +0.6% \u00b7 ATR 2.4%",
       "Book: 2 ADD \u00b7 0 ACCUMULATE \u00b7 46 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 169 items across 11 sources",
+      "Macro tone: NEUTRAL from 168 items across 11 sources",
       "Strongest sector: IT (avg score 38)"
     ],
     "market_pulse": {
@@ -2869,7 +2868,7 @@
         "change_pct": 3.44,
         "price": 1215.0,
         "action": "HOLD",
-        "score": 28
+        "score": 27
       },
       {
         "symbol": "BHARTIARTL",
@@ -2911,7 +2910,7 @@
         "change_pct": -1.54,
         "price": 8207.0,
         "action": "HOLD",
-        "score": 21
+        "score": 16
       },
       {
         "symbol": "DIXON",
@@ -3401,7 +3400,7 @@
     "sector_heatmap": [
       {
         "sector": "IT",
-        "avg_score": 38.7,
+        "avg_score": 38.8,
         "count": 6,
         "trend": "down",
         "news_count": 0,
@@ -3433,15 +3432,15 @@
       },
       {
         "sector": "Banking",
-        "avg_score": 31.7,
+        "avg_score": 31.3,
         "count": 6,
         "trend": "down",
-        "news_count": 34,
+        "news_count": 31,
         "news_label": "BEARISH"
       },
       {
         "sector": "Conglomerate",
-        "avg_score": 28.0,
+        "avg_score": 27.0,
         "count": 1,
         "trend": "down",
         "news_count": 0,
@@ -3452,20 +3451,12 @@
         "avg_score": 21.8,
         "count": 4,
         "trend": "down",
-        "news_count": 0,
-        "news_label": "NEUTRAL"
-      },
-      {
-        "sector": "Electricals",
-        "avg_score": 21.0,
-        "count": 1,
-        "trend": "down",
-        "news_count": 0,
+        "news_count": 1,
         "news_label": "NEUTRAL"
       },
       {
         "sector": "NBFC",
-        "avg_score": 20.8,
+        "avg_score": 21.2,
         "count": 4,
         "trend": "down",
         "news_count": 1,
@@ -3481,7 +3472,7 @@
       },
       {
         "sector": "FMCG",
-        "avg_score": 17.8,
+        "avg_score": 18.2,
         "count": 5,
         "trend": "down",
         "news_count": 0,
@@ -3494,6 +3485,14 @@
         "trend": "down",
         "news_count": 0,
         "news_label": "NEUTRAL"
+      },
+      {
+        "sector": "Infrastructure",
+        "avg_score": 16.0,
+        "count": 2,
+        "trend": "down",
+        "news_count": 9,
+        "news_label": "BULLISH"
       }
     ],
     "action_plan": [
@@ -3530,18 +3529,6 @@
         "sectors": [],
         "published": "2026-10-15T12:10:21+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/rentomojo-share-price-jumps-38-from-ipo-price-in-nearly-1-month-check-5-factors-driving-the-surge-11792064514406.html"
-      },
-      {
-        "title": "Gallantt Ispat shares rally 14% today: What's fuelling surge? Buy, sell or hold? Check target price, support, resistance",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Metals"
-        ],
-        "published": "2026-10-15T06:37:41+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/gallantt-ispat-shares-rally-14-today-whats-fuelling-surge-buy-sell-or-hold-check-target-price-support-resistance-11792045246408.html"
       },
       {
         "title": "US stocks: CoreWeave's slump puts spotlight on debt behind AI boom",
@@ -3586,14 +3573,16 @@
         "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/tech-mahindra-q2-results-net-profit-jumps-33-yoy-to-rs-1586-crore-co-declares-rs-15/share-dividend-11-bonus-issue/articleshow/134966850.cms"
       },
       {
-        "title": "Tata Communications Q2 results: Net profit jumps 86% YoY to Rs 341 crore; revenue rises 10%",
-        "source": "ET Markets",
+        "title": "Wipro ADRs surge 5% to two-month high despite Q2 profit dip: Is anti-AI trade driving gains?",
+        "source": "Mint Markets",
         "category": "market",
         "sentiment": "BULLISH",
-        "tickers": [],
+        "tickers": [
+          "WIPRO"
+        ],
         "sectors": [],
-        "published": "2026-10-15T10:16:28+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-communications-q2-results-net-profit-jumps-86-yoy-to-rs-341-crore-revenue-rises-10/articleshow/134964408.cms"
+        "published": "2026-10-15T15:57:53+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/wipro-adrs-surge-5-to-two-month-high-despite-q2-profit-dip-is-anti-ai-trade-driving-gains-11792075444652.html"
       },
       {
         "title": "Tata Elxsi vs Tata Tech: Which Tata Group's stock wins Q2 results report card? Profit, revenue compared - Target price",
@@ -3642,22 +3631,34 @@
         "link": "https://www.livemint.com/market/stock-market-news/irfc-q2-results-2026-dividend-maharatna-psu-declares-highest-ever-dividend-profit-rises-10-to-rs-1-958-cr-11792066355251.html"
       },
       {
-        "title": "BLS International share price jumps 9%: Can the recovery sustain? Check forecast by stock market experts",
-        "source": "Mint Markets",
-        "category": "market",
+        "title": "India's data-centre capacity may surge to 24-26 GW, impact on overall power demand to remain limited: CEA Chairman",
+        "source": "ET Industry",
+        "category": "sector",
         "sentiment": "BULLISH",
         "tickers": [],
+        "sectors": [
+          "Power"
+        ],
+        "published": "2026-10-15T13:22:00+00:00",
+        "link": "https://economictimes.indiatimes.com/industry/energy/power/indias-data-centre-capacity-may-surge-to-24-26-gw-impact-on-overall-power-demand-to-remain-limited-cea-chairman/articleshow/134969168.cms"
+      },
+      {
+        "title": "India's edible oil imports dip 7 pc to 15.44 lakh ton in Sep: SEA",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
         "sectors": [],
-        "published": "2026-10-15T07:15:54+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/bls-international-share-price-jumps-9-can-the-recovery-sustain-check-forecast-by-stock-market-experts-11792045784964.html"
+        "published": "2026-10-15T13:35:02+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-edible-oil-imports-dip-7-pc-to-15-44-lakh-ton-in-sep-sea/articleshow/134969298.cms"
       }
     ],
     "news_stats": {
-      "total_items": 276,
+      "total_items": 278,
       "sources": 11,
-      "with_tickers": 30,
-      "bullish": 89,
-      "bearish": 34
+      "with_tickers": 35,
+      "bullish": 87,
+      "bearish": 40
     }
   }
 }
