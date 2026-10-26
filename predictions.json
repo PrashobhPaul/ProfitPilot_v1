@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26T22:29:02.496048+05:30",
-  "market_date": "2026-10-26",
+  "generated_at": "2026-10-27T00:14:15.887940+05:30",
+  "market_date": "2026-10-27",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
   "stocks_analyzed": 48,
   "regime": {
     "label": "BEAR",
-    "breadth_pct": 25.0,
-    "momentum_pct": 0.92,
-    "volatility": 2.52,
+    "breadth_pct": 20.8,
+    "momentum_pct": -0.76,
+    "volatility": 2.54,
     "notes": "48 stocks analyzed"
   },
   "indices": {
@@ -39,9 +39,9 @@
     }
   },
   "market_breadth": {
-    "advances": 2406,
-    "declines": 510,
-    "unchanged": 583,
+    "advances": 656,
+    "declines": 2406,
+    "unchanged": 437,
     "new_52w_high": 0,
     "new_52w_low": 0
   },
@@ -49,300 +49,66 @@
     "label": "Short Term (5\u201315 days)",
     "picks": [
       {
-        "symbol": "COFORGE",
-        "score": 53,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1993.0,
-        "change_pct": 4.87,
-        "change": 92.5,
-        "target_price": 2188.56,
-        "stop_loss": 1873.42,
-        "risk_reward": 1.8,
-        "holding_category": "short",
-        "sector": "IT",
-        "penalty": 0,
-        "scores": {
-          "trend": 14,
-          "momentum": 15,
-          "volume": 6,
-          "breakout": 10,
-          "price_action": 8
-        },
-        "indicators": {
-          "rsi": 67.0,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Bull (>50>200)",
-          "volume_ratio": 1.97,
-          "week52_pct": 1.4,
-          "bb_position": 0.92,
-          "adx": null
-        },
-        "reasons": [
-          "Bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "RSI strong (67.0)",
-          "MACD bullish",
-          "MACD histogram expanding",
-          "Above avg vol 2.0x"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 18,
-          "atr": 69.84,
-          "atr_pct": 3.5,
-          "entry": {
-            "ideal_price": 1973.44,
-            "limit_order": 1972.06,
-            "acceptable_max": 1998.98,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b91,993.00 | Dip ~\u20b919.56"
-          },
-          "exit": {
-            "target_conservative": 2118.72,
-            "target_ideal": 2188.56,
-            "target_stretch": 2272.37,
-            "upside_conservative": 7.4,
-            "upside_ideal": 10.9,
-            "upside_stretch": 15.1,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b92,188.56",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "Coforge",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 48.2,
-            "price_band": {
-              "low": 1916.18,
-              "mid": 1993.0,
-              "high": 2069.82,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Heavy volume today (2.0x avg) with bull (>50>200)",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 49.4,
-            "price_band": {
-              "low": 1821.22,
-              "mid": 1993.0,
-              "high": 2164.78,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Range-bound week; Bull (>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 51.2,
-            "price_band": {
-              "low": 1640.95,
-              "mid": 1993.0,
-              "high": 2345.05,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in BEAR regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "COFORGE scores 53/100 on our engine. Trend-following signals are turning positive. Not enough for an aggressive bet, but enough to stay constructive. The momentum profile is constructive. RSI at 67 means the move is early-to-mid phase, not late innings. Above-average volume (2.0x) adds weight to the move. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Bull case: momentum carries to \u20b92,165 if volume confirms. Bear case: fades below \u20b91,821 \u2014 failed rally territory. Range-bound between \u20b91,933 and \u20b92,041. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 1
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "score": 49,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1260.0,
-        "change_pct": 6.28,
-        "change": 74.5,
-        "target_price": 1363.06,
-        "stop_loss": 1184.4,
-        "risk_reward": 1.5,
-        "holding_category": "short",
-        "sector": "Metals",
-        "penalty": 0,
-        "scores": {
-          "trend": 9,
-          "momentum": 21,
-          "volume": 10,
-          "breakout": 5,
-          "price_action": 6
-        },
-        "indicators": {
-          "rsi": 53.9,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Above 200 SMA",
-          "volume_ratio": 1.61,
-          "week52_pct": 6.7,
-          "bb_position": 0.76,
-          "adx": null
-        },
-        "reasons": [
-          "Above 200 SMA",
-          "RSI ideal zone (53.9)",
-          "MACD bullish",
-          "MACD histogram expanding",
-          "Above avg vol 1.6x",
-          "OBV trending up"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 14,
-          "atr": 36.81,
-          "atr_pct": 2.92,
-          "entry": {
-            "ideal_price": 1249.69,
-            "limit_order": 1248.82,
-            "acceptable_max": 1263.78,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b91,260.00 | Dip ~\u20b910.31"
-          },
-          "exit": {
-            "target_conservative": 1326.25,
-            "target_ideal": 1363.06,
-            "target_stretch": 1407.23,
-            "upside_conservative": 6.1,
-            "upside_ideal": 9.1,
-            "upside_stretch": 12.6,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,363.06",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "JSW Steel",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 41.2,
-            "price_band": {
-              "low": 1210.31,
-              "mid": 1250.8,
-              "high": 1291.29,
-              "move_pct_mid": -0.73
-            },
-            "catalyst": "Above 200 SMA setup, score 49/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 43.6,
-            "price_band": {
-              "low": 1148.88,
-              "mid": 1239.42,
-              "high": 1329.96,
-              "move_pct_mid": -1.63
-            },
-            "catalyst": "Weak setup (49/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 46.3,
-            "price_band": {
-              "low": 1074.45,
-              "mid": 1260.0,
-              "high": 1445.55,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in BEAR regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "JSWSTEEL scores 49/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 54. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 18) \u2014 an extra headwind. \u20b91,222 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-        "rank": 2
-      },
-      {
         "symbol": "PERSISTENT",
         "score": 48,
         "signal": "WATCH",
         "confidence": "MEDIUM",
-        "current_price": 5850.0,
-        "change_pct": 2.14,
-        "change": 122.5,
-        "target_price": 6992.23,
-        "stop_loss": 5499.0,
+        "current_price": 5727.5,
+        "change_pct": -0.23,
+        "change": -13.0,
+        "target_price": 6861.68,
+        "stop_loss": 5383.85,
         "risk_reward": 3.6,
         "holding_category": "short",
         "sector": "IT",
         "penalty": 0,
         "scores": {
           "trend": 22,
-          "momentum": 21,
-          "volume": 0,
+          "momentum": 17,
+          "volume": 6,
           "breakout": 3,
-          "price_action": 4
+          "price_action": 2
         },
         "indicators": {
-          "rsi": 62.3,
+          "rsi": 63.4,
           "macd_signal": "Bullish",
           "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 0.63,
-          "week52_pct": 10.7,
-          "bb_position": 0.74,
+          "volume_ratio": 1.62,
+          "week52_pct": 12.6,
+          "bb_position": 0.64,
           "adx": null
         },
         "reasons": [
           "Full bullish SMA alignment",
           "EMA 12/26 bullish",
-          "RSI ideal zone (62.3)",
+          "RSI ideal zone (63.4)",
           "MACD bullish",
-          "MACD histogram expanding"
+          "Above avg vol 1.6x"
         ],
         "trade_plan": {
           "category": "medium",
-          "cat_score": 13,
-          "atr": 207.68,
-          "atr_pct": 3.55,
+          "cat_score": 15,
+          "atr": 206.21,
+          "atr_pct": 3.6,
           "entry": {
-            "ideal_price": 5746.16,
-            "limit_order": 5742.14,
-            "acceptable_max": 5879.25,
+            "ideal_price": 5624.39,
+            "limit_order": 5620.45,
+            "acceptable_max": 5756.14,
             "entry_window": "09:15\u201309:45 AM IST",
             "order_strategy": "Patient limit order",
-            "note": "Prev close \u20b95,850.00 | Dip ~\u20b9103.84"
+            "note": "Prev close \u20b95,727.50 | Dip ~\u20b9103.11"
           },
           "exit": {
-            "target_conservative": 6576.88,
-            "target_ideal": 6992.23,
-            "target_stretch": 7511.43,
-            "upside_conservative": 14.5,
-            "upside_ideal": 21.7,
-            "upside_stretch": 30.7,
+            "target_conservative": 6449.25,
+            "target_ideal": 6861.68,
+            "target_stretch": 7377.21,
+            "upside_conservative": 14.7,
+            "upside_ideal": 22.0,
+            "upside_stretch": 31.2,
             "hold_min_days": 30,
             "hold_max_days": 90,
             "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,992.23",
+            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,861.68",
             "hold_note": "Review weekly"
           }
         },
@@ -356,10 +122,10 @@
             "confidence": "Medium",
             "composite": 40.2,
             "price_band": {
-              "low": 5569.63,
-              "mid": 5798.08,
-              "high": 6026.53,
-              "move_pct_mid": -0.89
+              "low": 5449.12,
+              "mid": 5675.95,
+              "high": 5902.78,
+              "move_pct_mid": -0.9
             },
             "catalyst": "Full Bull (>20>50>200) setup, score 48/100",
             "primary_risk": "Gap risk at open; size positions accordingly"
@@ -371,10 +137,10 @@
             "confidence": "Medium",
             "composite": 42.6,
             "price_band": {
-              "low": 5223.08,
-              "mid": 5733.9,
-              "high": 6244.73,
-              "move_pct_mid": -1.98
+              "low": 5105.02,
+              "mid": 5612.23,
+              "high": 6119.43,
+              "move_pct_mid": -2.01
             },
             "catalyst": "Weak setup (48/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -386,112 +152,111 @@
             "confidence": "Medium",
             "composite": 45.3,
             "price_band": {
-              "low": 4803.12,
-              "mid": 5850.0,
-              "high": 6896.88,
+              "low": 4688.03,
+              "mid": 5727.5,
+              "high": 6766.97,
               "move_pct_mid": 0.0
             },
             "catalyst": "Consolidation phase in BEAR regime",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "Volume isn't backing this advance. That's a yellow flag \u2014 real breakouts come with participation. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 62 has room to run before hitting overbought territory. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Watch \u20b95,674 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-        "rank": 3
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 63 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b95,556 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
+        "rank": 1
       },
       {
-        "symbol": "DRREDDY",
+        "symbol": "COFORGE",
         "score": 47,
         "signal": "WATCH",
         "confidence": "MEDIUM",
-        "current_price": 1310.9,
-        "change_pct": 6.62,
-        "change": 81.4,
-        "target_price": 1403.22,
-        "stop_loss": 1232.25,
-        "risk_reward": 1.3,
+        "current_price": 1900.5,
+        "change_pct": -0.43,
+        "change": -8.3,
+        "target_price": 2248.81,
+        "stop_loss": 1786.47,
+        "risk_reward": 3.3,
         "holding_category": "short",
-        "sector": "Pharma",
-        "penalty": 6,
+        "sector": "IT",
+        "penalty": 0,
         "scores": {
-          "trend": 14,
-          "momentum": 9,
-          "volume": 14,
-          "breakout": 10,
-          "price_action": 7
+          "trend": 18,
+          "momentum": 17,
+          "volume": 6,
+          "breakout": 3,
+          "price_action": 3
         },
         "indicators": {
-          "rsi": 72.3,
+          "rsi": 60.7,
           "macd_signal": "Bullish",
-          "sma_alignment": "Above 200 SMA",
-          "volume_ratio": 3.87,
-          "week52_pct": 6.8,
-          "bb_position": 1.27,
+          "sma_alignment": "Bull (>50>200)",
+          "volume_ratio": 1.57,
+          "week52_pct": 6.0,
+          "bb_position": 0.66,
           "adx": null
         },
         "reasons": [
-          "Above 200 SMA",
+          "Bullish SMA alignment",
           "EMA 12/26 bullish",
+          "RSI ideal zone (60.7)",
           "MACD bullish",
-          "MACD histogram expanding",
-          "Volume surge 3.9x",
-          "OBV trending up"
+          "Above avg vol 1.6x"
         ],
         "trade_plan": {
-          "category": "short",
-          "cat_score": 15,
-          "atr": 32.97,
-          "atr_pct": 2.52,
+          "category": "medium",
+          "cat_score": 12,
+          "atr": 63.33,
+          "atr_pct": 3.33,
           "entry": {
-            "ideal_price": 1301.67,
-            "limit_order": 1300.76,
-            "acceptable_max": 1314.83,
+            "ideal_price": 1868.84,
+            "limit_order": 1867.53,
+            "acceptable_max": 1910.0,
             "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b91,310.90 | Dip ~\u20b99.23"
+            "order_strategy": "Patient limit order",
+            "note": "Prev close \u20b91,900.50 | Dip ~\u20b931.66"
           },
           "exit": {
-            "target_conservative": 1370.25,
-            "target_ideal": 1403.22,
-            "target_stretch": 1442.79,
-            "upside_conservative": 5.3,
-            "upside_ideal": 7.8,
-            "upside_stretch": 10.8,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
+            "target_conservative": 2122.15,
+            "target_ideal": 2248.81,
+            "target_stretch": 2407.13,
+            "upside_conservative": 13.6,
+            "upside_ideal": 20.3,
+            "upside_stretch": 28.8,
+            "hold_min_days": 30,
+            "hold_max_days": 90,
             "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,403.22",
-            "hold_note": "Review daily"
+            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b92,248.81",
+            "hold_note": "Review weekly"
           }
         },
-        "name": "Dr. Reddy's",
+        "name": "Coforge",
         "verdict": "HOLD",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
             "days": 1,
             "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 40.7,
+            "confidence": "Low",
+            "composite": 42.2,
             "price_band": {
-              "low": 1266.39,
-              "mid": 1302.66,
-              "high": 1338.92,
-              "move_pct_mid": -0.63
+              "low": 1815.0,
+              "mid": 1884.67,
+              "high": 1954.33,
+              "move_pct_mid": -0.83
             },
-            "catalyst": "Heavy volume today (3.9x avg) with above 200 sma",
+            "catalyst": "Bull (>50>200) setup, score 47/100",
             "primary_risk": "Gap risk at open; size positions accordingly"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 42.5,
+            "confidence": "Low",
+            "composite": 43.4,
             "price_band": {
-              "low": 1211.37,
-              "mid": 1292.47,
-              "high": 1373.56,
-              "move_pct_mid": -1.41
+              "low": 1709.33,
+              "mid": 1865.1,
+              "high": 2020.87,
+              "move_pct_mid": -1.86
             },
             "catalyst": "Weak setup (47/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -499,177 +264,56 @@
           "1m": {
             "label": "1 Month",
             "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.8,
-            "price_band": {
-              "low": 1106.93,
-              "mid": 1273.13,
-              "high": 1439.32,
-              "move_pct_mid": -2.88
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "DRREDDY scores 47/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is strong and backed by volume (3.9x average). That's the kind of conviction that sustains moves. Volume at 3.9x average is speaking loudly. News sentiment is cautious across 2 recent items \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 30) \u2014 an extra headwind. Watch \u20b91,272 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 4
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "score": 46,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 440.75,
-        "change_pct": 2.38,
-        "change": 10.25,
-        "target_price": 469.68,
-        "stop_loss": 414.3,
-        "risk_reward": 1.2,
-        "holding_category": "short",
-        "sector": "Banking",
-        "penalty": 0,
-        "scores": {
-          "trend": 22,
-          "momentum": 10,
-          "volume": 4,
-          "breakout": 3,
-          "price_action": 5
-        },
-        "indicators": {
-          "rsi": 65.4,
-          "macd_signal": "Bearish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 1.2,
-          "week52_pct": 2.7,
-          "bb_position": 0.67,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "RSI strong (65.4)",
-          "MACD histogram expanding",
-          "Near 52W high (2.7%)"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 11,
-          "atr": 10.33,
-          "atr_pct": 2.34,
-          "entry": {
-            "ideal_price": 437.86,
-            "limit_order": 437.55,
-            "acceptable_max": 442.07,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b9440.75 | Dip ~\u20b92.89"
-          },
-          "exit": {
-            "target_conservative": 459.35,
-            "target_ideal": 469.68,
-            "target_stretch": 482.08,
-            "upside_conservative": 4.9,
-            "upside_ideal": 7.3,
-            "upside_stretch": 10.1,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b9469.68",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "Kotak Mahindra Bank",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.2,
-            "price_band": {
-              "low": 426.8,
-              "mid": 438.17,
-              "high": 449.53,
-              "move_pct_mid": -0.59
-            },
-            "catalyst": "RSI at 65 \u2014 momentum carryover likely",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.2,
-            "price_band": {
-              "low": 409.57,
-              "mid": 434.98,
-              "high": 460.38,
-              "move_pct_mid": -1.31
-            },
-            "catalyst": "Weak setup (46/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
             "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 45.1,
+            "confidence": "Low",
+            "composite": 45.2,
             "price_band": {
-              "low": 388.68,
-              "mid": 440.75,
-              "high": 492.82,
+              "low": 1581.26,
+              "mid": 1900.5,
+              "high": 2219.74,
               "move_pct_mid": 0.0
             },
             "catalyst": "Consolidation phase in BEAR regime",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "KOTAKBANK scores 46/100 on our engine. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 65 has room to run before hitting overbought territory. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Why Kotak Mahindra Bank is unlikely to be top investors\u2019 choice among large lenders despite' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b9428 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-        "rank": 5
-      }
-    ]
-  },
-  "medium_term": {
-    "label": "Medium Term (4\u201312 weeks)",
-    "picks": [
+        "narrative": "COFORGE scores 47/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 61. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b91,843 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
+        "rank": 2
+      },
       {
         "symbol": "ICICIBANK",
-        "score": 41,
+        "score": 42,
         "signal": "WATCH",
         "confidence": "MEDIUM",
-        "current_price": 1403.0,
-        "change_pct": 0.63,
-        "change": 8.8,
-        "target_price": 1549.81,
-        "stop_loss": 1318.82,
+        "current_price": 1394.2,
+        "change_pct": -0.31,
+        "change": -4.3,
+        "target_price": 1543.29,
+        "stop_loss": 1310.55,
         "risk_reward": 1.9,
-        "holding_category": "medium",
+        "holding_category": "short",
         "sector": "Banking",
         "penalty": 0,
         "scores": {
           "trend": 16,
           "momentum": 11,
-          "volume": 4,
+          "volume": 6,
           "breakout": 5,
-          "price_action": 5
+          "price_action": 4
         },
         "indicators": {
-          "rsi": 67.6,
+          "rsi": 69.5,
           "macd_signal": "Bullish",
           "sma_alignment": "Bull (>50>200)",
-          "volume_ratio": 0.64,
-          "week52_pct": 4.4,
-          "bb_position": 0.86,
+          "volume_ratio": 0.92,
+          "week52_pct": 5.0,
+          "bb_position": 0.84,
           "adx": null
         },
         "reasons": [
           "Bullish SMA alignment",
           "EMA 12/26 bullish",
-          "RSI strong (67.6)",
+          "RSI strong (69.5)",
           "MACD bullish",
           "OBV trending up",
           "Near upper BB"
@@ -677,27 +321,27 @@
         "trade_plan": {
           "category": "medium",
           "cat_score": 7,
-          "atr": 26.69,
-          "atr_pct": 1.9,
+          "atr": 27.11,
+          "atr_pct": 1.94,
           "entry": {
-            "ideal_price": 1389.65,
-            "limit_order": 1388.68,
-            "acceptable_max": 1410.01,
-            "entry_window": "09:15\u201310:15 AM IST",
+            "ideal_price": 1380.65,
+            "limit_order": 1379.68,
+            "acceptable_max": 1401.17,
+            "entry_window": "09:15\u201309:45 AM IST",
             "order_strategy": "Patient limit order",
-            "note": "Prev close \u20b91,403.00 | Dip ~\u20b913.35"
+            "note": "Prev close \u20b91,394.20 | Dip ~\u20b913.55"
           },
           "exit": {
-            "target_conservative": 1496.43,
-            "target_ideal": 1549.81,
-            "target_stretch": 1616.54,
-            "upside_conservative": 7.7,
-            "upside_ideal": 11.5,
-            "upside_stretch": 16.3,
+            "target_conservative": 1489.07,
+            "target_ideal": 1543.29,
+            "target_stretch": 1611.06,
+            "upside_conservative": 7.9,
+            "upside_ideal": 11.8,
+            "upside_stretch": 16.7,
             "hold_min_days": 30,
             "hold_max_days": 90,
-            "hold_duration": "4\u201312 weeks",
-            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,549.81",
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,543.29",
             "hold_note": "Review weekly"
           }
         },
@@ -709,14 +353,14 @@
             "days": 1,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 36.2,
+            "composite": 37.2,
             "price_band": {
-              "low": 1366.97,
-              "mid": 1396.33,
-              "high": 1425.69,
-              "move_pct_mid": -0.48
+              "low": 1357.6,
+              "mid": 1387.42,
+              "high": 1417.24,
+              "move_pct_mid": -0.49
             },
-            "catalyst": "RSI at 68 \u2014 momentum carryover likely",
+            "catalyst": "RSI at 70 \u2014 momentum carryover likely",
             "primary_risk": "Gap risk at open; size positions accordingly"
           },
           "1w": {
@@ -724,14 +368,14 @@
             "days": 5,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 37.4,
+            "composite": 38.4,
             "price_band": {
-              "low": 1322.43,
-              "mid": 1388.08,
-              "high": 1453.73,
-              "move_pct_mid": -1.06
+              "low": 1312.36,
+              "mid": 1379.05,
+              "high": 1445.73,
+              "move_pct_mid": -1.09
             },
-            "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
+            "catalyst": "Weak setup (42/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
           },
           "1m": {
@@ -739,21 +383,25 @@
             "days": 21,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 39.2,
+            "composite": 40.2,
             "price_band": {
-              "low": 1237.88,
-              "mid": 1372.42,
-              "high": 1506.96,
-              "move_pct_mid": -2.18
+              "low": 1226.48,
+              "mid": 1363.14,
+              "high": 1499.8,
+              "move_pct_mid": -2.23
             },
             "catalyst": "Structural weakness; BEAR regime adds pressure",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "ICICIBANK scores 41/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b91,361 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 1
+        "narrative": "The energy is there but the foundation isn't. Until the 50-day crosses above the 200-day, treat this as a trade, not a position. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI is at 70 \u2014 momentum is real but getting stretched. A consolidation here would be healthy, not alarming. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 17) \u2014 an extra headwind. Watch \u20b91,352 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "rank": 3
       }
     ]
+  },
+  "medium_term": {
+    "label": "Medium Term (4\u201312 weeks)",
+    "picks": []
   },
   "long_term": {
     "label": "Long Term (6\u201318 months)",
@@ -761,300 +409,66 @@
   },
   "top_picks": [
     {
-      "symbol": "COFORGE",
-      "score": 53,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 1993.0,
-      "change_pct": 4.87,
-      "change": 92.5,
-      "target_price": 2188.56,
-      "stop_loss": 1873.42,
-      "risk_reward": 1.8,
-      "holding_category": "short",
-      "sector": "IT",
-      "penalty": 0,
-      "scores": {
-        "trend": 14,
-        "momentum": 15,
-        "volume": 6,
-        "breakout": 10,
-        "price_action": 8
-      },
-      "indicators": {
-        "rsi": 67.0,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 1.97,
-        "week52_pct": 1.4,
-        "bb_position": 0.92,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI strong (67.0)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "Above avg vol 2.0x"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 18,
-        "atr": 69.84,
-        "atr_pct": 3.5,
-        "entry": {
-          "ideal_price": 1973.44,
-          "limit_order": 1972.06,
-          "acceptable_max": 1998.98,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,993.00 | Dip ~\u20b919.56"
-        },
-        "exit": {
-          "target_conservative": 2118.72,
-          "target_ideal": 2188.56,
-          "target_stretch": 2272.37,
-          "upside_conservative": 7.4,
-          "upside_ideal": 10.9,
-          "upside_stretch": 15.1,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b92,188.56",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Coforge",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 48.2,
-          "price_band": {
-            "low": 1916.18,
-            "mid": 1993.0,
-            "high": 2069.82,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Heavy volume today (2.0x avg) with bull (>50>200)",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 49.4,
-          "price_band": {
-            "low": 1821.22,
-            "mid": 1993.0,
-            "high": 2164.78,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Range-bound week; Bull (>50>200) bias",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Low",
-          "composite": 51.2,
-          "price_band": {
-            "low": 1640.95,
-            "mid": 1993.0,
-            "high": 2345.05,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Consolidation phase in BEAR regime",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "COFORGE scores 53/100 on our engine. Trend-following signals are turning positive. Not enough for an aggressive bet, but enough to stay constructive. The momentum profile is constructive. RSI at 67 means the move is early-to-mid phase, not late innings. Above-average volume (2.0x) adds weight to the move. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Bull case: momentum carries to \u20b92,165 if volume confirms. Bear case: fades below \u20b91,821 \u2014 failed rally territory. Range-bound between \u20b91,933 and \u20b92,041. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 1
-    },
-    {
-      "symbol": "JSWSTEEL",
-      "score": 49,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 1260.0,
-      "change_pct": 6.28,
-      "change": 74.5,
-      "target_price": 1363.06,
-      "stop_loss": 1184.4,
-      "risk_reward": 1.5,
-      "holding_category": "short",
-      "sector": "Metals",
-      "penalty": 0,
-      "scores": {
-        "trend": 9,
-        "momentum": 21,
-        "volume": 10,
-        "breakout": 5,
-        "price_action": 6
-      },
-      "indicators": {
-        "rsi": 53.9,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 1.61,
-        "week52_pct": 6.7,
-        "bb_position": 0.76,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "RSI ideal zone (53.9)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "Above avg vol 1.6x",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 14,
-        "atr": 36.81,
-        "atr_pct": 2.92,
-        "entry": {
-          "ideal_price": 1249.69,
-          "limit_order": 1248.82,
-          "acceptable_max": 1263.78,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,260.00 | Dip ~\u20b910.31"
-        },
-        "exit": {
-          "target_conservative": 1326.25,
-          "target_ideal": 1363.06,
-          "target_stretch": 1407.23,
-          "upside_conservative": 6.1,
-          "upside_ideal": 9.1,
-          "upside_stretch": 12.6,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,363.06",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "JSW Steel",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 41.2,
-          "price_band": {
-            "low": 1210.31,
-            "mid": 1250.8,
-            "high": 1291.29,
-            "move_pct_mid": -0.73
-          },
-          "catalyst": "Above 200 SMA setup, score 49/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 43.6,
-          "price_band": {
-            "low": 1148.88,
-            "mid": 1239.42,
-            "high": 1329.96,
-            "move_pct_mid": -1.63
-          },
-          "catalyst": "Weak setup (49/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 46.3,
-          "price_band": {
-            "low": 1074.45,
-            "mid": 1260.0,
-            "high": 1445.55,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "Consolidation phase in BEAR regime",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "JSWSTEEL scores 49/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 54. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 18) \u2014 an extra headwind. \u20b91,222 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-      "rank": 2
-    },
-    {
       "symbol": "PERSISTENT",
       "score": 48,
       "signal": "WATCH",
       "confidence": "MEDIUM",
-      "current_price": 5850.0,
-      "change_pct": 2.14,
-      "change": 122.5,
-      "target_price": 6992.23,
-      "stop_loss": 5499.0,
+      "current_price": 5727.5,
+      "change_pct": -0.23,
+      "change": -13.0,
+      "target_price": 6861.68,
+      "stop_loss": 5383.85,
       "risk_reward": 3.6,
       "holding_category": "medium",
       "sector": "IT",
       "penalty": 0,
       "scores": {
         "trend": 22,
-        "momentum": 21,
-        "volume": 0,
+        "momentum": 17,
+        "volume": 6,
         "breakout": 3,
-        "price_action": 4
+        "price_action": 2
       },
       "indicators": {
-        "rsi": 62.3,
+        "rsi": 63.4,
         "macd_signal": "Bullish",
         "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 0.63,
-        "week52_pct": 10.7,
-        "bb_position": 0.74,
+        "volume_ratio": 1.62,
+        "week52_pct": 12.6,
+        "bb_position": 0.64,
         "adx": null
       },
       "reasons": [
         "Full bullish SMA alignment",
         "EMA 12/26 bullish",
-        "RSI ideal zone (62.3)",
+        "RSI ideal zone (63.4)",
         "MACD bullish",
-        "MACD histogram expanding"
+        "Above avg vol 1.6x"
       ],
       "trade_plan": {
         "category": "medium",
-        "cat_score": 13,
-        "atr": 207.68,
-        "atr_pct": 3.55,
+        "cat_score": 15,
+        "atr": 206.21,
+        "atr_pct": 3.6,
         "entry": {
-          "ideal_price": 5746.16,
-          "limit_order": 5742.14,
-          "acceptable_max": 5879.25,
+          "ideal_price": 5624.39,
+          "limit_order": 5620.45,
+          "acceptable_max": 5756.14,
           "entry_window": "09:15\u201309:45 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b95,850.00 | Dip ~\u20b9103.84"
+          "note": "Prev close \u20b95,727.50 | Dip ~\u20b9103.11"
         },
         "exit": {
-          "target_conservative": 6576.88,
-          "target_ideal": 6992.23,
-          "target_stretch": 7511.43,
-          "upside_conservative": 14.5,
-          "upside_ideal": 21.7,
-          "upside_stretch": 30.7,
+          "target_conservative": 6449.25,
+          "target_ideal": 6861.68,
+          "target_stretch": 7377.21,
+          "upside_conservative": 14.7,
+          "upside_ideal": 22.0,
+          "upside_stretch": 31.2,
           "hold_min_days": 30,
           "hold_max_days": 90,
           "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,992.23",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,861.68",
           "hold_note": "Review weekly"
         }
       },
@@ -1068,10 +482,10 @@
           "confidence": "Medium",
           "composite": 40.2,
           "price_band": {
-            "low": 5569.63,
-            "mid": 5798.08,
-            "high": 6026.53,
-            "move_pct_mid": -0.89
+            "low": 5449.12,
+            "mid": 5675.95,
+            "high": 5902.78,
+            "move_pct_mid": -0.9
           },
           "catalyst": "Full Bull (>20>50>200) setup, score 48/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
@@ -1083,10 +497,10 @@
           "confidence": "Medium",
           "composite": 42.6,
           "price_band": {
-            "low": 5223.08,
-            "mid": 5733.9,
-            "high": 6244.73,
-            "move_pct_mid": -1.98
+            "low": 5105.02,
+            "mid": 5612.23,
+            "high": 6119.43,
+            "move_pct_mid": -2.01
           },
           "catalyst": "Weak setup (48/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -1098,112 +512,111 @@
           "confidence": "Medium",
           "composite": 45.3,
           "price_band": {
-            "low": 4803.12,
-            "mid": 5850.0,
-            "high": 6896.88,
+            "low": 4688.03,
+            "mid": 5727.5,
+            "high": 6766.97,
             "move_pct_mid": 0.0
           },
           "catalyst": "Consolidation phase in BEAR regime",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "Volume isn't backing this advance. That's a yellow flag \u2014 real breakouts come with participation. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 62 has room to run before hitting overbought territory. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Watch \u20b95,674 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-      "rank": 3
+      "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 63 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b95,556 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
+      "rank": 1
     },
     {
-      "symbol": "DRREDDY",
+      "symbol": "COFORGE",
       "score": 47,
       "signal": "WATCH",
       "confidence": "MEDIUM",
-      "current_price": 1310.9,
-      "change_pct": 6.62,
-      "change": 81.4,
-      "target_price": 1403.22,
-      "stop_loss": 1232.25,
-      "risk_reward": 1.3,
-      "holding_category": "short",
-      "sector": "Pharma",
-      "penalty": 6,
+      "current_price": 1900.5,
+      "change_pct": -0.43,
+      "change": -8.3,
+      "target_price": 2248.81,
+      "stop_loss": 1786.47,
+      "risk_reward": 3.3,
+      "holding_category": "medium",
+      "sector": "IT",
+      "penalty": 0,
       "scores": {
-        "trend": 14,
-        "momentum": 9,
-        "volume": 14,
-        "breakout": 10,
-        "price_action": 7
+        "trend": 18,
+        "momentum": 17,
+        "volume": 6,
+        "breakout": 3,
+        "price_action": 3
       },
       "indicators": {
-        "rsi": 72.3,
+        "rsi": 60.7,
         "macd_signal": "Bullish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 3.87,
-        "week52_pct": 6.8,
-        "bb_position": 1.27,
+        "sma_alignment": "Bull (>50>200)",
+        "volume_ratio": 1.57,
+        "week52_pct": 6.0,
+        "bb_position": 0.66,
         "adx": null
       },
       "reasons": [
-        "Above 200 SMA",
+        "Bullish SMA alignment",
         "EMA 12/26 bullish",
+        "RSI ideal zone (60.7)",
         "MACD bullish",
-        "MACD histogram expanding",
-        "Volume surge 3.9x",
-        "OBV trending up"
+        "Above avg vol 1.6x"
       ],
       "trade_plan": {
-        "category": "short",
-        "cat_score": 15,
-        "atr": 32.97,
-        "atr_pct": 2.52,
+        "category": "medium",
+        "cat_score": 12,
+        "atr": 63.33,
+        "atr_pct": 3.33,
         "entry": {
-          "ideal_price": 1301.67,
-          "limit_order": 1300.76,
-          "acceptable_max": 1314.83,
+          "ideal_price": 1868.84,
+          "limit_order": 1867.53,
+          "acceptable_max": 1910.0,
           "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,310.90 | Dip ~\u20b99.23"
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b91,900.50 | Dip ~\u20b931.66"
         },
         "exit": {
-          "target_conservative": 1370.25,
-          "target_ideal": 1403.22,
-          "target_stretch": 1442.79,
-          "upside_conservative": 5.3,
-          "upside_ideal": 7.8,
-          "upside_stretch": 10.8,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
+          "target_conservative": 2122.15,
+          "target_ideal": 2248.81,
+          "target_stretch": 2407.13,
+          "upside_conservative": 13.6,
+          "upside_ideal": 20.3,
+          "upside_stretch": 28.8,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
           "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,403.22",
-          "hold_note": "Review daily"
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b92,248.81",
+          "hold_note": "Review weekly"
         }
       },
-      "name": "Dr. Reddy's",
+      "name": "Coforge",
       "verdict": "HOLD",
       "forecasts": {
         "1d": {
           "label": "Tomorrow",
           "days": 1,
           "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 40.7,
+          "confidence": "Low",
+          "composite": 42.2,
           "price_band": {
-            "low": 1266.39,
-            "mid": 1302.66,
-            "high": 1338.92,
-            "move_pct_mid": -0.63
+            "low": 1815.0,
+            "mid": 1884.67,
+            "high": 1954.33,
+            "move_pct_mid": -0.83
           },
-          "catalyst": "Heavy volume today (3.9x avg) with above 200 sma",
+          "catalyst": "Bull (>50>200) setup, score 47/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
           "label": "1 Week",
           "days": 5,
           "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 42.5,
+          "confidence": "Low",
+          "composite": 43.4,
           "price_band": {
-            "low": 1211.37,
-            "mid": 1292.47,
-            "high": 1373.56,
-            "move_pct_mid": -1.41
+            "low": 1709.33,
+            "mid": 1865.1,
+            "high": 2020.87,
+            "move_pct_mid": -1.86
           },
           "catalyst": "Weak setup (47/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -1211,148 +624,32 @@
         "1m": {
           "label": "1 Month",
           "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 44.8,
-          "price_band": {
-            "low": 1106.93,
-            "mid": 1273.13,
-            "high": 1439.32,
-            "move_pct_mid": -2.88
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "DRREDDY scores 47/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is strong and backed by volume (3.9x average). That's the kind of conviction that sustains moves. Volume at 3.9x average is speaking loudly. News sentiment is cautious across 2 recent items \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 30) \u2014 an extra headwind. Watch \u20b91,272 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 4
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "score": 46,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 440.75,
-      "change_pct": 2.38,
-      "change": 10.25,
-      "target_price": 469.68,
-      "stop_loss": 414.3,
-      "risk_reward": 1.2,
-      "holding_category": "short",
-      "sector": "Banking",
-      "penalty": 0,
-      "scores": {
-        "trend": 22,
-        "momentum": 10,
-        "volume": 4,
-        "breakout": 3,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 65.4,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 1.2,
-        "week52_pct": 2.7,
-        "bb_position": 0.67,
-        "adx": null
-      },
-      "reasons": [
-        "Full bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI strong (65.4)",
-        "MACD histogram expanding",
-        "Near 52W high (2.7%)"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 11,
-        "atr": 10.33,
-        "atr_pct": 2.34,
-        "entry": {
-          "ideal_price": 437.86,
-          "limit_order": 437.55,
-          "acceptable_max": 442.07,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b9440.75 | Dip ~\u20b92.89"
-        },
-        "exit": {
-          "target_conservative": 459.35,
-          "target_ideal": 469.68,
-          "target_stretch": 482.08,
-          "upside_conservative": 4.9,
-          "upside_ideal": 7.3,
-          "upside_stretch": 10.1,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9469.68",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Kotak Mahindra Bank",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 44.2,
-          "price_band": {
-            "low": 426.8,
-            "mid": 438.17,
-            "high": 449.53,
-            "move_pct_mid": -0.59
-          },
-          "catalyst": "RSI at 65 \u2014 momentum carryover likely",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 44.2,
-          "price_band": {
-            "low": 409.57,
-            "mid": 434.98,
-            "high": 460.38,
-            "move_pct_mid": -1.31
-          },
-          "catalyst": "Weak setup (46/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
           "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 45.1,
+          "confidence": "Low",
+          "composite": 45.2,
           "price_band": {
-            "low": 388.68,
-            "mid": 440.75,
-            "high": 492.82,
+            "low": 1581.26,
+            "mid": 1900.5,
+            "high": 2219.74,
             "move_pct_mid": 0.0
           },
           "catalyst": "Consolidation phase in BEAR regime",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "KOTAKBANK scores 46/100 on our engine. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 65 has room to run before hitting overbought territory. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Why Kotak Mahindra Bank is unlikely to be top investors\u2019 choice among large lenders despite' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b9428 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-      "rank": 5
+      "narrative": "COFORGE scores 47/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 61. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b91,843 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
+      "rank": 2
     },
     {
       "symbol": "ICICIBANK",
-      "score": 41,
+      "score": 42,
       "signal": "WATCH",
       "confidence": "MEDIUM",
-      "current_price": 1403.0,
-      "change_pct": 0.63,
-      "change": 8.8,
-      "target_price": 1549.81,
-      "stop_loss": 1318.82,
+      "current_price": 1394.2,
+      "change_pct": -0.31,
+      "change": -4.3,
+      "target_price": 1543.29,
+      "stop_loss": 1310.55,
       "risk_reward": 1.9,
       "holding_category": "medium",
       "sector": "Banking",
@@ -1360,23 +657,23 @@
       "scores": {
         "trend": 16,
         "momentum": 11,
-        "volume": 4,
+        "volume": 6,
         "breakout": 5,
-        "price_action": 5
+        "price_action": 4
       },
       "indicators": {
-        "rsi": 67.6,
+        "rsi": 69.5,
         "macd_signal": "Bullish",
         "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 0.64,
-        "week52_pct": 4.4,
-        "bb_position": 0.86,
+        "volume_ratio": 0.92,
+        "week52_pct": 5.0,
+        "bb_position": 0.84,
         "adx": null
       },
       "reasons": [
         "Bullish SMA alignment",
         "EMA 12/26 bullish",
-        "RSI strong (67.6)",
+        "RSI strong (69.5)",
         "MACD bullish",
         "OBV trending up",
         "Near upper BB"
@@ -1384,27 +681,27 @@
       "trade_plan": {
         "category": "medium",
         "cat_score": 7,
-        "atr": 26.69,
-        "atr_pct": 1.9,
+        "atr": 27.11,
+        "atr_pct": 1.94,
         "entry": {
-          "ideal_price": 1389.65,
-          "limit_order": 1388.68,
-          "acceptable_max": 1410.01,
-          "entry_window": "09:15\u201310:15 AM IST",
+          "ideal_price": 1380.65,
+          "limit_order": 1379.68,
+          "acceptable_max": 1401.17,
+          "entry_window": "09:15\u201309:45 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b91,403.00 | Dip ~\u20b913.35"
+          "note": "Prev close \u20b91,394.20 | Dip ~\u20b913.55"
         },
         "exit": {
-          "target_conservative": 1496.43,
-          "target_ideal": 1549.81,
-          "target_stretch": 1616.54,
-          "upside_conservative": 7.7,
-          "upside_ideal": 11.5,
-          "upside_stretch": 16.3,
+          "target_conservative": 1489.07,
+          "target_ideal": 1543.29,
+          "target_stretch": 1611.06,
+          "upside_conservative": 7.9,
+          "upside_ideal": 11.8,
+          "upside_stretch": 16.7,
           "hold_min_days": 30,
           "hold_max_days": 90,
-          "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,549.81",
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,543.29",
           "hold_note": "Review weekly"
         }
       },
@@ -1416,14 +713,14 @@
           "days": 1,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 36.2,
+          "composite": 37.2,
           "price_band": {
-            "low": 1366.97,
-            "mid": 1396.33,
-            "high": 1425.69,
-            "move_pct_mid": -0.48
+            "low": 1357.6,
+            "mid": 1387.42,
+            "high": 1417.24,
+            "move_pct_mid": -0.49
           },
-          "catalyst": "RSI at 68 \u2014 momentum carryover likely",
+          "catalyst": "RSI at 70 \u2014 momentum carryover likely",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -1431,14 +728,14 @@
           "days": 5,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 37.4,
+          "composite": 38.4,
           "price_band": {
-            "low": 1322.43,
-            "mid": 1388.08,
-            "high": 1453.73,
-            "move_pct_mid": -1.06
+            "low": 1312.36,
+            "mid": 1379.05,
+            "high": 1445.73,
+            "move_pct_mid": -1.09
           },
-          "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (42/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -1446,85 +743,83 @@
           "days": 21,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 39.2,
+          "composite": 40.2,
           "price_band": {
-            "low": 1237.88,
-            "mid": 1372.42,
-            "high": 1506.96,
-            "move_pct_mid": -2.18
+            "low": 1226.48,
+            "mid": 1363.14,
+            "high": 1499.8,
+            "move_pct_mid": -2.23
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "ICICIBANK scores 41/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b91,361 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 6
+      "narrative": "The energy is there but the foundation isn't. Until the 50-day crosses above the 200-day, treat this as a trade, not a position. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI is at 70 \u2014 momentum is real but getting stretched. A consolidation here would be healthy, not alarming. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 17) \u2014 an extra headwind. Watch \u20b91,352 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 3
     },
     {
-      "symbol": "CIPLA",
-      "score": 39,
+      "symbol": "KOTAKBANK",
+      "score": 37,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 1355.0,
-      "change_pct": 1.27,
-      "change": 17.0,
-      "target_price": 1428.78,
-      "stop_loss": 1273.7,
-      "risk_reward": 1.0,
-      "holding_category": "short",
-      "sector": "Pharma",
-      "penalty": 5,
+      "current_price": 430.5,
+      "change_pct": -1.49,
+      "change": -6.5,
+      "target_price": 624.23,
+      "stop_loss": 404.67,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Banking",
+      "penalty": 0,
       "scores": {
-        "trend": 3,
-        "momentum": 21,
-        "volume": 10,
-        "breakout": 5,
-        "price_action": 5
+        "trend": 22,
+        "momentum": 12,
+        "volume": 0,
+        "breakout": 0,
+        "price_action": 3
       },
       "indicators": {
-        "rsi": 56.3,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Bearish",
-        "volume_ratio": 1.58,
-        "week52_pct": 14.2,
-        "bb_position": 0.68,
+        "rsi": 58.4,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Full Bull (>20>50>200)",
+        "volume_ratio": 0.61,
+        "week52_pct": 5.0,
+        "bb_position": 0.52,
         "adx": null
       },
       "reasons": [
-        "RSI ideal zone (56.3)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "Above avg vol 1.6x",
-        "OBV trending up"
+        "Full bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI ideal zone (58.4)"
       ],
       "trade_plan": {
-        "category": "short",
-        "cat_score": 11,
-        "atr": 26.35,
-        "atr_pct": 1.94,
+        "category": "long",
+        "cat_score": 10,
+        "atr": 9.97,
+        "atr_pct": 2.32,
         "entry": {
-          "ideal_price": 1347.62,
-          "limit_order": 1346.68,
-          "acceptable_max": 1359.06,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,355.00 | Dip ~\u20b97.38"
+          "ideal_price": 423.02,
+          "limit_order": 422.72,
+          "acceptable_max": 434.81,
+          "entry_window": "09:15 AM IST (GTC)",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b9430.50 | Dip ~\u20b97.48"
         },
         "exit": {
-          "target_conservative": 1402.43,
-          "target_ideal": 1428.78,
-          "target_stretch": 1460.4,
-          "upside_conservative": 4.1,
-          "upside_ideal": 6.0,
-          "upside_stretch": 8.4,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,428.78",
-          "hold_note": "Review daily"
+          "target_conservative": 538.12,
+          "target_ideal": 624.23,
+          "target_stretch": 710.32,
+          "upside_conservative": 27.2,
+          "upside_ideal": 47.6,
+          "upside_stretch": 67.9,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "6\u201318 months",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b9624.23 hit",
+          "hold_note": "Review monthly"
         }
       },
-      "name": "Cipla",
+      "name": "Kotak Mahindra Bank",
       "verdict": "HOLD",
       "forecasts": {
         "1d": {
@@ -1532,14 +827,14 @@
           "days": 1,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 34.2,
+          "composite": 32.2,
           "price_band": {
-            "low": 1319.43,
-            "mid": 1348.41,
-            "high": 1377.4,
-            "move_pct_mid": -0.49
+            "low": 417.04,
+            "mid": 428.01,
+            "high": 438.97,
+            "move_pct_mid": -0.58
           },
-          "catalyst": "Bearish setup, score 39/100",
+          "catalyst": "Full Bull (>20>50>200) setup, score 37/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -1547,14 +842,14 @@
           "days": 5,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 35.4,
+          "composite": 33.4,
           "price_band": {
-            "low": 1275.46,
-            "mid": 1340.27,
-            "high": 1405.08,
-            "move_pct_mid": -1.09
+            "low": 400.4,
+            "mid": 424.93,
+            "high": 449.45,
+            "move_pct_mid": -1.29
           },
-          "catalyst": "Weak setup (39/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -1562,82 +857,197 @@
           "days": 21,
           "bias": "Mildly Bearish",
           "confidence": "Medium",
-          "composite": 37.2,
+          "composite": 35.2,
           "price_band": {
-            "low": 1191.99,
-            "mid": 1324.81,
-            "high": 1457.64,
-            "move_pct_mid": -2.23
+            "low": 368.82,
+            "mid": 419.08,
+            "high": 469.34,
+            "move_pct_mid": -2.65
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "CIPLA scores 39/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 56 means the move is early-to-mid phase, not late innings. Above-average volume (1.6x) adds weight to the move. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 30) \u2014 an extra headwind. Watch \u20b91,314 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 7
+      "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 58. Neutral. Nothing to act on from momentum alone. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 17) \u2014 an extra headwind. \u20b9418 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 4
     },
     {
-      "symbol": "BHARTIARTL",
-      "score": 34,
+      "symbol": "HAL",
+      "score": 33,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 1917.5,
-      "change_pct": 1.34,
-      "change": 25.4,
-      "target_price": 2184.6,
-      "stop_loss": 1802.45,
+      "current_price": 4725.0,
+      "change_pct": -3.08,
+      "change": -150.0,
+      "target_price": 5378.91,
+      "stop_loss": 4441.5,
       "risk_reward": 2.5,
       "holding_category": "medium",
-      "sector": "Telecom",
-      "penalty": 6,
+      "sector": "Defence",
+      "penalty": 3,
       "scores": {
-        "trend": 12,
-        "momentum": 15,
+        "trend": 11,
+        "momentum": 17,
         "volume": 4,
-        "breakout": 5,
-        "price_action": 4
+        "breakout": 0,
+        "price_action": 2
       },
       "indicators": {
-        "rsi": 70.3,
+        "rsi": 55.8,
         "macd_signal": "Bullish",
         "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 0.36,
-        "week52_pct": 10.7,
-        "bb_position": 0.93,
+        "volume_ratio": 1.45,
+        "week52_pct": 8.3,
+        "bb_position": 0.39,
         "adx": null
       },
       "reasons": [
         "Above 200 SMA",
         "EMA 12/26 bullish",
-        "RSI strong (70.3)",
+        "RSI ideal zone (55.8)",
+        "MACD bullish"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 11,
+        "atr": 118.89,
+        "atr_pct": 2.52,
+        "entry": {
+          "ideal_price": 4665.55,
+          "limit_order": 4662.28,
+          "acceptable_max": 4748.62,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b94,725.00 | Dip ~\u20b959.45"
+        },
+        "exit": {
+          "target_conservative": 5141.12,
+          "target_ideal": 5378.91,
+          "target_stretch": 5676.14,
+          "upside_conservative": 10.2,
+          "upside_ideal": 15.3,
+          "upside_stretch": 21.7,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b95,378.91",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Hindustan Aeronautics",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 31.2,
+          "price_band": {
+            "low": 4522.89,
+            "mid": 4653.67,
+            "high": 4784.45,
+            "move_pct_mid": -1.51
+          },
+          "catalyst": "Above 200 SMA setup, score 33/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 31.2,
+          "price_band": {
+            "low": 4273.06,
+            "mid": 4565.49,
+            "high": 4857.92,
+            "move_pct_mid": -3.38
+          },
+          "catalyst": "Weak setup (33/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 32.1,
+          "price_band": {
+            "low": 3989.49,
+            "mid": 4588.79,
+            "high": 5188.1,
+            "move_pct_mid": -2.88
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "HAL scores 33/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 56. Neutral. Nothing to act on from momentum alone. Above-average volume (1.4x) adds weight to the move. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Cultivation of large cardamom emerges as a lucrative option for higher income from limited land' (ET Economy) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b94,583 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Mildly Bearish.",
+      "rank": 5
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "score": 32,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1892.1,
+      "change_pct": -0.15,
+      "change": -2.9,
+      "target_price": 2157.55,
+      "stop_loss": 1778.57,
+      "risk_reward": 2.6,
+      "holding_category": "medium",
+      "sector": "Telecom",
+      "penalty": 6,
+      "scores": {
+        "trend": 12,
+        "momentum": 11,
+        "volume": 6,
+        "breakout": 5,
+        "price_action": 4
+      },
+      "indicators": {
+        "rsi": 71.5,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 1.18,
+        "week52_pct": 11.9,
+        "bb_position": 0.87,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "EMA 12/26 bullish",
+        "RSI strong (71.5)",
         "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up"
+        "OBV trending up",
+        "Near upper BB"
       ],
       "trade_plan": {
         "category": "medium",
         "cat_score": 6,
-        "atr": 48.56,
-        "atr_pct": 2.53,
+        "atr": 48.26,
+        "atr_pct": 2.55,
         "entry": {
-          "ideal_price": 1893.22,
-          "limit_order": 1891.89,
-          "acceptable_max": 1927.09,
+          "ideal_price": 1867.97,
+          "limit_order": 1866.66,
+          "acceptable_max": 1901.56,
           "entry_window": "09:15\u201310:15 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b91,917.50 | Dip ~\u20b924.28"
+          "note": "Prev close \u20b91,892.10 | Dip ~\u20b924.13"
         },
         "exit": {
-          "target_conservative": 2087.48,
-          "target_ideal": 2184.6,
-          "target_stretch": 2306.01,
+          "target_conservative": 2061.03,
+          "target_ideal": 2157.55,
+          "target_stretch": 2278.21,
           "upside_conservative": 10.3,
-          "upside_ideal": 15.4,
-          "upside_stretch": 21.8,
+          "upside_ideal": 15.5,
+          "upside_stretch": 22.0,
           "hold_min_days": 30,
           "hold_max_days": 90,
           "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b92,184.60",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b92,157.55",
           "hold_note": "Review weekly"
         }
       },
@@ -1649,14 +1059,14 @@
           "days": 1,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 29.2,
+          "composite": 27.2,
           "price_band": {
-            "low": 1834.95,
-            "mid": 1888.36,
-            "high": 1941.78,
-            "move_pct_mid": -1.52
+            "low": 1810.06,
+            "mid": 1863.14,
+            "high": 1916.23,
+            "move_pct_mid": -1.53
           },
-          "catalyst": "RSI at 70 \u2014 momentum carryover likely",
+          "catalyst": "RSI at 72 \u2014 momentum carryover likely",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -1664,244 +1074,14 @@
           "days": 5,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 30.4,
+          "composite": 28.4,
           "price_band": {
-            "low": 1732.91,
-            "mid": 1852.35,
-            "high": 1971.79,
-            "move_pct_mid": -3.4
+            "low": 1708.65,
+            "mid": 1827.35,
+            "high": 1946.06,
+            "move_pct_mid": -3.42
           },
-          "catalyst": "Weak setup (34/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 32.2,
-          "price_band": {
-            "low": 1617.08,
-            "mid": 1861.87,
-            "high": 2106.65,
-            "move_pct_mid": -2.9
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "BHARTIARTL scores 34/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Buyers are in control (RSI 70), but the stock is getting ahead of itself. Best entries come after a pause. Volume is thin (0.4x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Telecom is lagging the broader tape (score 34) \u2014 an extra headwind. Downside risk towards \u20b91,860 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Mildly Bearish.",
-      "rank": 8
-    },
-    {
-      "symbol": "HAL",
-      "score": 34,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 4775.0,
-      "change_pct": 1.06,
-      "change": 50.0,
-      "target_price": 5125.08,
-      "stop_loss": 4488.5,
-      "risk_reward": 1.3,
-      "holding_category": "short",
-      "sector": "Defence",
-      "penalty": 0,
-      "scores": {
-        "trend": 11,
-        "momentum": 17,
-        "volume": 0,
-        "breakout": 0,
-        "price_action": 4
-      },
-      "indicators": {
-        "rsi": 54.5,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 0.79,
-        "week52_pct": 7.3,
-        "bb_position": 0.49,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "EMA 12/26 bullish",
-        "RSI ideal zone (54.5)",
-        "MACD bullish"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 8,
-        "atr": 125.03,
-        "atr_pct": 2.62,
-        "entry": {
-          "ideal_price": 4739.99,
-          "limit_order": 4736.67,
-          "acceptable_max": 4789.32,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b94,775.00 | Dip ~\u20b935.01"
-        },
-        "exit": {
-          "target_conservative": 5000.05,
-          "target_ideal": 5125.08,
-          "target_stretch": 5275.11,
-          "upside_conservative": 5.5,
-          "upside_ideal": 8.1,
-          "upside_stretch": 11.3,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b95,125.08",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Hindustan Aeronautics",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 32.2,
-          "price_band": {
-            "low": 4606.21,
-            "mid": 4743.74,
-            "high": 4881.28,
-            "move_pct_mid": -0.65
-          },
-          "catalyst": "Above 200 SMA setup, score 34/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 32.2,
-          "price_band": {
-            "low": 4397.57,
-            "mid": 4705.11,
-            "high": 5012.64,
-            "move_pct_mid": -1.46
-          },
-          "catalyst": "Weak setup (34/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 33.1,
-          "price_band": {
-            "low": 4001.5,
-            "mid": 4631.76,
-            "high": 5262.02,
-            "move_pct_mid": -3.0
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "HAL scores 34/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 54. Neutral. Nothing to act on from momentum alone. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Cultivation of large cardamom emerges as a lucrative option for higher income from limited land' (ET Economy) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 16) \u2014 an extra headwind. Watch \u20b94,632 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 9
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "score": 33,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 1752.5,
-      "change_pct": 2.92,
-      "change": 49.8,
-      "target_price": 1884.86,
-      "stop_loss": 1647.35,
-      "risk_reward": 1.4,
-      "holding_category": "short",
-      "sector": "Infrastructure",
-      "penalty": 0,
-      "scores": {
-        "trend": 12,
-        "momentum": 12,
-        "volume": 4,
-        "breakout": 0,
-        "price_action": 5
-      },
-      "indicators": {
-        "rsi": 46.6,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Bull (>50>200)",
-        "volume_ratio": 0.63,
-        "week52_pct": 7.3,
-        "bb_position": 0.46,
-        "adx": null
-      },
-      "reasons": [
-        "Bullish SMA alignment",
-        "RSI building (46.6)",
-        "MACD histogram expanding",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 8,
-        "atr": 47.27,
-        "atr_pct": 2.7,
-        "entry": {
-          "ideal_price": 1739.26,
-          "limit_order": 1738.04,
-          "acceptable_max": 1757.76,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,752.50 | Dip ~\u20b913.24"
-        },
-        "exit": {
-          "target_conservative": 1837.59,
-          "target_ideal": 1884.86,
-          "target_stretch": 1941.59,
-          "upside_conservative": 5.7,
-          "upside_ideal": 8.4,
-          "upside_stretch": 11.6,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,884.86",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Adani Ports",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 28.2,
-          "price_band": {
-            "low": 1672.14,
-            "mid": 1724.14,
-            "high": 1776.13,
-            "move_pct_mid": -1.62
-          },
-          "catalyst": "Bull (>50>200) setup, score 33/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 29.4,
-          "price_band": {
-            "low": 1572.81,
-            "mid": 1689.08,
-            "high": 1805.35,
-            "move_pct_mid": -3.62
-          },
-          "catalyst": "Weak setup (33/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (32/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -1909,81 +1089,81 @@
           "days": 21,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 31.2,
+          "composite": 30.2,
           "price_band": {
-            "low": 1384.25,
-            "mid": 1622.53,
-            "high": 1860.81,
-            "move_pct_mid": -7.42
+            "low": 1516.14,
+            "mid": 1759.41,
+            "high": 2002.68,
+            "move_pct_mid": -7.01
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "The move higher is happening on thin volume. Low-conviction rallies have a habit of fading just when you commit. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Momentum is flat \u2014 RSI at 47 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 21) \u2014 an extra headwind. Downside risk towards \u20b91,700 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 10
+      "narrative": "BHARTIARTL scores 32/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Buyers are in control (RSI 72), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Telecom is lagging the broader tape (score 32) \u2014 an extra headwind. Downside risk towards \u20b91,835 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 6
     },
     {
       "symbol": "ONGC",
-      "score": 25,
+      "score": 28,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 228.44,
-      "change_pct": 0.41,
-      "change": 0.94,
-      "target_price": 331.24,
-      "stop_loss": 214.73,
-      "risk_reward": 7.7,
-      "holding_category": "long",
+      "current_price": 227.5,
+      "change_pct": 1.11,
+      "change": 2.5,
+      "target_price": 237.9,
+      "stop_loss": 213.85,
+      "risk_reward": 0.8,
+      "holding_category": "short",
       "sector": "Oil & Gas",
       "penalty": 11,
       "scores": {
         "trend": 3,
         "momentum": 21,
-        "volume": 4,
+        "volume": 8,
         "breakout": 5,
-        "price_action": 3
+        "price_action": 2
       },
       "indicators": {
-        "rsi": 57.2,
+        "rsi": 59.8,
         "macd_signal": "Bullish",
         "sma_alignment": "Bearish",
-        "volume_ratio": 0.61,
-        "week52_pct": 25.4,
-        "bb_position": 0.71,
+        "volume_ratio": 1.23,
+        "week52_pct": 25.7,
+        "bb_position": 0.59,
         "adx": null
       },
       "reasons": [
-        "RSI ideal zone (57.2)",
+        "RSI ideal zone (59.8)",
         "MACD bullish",
         "MACD histogram expanding",
         "OBV trending up"
       ],
       "trade_plan": {
-        "category": "long",
-        "cat_score": 7,
+        "category": "short",
+        "cat_score": 8,
         "atr": 3.71,
-        "atr_pct": 1.62,
+        "atr_pct": 1.63,
         "entry": {
-          "ideal_price": 225.66,
-          "limit_order": 225.5,
-          "acceptable_max": 230.72,
-          "entry_window": "09:15 AM IST (GTC)",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b9228.44 | Dip ~\u20b92.78"
+          "ideal_price": 226.46,
+          "limit_order": 226.3,
+          "acceptable_max": 228.18,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "Place limit order before 9:14 AM",
+          "note": "Prev close \u20b9227.50 | Dip ~\u20b91.04"
         },
         "exit": {
-          "target_conservative": 285.55,
-          "target_ideal": 331.24,
-          "target_stretch": 376.93,
-          "upside_conservative": 26.5,
-          "upside_ideal": 46.8,
-          "upside_stretch": 67.0,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "6\u201318 months",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b9331.24 hit",
-          "hold_note": "Review monthly"
+          "target_conservative": 234.18,
+          "target_ideal": 237.9,
+          "target_stretch": 242.35,
+          "upside_conservative": 3.4,
+          "upside_ideal": 5.1,
+          "upside_stretch": 7.0,
+          "hold_min_days": 5,
+          "hold_max_days": 15,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit when RSI > 72 or price hits \u20b9237.90",
+          "hold_note": "Review daily"
         }
       },
       "name": "ONGC",
@@ -1994,14 +1174,14 @@
           "days": 1,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 20.2,
+          "composite": 23.2,
           "price_band": {
-            "low": 222.13,
-            "mid": 226.21,
-            "high": 230.29,
-            "move_pct_mid": -0.97
+            "low": 221.19,
+            "mid": 225.27,
+            "high": 229.35,
+            "move_pct_mid": -0.98
           },
-          "catalyst": "Bearish setup, score 25/100",
+          "catalyst": "Bearish setup, score 28/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
@@ -2009,14 +1189,14 @@
           "days": 5,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 21.4,
+          "composite": 24.4,
           "price_band": {
-            "low": 214.34,
-            "mid": 223.46,
-            "high": 232.59,
-            "move_pct_mid": -2.18
+            "low": 213.4,
+            "mid": 222.52,
+            "high": 231.65,
+            "move_pct_mid": -2.19
           },
-          "catalyst": "Weak setup (25/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (28/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
@@ -2024,376 +1204,150 @@
           "days": 21,
           "bias": "Bearish",
           "confidence": "Medium",
-          "composite": 23.2,
+          "composite": 26.2,
           "price_band": {
-            "low": 199.54,
-            "mid": 218.24,
-            "high": 236.94,
-            "move_pct_mid": -4.47
+            "low": 198.6,
+            "mid": 217.3,
+            "high": 236.0,
+            "move_pct_mid": -4.48
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "ONGC scores 25/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. The momentum profile is constructive. RSI at 57 means the move is early-to-mid phase, not late innings. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Oil & Gas is lagging the broader tape (score 25) \u2014 an extra headwind. Downside risk towards \u20b9222 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 11
+      "narrative": "ONGC scores 28/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is picking up nicely \u2014 RSI at 60 has room to run before hitting overbought territory. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Oil & Gas is lagging the broader tape (score 28) \u2014 an extra headwind. Downside risk towards \u20b9221 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 7
     },
     {
-      "symbol": "HEROMOTOCO",
-      "score": 24,
+      "symbol": "INFY",
+      "score": 23,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 5199.0,
-      "change_pct": 3.01,
-      "change": 152.0,
-      "target_price": 6002.2,
-      "stop_loss": 4887.06,
-      "risk_reward": 2.8,
+      "current_price": 1153.8,
+      "change_pct": 0.04,
+      "change": 0.45,
+      "target_price": 1390.87,
+      "stop_loss": 1084.57,
+      "risk_reward": 3.7,
       "holding_category": "medium",
-      "sector": "Automobiles",
-      "penalty": 5,
+      "sector": "IT",
+      "penalty": 11,
       "scores": {
-        "trend": 3,
-        "momentum": 21,
-        "volume": 0,
-        "breakout": 3,
+        "trend": 6,
+        "momentum": 11,
+        "volume": 12,
+        "breakout": 5,
         "price_action": 2
       },
       "indicators": {
-        "rsi": 55.8,
+        "rsi": 69.7,
         "macd_signal": "Bullish",
         "sma_alignment": "Bearish",
-        "volume_ratio": 0.81,
-        "week52_pct": 15.8,
-        "bb_position": 0.63,
+        "volume_ratio": 2.2,
+        "week52_pct": 31.8,
+        "bb_position": 0.87,
         "adx": null
       },
       "reasons": [
-        "RSI ideal zone (55.8)",
+        "EMA 12/26 bullish",
+        "RSI strong (69.7)",
         "MACD bullish",
-        "MACD histogram expanding"
+        "High volume 2.2x",
+        "OBV trending up",
+        "Near upper BB"
       ],
       "trade_plan": {
         "category": "medium",
-        "cat_score": 9,
-        "atr": 146.04,
-        "atr_pct": 2.81,
+        "cat_score": 5,
+        "atr": 43.1,
+        "atr_pct": 3.74,
         "entry": {
-          "ideal_price": 5125.98,
-          "limit_order": 5122.39,
-          "acceptable_max": 5224.99,
+          "ideal_price": 1132.25,
+          "limit_order": 1131.46,
+          "acceptable_max": 1159.57,
           "entry_window": "09:15\u201310:15 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b95,199.00 | Dip ~\u20b973.02"
+          "note": "Prev close \u20b91,153.80 | Dip ~\u20b921.55"
         },
         "exit": {
-          "target_conservative": 5710.12,
-          "target_ideal": 6002.2,
-          "target_stretch": 6367.29,
-          "upside_conservative": 11.4,
-          "upside_ideal": 17.1,
-          "upside_stretch": 24.2,
+          "target_conservative": 1304.66,
+          "target_ideal": 1390.87,
+          "target_stretch": 1498.63,
+          "upside_conservative": 15.2,
+          "upside_ideal": 22.8,
+          "upside_stretch": 32.4,
           "hold_min_days": 30,
           "hold_max_days": 90,
           "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b96,002.20",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,390.87",
           "hold_note": "Review weekly"
         }
       },
-      "name": "Hero MotoCorp",
+      "name": "Infosys",
       "verdict": "HOLD",
       "forecasts": {
         "1d": {
           "label": "Tomorrow",
           "days": 1,
           "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 19.2,
+          "confidence": "High",
+          "composite": 15.2,
           "price_band": {
-            "low": 4950.73,
-            "mid": 5111.38,
-            "high": 5272.02,
-            "move_pct_mid": -1.69
+            "low": 1080.53,
+            "mid": 1127.94,
+            "high": 1175.35,
+            "move_pct_mid": -2.24
           },
-          "catalyst": "Bearish setup, score 24/100",
+          "catalyst": "Heavy volume today (2.2x avg) with bearish",
           "primary_risk": "Gap risk at open; size positions accordingly"
         },
         "1w": {
           "label": "1 Week",
           "days": 5,
           "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 20.4,
+          "confidence": "High",
+          "composite": 17.6,
           "price_band": {
-            "low": 4643.86,
-            "mid": 5003.07,
-            "high": 5362.28,
-            "move_pct_mid": -3.77
+            "low": 989.96,
+            "mid": 1095.98,
+            "high": 1201.99,
+            "move_pct_mid": -5.01
           },
-          "catalyst": "Weak setup (24/100) \u2014 expect continued pressure",
+          "catalyst": "Weak setup (23/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
         },
         "1m": {
           "label": "1 Month",
           "days": 21,
           "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 22.2,
+          "confidence": "High",
+          "composite": 20.3,
           "price_band": {
-            "low": 4061.29,
-            "mid": 4797.46,
-            "high": 5533.62,
-            "move_pct_mid": -7.72
+            "low": 818.03,
+            "mid": 1035.29,
+            "high": 1252.55,
+            "move_pct_mid": -10.27
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "HEROMOTOCO scores 24/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is picking up nicely \u2014 RSI at 56 has room to run before hitting overbought territory. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 14) \u2014 an extra headwind. Downside risk towards \u20b95,043 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 12
+      "narrative": "A word of caution \u2014 momentum is surging but the moving average structure hasn't confirmed. This could be a counter-trend bounce rather than a genuine reversal. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. Momentum is strong and backed by volume (2.2x average). That's the kind of conviction that sustains moves. Volume at 2.2x average is speaking loudly. News sentiment is cautious across 2 recent items \u2014 'Infosys shares crash 4% - Should investors buy, sell, hold this IT stock after Q2 results?' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Downside risk towards \u20b91,119 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 8
     },
     {
-      "symbol": "DIVISLAB",
-      "score": 22,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 9050.0,
-      "change_pct": 1.12,
-      "change": 100.0,
-      "target_price": 9754.4,
-      "stop_loss": 8507.0,
-      "risk_reward": 1.4,
-      "holding_category": "short",
-      "sector": "Pharma",
-      "penalty": 0,
-      "scores": {
-        "trend": 4,
-        "momentum": 12,
-        "volume": 2,
-        "breakout": 0,
-        "price_action": 4
-      },
-      "indicators": {
-        "rsi": 45.8,
-        "macd_signal": "Bearish",
-        "sma_alignment": "Above 200 SMA",
-        "volume_ratio": 1.02,
-        "week52_pct": 7.1,
-        "bb_position": 0.22,
-        "adx": null
-      },
-      "reasons": [
-        "Above 200 SMA",
-        "RSI building (45.8)",
-        "MACD histogram expanding"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 8,
-        "atr": 251.57,
-        "atr_pct": 2.78,
-        "entry": {
-          "ideal_price": 8979.56,
-          "limit_order": 8973.27,
-          "acceptable_max": 9077.15,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b99,050.00 | Dip ~\u20b970.44"
-        },
-        "exit": {
-          "target_conservative": 9502.83,
-          "target_ideal": 9754.4,
-          "target_stretch": 10056.29,
-          "upside_conservative": 5.8,
-          "upside_ideal": 8.6,
-          "upside_stretch": 12.0,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b99,754.40",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Divi's Laboratories",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 17.2,
-          "price_band": {
-            "low": 8622.33,
-            "mid": 8899.06,
-            "high": 9175.79,
-            "move_pct_mid": -1.67
-          },
-          "catalyst": "Above 200 SMA setup, score 22/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 18.4,
-          "price_band": {
-            "low": 8093.7,
-            "mid": 8712.48,
-            "high": 9331.26,
-            "move_pct_mid": -3.73
-          },
-          "catalyst": "Weak setup (22/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 20.2,
-          "price_band": {
-            "low": 7090.17,
-            "mid": 8358.3,
-            "high": 9626.42,
-            "move_pct_mid": -7.64
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "DIVISLAB scores 22/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Momentum is flat \u2014 RSI at 46 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 30) \u2014 an extra headwind. Downside risk towards \u20b98,778 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 13
-    },
-    {
-      "symbol": "RELIANCE",
-      "score": 20,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 1201.8,
-      "change_pct": 0.99,
-      "change": 11.8,
-      "target_price": 1281.72,
-      "stop_loss": 1129.69,
-      "risk_reward": 1.2,
-      "holding_category": "short",
-      "sector": "Conglomerate",
-      "penalty": 11,
-      "scores": {
-        "trend": 3,
-        "momentum": 21,
-        "volume": 4,
-        "breakout": 3,
-        "price_action": 1
-      },
-      "indicators": {
-        "rsi": 53.7,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Bearish",
-        "volume_ratio": 0.5,
-        "week52_pct": 25.1,
-        "bb_position": 0.63,
-        "adx": null
-      },
-      "reasons": [
-        "RSI ideal zone (53.7)",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "short",
-        "cat_score": 8,
-        "atr": 28.54,
-        "atr_pct": 2.38,
-        "entry": {
-          "ideal_price": 1193.81,
-          "limit_order": 1192.97,
-          "acceptable_max": 1205.41,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "Place limit order before 9:14 AM",
-          "note": "Prev close \u20b91,201.80 | Dip ~\u20b97.99"
-        },
-        "exit": {
-          "target_conservative": 1253.18,
-          "target_ideal": 1281.72,
-          "target_stretch": 1315.97,
-          "upside_conservative": 5.0,
-          "upside_ideal": 7.4,
-          "upside_stretch": 10.2,
-          "hold_min_days": 5,
-          "hold_max_days": 15,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,281.72",
-          "hold_note": "Review daily"
-        }
-      },
-      "name": "Reliance Industries",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 13.7,
-          "price_band": {
-            "low": 1153.28,
-            "mid": 1184.68,
-            "high": 1216.07,
-            "move_pct_mid": -1.42
-          },
-          "catalyst": "Bearish setup, score 20/100",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 15.5,
-          "price_band": {
-            "low": 1093.31,
-            "mid": 1163.51,
-            "high": 1233.71,
-            "move_pct_mid": -3.19
-          },
-          "catalyst": "Weak setup (20/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Bearish",
-          "confidence": "Medium",
-          "composite": 17.8,
-          "price_band": {
-            "low": 979.46,
-            "mid": 1123.33,
-            "high": 1267.19,
-            "move_pct_mid": -6.53
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "RELIANCE scores 20/100 on our engine. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. RSI 54. Neutral. Nothing to act on from momentum alone. Volume is thin (0.5x) \u2014 take any move with a pinch of salt. News sentiment is cautious across 4 recent items \u2014 'Reliance shares: Why is it wise to buy RIL shares amid a falling stock market \u2014 Explained with' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Conglomerate is lagging the broader tape (score 21) \u2014 an extra headwind. Downside risk towards \u20b91,166 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
-      "rank": 14
-    },
-    {
-      "symbol": "APOLLOHOSP",
+      "symbol": "CIPLA",
       "score": 19,
       "signal": "AVOID",
       "confidence": "LOW",
-      "current_price": 7844.0,
-      "change_pct": 1.47,
-      "change": 114.0,
-      "target_price": 9066.57,
-      "stop_loss": 7373.36,
-      "risk_reward": 2.8,
+      "current_price": 1338.0,
+      "change_pct": 0.53,
+      "change": 7.1,
+      "target_price": 1480.18,
+      "stop_loss": 1257.72,
+      "risk_reward": 1.9,
       "holding_category": "medium",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "penalty": 5,
       "scores": {
         "trend": 0,
@@ -2403,48 +1357,47 @@
         "price_action": 3
       },
       "indicators": {
-        "rsi": 45.8,
+        "rsi": 48.0,
         "macd_signal": "Bullish",
         "sma_alignment": "Bearish",
-        "volume_ratio": 0.57,
-        "week52_pct": 13.5,
-        "bb_position": 0.4,
+        "volume_ratio": 1.35,
+        "week52_pct": 15.3,
+        "bb_position": 0.49,
         "adx": null
       },
       "reasons": [
-        "RSI building (45.8)",
+        "RSI building (48.0)",
         "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up"
+        "MACD histogram expanding"
       ],
       "trade_plan": {
         "category": "medium",
-        "cat_score": 9,
-        "atr": 222.29,
-        "atr_pct": 2.83,
+        "cat_score": 11,
+        "atr": 25.85,
+        "atr_pct": 1.93,
         "entry": {
-          "ideal_price": 7732.86,
-          "limit_order": 7727.45,
-          "acceptable_max": 7883.22,
+          "ideal_price": 1325.07,
+          "limit_order": 1324.14,
+          "acceptable_max": 1344.69,
           "entry_window": "09:15\u201310:15 AM IST",
           "order_strategy": "Patient limit order",
-          "note": "Prev close \u20b97,844.00 | Dip ~\u20b9111.14"
+          "note": "Prev close \u20b91,338.00 | Dip ~\u20b912.93"
         },
         "exit": {
-          "target_conservative": 8622.0,
-          "target_ideal": 9066.57,
-          "target_stretch": 9622.29,
-          "upside_conservative": 11.5,
-          "upside_ideal": 17.2,
-          "upside_stretch": 24.4,
+          "target_conservative": 1428.48,
+          "target_ideal": 1480.18,
+          "target_stretch": 1544.8,
+          "upside_conservative": 7.8,
+          "upside_ideal": 11.7,
+          "upside_stretch": 16.6,
           "hold_min_days": 30,
           "hold_max_days": 90,
           "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b99,066.57",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,480.18",
           "hold_note": "Review weekly"
         }
       },
-      "name": "Apollo Hospitals",
+      "name": "Cipla",
       "verdict": "HOLD",
       "forecasts": {
         "1d": {
@@ -2454,10 +1407,10 @@
           "confidence": "Medium",
           "composite": 14.2,
           "price_band": {
-            "low": 7466.11,
-            "mid": 7710.63,
-            "high": 7955.15,
-            "move_pct_mid": -1.7
+            "low": 1294.06,
+            "mid": 1322.49,
+            "high": 1350.92,
+            "move_pct_mid": -1.16
           },
           "catalyst": "Bearish setup, score 19/100",
           "primary_risk": "Gap risk at open; size positions accordingly"
@@ -2469,10 +1422,10 @@
           "confidence": "Medium",
           "composite": 15.4,
           "price_band": {
-            "low": 6999.01,
-            "mid": 7545.77,
-            "high": 8092.53,
-            "move_pct_mid": -3.8
+            "low": 1239.74,
+            "mid": 1303.32,
+            "high": 1366.9,
+            "move_pct_mid": -2.59
           },
           "catalyst": "Weak setup (19/100) \u2014 expect continued pressure",
           "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -2484,170 +1437,839 @@
           "confidence": "Medium",
           "composite": 17.2,
           "price_band": {
-            "low": 6112.28,
-            "mid": 7232.8,
-            "high": 8353.33,
-            "move_pct_mid": -7.79
+            "low": 1136.62,
+            "mid": 1266.92,
+            "high": 1397.23,
+            "move_pct_mid": -5.31
           },
           "catalyst": "Structural weakness; BEAR regime adds pressure",
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "APOLLOHOSP scores 19/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. RSI 46. Neutral. Nothing to act on from momentum alone. Volume is thin (0.6x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Healthcare is lagging the broader tape (score 19) \u2014 an extra headwind. Downside risk towards \u20b97,609 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "narrative": "CIPLA scores 19/100 on our engine. The moving average structure is bearish \u2014 price is below key averages and rallies into them tend to fail. Momentum is flat \u2014 RSI at 48 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b91,298 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 9
+    },
+    {
+      "symbol": "TCS",
+      "score": 18,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 2530.0,
+      "change_pct": 0.92,
+      "change": 23.1,
+      "target_price": 2988.86,
+      "stop_loss": 2378.2,
+      "risk_reward": 3.3,
+      "holding_category": "medium",
+      "sector": "IT",
+      "penalty": 16,
+      "scores": {
+        "trend": 14,
+        "momentum": 5,
+        "volume": 6,
+        "breakout": 5,
+        "price_action": 4
+      },
+      "indicators": {
+        "rsi": 85.5,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 1.17,
+        "week52_pct": 22.6,
+        "bb_position": 0.92,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "EMA 12/26 bullish",
+        "MACD bullish",
+        "OBV trending up",
+        "Near upper BB"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 6,
+        "atr": 83.43,
+        "atr_pct": 3.3,
+        "entry": {
+          "ideal_price": 2488.29,
+          "limit_order": 2486.55,
+          "acceptable_max": 2542.65,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b92,530.00 | Dip ~\u20b941.71"
+        },
+        "exit": {
+          "target_conservative": 2822.0,
+          "target_ideal": 2988.86,
+          "target_stretch": 3197.43,
+          "upside_conservative": 13.4,
+          "upside_ideal": 20.1,
+          "upside_stretch": 28.5,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b92,988.86",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Tata Consultancy Svc",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 13.2,
+          "price_band": {
+            "low": 2388.17,
+            "mid": 2479.94,
+            "high": 2571.72,
+            "move_pct_mid": -1.98
+          },
+          "catalyst": "RSI at 86 \u2014 momentum carryover likely",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 14.4,
+          "price_band": {
+            "low": 2212.86,
+            "mid": 2418.07,
+            "high": 2623.28,
+            "move_pct_mid": -4.42
+          },
+          "catalyst": "Weak setup (18/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 16.2,
+          "price_band": {
+            "low": 1880.05,
+            "mid": 2300.61,
+            "high": 2721.16,
+            "move_pct_mid": -9.07
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "TCS's momentum is running hot with RSI at 86. The question is whether this leg has more room or needs a breather. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Downside risk towards \u20b92,454 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 10
+    },
+    {
+      "symbol": "HCLTECH",
+      "score": 18,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1422.2,
+      "change_pct": 0.04,
+      "change": 0.5,
+      "target_price": 1659.67,
+      "stop_loss": 1336.87,
+      "risk_reward": 3.0,
+      "holding_category": "medium",
+      "sector": "IT",
+      "penalty": 16,
+      "scores": {
+        "trend": 14,
+        "momentum": 5,
+        "volume": 6,
+        "breakout": 5,
+        "price_action": 4
+      },
+      "indicators": {
+        "rsi": 78.7,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 0.93,
+        "week52_pct": 17.0,
+        "bb_position": 0.91,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "EMA 12/26 bullish",
+        "MACD bullish",
+        "OBV trending up",
+        "Near upper BB"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 6,
+        "atr": 43.18,
+        "atr_pct": 3.04,
+        "entry": {
+          "ideal_price": 1400.61,
+          "limit_order": 1399.63,
+          "acceptable_max": 1429.31,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b91,422.20 | Dip ~\u20b921.59"
+        },
+        "exit": {
+          "target_conservative": 1573.31,
+          "target_ideal": 1659.67,
+          "target_stretch": 1767.61,
+          "upside_conservative": 12.3,
+          "upside_ideal": 18.5,
+          "upside_stretch": 26.2,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,659.67",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "HCL Technologies",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 13.2,
+          "price_band": {
+            "low": 1348.79,
+            "mid": 1396.29,
+            "high": 1443.79,
+            "move_pct_mid": -1.82
+          },
+          "catalyst": "RSI at 79 \u2014 momentum carryover likely",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 14.4,
+          "price_band": {
+            "low": 1258.06,
+            "mid": 1364.27,
+            "high": 1470.48,
+            "move_pct_mid": -4.07
+          },
+          "catalyst": "Weak setup (18/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 16.2,
+          "price_band": {
+            "low": 1085.81,
+            "mid": 1303.47,
+            "high": 1521.14,
+            "move_pct_mid": -8.35
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "HCLTECH's momentum is running hot with RSI at 79. The question is whether this leg has more room or needs a breather. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Downside risk towards \u20b91,380 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 11
+    },
+    {
+      "symbol": "DRREDDY",
+      "score": 17,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1229.5,
+      "change_pct": -0.77,
+      "change": -9.5,
+      "target_price": 1380.44,
+      "stop_loss": 1155.73,
+      "risk_reward": 2.2,
+      "holding_category": "medium",
+      "sector": "Pharma",
+      "penalty": 11,
+      "scores": {
+        "trend": 6,
+        "momentum": 17,
+        "volume": 0,
+        "breakout": 3,
+        "price_action": 3
+      },
+      "indicators": {
+        "rsi": 57.1,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Bearish",
+        "volume_ratio": 0.72,
+        "week52_pct": 12.6,
+        "bb_position": 0.62,
+        "adx": null
+      },
+      "reasons": [
+        "EMA 12/26 bullish",
+        "RSI ideal zone (57.1)",
+        "MACD bullish"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 9,
+        "atr": 27.44,
+        "atr_pct": 2.23,
+        "entry": {
+          "ideal_price": 1215.78,
+          "limit_order": 1214.93,
+          "acceptable_max": 1235.65,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b91,229.50 | Dip ~\u20b913.72"
+        },
+        "exit": {
+          "target_conservative": 1325.55,
+          "target_ideal": 1380.44,
+          "target_stretch": 1449.04,
+          "upside_conservative": 9.0,
+          "upside_ideal": 13.5,
+          "upside_stretch": 19.2,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b91,380.44",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Dr. Reddy's",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 10.7,
+          "price_band": {
+            "low": 1182.85,
+            "mid": 1213.04,
+            "high": 1243.22,
+            "move_pct_mid": -1.34
+          },
+          "catalyst": "Bearish setup, score 17/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 12.5,
+          "price_band": {
+            "low": 1125.19,
+            "mid": 1192.69,
+            "high": 1260.18,
+            "move_pct_mid": -2.99
+          },
+          "catalyst": "Weak setup (17/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 14.8,
+          "price_band": {
+            "low": 1015.73,
+            "mid": 1154.05,
+            "high": 1292.37,
+            "move_pct_mid": -6.14
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "DRREDDY scores 17/100 on our engine. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. RSI 57. Neutral. Nothing to act on from momentum alone. News sentiment is cautious across 2 recent items \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b91,193 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 12
+    },
+    {
+      "symbol": "LT",
+      "score": 14,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 3647.0,
+      "change_pct": 0.24,
+      "change": 8.7,
+      "target_price": 4076.43,
+      "stop_loss": 3428.18,
+      "risk_reward": 2.1,
+      "holding_category": "medium",
+      "sector": "Infrastructure",
+      "penalty": 11,
+      "scores": {
+        "trend": 0,
+        "momentum": 17,
+        "volume": 6,
+        "breakout": 0,
+        "price_action": 2
+      },
+      "indicators": {
+        "rsi": 45.7,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Bearish",
+        "volume_ratio": 1.04,
+        "week52_pct": 17.1,
+        "bb_position": 0.32,
+        "adx": null
+      },
+      "reasons": [
+        "RSI building (45.7)",
+        "MACD bullish",
+        "MACD histogram expanding",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 9,
+        "atr": 78.08,
+        "atr_pct": 2.14,
+        "entry": {
+          "ideal_price": 3607.96,
+          "limit_order": 3605.43,
+          "acceptable_max": 3665.23,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b93,647.00 | Dip ~\u20b939.04"
+        },
+        "exit": {
+          "target_conservative": 3920.27,
+          "target_ideal": 4076.43,
+          "target_stretch": 4271.63,
+          "upside_conservative": 8.7,
+          "upside_ideal": 13.0,
+          "upside_stretch": 18.4,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b94,076.43",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Larsen & Toubro",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 9.2,
+          "price_band": {
+            "low": 3514.26,
+            "mid": 3600.15,
+            "high": 3686.04,
+            "move_pct_mid": -1.28
+          },
+          "catalyst": "Bearish setup, score 14/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 10.4,
+          "price_band": {
+            "low": 3350.19,
+            "mid": 3542.24,
+            "high": 3734.3,
+            "move_pct_mid": -2.87
+          },
+          "catalyst": "Weak setup (14/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 12.2,
+          "price_band": {
+            "low": 3038.73,
+            "mid": 3432.32,
+            "high": 3825.9,
+            "move_pct_mid": -5.89
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "LT scores 14/100 on our engine. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. Momentum is flat \u2014 RSI at 46 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 13) \u2014 an extra headwind. Downside risk towards \u20b93,538 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 13
+    },
+    {
+      "symbol": "EICHERMOT",
+      "score": 14,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 7066.0,
+      "change_pct": -0.26,
+      "change": -18.5,
+      "target_price": 8039.7,
+      "stop_loss": 6642.04,
+      "risk_reward": 2.5,
+      "holding_category": "medium",
+      "sector": "Automobiles",
+      "penalty": 5,
+      "scores": {
+        "trend": 0,
+        "momentum": 17,
+        "volume": 0,
+        "breakout": 0,
+        "price_action": 2
+      },
+      "indicators": {
+        "rsi": 55.1,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Bearish",
+        "volume_ratio": 0.89,
+        "week52_pct": 13.5,
+        "bb_position": 0.4,
+        "adx": null
+      },
+      "reasons": [
+        "RSI ideal zone (55.1)",
+        "MACD bullish"
+      ],
+      "trade_plan": {
+        "category": "medium",
+        "cat_score": 9,
+        "atr": 177.04,
+        "atr_pct": 2.51,
+        "entry": {
+          "ideal_price": 6977.48,
+          "limit_order": 6972.6,
+          "acceptable_max": 7101.33,
+          "entry_window": "09:15\u201310:15 AM IST",
+          "order_strategy": "Patient limit order",
+          "note": "Prev close \u20b97,066.00 | Dip ~\u20b988.52"
+        },
+        "exit": {
+          "target_conservative": 7685.62,
+          "target_ideal": 8039.7,
+          "target_stretch": 8482.29,
+          "upside_conservative": 10.1,
+          "upside_ideal": 15.2,
+          "upside_stretch": 21.6,
+          "hold_min_days": 30,
+          "hold_max_days": 90,
+          "hold_duration": "4\u201312 weeks",
+          "sell_trigger": "Exit on weekly MACD bearish cross or \u20b98,039.70",
+          "hold_note": "Review weekly"
+        }
+      },
+      "name": "Eicher Motors",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 9.2,
+          "price_band": {
+            "low": 6765.03,
+            "mid": 6959.78,
+            "high": 7154.52,
+            "move_pct_mid": -1.5
+          },
+          "catalyst": "Bearish setup, score 14/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 10.4,
+          "price_band": {
+            "low": 6393.02,
+            "mid": 6828.48,
+            "high": 7263.94,
+            "move_pct_mid": -3.36
+          },
+          "catalyst": "Weak setup (14/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 12.2,
+          "price_band": {
+            "low": 5686.79,
+            "mid": 6579.22,
+            "high": 7471.65,
+            "move_pct_mid": -6.89
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "EICHERMOT scores 14/100 on our engine. The trend is working against this name. Short of a major catalyst, the path of least resistance is lower. Momentum is flat \u2014 RSI at 55 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 10) \u2014 an extra headwind. Downside risk towards \u20b96,854 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+      "rank": 14
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "score": 13,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1702.7,
+      "change_pct": -2.7,
+      "change": -47.3,
+      "target_price": 2468.91,
+      "stop_loss": 1600.54,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Infrastructure",
+      "penalty": 3,
+      "scores": {
+        "trend": 6,
+        "momentum": 4,
+        "volume": 4,
+        "breakout": 0,
+        "price_action": 2
+      },
+      "indicators": {
+        "rsi": 44.1,
+        "macd_signal": "Bearish",
+        "sma_alignment": "Above 200 SMA",
+        "volume_ratio": 0.54,
+        "week52_pct": 10.0,
+        "bb_position": 0.0,
+        "adx": null
+      },
+      "reasons": [
+        "Above 200 SMA",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "long",
+        "cat_score": 4,
+        "atr": 45.61,
+        "atr_pct": 2.68,
+        "entry": {
+          "ideal_price": 1668.49,
+          "limit_order": 1667.32,
+          "acceptable_max": 1719.73,
+          "entry_window": "09:15 AM IST (GTC)",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b91,702.70 | Dip ~\u20b934.21"
+        },
+        "exit": {
+          "target_conservative": 2128.37,
+          "target_ideal": 2468.91,
+          "target_stretch": 2809.45,
+          "upside_conservative": 27.6,
+          "upside_ideal": 48.0,
+          "upside_stretch": 68.4,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "6\u201318 months",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,468.91 hit",
+          "hold_note": "Review monthly"
+        }
+      },
+      "name": "Adani Ports",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 8.2,
+          "price_band": {
+            "low": 1625.16,
+            "mid": 1675.33,
+            "high": 1725.51,
+            "move_pct_mid": -1.61
+          },
+          "catalyst": "Above 200 SMA setup, score 13/100",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 9.4,
+          "price_band": {
+            "low": 1529.32,
+            "mid": 1641.51,
+            "high": 1753.69,
+            "move_pct_mid": -3.59
+          },
+          "catalyst": "Weak setup (13/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Bearish",
+          "confidence": "Medium",
+          "composite": 11.2,
+          "price_band": {
+            "low": 1347.38,
+            "mid": 1577.29,
+            "high": 1807.21,
+            "move_pct_mid": -7.37
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "ADANIPORTS scores 13/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. The momentum read is weak. RSI at 44 suggests sellers are gradually gaining the upper hand. Volume is thin (0.5x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 13) \u2014 an extra headwind. Downside risk towards \u20b91,652 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
       "rank": 15
     }
   ],
   "watchlist": [
     {
-      "symbol": "COFORGE",
-      "name": "Coforge",
-      "sector": "IT",
-      "current_price": 1993.0,
-      "score": 53,
-      "signal": "WATCH",
-      "reason": "Bullish SMA alignment"
-    },
-    {
-      "symbol": "JSWSTEEL",
-      "name": "JSW Steel",
-      "sector": "Metals",
-      "current_price": 1260.0,
-      "score": 49,
-      "signal": "WATCH",
-      "reason": "Above 200 SMA"
-    },
-    {
       "symbol": "PERSISTENT",
       "name": "Persistent Systems",
       "sector": "IT",
-      "current_price": 5850.0,
+      "current_price": 5727.5,
       "score": 48,
       "signal": "WATCH",
       "reason": "Full bullish SMA alignment"
     },
     {
-      "symbol": "DRREDDY",
-      "name": "Dr. Reddy's",
-      "sector": "Pharma",
-      "current_price": 1310.9,
+      "symbol": "COFORGE",
+      "name": "Coforge",
+      "sector": "IT",
+      "current_price": 1900.5,
       "score": 47,
       "signal": "WATCH",
-      "reason": "Above 200 SMA"
+      "reason": "Bullish SMA alignment"
     },
     {
-      "symbol": "KOTAKBANK",
-      "name": "Kotak Mahindra Bank",
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank",
       "sector": "Banking",
-      "current_price": 440.75,
-      "score": 46,
+      "current_price": 1394.2,
+      "score": 42,
       "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
+      "reason": "Bullish SMA alignment"
     }
   ],
   "avoid": [
     {
-      "symbol": "CIPLA",
-      "name": "Cipla",
-      "sector": "Pharma",
-      "current_price": 1355.0,
-      "score": 39,
-      "reason": "RSI ideal zone (56.3)"
-    },
-    {
-      "symbol": "BHARTIARTL",
-      "name": "Bharti Airtel",
-      "sector": "Telecom",
-      "current_price": 1917.5,
-      "score": 34,
-      "reason": "Above 200 SMA"
+      "symbol": "KOTAKBANK",
+      "name": "Kotak Mahindra Bank",
+      "sector": "Banking",
+      "current_price": 430.5,
+      "score": 37,
+      "reason": "Full bullish SMA alignment"
     },
     {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics",
       "sector": "Defence",
-      "current_price": 4775.0,
-      "score": 34,
+      "current_price": 4725.0,
+      "score": 33,
+      "reason": "Above 200 SMA"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel",
+      "sector": "Telecom",
+      "current_price": 1892.1,
+      "score": 32,
       "reason": "Above 200 SMA"
     }
   ],
   "sector_momentum": [
     {
       "sector": "Telecom",
-      "score": 34,
-      "trend": "down"
-    },
-    {
-      "sector": "Pharma",
-      "score": 30,
-      "trend": "down"
-    },
-    {
-      "sector": "IT",
-      "score": 25,
+      "score": 32,
       "trend": "down"
     },
     {
       "sector": "Oil & Gas",
-      "score": 25,
+      "score": 28,
       "trend": "down"
     },
     {
-      "sector": "Infrastructure",
-      "score": 21,
-      "trend": "down"
-    },
-    {
-      "sector": "Conglomerate",
-      "score": 21,
+      "sector": "IT",
+      "score": 27,
       "trend": "down"
     },
     {
       "sector": "Banking",
-      "score": 19,
-      "trend": "down"
-    },
-    {
-      "sector": "Healthcare",
-      "score": 19,
-      "trend": "down"
-    },
-    {
-      "sector": "Metals",
-      "score": 18,
+      "score": 17,
       "trend": "down"
     },
     {
       "sector": "Defence",
-      "score": 16,
+      "score": 15,
+      "trend": "down"
+    },
+    {
+      "sector": "Pharma",
+      "score": 15,
+      "trend": "down"
+    },
+    {
+      "sector": "Infrastructure",
+      "score": 13,
       "trend": "down"
     },
     {
       "sector": "Automobiles",
-      "score": 14,
+      "score": 10,
+      "trend": "down"
+    },
+    {
+      "sector": "Retail",
+      "score": 10,
+      "trend": "down"
+    },
+    {
+      "sector": "Conglomerate",
+      "score": 9,
+      "trend": "down"
+    },
+    {
+      "sector": "Healthcare",
+      "score": 8,
       "trend": "down"
     },
     {
       "sector": "Paints",
-      "score": 12,
+      "score": 6,
       "trend": "down"
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-10-26T22:31:12.983739+05:30",
-    "date": "2026-10-26",
+    "generated_at": "2026-10-27T00:15:38.115631+05:30",
+    "date": "2026-10-27",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "Risk-off: 25% breadth, tighten stops; macro neutral",
+    "headline": "Risk-off: 21% breadth, tighten stops; macro neutral",
     "regime": {
       "label": "BEAR",
-      "breadth_pct": 25.0,
-      "momentum_pct": 0.92,
-      "volatility": 2.52,
+      "breadth_pct": 20.8,
+      "momentum_pct": -0.76,
+      "volatility": 2.54,
       "notes": "48 stocks analyzed"
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.03,
-      "count": 121,
+      "score": 0.08,
+      "count": 120,
       "highlights": [
         {
           "title": "Multibagger stock to buy: Up 150% in 2026 so far! Will rally sustain in defence-engineering share? Experts views, target",
@@ -2688,33 +2310,33 @@
           "link": "https://economictimes.indiatimes.com/markets/stocks/news/indian-overseas-bank-to-raise-500-million-as-q2-profit-jumps-56/articleshow/135214567.cms"
         },
         {
-          "title": "Apollo Micro Systems share price jumps 10% after Q2 results; stock up 44% in 2026 \u2014 check resistance, support levels",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
+          "title": "Mercuria challenging the \u2018Dow Jones of shipping\u2019 in court after Hormuz losses",
+          "source": "FT Markets",
+          "category": "global",
+          "sentiment": "MILDLY_BEARISH",
           "sectors": [
-            "Defence"
+            "Telecom"
           ],
-          "link": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-share-price-jumps-10-after-q2-results-stock-up-44-in-2026-check-resistance-support-levels-11792987859346.html"
+          "link": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1"
         },
         {
-          "title": "Small finance banks shares: AU and Ujjivan stocks crash 6% - What should investors do? Buy or sell? Target price, return",
-          "source": "Mint Markets",
+          "title": "Bank of Maharashtra Q2 profit jumps 41.5% as bad loans decline",
+          "source": "ET Markets",
           "category": "market",
-          "sentiment": "BEARISH",
+          "sentiment": "MILDLY_BULLISH",
           "sectors": [
             "Banking"
           ],
-          "link": "https://www.livemint.com/market/stock-market-news/small-finance-banks-shares-au-and-ujjivan-stocks-crash-6-what-should-investors-do-buy-or-sell-target-price-upside-11792987269485.html"
+          "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/bank-of-maharashtra-q2-profit-jumps-41-5-as-bad-loans-decline/articleshow/135214440.cms"
         }
       ]
     },
-    "key_insight": "Risk-off regime with 25% breadth and median momentum +0.9%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 121 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Telecom leads at 34 while Mining lags at 0 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 21% breadth and median momentum -0.8%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 120 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Telecom leads at 32 while Mining lags at 0 \u2014 a stock-picker's tape.",
     "narrative": [
-      "Regime: BEAR \u00b7 breadth 25% \u00b7 median momentum +0.9% \u00b7 ATR 2.5%",
+      "Regime: BEAR \u00b7 breadth 21% \u00b7 median momentum -0.8% \u00b7 ATR 2.5%",
       "Book: 0 ADD \u00b7 0 ACCUMULATE \u00b7 45 HOLD \u00b7 3 EXIT",
-      "Macro tone: NEUTRAL from 121 items across 11 sources",
-      "Strongest sector: Telecom (avg score 34)"
+      "Macro tone: NEUTRAL from 120 items across 11 sources",
+      "Strongest sector: Telecom (avg score 32)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
@@ -2727,225 +2349,89 @@
     },
     "top_movers_up": [
       {
-        "symbol": "DRREDDY",
-        "name": "Dr. Reddy's",
-        "change_pct": 6.62,
-        "price": 1310.9,
+        "symbol": "APOLLOHOSP",
+        "name": "Apollo Hospitals",
+        "change_pct": 1.65,
+        "price": 7730.0,
         "action": "HOLD",
-        "score": 47
+        "score": 8
       },
       {
-        "symbol": "JSWSTEEL",
-        "name": "JSW Steel",
-        "change_pct": 6.28,
-        "price": 1260.0,
+        "symbol": "ONGC",
+        "name": "ONGC",
+        "change_pct": 1.11,
+        "price": 227.5,
         "action": "HOLD",
-        "score": 49
+        "score": 28
       },
       {
-        "symbol": "COFORGE",
-        "name": "Coforge",
-        "change_pct": 4.87,
-        "price": 1993.0,
+        "symbol": "ASIANPAINT",
+        "name": "Asian Paints",
+        "change_pct": 0.97,
+        "price": 2307.0,
         "action": "HOLD",
-        "score": 53
+        "score": 6
       },
       {
-        "symbol": "POLYCAB",
-        "name": "Polycab India",
-        "change_pct": 4.02,
-        "price": 7739.0,
+        "symbol": "TCS",
+        "name": "Tata Consultancy Svc",
+        "change_pct": 0.92,
+        "price": 2530.0,
         "action": "HOLD",
-        "score": 5
+        "score": 18
       },
       {
-        "symbol": "HEROMOTOCO",
-        "name": "Hero MotoCorp",
-        "change_pct": 3.01,
-        "price": 5199.0,
+        "symbol": "MARUTI",
+        "name": "Maruti Suzuki",
+        "change_pct": 0.54,
+        "price": 11230.0,
         "action": "HOLD",
-        "score": 24
+        "score": 7
       }
     ],
     "top_movers_down": [
       {
-        "symbol": "TATACONSUM",
-        "name": "Tata Consumer Prods",
-        "change_pct": -2.84,
-        "price": 936.5,
-        "action": "HOLD",
-        "score": 3
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "name": "Bajaj Finance",
-        "change_pct": -1.1,
-        "price": 918.7,
+        "symbol": "DIXON",
+        "name": "Dixon Technologies",
+        "change_pct": -3.48,
+        "price": 11191.0,
         "action": "HOLD",
         "score": 0
       },
       {
-        "symbol": "HDFCBANK",
-        "name": "HDFC Bank",
-        "change_pct": -0.69,
-        "price": 688.05,
+        "symbol": "PFC",
+        "name": "Power Finance Corp",
+        "change_pct": -3.33,
+        "price": 316.0,
         "action": "EXIT",
         "score": 0
       },
       {
-        "symbol": "SUNPHARMA",
-        "name": "Sun Pharmaceutical",
-        "change_pct": -0.46,
-        "price": 1740.0,
+        "symbol": "HAL",
+        "name": "Hindustan Aeronautics",
+        "change_pct": -3.08,
+        "price": 4725.0,
         "action": "HOLD",
-        "score": 14
+        "score": 33
       },
       {
-        "symbol": "HCLTECH",
-        "name": "HCL Technologies",
-        "change_pct": -0.37,
-        "price": 1417.0,
+        "symbol": "POLYCAB",
+        "name": "Polycab India",
+        "change_pct": -3.01,
+        "price": 7440.0,
         "action": "HOLD",
-        "score": 12
-      }
-    ],
-    "conviction_board": [
-      {
-        "symbol": "COFORGE",
-        "name": "Coforge",
-        "sector": "IT",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 53,
-        "rsi": 67.0,
-        "trend": "Bull (>50>200)",
-        "reason": "Bullish SMA alignment",
-        "narrative": "COFORGE scores 53/100 on our engine. Trend-following signals are turning positive. Not enough for an aggressive bet, but enough to stay constructive. The momentum profile is constructive. RSI at 67 means the move is early-to-mid phase, not late innings. Above-average volume (2.0x) adds weight to the move. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Bull case: momentum carries to \u20b92,165 if volume confirms. Bear case: fades below \u20b91,821 \u2014 failed rally territory. Range-bound between \u20b91,933 and \u20b92,041. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 48.2,
-            "price_band": {
-              "low": 1916.18,
-              "mid": 1993.0,
-              "high": 2069.82,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Heavy volume today (2.0x avg) with bull (>50>200)",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 49.4,
-            "price_band": {
-              "low": 1821.22,
-              "mid": 1993.0,
-              "high": 2164.78,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Range-bound week; Bull (>50>200) bias",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Low",
-            "composite": 51.2,
-            "price_band": {
-              "low": 1640.95,
-              "mid": 1993.0,
-              "high": 2345.05,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in BEAR regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": 0.0,
-          "label": "NEUTRAL",
-          "count": 1,
-          "modifier": 0,
-          "top_headline": "Top 3 stocks to buy tomorrow: Laurus Labs, MCX, Coforge by market expert; check stop-loss, target price for Tue, 27 Oct",
-          "top_source": "Mint Markets",
-          "top_link": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-tomorrow-laurus-labs-mcx-coforge-by-market-expert-check-stop-loss-target-price-for-tue-27-oct-11793014330701.html"
-        }
+        "score": 0
       },
       {
         "symbol": "JSWSTEEL",
         "name": "JSW Steel",
-        "sector": "Metals",
+        "change_pct": -2.83,
+        "price": 1185.5,
         "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 49,
-        "rsi": 53.9,
-        "trend": "Above 200 SMA",
-        "reason": "Above 200 SMA",
-        "narrative": "JSWSTEEL scores 49/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 54. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 18) \u2014 an extra headwind. \u20b91,222 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 41.2,
-            "price_band": {
-              "low": 1210.31,
-              "mid": 1250.8,
-              "high": 1291.29,
-              "move_pct_mid": -0.73
-            },
-            "catalyst": "Above 200 SMA setup, score 49/100",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 43.6,
-            "price_band": {
-              "low": 1148.88,
-              "mid": 1239.42,
-              "high": 1329.96,
-              "move_pct_mid": -1.63
-            },
-            "catalyst": "Weak setup (49/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 46.3,
-            "price_band": {
-              "low": 1074.45,
-              "mid": 1260.0,
-              "high": 1445.55,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "Consolidation phase in BEAR regime",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": -1.2,
-          "label": "MILDLY_BEARISH",
-          "count": 1,
-          "modifier": -2,
-          "top_headline": "Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on Nifty and Sensex on Monday",
-          "top_source": "ET Markets",
-          "top_link": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-dr-reddys-jsw-steel-shriram-finance-tata-consumer-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135209828.cms"
-        }
-      },
+        "score": 9
+      }
+    ],
+    "conviction_board": [
       {
         "symbol": "PERSISTENT",
         "name": "Persistent Systems",
@@ -2953,10 +2439,10 @@
         "action": "HOLD",
         "verdict": "HOLD",
         "score": 48,
-        "rsi": 62.3,
+        "rsi": 63.4,
         "trend": "Full Bull (>20>50>200)",
         "reason": "Full bullish SMA alignment",
-        "narrative": "Volume isn't backing this advance. That's a yellow flag \u2014 real breakouts come with participation. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 62 has room to run before hitting overbought territory. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 25) \u2014 an extra headwind. Watch \u20b95,674 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 63 sits in no-man's land. The stock is waiting for a trigger. Above-average volume (1.6x) adds weight to the move. News sentiment is cautious across 1 recent item \u2014 'SoftBank sells 1.21 crore Ola Electric rights entitlements as EV maker seeks to raise Rs 1,000' (ET Markets) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b95,556 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
@@ -2965,10 +2451,10 @@
             "confidence": "Medium",
             "composite": 40.2,
             "price_band": {
-              "low": 5569.63,
-              "mid": 5798.08,
-              "high": 6026.53,
-              "move_pct_mid": -0.89
+              "low": 5449.12,
+              "mid": 5675.95,
+              "high": 5902.78,
+              "move_pct_mid": -0.9
             },
             "catalyst": "Full Bull (>20>50>200) setup, score 48/100",
             "primary_risk": "Gap risk at open; size positions accordingly"
@@ -2980,10 +2466,10 @@
             "confidence": "Medium",
             "composite": 42.6,
             "price_band": {
-              "low": 5223.08,
-              "mid": 5733.9,
-              "high": 6244.73,
-              "move_pct_mid": -1.98
+              "low": 5105.02,
+              "mid": 5612.23,
+              "high": 6119.43,
+              "move_pct_mid": -2.01
             },
             "catalyst": "Weak setup (48/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -2995,9 +2481,9 @@
             "confidence": "Medium",
             "composite": 45.3,
             "price_band": {
-              "low": 4803.12,
-              "mid": 5850.0,
-              "high": 6896.88,
+              "low": 4688.03,
+              "mid": 5727.5,
+              "high": 6766.97,
               "move_pct_mid": 0.0
             },
             "catalyst": "Consolidation phase in BEAR regime",
@@ -3015,43 +2501,43 @@
         }
       },
       {
-        "symbol": "DRREDDY",
-        "name": "Dr. Reddy's",
-        "sector": "Pharma",
+        "symbol": "COFORGE",
+        "name": "Coforge",
+        "sector": "IT",
         "action": "HOLD",
         "verdict": "HOLD",
         "score": 47,
-        "rsi": 72.3,
-        "trend": "Above 200 SMA",
-        "reason": "Above 200 SMA",
-        "narrative": "DRREDDY scores 47/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Momentum is strong and backed by volume (3.9x average). That's the kind of conviction that sustains moves. Volume at 3.9x average is speaking loudly. News sentiment is cautious across 2 recent items \u2014 'Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on' (ET Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 30) \u2014 an extra headwind. Watch \u20b91,272 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "rsi": 60.7,
+        "trend": "Bull (>50>200)",
+        "reason": "Bullish SMA alignment",
+        "narrative": "COFORGE scores 47/100 on our engine. There's no discernible trend. The stock is range-bound and waiting for direction. RSI 61. Neutral. Nothing to act on from momentum alone. Above-average volume (1.6x) adds weight to the move. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. IT is lagging the broader tape (score 27) \u2014 an extra headwind. Watch \u20b91,843 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
             "days": 1,
             "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 40.7,
+            "confidence": "Low",
+            "composite": 42.2,
             "price_band": {
-              "low": 1266.39,
-              "mid": 1302.66,
-              "high": 1338.92,
-              "move_pct_mid": -0.63
+              "low": 1815.0,
+              "mid": 1884.67,
+              "high": 1954.33,
+              "move_pct_mid": -0.83
             },
-            "catalyst": "Heavy volume today (3.9x avg) with above 200 sma",
+            "catalyst": "Bull (>50>200) setup, score 47/100",
             "primary_risk": "Gap risk at open; size positions accordingly"
           },
           "1w": {
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 42.5,
+            "confidence": "Low",
+            "composite": 43.4,
             "price_band": {
-              "low": 1211.37,
-              "mid": 1292.47,
-              "high": 1373.56,
-              "move_pct_mid": -1.41
+              "low": 1709.33,
+              "mid": 1865.1,
+              "high": 2020.87,
+              "move_pct_mid": -1.86
             },
             "catalyst": "Weak setup (47/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
@@ -3059,81 +2545,13 @@
           "1m": {
             "label": "1 Month",
             "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.8,
-            "price_band": {
-              "low": 1106.93,
-              "mid": 1273.13,
-              "high": 1439.32,
-              "move_pct_mid": -2.88
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": -0.6,
-          "label": "MILDLY_BEARISH",
-          "count": 2,
-          "modifier": -1,
-          "top_headline": "Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on Nifty and Sensex on Monday",
-          "top_source": "ET Markets",
-          "top_link": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-dr-reddys-jsw-steel-shriram-finance-tata-consumer-top-gainers-and-losers-on-nifty-and-sensex-on-monday/articleshow/135209828.cms"
-        }
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "name": "Kotak Mahindra Bank",
-        "sector": "Banking",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 46,
-        "rsi": 65.4,
-        "trend": "Full Bull (>20>50>200)",
-        "reason": "Full bullish SMA alignment",
-        "narrative": "KOTAKBANK scores 46/100 on our engine. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is picking up nicely \u2014 RSI at 65 has room to run before hitting overbought territory. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Why Kotak Mahindra Bank is unlikely to be top investors\u2019 choice among large lenders despite' (Mint Markets) is the headline to watch. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b9428 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Neutral.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.2,
-            "price_band": {
-              "low": 426.8,
-              "mid": 438.17,
-              "high": 449.53,
-              "move_pct_mid": -0.59
-            },
-            "catalyst": "RSI at 65 \u2014 momentum carryover likely",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 44.2,
-            "price_band": {
-              "low": 409.57,
-              "mid": 434.98,
-              "high": 460.38,
-              "move_pct_mid": -1.31
-            },
-            "catalyst": "Weak setup (46/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
             "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 45.1,
+            "confidence": "Low",
+            "composite": 45.2,
             "price_band": {
-              "low": 388.68,
-              "mid": 440.75,
-              "high": 492.82,
+              "low": 1581.26,
+              "mid": 1900.5,
+              "high": 2219.74,
               "move_pct_mid": 0.0
             },
             "catalyst": "Consolidation phase in BEAR regime",
@@ -3141,13 +2559,13 @@
           }
         },
         "news_info": {
-          "score": 1.2,
-          "label": "MILDLY_BULLISH",
-          "count": 2,
-          "modifier": 2,
-          "top_headline": "Why Kotak Mahindra Bank is unlikely to be top investors\u2019 choice among large lenders despite strong Q2",
+          "score": 0.0,
+          "label": "NEUTRAL",
+          "count": 1,
+          "modifier": 0,
+          "top_headline": "Top 3 stocks to buy tomorrow: Laurus Labs, MCX, Coforge by market expert; check stop-loss, target price for Tue, 27 Oct",
           "top_source": "Mint Markets",
-          "top_link": "https://www.livemint.com/market/mark-to-market/kotak-mahindra-bank-q2-results-fy27-net-profit-nim-credit-costs-11792984798375.html"
+          "top_link": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-tomorrow-laurus-labs-mcx-coforge-by-market-expert-check-stop-loss-target-price-for-tue-27-oct-11793014330701.html"
         }
       },
       {
@@ -3156,25 +2574,25 @@
         "sector": "Banking",
         "action": "HOLD",
         "verdict": "HOLD",
-        "score": 41,
-        "rsi": 67.6,
+        "score": 42,
+        "rsi": 69.5,
         "trend": "Bull (>50>200)",
         "reason": "Bullish SMA alignment",
-        "narrative": "ICICIBANK scores 41/100 on our engine. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 25% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 19) \u2014 an extra headwind. Watch \u20b91,361 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "narrative": "The energy is there but the foundation isn't. Until the 50-day crosses above the 200-day, treat this as a trade, not a position. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. RSI is at 70 \u2014 momentum is real but getting stretched. A consolidation here would be healthy, not alarming. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 17) \u2014 an extra headwind. Watch \u20b91,352 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
             "days": 1,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 36.2,
+            "composite": 37.2,
             "price_band": {
-              "low": 1366.97,
-              "mid": 1396.33,
-              "high": 1425.69,
-              "move_pct_mid": -0.48
+              "low": 1357.6,
+              "mid": 1387.42,
+              "high": 1417.24,
+              "move_pct_mid": -0.49
             },
-            "catalyst": "RSI at 68 \u2014 momentum carryover likely",
+            "catalyst": "RSI at 70 \u2014 momentum carryover likely",
             "primary_risk": "Gap risk at open; size positions accordingly"
           },
           "1w": {
@@ -3182,14 +2600,14 @@
             "days": 5,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 37.4,
+            "composite": 38.4,
             "price_band": {
-              "low": 1322.43,
-              "mid": 1388.08,
-              "high": 1453.73,
-              "move_pct_mid": -1.06
+              "low": 1312.36,
+              "mid": 1379.05,
+              "high": 1445.73,
+              "move_pct_mid": -1.09
             },
-            "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
+            "catalyst": "Weak setup (42/100) \u2014 expect continued pressure",
             "primary_risk": "Regime shift or sector rotation could invalidate setup"
           },
           "1m": {
@@ -3197,12 +2615,214 @@
             "days": 21,
             "bias": "Mildly Bearish",
             "confidence": "Medium",
-            "composite": 39.2,
+            "composite": 40.2,
             "price_band": {
-              "low": 1237.88,
-              "mid": 1372.42,
-              "high": 1506.96,
-              "move_pct_mid": -2.18
+              "low": 1226.48,
+              "mid": 1363.14,
+              "high": 1499.8,
+              "move_pct_mid": -2.23
+            },
+            "catalyst": "Structural weakness; BEAR regime adds pressure",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "news_info": {
+          "score": 0,
+          "label": "NEUTRAL",
+          "count": 0,
+          "modifier": 0,
+          "top_headline": null
+        }
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "name": "Kotak Mahindra Bank",
+        "sector": "Banking",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 37,
+        "rsi": 58.4,
+        "trend": "Full Bull (>20>50>200)",
+        "reason": "Full bullish SMA alignment",
+        "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 58. Neutral. Nothing to act on from momentum alone. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 17) \u2014 an extra headwind. \u20b9418 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 32.2,
+            "price_band": {
+              "low": 417.04,
+              "mid": 428.01,
+              "high": 438.97,
+              "move_pct_mid": -0.58
+            },
+            "catalyst": "Full Bull (>20>50>200) setup, score 37/100",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 33.4,
+            "price_band": {
+              "low": 400.4,
+              "mid": 424.93,
+              "high": 449.45,
+              "move_pct_mid": -1.29
+            },
+            "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 35.2,
+            "price_band": {
+              "low": 368.82,
+              "mid": 419.08,
+              "high": 469.34,
+              "move_pct_mid": -2.65
+            },
+            "catalyst": "Structural weakness; BEAR regime adds pressure",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "news_info": {
+          "score": 0.0,
+          "label": "NEUTRAL",
+          "count": 1,
+          "modifier": 0,
+          "top_headline": "Kotak Mahindra Bank shares rise 2% as top Nifty gainer | Is it right time to book profits or wait? Target, stop loss",
+          "top_source": "Mint Markets",
+          "top_link": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-rise-2-as-top-nifty-gainer-is-it-right-time-to-book-profits-or-wait-target-stop-loss-11792995247655.html"
+        }
+      },
+      {
+        "symbol": "HAL",
+        "name": "Hindustan Aeronautics",
+        "sector": "Defence",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 33,
+        "rsi": 55.8,
+        "trend": "Above 200 SMA",
+        "reason": "Above 200 SMA",
+        "narrative": "HAL scores 33/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. RSI 56. Neutral. Nothing to act on from momentum alone. Above-average volume (1.4x) adds weight to the move. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Cultivation of large cardamom emerges as a lucrative option for higher income from limited land' (ET Economy) is the headline to watch. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Defence is lagging the broader tape (score 15) \u2014 an extra headwind. Downside risk towards \u20b94,583 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Mildly Bearish.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Bearish",
+            "confidence": "Medium",
+            "composite": 31.2,
+            "price_band": {
+              "low": 4522.89,
+              "mid": 4653.67,
+              "high": 4784.45,
+              "move_pct_mid": -1.51
+            },
+            "catalyst": "Above 200 SMA setup, score 33/100",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Bearish",
+            "confidence": "Medium",
+            "composite": 31.2,
+            "price_band": {
+              "low": 4273.06,
+              "mid": 4565.49,
+              "high": 4857.92,
+              "move_pct_mid": -3.38
+            },
+            "catalyst": "Weak setup (33/100) \u2014 expect continued pressure",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 32.1,
+            "price_band": {
+              "low": 3989.49,
+              "mid": 4588.79,
+              "high": 5188.1,
+              "move_pct_mid": -2.88
+            },
+            "catalyst": "Structural weakness; BEAR regime adds pressure",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "news_info": {
+          "score": 1.2,
+          "label": "MILDLY_BULLISH",
+          "count": 1,
+          "modifier": 2,
+          "top_headline": "Cultivation of large cardamom emerges as a lucrative option for higher income from limited land",
+          "top_source": "ET Economy",
+          "top_link": "https://economictimes.indiatimes.com/news/economy/agriculture/cultivation-of-large-cardamom-emerges-as-a-lucrative-option-for-higher-income-from-limited-land/articleshow/135187114.cms"
+        }
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "name": "Bharti Airtel",
+        "sector": "Telecom",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 32,
+        "rsi": 71.5,
+        "trend": "Above 200 SMA",
+        "reason": "Above 200 SMA",
+        "narrative": "BHARTIARTL scores 32/100 on our engine. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Buyers are in control (RSI 72), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 21% breadth in a bearish regime means even good setups get sold. Telecom is lagging the broader tape (score 32) \u2014 an extra headwind. Downside risk towards \u20b91,835 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Bearish.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Bearish",
+            "confidence": "Medium",
+            "composite": 27.2,
+            "price_band": {
+              "low": 1810.06,
+              "mid": 1863.14,
+              "high": 1916.23,
+              "move_pct_mid": -1.53
+            },
+            "catalyst": "RSI at 72 \u2014 momentum carryover likely",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Bearish",
+            "confidence": "Medium",
+            "composite": 28.4,
+            "price_band": {
+              "low": 1708.65,
+              "mid": 1827.35,
+              "high": 1946.06,
+              "move_pct_mid": -3.42
+            },
+            "catalyst": "Weak setup (32/100) \u2014 expect continued pressure",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Bearish",
+            "confidence": "Medium",
+            "composite": 30.2,
+            "price_band": {
+              "low": 1516.14,
+              "mid": 1759.41,
+              "high": 2002.68,
+              "move_pct_mid": -7.01
             },
             "catalyst": "Structural weakness; BEAR regime adds pressure",
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
@@ -3223,7 +2843,7 @@
         "name": "Tata Consultancy Svc",
         "action": "HOLD",
         "flags": [
-          "RSI 85 overbought"
+          "RSI 86 overbought"
         ],
         "verdict": "HOLD"
       },
@@ -3232,7 +2852,7 @@
         "name": "HCL Technologies",
         "action": "HOLD",
         "flags": [
-          "RSI 88 overbought"
+          "RSI 79 overbought"
         ],
         "verdict": "HOLD"
       },
@@ -3251,16 +2871,7 @@
         "name": "Wipro",
         "action": "HOLD",
         "flags": [
-          "RSI 81 overbought"
-        ],
-        "verdict": "HOLD"
-      },
-      {
-        "symbol": "TITAN",
-        "name": "Titan Company",
-        "action": "HOLD",
-        "flags": [
-          "RSI 29 oversold"
+          "RSI 84 overbought"
         ],
         "verdict": "HOLD"
       },
@@ -3275,11 +2886,11 @@
         "verdict": "EXIT"
       },
       {
-        "symbol": "NTPC",
-        "name": "NTPC",
+        "symbol": "TATASTEEL",
+        "name": "Tata Steel",
         "action": "HOLD",
         "flags": [
-          "RSI 23 oversold"
+          "RSI 29 oversold"
         ],
         "verdict": "HOLD"
       },
@@ -3288,104 +2899,114 @@
         "name": "Dixon Technologies",
         "action": "HOLD",
         "flags": [
-          "RSI 21 oversold"
+          "RSI 22 oversold"
         ],
         "verdict": "HOLD"
+      },
+      {
+        "symbol": "PFC",
+        "name": "Power Finance Corp",
+        "action": "EXIT",
+        "flags": [
+          "rule \u2192 EXIT",
+          "negative news (1)"
+        ],
+        "verdict": "EXIT"
       }
     ],
     "breakout_watch": [],
     "sector_heatmap": [
       {
         "sector": "Telecom",
-        "avg_score": 34.0,
+        "avg_score": 32.0,
         "count": 1,
         "trend": "down",
         "news_count": 6,
         "news_label": "NEUTRAL"
       },
       {
-        "sector": "Pharma",
-        "avg_score": 30.5,
-        "count": 4,
-        "trend": "down",
-        "news_count": 5,
-        "news_label": "NEUTRAL"
-      },
-      {
         "sector": "Oil & Gas",
-        "avg_score": 25.0,
+        "avg_score": 28.0,
         "count": 1,
         "trend": "down",
-        "news_count": 5,
-        "news_label": "BEARISH"
+        "news_count": 3,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "IT",
-        "avg_score": 24.5,
+        "avg_score": 26.5,
         "count": 6,
-        "trend": "down",
-        "news_count": 0,
-        "news_label": "NEUTRAL"
-      },
-      {
-        "sector": "Infrastructure",
-        "avg_score": 21.0,
-        "count": 2,
-        "trend": "down",
-        "news_count": 10,
-        "news_label": "BULLISH"
-      },
-      {
-        "sector": "Conglomerate",
-        "avg_score": 20.0,
-        "count": 1,
         "trend": "down",
         "news_count": 0,
         "news_label": "NEUTRAL"
       },
       {
         "sector": "Banking",
-        "avg_score": 19.5,
+        "avg_score": 16.7,
         "count": 6,
         "trend": "down",
-        "news_count": 18,
+        "news_count": 17,
         "news_label": "BULLISH"
       },
       {
-        "sector": "Healthcare",
-        "avg_score": 19.0,
-        "count": 1,
-        "trend": "down",
-        "news_count": 0,
-        "news_label": "NEUTRAL"
-      },
-      {
-        "sector": "Metals",
-        "avg_score": 17.7,
-        "count": 3,
-        "trend": "down",
-        "news_count": 2,
-        "news_label": "NEUTRAL"
-      },
-      {
         "sector": "Defence",
-        "avg_score": 17.0,
+        "avg_score": 16.5,
         "count": 2,
         "trend": "down",
-        "news_count": 6,
+        "news_count": 4,
+        "news_label": "BULLISH"
+      },
+      {
+        "sector": "Pharma",
+        "avg_score": 15.2,
+        "count": 4,
+        "trend": "down",
+        "news_count": 5,
+        "news_label": "NEUTRAL"
+      },
+      {
+        "sector": "Infrastructure",
+        "avg_score": 13.5,
+        "count": 2,
+        "trend": "down",
+        "news_count": 9,
         "news_label": "BULLISH"
       },
       {
         "sector": "Automobiles",
-        "avg_score": 14.0,
+        "avg_score": 10.2,
         "count": 4,
         "trend": "down",
         "news_count": 0,
         "news_label": "NEUTRAL"
       },
       {
+        "sector": "Retail",
+        "avg_score": 10.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 0,
+        "news_label": "NEUTRAL"
+      },
+      {
+        "sector": "Conglomerate",
+        "avg_score": 8.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 0,
+        "news_label": "NEUTRAL"
+      },
+      {
+        "sector": "Healthcare",
+        "avg_score": 8.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 0,
+        "news_label": "NEUTRAL"
+      },
+      {
         "sector": "Paints",
-        "avg_score": 12.0,
+        "avg_score": 6.0,
         "count": 1,
         "trend": "down",
         "news_count": 0,
@@ -3398,9 +3019,9 @@
         "type": "EXIT",
         "symbol": "SBIN",
         "name": "State Bank of India",
-        "price": 960.8,
+        "price": 958.6,
         "instruction": "Market order at open \u2014 rule ladder triggered.",
-        "reason": "RSI ideal zone (51.1)",
+        "reason": "RSI ideal zone (51.8)",
         "confidence": "LOW",
         "verdict": "EXIT"
       },
@@ -3409,7 +3030,7 @@
         "type": "EXIT",
         "symbol": "HDFCBANK",
         "name": "HDFC Bank",
-        "price": 688.05,
+        "price": 692.8,
         "instruction": "Market order at open \u2014 rule ladder triggered.",
         "reason": "Exit signal",
         "confidence": "LOW",
@@ -3420,9 +3041,9 @@
         "type": "EXIT",
         "symbol": "PFC",
         "name": "Power Finance Corp",
-        "price": 318.3,
+        "price": 316.0,
         "instruction": "Market order at open \u2014 rule ladder triggered.",
-        "reason": "RSI building (46.8)",
+        "reason": "RSI building (48.3)",
         "confidence": "LOW",
         "verdict": "EXIT"
       }
@@ -3437,6 +3058,16 @@
         "sectors": [],
         "published": "2026-10-26T08:16:33+00:00",
         "link": "https://www.livemint.com/market/stock-market-news/multibagger-stock-sakar-healthcare-rises-4-5-after-q2-results-2026-up-500-in-5-years-will-rally-continue-11792998905646.html"
+      },
+      {
+        "title": "Sunteck Realty H1FY27 net profit rises 20%, pre-sales up 19%",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-10-26T18:28:06+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/sunteck-realty-h1fy27-net-profit-rises-20-pre-sales-up-19/articleshow/135217893.cms"
       },
       {
         "title": "Tata Consumer Q2 Results: Net profit rises 16% YoY to Rs 470 crore, revenue up 14%",
@@ -3551,24 +3182,14 @@
         ],
         "published": "2026-10-26T15:14:37+00:00",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/indian-overseas-bank-to-raise-500-million-as-q2-profit-jumps-56/articleshow/135214567.cms"
-      },
-      {
-        "title": "Bitcoin hovers near $80,000 and Ethereum tests $2,300 as macro and geopolitical risks weigh on crypto markets",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-10-26T11:28:29+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-hovers-near-80000-and-ethereum-tests-2300-as-macro-and-geopolitical-risks-weigh-on-crypto-markets/articleshow/135210501.cms"
       }
     ],
     "news_stats": {
-      "total_items": 234,
+      "total_items": 237,
       "sources": 11,
       "with_tickers": 30,
-      "bullish": 84,
-      "bearish": 47
+      "bullish": 77,
+      "bearish": 46
     }
   }
 }
