@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:38:33.063459+05:30",
+  "generated_at": "2026-11-06T22:58:49.183562+05:30",
   "market_date": "2026-11-06",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -283,6 +283,123 @@
         "rank": 2
       },
       {
+        "symbol": "ICICIBANK",
+        "score": 56,
+        "signal": "BUY",
+        "confidence": "MEDIUM",
+        "current_price": 1571.2,
+        "change_pct": 4.75,
+        "change": 71.2,
+        "target_price": 1666.9,
+        "stop_loss": 1476.93,
+        "risk_reward": 1.1,
+        "holding_category": "short",
+        "sector": "Banking",
+        "penalty": 10,
+        "scores": {
+          "trend": 22,
+          "momentum": 9,
+          "volume": 14,
+          "breakout": 10,
+          "price_action": 9
+        },
+        "indicators": {
+          "rsi": 80.3,
+          "macd_signal": "Bullish",
+          "sma_alignment": "Full Bull (>20>50>200)",
+          "volume_ratio": 2.67,
+          "week52_pct": 0.0,
+          "bb_position": 1.31,
+          "adx": null
+        },
+        "reasons": [
+          "Full bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "MACD bullish",
+          "MACD histogram expanding",
+          "Volume surge 2.7x",
+          "OBV trending up"
+        ],
+        "trade_plan": {
+          "category": "short",
+          "cat_score": 15,
+          "atr": 34.18,
+          "atr_pct": 2.18,
+          "entry": {
+            "ideal_price": 1561.63,
+            "limit_order": 1560.54,
+            "acceptable_max": 1575.91,
+            "entry_window": "09:15\u201309:45 AM IST",
+            "order_strategy": "Place limit order before 9:14 AM",
+            "note": "Prev close \u20b91,571.20 | Dip ~\u20b99.57"
+          },
+          "exit": {
+            "target_conservative": 1632.72,
+            "target_ideal": 1666.9,
+            "target_stretch": 1707.91,
+            "upside_conservative": 4.6,
+            "upside_ideal": 6.7,
+            "upside_stretch": 9.4,
+            "hold_min_days": 5,
+            "hold_max_days": 15,
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,666.90",
+            "hold_note": "Review daily"
+          }
+        },
+        "name": "ICICI Bank",
+        "verdict": "BUY",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 63.8,
+            "price_band": {
+              "low": 1542.15,
+              "mid": 1579.75,
+              "high": 1617.34,
+              "move_pct_mid": 0.54
+            },
+            "catalyst": "Heavy volume today (2.7x avg) with full bull (>20>50>200)",
+            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 61.4,
+            "price_band": {
+              "low": 1506.24,
+              "mid": 1590.31,
+              "high": 1674.38,
+              "move_pct_mid": 1.22
+            },
+            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
+            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 58.7,
+            "price_band": {
+              "low": 1438.06,
+              "mid": 1610.36,
+              "high": 1782.65,
+              "move_pct_mid": 2.49
+            },
+            "catalyst": "Structural trend full bull (>20>50>200); BULL regime supportive",
+            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+          }
+        },
+        "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Diwali stock picks: 4 large cap stocks to buy for Samvat 2083 - PL Capital bullish on BEL,' (Mint Markets) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: BUY. Entry zone near \u20b91,576 \u2014 speed matters. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+        "rank": 4
+      },
+      {
         "symbol": "HEROMOTOCO",
         "score": 57,
         "signal": "BUY",
@@ -397,123 +514,6 @@
           }
         },
         "narrative": "HEROMOTOCO scores 57/100 on our engine. Trend-following signals are turning positive. Not enough for an aggressive bet, but enough to stay constructive. Momentum is flat \u2014 RSI at 63 sits in no-man's land. The stock is waiting for a trigger. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: catalyst above \u20b95,678 opens \u20b96,013. Bear case: \u20b95,198 breaks and the range resolves lower. Look for a close above \u20b95,645 as confirmation. Verdict: BUY. Entry zone near \u20b95,541 \u2014 let the trend work. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
-        "rank": 3
-      },
-      {
-        "symbol": "ICICIBANK",
-        "score": 54,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1571.2,
-        "change_pct": 4.75,
-        "change": 71.2,
-        "target_price": 1666.9,
-        "stop_loss": 1476.93,
-        "risk_reward": 1.1,
-        "holding_category": "short",
-        "sector": "Banking",
-        "penalty": 10,
-        "scores": {
-          "trend": 22,
-          "momentum": 9,
-          "volume": 14,
-          "breakout": 10,
-          "price_action": 9
-        },
-        "indicators": {
-          "rsi": 80.3,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 2.67,
-          "week52_pct": 0.0,
-          "bb_position": 1.31,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "MACD bullish",
-          "MACD histogram expanding",
-          "Volume surge 2.7x",
-          "OBV trending up"
-        ],
-        "trade_plan": {
-          "category": "short",
-          "cat_score": 15,
-          "atr": 34.18,
-          "atr_pct": 2.18,
-          "entry": {
-            "ideal_price": 1561.63,
-            "limit_order": 1560.54,
-            "acceptable_max": 1575.91,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "Place limit order before 9:14 AM",
-            "note": "Prev close \u20b91,571.20 | Dip ~\u20b99.57"
-          },
-          "exit": {
-            "target_conservative": 1632.72,
-            "target_ideal": 1666.9,
-            "target_stretch": 1707.91,
-            "upside_conservative": 4.6,
-            "upside_ideal": 6.7,
-            "upside_stretch": 9.4,
-            "hold_min_days": 5,
-            "hold_max_days": 15,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit when RSI > 72 or price hits \u20b91,666.90",
-            "hold_note": "Review daily"
-          }
-        },
-        "name": "ICICI Bank",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 58.8,
-            "price_band": {
-              "low": 1542.15,
-              "mid": 1579.75,
-              "high": 1617.34,
-              "move_pct_mid": 0.54
-            },
-            "catalyst": "Heavy volume today (2.7x avg) with full bull (>20>50>200)",
-            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 57.6,
-            "price_band": {
-              "low": 1506.24,
-              "mid": 1590.31,
-              "high": 1674.38,
-              "move_pct_mid": 1.22
-            },
-            "catalyst": "Range-bound week; Full Bull (>20>50>200) bias",
-            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 55.8,
-            "price_band": {
-              "low": 1438.06,
-              "mid": 1610.36,
-              "high": 1782.65,
-              "move_pct_mid": 2.49
-            },
-            "catalyst": "Structural trend full bull (>20>50>200); BULL regime supportive",
-            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
-          }
-        },
-        "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
         "rank": 4
       },
       {
@@ -1342,7 +1342,7 @@
             "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
           }
         },
-        "narrative": "HDFCBANK scores 50/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. RSI at 68 with 2.1x volume \u2014 buyers mean business. Volume at 2.1x average is speaking loudly. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'HDFC Bank shares rally 16% in four sessions, cross \u20b912-lakh-crore market cap' (Hindu BusinessLine) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: momentum carries to \u20b9843 if volume confirms. Bear case: fades below \u20b9754 \u2014 failed rally territory. Above \u20b9788, the setup stays alive. \u20b9807 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
+        "narrative": "HDFCBANK scores 50/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. RSI at 68 with 2.1x volume \u2014 buyers mean business. Volume at 2.1x average is speaking loudly. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Muhurat Trading 2026: Equirus Prive's 16 Diwali picks include HDFC Bank, M&M, ESFB Voltas;' (Mint Markets) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: momentum carries to \u20b9843 if volume confirms. Bear case: fades below \u20b9754 \u2014 failed rally territory. Above \u20b9788, the setup stays alive. \u20b9807 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
         "rank": 1
       },
       {
@@ -2169,8 +2169,8 @@
     },
     {
       "symbol": "ICICIBANK",
-      "score": 54,
-      "signal": "WATCH",
+      "score": 56,
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "current_price": 1571.2,
       "change_pct": 4.75,
@@ -2233,14 +2233,14 @@
         }
       },
       "name": "ICICI Bank",
-      "verdict": "HOLD",
+      "verdict": "BUY",
       "forecasts": {
         "1d": {
           "label": "Tomorrow",
           "days": 1,
           "bias": "Mildly Bullish",
-          "confidence": "Low",
-          "composite": 58.8,
+          "confidence": "Medium",
+          "composite": 63.8,
           "price_band": {
             "low": 1542.15,
             "mid": 1579.75,
@@ -2254,8 +2254,8 @@
           "label": "1 Week",
           "days": 5,
           "bias": "Mildly Bullish",
-          "confidence": "Low",
-          "composite": 57.6,
+          "confidence": "Medium",
+          "composite": 61.4,
           "price_band": {
             "low": 1506.24,
             "mid": 1590.31,
@@ -2269,8 +2269,8 @@
           "label": "1 Month",
           "days": 21,
           "bias": "Mildly Bullish",
-          "confidence": "Low",
-          "composite": 55.8,
+          "confidence": "Medium",
+          "composite": 58.7,
           "price_band": {
             "low": 1438.06,
             "mid": 1610.36,
@@ -2281,7 +2281,7 @@
           "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
         }
       },
-      "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+      "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Diwali stock picks: 4 large cap stocks to buy for Samvat 2083 - PL Capital bullish on BEL,' (Mint Markets) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: BUY. Entry zone near \u20b91,576 \u2014 speed matters. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
       "rank": 4
     },
     {
@@ -2983,7 +2983,7 @@
           "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
         }
       },
-      "narrative": "HDFCBANK scores 50/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. RSI at 68 with 2.1x volume \u2014 buyers mean business. Volume at 2.1x average is speaking loudly. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'HDFC Bank shares rally 16% in four sessions, cross \u20b912-lakh-crore market cap' (Hindu BusinessLine) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: momentum carries to \u20b9843 if volume confirms. Bear case: fades below \u20b9754 \u2014 failed rally territory. Above \u20b9788, the setup stays alive. \u20b9807 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
+      "narrative": "HDFCBANK scores 50/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. RSI at 68 with 2.1x volume \u2014 buyers mean business. Volume at 2.1x average is speaking loudly. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'Muhurat Trading 2026: Equirus Prive's 16 Diwali picks include HDFC Bank, M&M, ESFB Voltas;' (Mint Markets) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: momentum carries to \u20b9843 if volume confirms. Bear case: fades below \u20b9754 \u2014 failed rally territory. Above \u20b9788, the setup stays alive. \u20b9807 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
       "rank": 10
     },
     {
@@ -3574,15 +3574,6 @@
   ],
   "watchlist": [
     {
-      "symbol": "ICICIBANK",
-      "name": "ICICI Bank",
-      "sector": "Banking",
-      "current_price": 1571.2,
-      "score": 54,
-      "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
-    },
-    {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics",
       "sector": "Defence",
@@ -3617,6 +3608,15 @@
       "score": 51,
       "signal": "WATCH",
       "reason": "Full bullish SMA alignment"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "name": "Adani Ports",
+      "sector": "Infrastructure",
+      "current_price": 1936.6,
+      "score": 51,
+      "signal": "WATCH",
+      "reason": "Full bullish SMA alignment"
     }
   ],
   "avoid": [
@@ -3637,12 +3637,12 @@
       "reason": "RSI ideal zone (58.2)"
     },
     {
-      "symbol": "BHARTIARTL",
-      "name": "Bharti Airtel",
-      "sector": "Telecom",
-      "current_price": 2107.2,
-      "score": 37,
-      "reason": "Above 200 SMA"
+      "symbol": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "current_price": 8446.0,
+      "score": 36,
+      "reason": "Bullish SMA alignment"
     }
   ],
   "sector_momentum": [
@@ -3708,10 +3708,10 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-11-06T17:40:43.058038+05:30",
+    "generated_at": "2026-11-06T23:00:14.536289+05:30",
     "date": "2026-11-06",
     "source": "rules_engine_v4_news_fusion",
-    "headline": "BULL tape \u2014 3 ADDs, 1 cautious; 144 macro items in focus",
+    "headline": "BULL tape \u2014 4 ADDs, 1 cautious; 150 macro items in focus",
     "regime": {
       "label": "BULL",
       "breadth_pct": 60.4,
@@ -3720,38 +3720,10 @@
       "notes": "48 stocks analyzed"
     },
     "macro_context": {
-      "label": "MILDLY_NEGATIVE",
-      "score": -0.34,
-      "count": 144,
+      "label": "NEUTRAL",
+      "score": -0.25,
+      "count": 150,
       "highlights": [
-        {
-          "title": "Japan\u2019s Nikkei plunges 5.7%, South Korea\u2019s Kospi falls 7.4% amid AI stock rout",
-          "source": "Hindu BusinessLine",
-          "category": "market",
-          "sentiment": "BEARISH",
-          "sectors": [
-            "Infrastructure"
-          ],
-          "link": "https://www.thehindubusinessline.com/markets/stock-markets/japans-nikkei-plunges-57-south-koreas-kospi-falls-74-amid-ai-stock-rout/article71672730.ece"
-        },
-        {
-          "title": "PhysicsWallah Q2 net profit more than doubles to nearly \u20b9144 crore as revenue rises 18%",
-          "source": "Mint Companies",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Metals"
-          ],
-          "link": "https://www.livemint.com/companies/company-results/physicswallah-q2-net-profit-more-than-doubles-to-nearly-rs-144-crore-as-revenue-rises-18-11793893174732.html"
-        },
-        {
-          "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
-          "source": "CNBC World",
-          "category": "global",
-          "sentiment": "BEARISH",
-          "sectors": [],
-          "link": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
-        },
         {
           "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
           "source": "CNBC World",
@@ -3761,6 +3733,14 @@
             "Oil & Gas"
           ],
           "link": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html"
+        },
+        {
+          "title": "Democratic sweep gives markets a reason to rethink path of interest rates",
+          "source": "CNBC World",
+          "category": "global",
+          "sentiment": "BEARISH",
+          "sectors": [],
+          "link": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
         },
         {
           "title": "Why did Yes Bank shares rally 6%, extend winning streak to 3rd day and snap a 7-week losing run \u2014 what led to rebound?",
@@ -3781,21 +3761,39 @@
             "Oil & Gas"
           ],
           "link": "https://economictimes.indiatimes.com/markets/forex/rupee-falls-9-paise-to-94-50-against-us-dollar-in-early-trade/articleshow/135597848.cms"
+        },
+        {
+          "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+          "source": "ET Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Oil & Gas"
+          ],
+          "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
+        },
+        {
+          "title": "New orders & robust demand lift India's October services growth to 4-month high",
+          "source": "ET Economy",
+          "category": "macro",
+          "sentiment": "BULLISH",
+          "sectors": [],
+          "link": "https://economictimes.indiatimes.com/news/economy/indicators/new-orders-robust-demand-lift-indias-october-services-growth-to-4-month-high/articleshow/135549909.cms"
         }
       ]
     },
-    "key_insight": "Broad-based strength with 60% of names above their 50-day average and median move +0.8% \u2014 the kind of tape where adding quality on 2-3% dips usually pays. Macro flow is mildly negative with 144 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 51 while Electricals lags at 9 \u2014 a stock-picker's tape.",
+    "key_insight": "Broad-based strength with 60% of names above their 50-day average and median move +0.8% \u2014 the kind of tape where adding quality on 2-3% dips usually pays. Macro flow is neutral with 150 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 51 while Electricals lags at 9 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BULL \u00b7 breadth 60% \u00b7 median momentum +0.8% \u00b7 ATR 2.6%",
-      "Book: 3 ADD \u00b7 0 ACCUMULATE \u00b7 44 HOLD \u00b7 1 EXIT",
-      "Macro tone: MILDLY NEGATIVE from 144 items across 11 sources",
+      "Book: 4 ADD \u00b7 0 ACCUMULATE \u00b7 43 HOLD \u00b7 1 EXIT",
+      "Macro tone: NEUTRAL from 150 items across 11 sources",
       "Strongest sector: Retail (avg score 51)"
     ],
     "market_pulse": {
       "total_analyzed": 48,
       "strong_buys": 0,
-      "actionable_buys": 3,
-      "holds": 44,
+      "actionable_buys": 4,
+      "holds": 43,
       "risk_alerts": 1,
       "earnings_blackouts": 0,
       "do_not_trade": 0
@@ -3806,8 +3804,8 @@
         "name": "ICICI Bank",
         "change_pct": 4.75,
         "price": 1571.2,
-        "action": "HOLD",
-        "score": 54
+        "action": "ADD",
+        "score": 56
       },
       {
         "symbol": "HDFCBANK",
@@ -3849,7 +3847,7 @@
         "change_pct": -3.92,
         "price": 4785.0,
         "action": "HOLD",
-        "score": 22
+        "score": 24
       },
       {
         "symbol": "HAL",
@@ -3881,7 +3879,7 @@
         "change_pct": -0.2,
         "price": 198.0,
         "action": "HOLD",
-        "score": 21
+        "score": 23
       }
     ],
     "conviction_board": [
@@ -4089,20 +4087,20 @@
         "symbol": "ICICIBANK",
         "name": "ICICI Bank",
         "sector": "Banking",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 54,
+        "action": "ADD",
+        "verdict": "BUY",
+        "score": 56,
         "rsi": 80.3,
         "trend": "Full Bull (>20>50>200)",
         "reason": "Full bullish SMA alignment",
-        "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
+        "narrative": "ICICIBANK is on fire \u2014 RSI at 80 with volume running 2.7x average. Buyers are aggressive. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Newsflow is mildly positive \u2014 1 item in the last 48 hours \u2014 'Diwali stock picks: 4 large cap stocks to buy for Samvat 2083 - PL Capital bullish on BEL,' (Mint Markets) is the headline to watch. The market is helping \u2014 60% breadth in a bullish regime lifts most boats. Bull case: sustains above \u20b91,571 and pushes towards \u20b91,674 as trend followers pile in. Bear case: a slip below \u20b91,506 triggers trailing stops and dents the short-term thesis. Above \u20b91,571, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: BUY. Entry zone near \u20b91,576 \u2014 speed matters. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Mildly Bullish.",
         "forecasts": {
           "1d": {
             "label": "Tomorrow",
             "days": 1,
             "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 58.8,
+            "confidence": "Medium",
+            "composite": 63.8,
             "price_band": {
               "low": 1542.15,
               "mid": 1579.75,
@@ -4116,8 +4114,8 @@
             "label": "1 Week",
             "days": 5,
             "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 57.6,
+            "confidence": "Medium",
+            "composite": 61.4,
             "price_band": {
               "low": 1506.24,
               "mid": 1590.31,
@@ -4131,8 +4129,8 @@
             "label": "1 Month",
             "days": 21,
             "bias": "Mildly Bullish",
-            "confidence": "Low",
-            "composite": 55.8,
+            "confidence": "Medium",
+            "composite": 58.7,
             "price_band": {
               "low": 1438.06,
               "mid": 1610.36,
@@ -4144,11 +4142,13 @@
           }
         },
         "news_info": {
-          "score": 0,
-          "label": "NEUTRAL",
-          "count": 0,
-          "modifier": 0,
-          "top_headline": null
+          "score": 1.2,
+          "label": "MILDLY_BULLISH",
+          "count": 1,
+          "modifier": 2,
+          "top_headline": "Diwali stock picks: 4 large cap stocks to buy for Samvat 2083 - PL Capital bullish on BEL, Britannia to ICICI | Target",
+          "top_source": "Mint Markets",
+          "top_link": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-4-large-cap-stocks-to-buy-for-samvat-2083-pl-capital-bullish-on-bel-britannia-to-icici-target-11793974105149.html"
         }
       },
       {
@@ -4288,11 +4288,11 @@
       {
         "symbol": "ICICIBANK",
         "name": "ICICI Bank",
-        "action": "HOLD",
+        "action": "ADD",
         "flags": [
           "RSI 80 overbought"
         ],
-        "verdict": "HOLD"
+        "verdict": "BUY"
       },
       {
         "symbol": "TITAN",
@@ -4345,7 +4345,7 @@
         "action": "EXIT",
         "flags": [
           "rule \u2192 EXIT",
-          "negative news (2)"
+          "negative news (3)"
         ],
         "verdict": "EXIT"
       },
@@ -4365,6 +4365,13 @@
         "name": "Kotak Mahindra Bank",
         "pct_from_52h": 0.0,
         "score": 61,
+        "action": "ADD"
+      },
+      {
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank",
+        "pct_from_52h": 0.0,
+        "score": 56,
         "action": "ADD"
       }
     ],
@@ -4387,34 +4394,34 @@
       },
       {
         "sector": "Banking",
-        "avg_score": 46.5,
+        "avg_score": 47.0,
         "count": 6,
         "trend": "flat",
-        "news_count": 19,
-        "news_label": "NEUTRAL"
+        "news_count": 20,
+        "news_label": "BULLISH"
       },
       {
         "sector": "Automobiles",
-        "avg_score": 46.5,
+        "avg_score": 47.0,
         "count": 4,
         "trend": "flat",
         "news_count": 1,
         "news_label": "BULLISH"
       },
       {
-        "sector": "Defence",
-        "avg_score": 42.0,
-        "count": 2,
-        "trend": "down",
-        "news_count": 5,
-        "news_label": "BULLISH"
-      },
-      {
         "sector": "Metals",
-        "avg_score": 42.0,
+        "avg_score": 43.3,
         "count": 3,
         "trend": "down",
         "news_count": 2,
+        "news_label": "NEUTRAL"
+      },
+      {
+        "sector": "Defence",
+        "avg_score": 43.0,
+        "count": 2,
+        "trend": "down",
+        "news_count": 6,
         "news_label": "BULLISH"
       },
       {
@@ -4431,7 +4438,7 @@
         "count": 2,
         "trend": "down",
         "news_count": 5,
-        "news_label": "BEARISH"
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "IT",
@@ -4442,14 +4449,6 @@
         "news_label": "BEARISH"
       },
       {
-        "sector": "Telecom",
-        "avg_score": 37.0,
-        "count": 1,
-        "trend": "down",
-        "news_count": 14,
-        "news_label": "NEUTRAL"
-      },
-      {
         "sector": "Healthcare",
         "avg_score": 36.0,
         "count": 1,
@@ -4458,11 +4457,19 @@
         "news_label": "NEUTRAL"
       },
       {
+        "sector": "Oil & Gas",
+        "avg_score": 36.0,
+        "count": 1,
+        "trend": "down",
+        "news_count": 15,
+        "news_label": "BEARISH"
+      },
+      {
         "sector": "Pharma",
         "avg_score": 35.5,
         "count": 4,
         "trend": "down",
-        "news_count": 0,
+        "news_count": 1,
         "news_label": "NEUTRAL"
       }
     ],
@@ -4510,6 +4517,17 @@
         "reason": "Bullish SMA alignment",
         "confidence": "MEDIUM",
         "verdict": "BUY"
+      },
+      {
+        "priority": 3,
+        "type": "ADD",
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank",
+        "price": 1571.2,
+        "instruction": "GTC limit \u2264 \u20b91,576",
+        "reason": "Full bullish SMA alignment",
+        "confidence": "MEDIUM",
+        "verdict": "BUY"
       }
     ],
     "news_highlights": [
@@ -4536,28 +4554,24 @@
         "link": "https://www.livemint.com/companies/people/who-is-venugopal-dhoot-former-videocon-promoter-declared-bankrupt-by-nclt-mumbai-bench-over-rs-12-668-cr-sbi-default-11793958227774.html"
       },
       {
-        "title": "Japan\u2019s Nikkei plunges 5.7%, South Korea\u2019s Kospi falls 7.4% amid AI stock rout",
-        "source": "Hindu BusinessLine",
+        "title": "Multibagger stock to buy: Motilal Oswal sees 37% upside in Himadri Speciality Chemical; key triggers, target price",
+        "source": "Mint Markets",
         "category": "market",
-        "sentiment": "BEARISH",
+        "sentiment": "BULLISH",
         "tickers": [],
-        "sectors": [
-          "Infrastructure"
-        ],
-        "published": "2026-11-06T03:22:36+00:00",
-        "link": "https://www.thehindubusinessline.com/markets/stock-markets/japans-nikkei-plunges-57-south-koreas-kospi-falls-74-amid-ai-stock-rout/article71672730.ece"
+        "sectors": [],
+        "published": "2026-11-06T13:26:06+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/multibagger-stock-to-buy-motilal-oswal-sees-37-upside-in-himadri-speciality-chemical-key-triggers-target-price-11793971080471.html"
       },
       {
-        "title": "AI bubble fears trigger $2.3 trillion Wall Street selloff as Nasdaq 100 plunges 6%: 'flashbacks to 2008 or 2001'",
+        "title": "Gold, silver turn volatile after strong US jobs data, but remain on track to snap multi-week losing streaks",
         "source": "Mint Markets",
         "category": "market",
         "sentiment": "BEARISH",
-        "tickers": [
-          "RELIANCE"
-        ],
+        "tickers": [],
         "sectors": [],
-        "published": "2026-11-06T01:40:01+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/ai-bubble-fears-trigger-2-3-trillion-wall-street-selloff-as-nasdaq-100-plunges-6-nvidia-falls-9-11793928748972.html"
+        "published": "2026-11-06T17:25:16+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/gold-silver-turn-volatile-after-strong-us-jobs-data-but-remain-on-track-to-snap-multi-week-losing-streaks-11793985166600.html"
       },
       {
         "title": "NCLT declares Videocon promoter Venugopal Dhoot bankrupt on SBI plea; appoints bankruptcy trustee",
@@ -4572,18 +4586,6 @@
         "link": "https://economictimes.indiatimes.com/industry/telecom/nclt-declares-videocon-promoter-venugopal-dhoot-bankrupt-on-sbi-plea-appoints-bankruptcy-trustee/articleshow/135593784.cms"
       },
       {
-        "title": "PhysicsWallah Q2 net profit more than doubles to nearly \u20b9144 crore as revenue rises 18%",
-        "source": "Mint Companies",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Metals"
-        ],
-        "published": "2026-11-05T16:05:54+00:00",
-        "link": "https://www.livemint.com/companies/company-results/physicswallah-q2-net-profit-more-than-doubles-to-nearly-rs-144-crore-as-revenue-rises-18-11793893174732.html"
-      },
-      {
         "title": "Diwali sweet boxes faces inflation bite as sugar prices surge 30%",
         "source": "Hindu BusinessLine",
         "category": "market",
@@ -4594,39 +4596,27 @@
         "link": "https://www.thehindubusinessline.com/economy/diwali-sweet-boxes-faces-inflation-bite-as-sugar-prices-surge-30/article71673174.ece"
       },
       {
-        "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
-        "source": "ET Economy",
-        "category": "macro",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [
-          "Oil & Gas"
-        ],
-        "published": "2026-11-05T05:05:52+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
-      },
-      {
-        "title": "New orders & robust demand lift India's October services growth to 4-month high",
-        "source": "ET Economy",
-        "category": "macro",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-11-04T18:48:40+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/indicators/new-orders-robust-demand-lift-indias-october-services-growth-to-4-month-high/articleshow/135549909.cms"
-      },
-      {
-        "title": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran",
-        "source": "ET Economy",
-        "category": "macro",
+        "title": "US stocks today: Nasdaq rebounds as chip stocks recover from steep losses, rate fears persist",
+        "source": "ET Markets",
+        "category": "market",
         "sentiment": "BEARISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-11-04T18:24:05+00:00",
-        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran/articleshow/135548791.cms"
+        "published": "2026-11-06T14:40:26+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-opens-higher-as-chips-pare-losses-rate-hike-fears-linger/articleshow/135611515.cms"
       },
       {
-        "title": "Copper falls for 4th day, heads for worst week since March on AI rout",
+        "title": "India's 10-year bond posts best week in 7 years, leads emerging Asia as oil slides",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-06T12:02:52+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-posts-best-week-in-7-years-leads-emerging-asia-as-oil-slides/articleshow/135606792.cms"
+      },
+      {
+        "title": "Copper price falls for 4th day, heads for worst week since March on AI rout",
         "source": "ET Markets",
         "category": "market",
         "sentiment": "BEARISH",
@@ -4648,14 +4638,36 @@
         ],
         "published": "2026-11-06T07:04:25+00:00",
         "link": "https://economictimes.indiatimes.com/markets/forex/rupee-falls-9-paise-to-94-50-against-us-dollar-in-early-trade/articleshow/135597848.cms"
+      },
+      {
+        "title": "Authum Investment among 4 stocks showing bullish RSI upswing",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-06T03:55:32+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/authum-investment-among-4-stocks-showing-bullish-rsi-upswing/slideshow/135593074.cms"
+      },
+      {
+        "title": "US midterm outcome offers limited relief to India; oil, Russia sanctions remain key risks: Report",
+        "source": "ET Economy",
+        "category": "macro",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [
+          "Oil & Gas"
+        ],
+        "published": "2026-11-05T05:05:52+00:00",
+        "link": "https://economictimes.indiatimes.com/news/economy/foreign-trade/us-midterm-outcome-offers-limited-relief-to-india-oil-russia-sanctions-remain-key-risks-report/articleshow/135559680.cms"
       }
     ],
     "news_stats": {
       "total_items": 263,
       "sources": 11,
-      "with_tickers": 40,
-      "bullish": 66,
-      "bearish": 69
+      "with_tickers": 36,
+      "bullish": 70,
+      "bearish": 63
     }
   }
 }
