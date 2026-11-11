@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:23:54.642676+05:30",
+  "generated_at": "2026-11-11T23:23:20.071428+05:30",
   "market_date": "2026-11-11",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -283,6 +283,123 @@
         "rank": 2
       },
       {
+        "symbol": "ICICIBANK",
+        "score": 49,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 1571.6,
+        "change_pct": -1.1,
+        "change": -17.4,
+        "target_price": 2278.82,
+        "stop_loss": 1477.3,
+        "risk_reward": 7.8,
+        "holding_category": "short",
+        "sector": "Banking",
+        "penalty": 10,
+        "scores": {
+          "trend": 22,
+          "momentum": 9,
+          "volume": 10,
+          "breakout": 5,
+          "price_action": 8
+        },
+        "indicators": {
+          "rsi": 80.8,
+          "macd_signal": "Bullish",
+          "sma_alignment": "Full Bull (>20>50>200)",
+          "volume_ratio": 1.69,
+          "week52_pct": 2.7,
+          "bb_position": 1.01,
+          "adx": null
+        },
+        "reasons": [
+          "Full bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "MACD bullish",
+          "MACD histogram expanding",
+          "Above avg vol 1.7x",
+          "OBV trending up"
+        ],
+        "trade_plan": {
+          "category": "long",
+          "cat_score": 10,
+          "atr": 34.97,
+          "atr_pct": 2.23,
+          "entry": {
+            "ideal_price": 1545.37,
+            "limit_order": 1544.29,
+            "acceptable_max": 1587.32,
+            "entry_window": "09:15\u201309:45 AM IST",
+            "order_strategy": "GTC limit \u2014 no urgency",
+            "note": "Prev close \u20b91,571.60 | Dip ~\u20b926.23"
+          },
+          "exit": {
+            "target_conservative": 1964.5,
+            "target_ideal": 2278.82,
+            "target_stretch": 2593.14,
+            "upside_conservative": 27.1,
+            "upside_ideal": 47.5,
+            "upside_stretch": 67.8,
+            "hold_min_days": 180,
+            "hold_max_days": 540,
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,278.82 hit",
+            "hold_note": "Review monthly"
+          }
+        },
+        "name": "ICICI Bank",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 61.3,
+            "price_band": {
+              "low": 1541.88,
+              "mid": 1580.34,
+              "high": 1618.81,
+              "move_pct_mid": 0.56
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 57.1,
+            "price_band": {
+              "low": 1505.13,
+              "mid": 1591.15,
+              "high": 1677.16,
+              "move_pct_mid": 1.24
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 53.0,
+            "price_band": {
+              "low": 1395.32,
+              "mid": 1571.6,
+              "high": 1747.88,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Above \u20b91,572, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
+        "rank": 3
+      },
+      {
         "symbol": "HAL",
         "score": 47,
         "signal": "WATCH",
@@ -395,7 +512,7 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 56 sits in no-man's land. The stock is waiting for a trigger. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Defence is lagging the broader tape (score 37) \u2014 an extra headwind. Range-bound between \u20b94,801 and \u20b95,068. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 3
+        "rank": 4
       },
       {
         "symbol": "KOTAKBANK",
@@ -512,123 +629,6 @@
           }
         },
         "narrative": "KOTAKBANK's momentum is running hot with RSI at 78. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Needs to resolve \u20b9473\u2013\u20b9499 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "rank": 4
-      },
-      {
-        "symbol": "ICICIBANK",
-        "score": 46,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 1571.6,
-        "change_pct": -1.1,
-        "change": -17.4,
-        "target_price": 2278.82,
-        "stop_loss": 1477.3,
-        "risk_reward": 7.8,
-        "holding_category": "short",
-        "sector": "Banking",
-        "penalty": 10,
-        "scores": {
-          "trend": 22,
-          "momentum": 9,
-          "volume": 10,
-          "breakout": 5,
-          "price_action": 8
-        },
-        "indicators": {
-          "rsi": 80.8,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 1.69,
-          "week52_pct": 2.7,
-          "bb_position": 1.01,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "MACD bullish",
-          "MACD histogram expanding",
-          "Above avg vol 1.7x",
-          "OBV trending up"
-        ],
-        "trade_plan": {
-          "category": "long",
-          "cat_score": 10,
-          "atr": 34.97,
-          "atr_pct": 2.23,
-          "entry": {
-            "ideal_price": 1545.37,
-            "limit_order": 1544.29,
-            "acceptable_max": 1587.32,
-            "entry_window": "09:15\u201309:45 AM IST",
-            "order_strategy": "GTC limit \u2014 no urgency",
-            "note": "Prev close \u20b91,571.60 | Dip ~\u20b926.23"
-          },
-          "exit": {
-            "target_conservative": 1964.5,
-            "target_ideal": 2278.82,
-            "target_stretch": 2593.14,
-            "upside_conservative": 27.1,
-            "upside_ideal": 47.5,
-            "upside_stretch": 67.8,
-            "hold_min_days": 180,
-            "hold_max_days": 540,
-            "hold_duration": "5\u201315 trading days",
-            "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,278.82 hit",
-            "hold_note": "Review monthly"
-          }
-        },
-        "name": "ICICI Bank",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 53.8,
-            "price_band": {
-              "low": 1533.13,
-              "mid": 1571.6,
-              "high": 1610.07,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 51.4,
-            "price_band": {
-              "low": 1485.59,
-              "mid": 1571.6,
-              "high": 1657.61,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 48.7,
-            "price_band": {
-              "low": 1395.32,
-              "mid": 1571.6,
-              "high": 1747.88,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Range-bound between \u20b91,524 and \u20b91,609. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
         "rank": 5
       }
     ]
@@ -1926,6 +1926,123 @@
       "rank": 2
     },
     {
+      "symbol": "ICICIBANK",
+      "score": 49,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 1571.6,
+      "change_pct": -1.1,
+      "change": -17.4,
+      "target_price": 2278.82,
+      "stop_loss": 1477.3,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Banking",
+      "penalty": 10,
+      "scores": {
+        "trend": 22,
+        "momentum": 9,
+        "volume": 10,
+        "breakout": 5,
+        "price_action": 8
+      },
+      "indicators": {
+        "rsi": 80.8,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Full Bull (>20>50>200)",
+        "volume_ratio": 1.69,
+        "week52_pct": 2.7,
+        "bb_position": 1.01,
+        "adx": null
+      },
+      "reasons": [
+        "Full bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "MACD bullish",
+        "MACD histogram expanding",
+        "Above avg vol 1.7x",
+        "OBV trending up"
+      ],
+      "trade_plan": {
+        "category": "long",
+        "cat_score": 10,
+        "atr": 34.97,
+        "atr_pct": 2.23,
+        "entry": {
+          "ideal_price": 1545.37,
+          "limit_order": 1544.29,
+          "acceptable_max": 1587.32,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b91,571.60 | Dip ~\u20b926.23"
+        },
+        "exit": {
+          "target_conservative": 1964.5,
+          "target_ideal": 2278.82,
+          "target_stretch": 2593.14,
+          "upside_conservative": 27.1,
+          "upside_ideal": 47.5,
+          "upside_stretch": 67.8,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,278.82 hit",
+          "hold_note": "Review monthly"
+        }
+      },
+      "name": "ICICI Bank",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bullish",
+          "confidence": "Medium",
+          "composite": 61.3,
+          "price_band": {
+            "low": 1541.88,
+            "mid": 1580.34,
+            "high": 1618.81,
+            "move_pct_mid": 0.56
+          },
+          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+          "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Mildly Bullish",
+          "confidence": "Medium",
+          "composite": 57.1,
+          "price_band": {
+            "low": 1505.13,
+            "mid": 1591.15,
+            "high": 1677.16,
+            "move_pct_mid": 1.24
+          },
+          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+          "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 53.0,
+          "price_band": {
+            "low": 1395.32,
+            "mid": 1571.6,
+            "high": 1747.88,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Above \u20b91,572, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
+      "rank": 3
+    },
+    {
       "symbol": "HAL",
       "score": 47,
       "signal": "WATCH",
@@ -2038,7 +2155,7 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 56 sits in no-man's land. The stock is waiting for a trigger. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Defence is lagging the broader tape (score 37) \u2014 an extra headwind. Range-bound between \u20b94,801 and \u20b95,068. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 3
+      "rank": 4
     },
     {
       "symbol": "KOTAKBANK",
@@ -2155,123 +2272,6 @@
         }
       },
       "narrative": "KOTAKBANK's momentum is running hot with RSI at 78. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Needs to resolve \u20b9473\u2013\u20b9499 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-      "rank": 4
-    },
-    {
-      "symbol": "ICICIBANK",
-      "score": 46,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 1571.6,
-      "change_pct": -1.1,
-      "change": -17.4,
-      "target_price": 2278.82,
-      "stop_loss": 1477.3,
-      "risk_reward": 7.8,
-      "holding_category": "long",
-      "sector": "Banking",
-      "penalty": 10,
-      "scores": {
-        "trend": 22,
-        "momentum": 9,
-        "volume": 10,
-        "breakout": 5,
-        "price_action": 8
-      },
-      "indicators": {
-        "rsi": 80.8,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 1.69,
-        "week52_pct": 2.7,
-        "bb_position": 1.01,
-        "adx": null
-      },
-      "reasons": [
-        "Full bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "Above avg vol 1.7x",
-        "OBV trending up"
-      ],
-      "trade_plan": {
-        "category": "long",
-        "cat_score": 10,
-        "atr": 34.97,
-        "atr_pct": 2.23,
-        "entry": {
-          "ideal_price": 1545.37,
-          "limit_order": 1544.29,
-          "acceptable_max": 1587.32,
-          "entry_window": "09:15\u201309:45 AM IST",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b91,571.60 | Dip ~\u20b926.23"
-        },
-        "exit": {
-          "target_conservative": 1964.5,
-          "target_ideal": 2278.82,
-          "target_stretch": 2593.14,
-          "upside_conservative": 27.1,
-          "upside_ideal": 47.5,
-          "upside_stretch": 67.8,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "5\u201315 trading days",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,278.82 hit",
-          "hold_note": "Review monthly"
-        }
-      },
-      "name": "ICICI Bank",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 53.8,
-          "price_band": {
-            "low": 1533.13,
-            "mid": 1571.6,
-            "high": 1610.07,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 51.4,
-          "price_band": {
-            "low": 1485.59,
-            "mid": 1571.6,
-            "high": 1657.61,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Neutral",
-          "confidence": "Medium",
-          "composite": 48.7,
-          "price_band": {
-            "low": 1395.32,
-            "mid": 1571.6,
-            "high": 1747.88,
-            "move_pct_mid": 0.0
-          },
-          "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Range-bound between \u20b91,524 and \u20b91,609. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
       "rank": 5
     },
     {
@@ -3435,7 +3435,7 @@
           "primary_risk": "News-driven spike may fade without volume confirmation"
         }
       },
-      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. With RSI at 80, this is the part of the move where late buyers provide exit liquidity for early ones. Newsflow is positive \u2014 2 items in the last 48 hours \u2014 'Bajaj Finance said set to launch up to $1.2 billion QIP as early as this week' (Mint Markets) is the headline to watch. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. NBFC is lagging the broader tape (score 27) \u2014 an extra headwind. Needs to resolve \u20b91,046\u2013\u20b91,105 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "narrative": "Positive headlines haven't translated into chart improvement yet. Until the averages confirm, the story is running ahead of the evidence. There's no discernible trend. The stock is range-bound and waiting for direction. With RSI at 80, this is the part of the move where late buyers provide exit liquidity for early ones. Newsflow is positive \u2014 3 items in the last 48 hours \u2014 'Bajaj Finance said set to launch up to $1.2 billion QIP as early as this week' (Mint Markets) is the headline to watch. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. NBFC is lagging the broader tape (score 27) \u2014 an extra headwind. Needs to resolve \u20b91,046\u2013\u20b91,105 before a directional bet pays. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Mildly Bearish \u2192 Mildly Bearish.",
       "rank": 15
     }
   ],
@@ -3446,6 +3446,15 @@
       "sector": "Infrastructure",
       "current_price": 1907.0,
       "score": 52,
+      "signal": "WATCH",
+      "reason": "Full bullish SMA alignment"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Banking",
+      "current_price": 1571.6,
+      "score": 49,
       "signal": "WATCH",
       "reason": "Full bullish SMA alignment"
     },
@@ -3463,15 +3472,6 @@
       "name": "Kotak Mahindra Bank",
       "sector": "Banking",
       "current_price": 487.7,
-      "score": 46,
-      "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
-    },
-    {
-      "symbol": "ICICIBANK",
-      "name": "ICICI Bank",
-      "sector": "Banking",
-      "current_price": 1571.6,
       "score": 46,
       "signal": "WATCH",
       "reason": "Full bullish SMA alignment"
@@ -3575,7 +3575,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-11-11T17:25:47.736946+05:30",
+    "generated_at": "2026-11-11T23:24:45.076863+05:30",
     "date": "2026-11-11",
     "source": "rules_engine_v4_news_fusion",
     "headline": "BULL regime \u2014 62% breadth, selective stance; macro neutral",
@@ -3588,8 +3588,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.14,
-      "count": 136,
+      "score": 0.04,
+      "count": 146,
       "highlights": [
         {
           "title": "Apollo Micro Systems shares surge 10%: Defence multibagger stock rallies 3,640% in 5 years; can it rise further?",
@@ -3602,26 +3602,6 @@
           "link": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-surge-10-defence-multibagger-stock-rallies-3-640-in-5-years-can-it-rise-further-11794390982550.html"
         },
         {
-          "title": "Balmer Lawrie share price jumps 16% as stock rallies after strong Q2 results, gains 19% in two weeks | Check key levels",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Metals"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/balmer-lawrie-share-price-jumps-16-as-stock-rallies-after-strong-q2-results-gains-19-in-two-weeks-check-key-levels-11794372566602.html"
-        },
-        {
-          "title": "Markets surge after Diwali; Nifty crosses 25,350 as FII inflows hit \u20b953,170 crore this month",
-          "source": "Hindu BusinessLine",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Telecom"
-          ],
-          "link": "https://www.thehindubusinessline.com/markets/markets-surge-after-diwali-nifty-crosses-25350-as-fii-inflows-hit-53170-crore-this-month/article71688274.ece"
-        },
-        {
           "title": "CoreWeave stock jumps after earnings: 7 things driving the AI cloud company's rally",
           "source": "ET Markets",
           "category": "market",
@@ -3632,30 +3612,49 @@
           "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/coreweave-stock-jumps-after-earnings-7-things-driving-the-ai-cloud-companys-rally/slideshow/135729203.cms"
         },
         {
-          "title": "Ashoka Buildcon shares soar 14% after new NHAI order win, still down 43% in 1 year - check contract details, performance",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Infrastructure"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/ashoka-buildcon-shares-soar-14-after-new-nhai-order-win-still-down-43-in-1-year-check-contract-details-performance-11794372853320.html"
-        },
-        {
           "title": "India's unemployment rate falls to 5.1% in July-September as rural joblessness declines",
           "source": "ET Economy",
           "category": "macro",
           "sentiment": "BEARISH",
           "sectors": [],
           "link": "https://economictimes.indiatimes.com/news/economy/indicators/indias-unemployment-rate-falls-to-5-1-in-july-september-as-rural-joblessness-declines/articleshow/135709920.cms"
+        },
+        {
+          "title": "Railway stocks on fast track! RVNL, IRFC jump up to 10% amid Sensex, Nifty rise | What's behind momentum? Key levels",
+          "source": "Mint Markets",
+          "category": "market",
+          "sentiment": "BULLISH",
+          "sectors": [
+            "Infrastructure",
+            "Telecom"
+          ],
+          "link": "https://www.livemint.com/market/stock-market-news/railway-stocks-on-fast-track-rvnl-irfc-jump-up-to-10-amid-sensex-nifty-rise-whats-behind-momentum-key-levels-11794378046674.html"
+        },
+        {
+          "title": "Brent near $90 offers relief on fiscal, inflation fronts",
+          "source": "Mint Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Oil & Gas"
+          ],
+          "link": "https://www.livemint.com/economy/brent-near-90-offers-relief-on-fiscal-inflation-fronts-11794317269583.html"
+        },
+        {
+          "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
+          "source": "BBC Business",
+          "category": "global",
+          "sentiment": "BULLISH",
+          "sectors": [],
+          "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
-    "key_insight": "Broad-based strength with 62% of names above their 50-day average and median move +0.6% \u2014 the kind of tape where adding quality on 2-3% dips usually pays. Macro flow is neutral with 136 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 55 while FMCG lags at 18 \u2014 a stock-picker's tape.",
+    "key_insight": "Broad-based strength with 62% of names above their 50-day average and median move +0.6% \u2014 the kind of tape where adding quality on 2-3% dips usually pays. Macro flow is neutral with 146 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Retail leads at 55 while FMCG lags at 18 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BULL \u00b7 breadth 62% \u00b7 median momentum +0.6% \u00b7 ATR 2.6%",
       "Book: 1 ADD \u00b7 0 ACCUMULATE \u00b7 47 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 136 items across 11 sources",
+      "Macro tone: NEUTRAL from 146 items across 11 sources",
       "Strongest sector: Retail (avg score 55)"
     ],
     "market_pulse": {
@@ -3682,7 +3681,7 @@
         "change_pct": 2.4,
         "price": 189.28,
         "action": "HOLD",
-        "score": 31
+        "score": 29
       },
       {
         "symbol": "DIXON",
@@ -3748,7 +3747,7 @@
         "change_pct": -1.1,
         "price": 1571.6,
         "action": "HOLD",
-        "score": 46
+        "score": 49
       }
     ],
     "conviction_board": [
@@ -3887,6 +3886,74 @@
         }
       },
       {
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank",
+        "sector": "Banking",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 49,
+        "rsi": 80.8,
+        "trend": "Full Bull (>20>50>200)",
+        "reason": "Full bullish SMA alignment",
+        "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Above \u20b91,572, the setup stays alive. \u20b91,609 is the next hurdle. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Mildly Bullish \u2192 Neutral.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 61.3,
+            "price_band": {
+              "low": 1541.88,
+              "mid": 1580.34,
+              "high": 1618.81,
+              "move_pct_mid": 0.56
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 57.1,
+            "price_band": {
+              "low": 1505.13,
+              "mid": 1591.15,
+              "high": 1677.16,
+              "move_pct_mid": 1.24
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "Overbought (RSI 81) \u2014 chase risk high"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 53.0,
+            "price_band": {
+              "low": 1395.32,
+              "mid": 1571.6,
+              "high": 1747.88,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "news_info": {
+          "score": 3.3,
+          "label": "BULLISH",
+          "count": 1,
+          "modifier": 5,
+          "top_headline": "ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
+          "top_source": "Hindu BusinessLine",
+          "top_link": "https://www.thehindubusinessline.com/markets/stock-markets/icici-bank-hits-52-week-high-before-retreating-morgan-stanley-adds-to-focus-list/article71688748.ece"
+        }
+      },
+      {
         "symbol": "HAL",
         "name": "Hindustan Aeronautics",
         "sector": "Defence",
@@ -4011,81 +4078,11 @@
           }
         },
         "news_info": {
-          "score": 0.0,
+          "score": 0,
           "label": "NEUTRAL",
-          "count": 1,
+          "count": 0,
           "modifier": 0,
-          "top_headline": "Kotak Bank Share Price Live Updates: Kotak Bank's stock shows resilience with a price increase",
-          "top_source": "ET Markets",
-          "top_link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/kotak-bank-share-price-today-live-updates-11-nov-2026/liveblog/135724188.cms"
-        }
-      },
-      {
-        "symbol": "ICICIBANK",
-        "name": "ICICI Bank",
-        "sector": "Banking",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 46,
-        "rsi": 80.8,
-        "trend": "Full Bull (>20>50>200)",
-        "reason": "Full bullish SMA alignment",
-        "narrative": "The newsflow around ICICIBANK is constructive \u2014 'ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 81, this is the part of the move where late buyers provide exit liquidity for early ones. Above-average volume (1.7x) adds weight to the move. The market is helping \u2014 62% breadth in a bullish regime lifts most boats. Banking is lagging the broader tape (score 37) \u2014 an extra headwind. Range-bound between \u20b91,524 and \u20b91,609. Patience over conviction. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Neutral \u2192 Neutral \u2192 Neutral.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 53.8,
-            "price_band": {
-              "low": 1533.13,
-              "mid": 1571.6,
-              "high": 1610.07,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 51.4,
-            "price_band": {
-              "low": 1485.59,
-              "mid": 1571.6,
-              "high": 1657.61,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Neutral",
-            "confidence": "Medium",
-            "composite": 48.7,
-            "price_band": {
-              "low": 1395.32,
-              "mid": 1571.6,
-              "high": 1747.88,
-              "move_pct_mid": 0.0
-            },
-            "catalyst": "News flow: ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": 1.65,
-          "label": "MILDLY_BULLISH",
-          "count": 2,
-          "modifier": 2,
-          "top_headline": "ICICI Bank shares hits 52-week high; Morgan Stanley adds to focus list",
-          "top_source": "Hindu BusinessLine",
-          "top_link": "https://www.thehindubusinessline.com/markets/stock-markets/icici-bank-hits-52-week-high-before-retreating-morgan-stanley-adds-to-focus-list/article71688748.ece"
+          "top_headline": null
         }
       },
       {
@@ -4157,20 +4154,20 @@
     ],
     "risk_watchlist": [
       {
-        "symbol": "KOTAKBANK",
-        "name": "Kotak Mahindra Bank",
-        "action": "HOLD",
-        "flags": [
-          "RSI 78 overbought"
-        ],
-        "verdict": "HOLD"
-      },
-      {
         "symbol": "ICICIBANK",
         "name": "ICICI Bank",
         "action": "HOLD",
         "flags": [
           "RSI 81 overbought"
+        ],
+        "verdict": "HOLD"
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "name": "Kotak Mahindra Bank",
+        "action": "HOLD",
+        "flags": [
+          "RSI 78 overbought"
         ],
         "verdict": "HOLD"
       },
@@ -4257,10 +4254,10 @@
       },
       {
         "sector": "Banking",
-        "avg_score": 38.0,
+        "avg_score": 38.5,
         "count": 6,
         "trend": "down",
-        "news_count": 13,
+        "news_count": 20,
         "news_label": "BULLISH"
       },
       {
@@ -4268,7 +4265,7 @@
         "avg_score": 37.0,
         "count": 2,
         "trend": "down",
-        "news_count": 2,
+        "news_count": 1,
         "news_label": "BULLISH"
       },
       {
@@ -4284,16 +4281,8 @@
         "avg_score": 35.0,
         "count": 1,
         "trend": "down",
-        "news_count": 11,
+        "news_count": 10,
         "news_label": "BEARISH"
-      },
-      {
-        "sector": "Metals",
-        "avg_score": 34.3,
-        "count": 3,
-        "trend": "down",
-        "news_count": 1,
-        "news_label": "BULLISH"
       },
       {
         "sector": "Consumer Disc.",
@@ -4308,8 +4297,16 @@
         "avg_score": 34.0,
         "count": 1,
         "trend": "down",
-        "news_count": 5,
+        "news_count": 7,
         "news_label": "BULLISH"
+      },
+      {
+        "sector": "Metals",
+        "avg_score": 33.7,
+        "count": 3,
+        "trend": "down",
+        "news_count": 2,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Mining",
@@ -4355,26 +4352,14 @@
         "link": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-surge-10-defence-multibagger-stock-rallies-3-640-in-5-years-can-it-rise-further-11794390982550.html"
       },
       {
-        "title": "Why Kalyan Jewellers shares surged 10%, hit 52-week high after Diwali, Dhanteras; up 26% in a week | Buy, sell or hold?",
-        "source": "Mint Markets",
+        "title": "Baird downgrades Nvidia on China curbs, AI demand worries",
+        "source": "ET Markets",
         "category": "market",
-        "sentiment": "BULLISH",
+        "sentiment": "BEARISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-11-11T04:16:51+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/why-kalyan-jewellers-shares-surged-10-hit-52-week-high-after-diwali-dhanteras-up-26-in-a-week-buy-sell-or-hold-11794369395918.html"
-      },
-      {
-        "title": "Balmer Lawrie share price jumps 16% as stock rallies after strong Q2 results, gains 19% in two weeks | Check key levels",
-        "source": "Mint Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Metals"
-        ],
-        "published": "2026-11-11T05:13:46+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/balmer-lawrie-share-price-jumps-16-as-stock-rallies-after-strong-q2-results-gains-19-in-two-weeks-check-key-levels-11794372566602.html"
+        "published": "2026-11-11T14:34:53+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/baird-downgrades-nvidia-on-china-curbs-ai-demand-worries/articleshow/135740853.cms"
       },
       {
         "title": "Positive Breakout: These 5 stocks rose above their 200 DMAs",
@@ -4395,18 +4380,6 @@
         "sectors": [],
         "published": "2026-11-11T08:36:15+00:00",
         "link": "https://www.livemint.com/market/moneyview-shares-are-up-58-from-ipo-price-jump-4-today-after-bofa-coverage-what-it-said-check-price-target-11794377585073.html"
-      },
-      {
-        "title": "Markets surge after Diwali; Nifty crosses 25,350 as FII inflows hit \u20b953,170 crore this month",
-        "source": "Hindu BusinessLine",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Telecom"
-        ],
-        "published": "2026-11-11T04:40:23+00:00",
-        "link": "https://www.thehindubusinessline.com/markets/markets-surge-after-diwali-nifty-crosses-25350-as-fii-inflows-hit-53170-crore-this-month/article71688274.ece"
       },
       {
         "title": "CoreWeave stock jumps after earnings: 7 things driving the AI cloud company's rally",
@@ -4463,23 +4436,41 @@
         "link": "https://www.livemint.com/market/stock-market-news/eternals-ipo-investors-sitting-on-375-gains-as-stock-hits-new-record-high-from-rs-76-price-to-rs-361-what-changed-11794391062630.html"
       },
       {
-        "title": "Ashoka Buildcon shares soar 14% after new NHAI order win, still down 43% in 1 year - check contract details, performance",
-        "source": "Mint Markets",
+        "title": "Edelweiss Alternatives\u2019 H1FY27 profit rises 35% to \u20b9169 crore; declares \u20b97 interim dividend",
+        "source": "Hindu BusinessLine",
         "category": "market",
         "sentiment": "BULLISH",
         "tickers": [],
-        "sectors": [
-          "Infrastructure"
-        ],
-        "published": "2026-11-11T05:02:59+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/ashoka-buildcon-shares-soar-14-after-new-nhai-order-win-still-down-43-in-1-year-check-contract-details-performance-11794372853320.html"
+        "sectors": [],
+        "published": "2026-11-11T11:49:46+00:00",
+        "link": "https://www.thehindubusinessline.com/markets/edelweiss-alternatives-h1fy27-profit-rises-35-to-169-crore-declares-7-interim-dividend/article71689508.ece"
+      },
+      {
+        "title": "Dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BEARISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-11T13:17:36+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firms-as-hot-inflation-hawkish-fed-talk-lift-rate-hike-bets/articleshow/135739033.cms"
+      },
+      {
+        "title": "These 12 midcap stocks rally up to 30% in just one month",
+        "source": "ET Markets",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-11T10:40:03+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/these-12-midcap-stocks-rally-up-to-30-in-just-one-month/slideshow/135734690.cms"
       }
     ],
     "news_stats": {
-      "total_items": 253,
+      "total_items": 255,
       "sources": 11,
-      "with_tickers": 46,
-      "bullish": 72,
+      "with_tickers": 32,
+      "bullish": 87,
       "bearish": 48
     }
   }
