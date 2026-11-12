@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:20:22.884431+05:30",
+  "generated_at": "2026-11-12T18:16:10.628679+05:30",
   "market_date": "2026-11-12",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -166,6 +166,123 @@
         "rank": 1
       },
       {
+        "symbol": "KOTAKBANK",
+        "score": 49,
+        "signal": "WATCH",
+        "confidence": "MEDIUM",
+        "current_price": 490.4,
+        "change_pct": 0.55,
+        "change": 2.7,
+        "target_price": 711.08,
+        "stop_loss": 460.98,
+        "risk_reward": 7.8,
+        "holding_category": "short",
+        "sector": "Banking",
+        "penalty": 10,
+        "scores": {
+          "trend": 22,
+          "momentum": 9,
+          "volume": 6,
+          "breakout": 5,
+          "price_action": 9
+        },
+        "indicators": {
+          "rsi": 79.9,
+          "macd_signal": "Bullish",
+          "sma_alignment": "Full Bull (>20>50>200)",
+          "volume_ratio": 1.17,
+          "week52_pct": 0.7,
+          "bb_position": 0.98,
+          "adx": null
+        },
+        "reasons": [
+          "Full bullish SMA alignment",
+          "EMA 12/26 bullish",
+          "MACD bullish",
+          "MACD histogram expanding",
+          "OBV trending up",
+          "Near upper BB"
+        ],
+        "trade_plan": {
+          "category": "long",
+          "cat_score": 10,
+          "atr": 11.09,
+          "atr_pct": 2.26,
+          "entry": {
+            "ideal_price": 482.09,
+            "limit_order": 481.75,
+            "acceptable_max": 495.3,
+            "entry_window": "09:15\u201309:45 AM IST",
+            "order_strategy": "GTC limit \u2014 no urgency",
+            "note": "Prev close \u20b9490.40 | Dip ~\u20b98.31"
+          },
+          "exit": {
+            "target_conservative": 613.0,
+            "target_ideal": 711.08,
+            "target_stretch": 809.16,
+            "upside_conservative": 27.2,
+            "upside_ideal": 47.5,
+            "upside_stretch": 67.8,
+            "hold_min_days": 180,
+            "hold_max_days": 540,
+            "hold_duration": "5\u201315 trading days",
+            "sell_trigger": "Exit if fundamentals deteriorate or \u20b9711.08 hit",
+            "hold_note": "Review monthly"
+          }
+        },
+        "name": "Kotak Mahindra Bank",
+        "verdict": "HOLD",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 56.2,
+            "price_band": {
+              "low": 480.97,
+              "mid": 493.17,
+              "high": 505.37,
+              "move_pct_mid": 0.57
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 52.6,
+            "price_band": {
+              "low": 463.12,
+              "mid": 490.4,
+              "high": 517.68,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 50.8,
+            "price_band": {
+              "low": 434.5,
+              "mid": 490.4,
+              "high": 546.3,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "narrative": "The newsflow around KOTAKBANK is constructive \u2014 'Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 80, this is the part of the move where late buyers provide exit liquidity for early ones. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Look for a close above \u20b9502 as confirmation. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
+        "rank": 2
+      },
+      {
         "symbol": "HEROMOTOCO",
         "score": 45,
         "signal": "WATCH",
@@ -278,7 +395,7 @@
           }
         },
         "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 59 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 31) \u2014 an extra headwind. \u20b95,182 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 2
+        "rank": 3
       },
       {
         "symbol": "DIXON",
@@ -395,7 +512,7 @@
           }
         },
         "narrative": "A word of caution \u2014 momentum is surging but the moving average structure hasn't confirmed. This could be a counter-trend bounce rather than a genuine reversal. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Buyers are in control (RSI 71), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Watch \u20b912,602 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 3
+        "rank": 4
       },
       {
         "symbol": "SBIN",
@@ -512,8 +629,13 @@
           }
         },
         "narrative": "SBIN is on fire \u2014 RSI at 76 with volume running 1.9x average. Buyers are aggressive. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'SBI Mutual Fund launches defence ETF fund of funds; NFO opens November 16' (Hindu BusinessLine) is the headline to watch. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b91,054 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 4
-      },
+        "rank": 5
+      }
+    ]
+  },
+  "medium_term": {
+    "label": "Medium Term (4\u201312 weeks)",
+    "picks": [
       {
         "symbol": "BHARTIARTL",
         "score": 43,
@@ -525,7 +647,7 @@
         "target_price": 3039.2,
         "stop_loss": 1970.24,
         "risk_reward": 7.8,
-        "holding_category": "short",
+        "holding_category": "medium",
         "sector": "Telecom",
         "penalty": 0,
         "scores": {
@@ -561,7 +683,7 @@
             "ideal_price": 2059.89,
             "limit_order": 2058.45,
             "acceptable_max": 2116.96,
-            "entry_window": "09:15\u201309:45 AM IST",
+            "entry_window": "09:15\u201310:15 AM IST",
             "order_strategy": "GTC limit \u2014 no urgency",
             "note": "Prev close \u20b92,096.00 | Dip ~\u20b936.11"
           },
@@ -574,7 +696,7 @@
             "upside_stretch": 67.9,
             "hold_min_days": 180,
             "hold_max_days": 540,
-            "hold_duration": "5\u201315 trading days",
+            "hold_duration": "4\u201312 weeks",
             "sell_trigger": "Exit if fundamentals deteriorate or \u20b93,039.20 hit",
             "hold_note": "Review monthly"
           }
@@ -629,13 +751,8 @@
           }
         },
         "narrative": "Overbought on declining volume \u2014 a classic combination for a pullback or at minimum a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Buyers are in control (RSI 76), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. \u20b92,033 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 5
-      }
-    ]
-  },
-  "medium_term": {
-    "label": "Medium Term (4\u201312 weeks)",
-    "picks": [
+        "rank": 1
+      },
       {
         "symbol": "INDUSINDBK",
         "score": 43,
@@ -751,7 +868,7 @@
           }
         },
         "narrative": "INDUSINDBK scores 43/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b9903 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 1
+        "rank": 2
       },
       {
         "symbol": "JSWSTEEL",
@@ -868,7 +985,7 @@
           }
         },
         "narrative": "RSI is stretched and the volume is thinning. That's the kind of setup where profit-taking hits without warning. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI is at 74 \u2014 momentum is real but getting stretched. A consolidation here would be healthy, not alarming. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 24) \u2014 an extra headwind. \u20b91,312 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 2
+        "rank": 3
       },
       {
         "symbol": "ICICIBANK",
@@ -985,123 +1102,6 @@
           }
         },
         "narrative": "ICICIBANK's momentum is running hot with RSI at 81. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b91,542 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "rank": 3
-      },
-      {
-        "symbol": "KOTAKBANK",
-        "score": 41,
-        "signal": "WATCH",
-        "confidence": "MEDIUM",
-        "current_price": 490.4,
-        "change_pct": 0.55,
-        "change": 2.7,
-        "target_price": 711.08,
-        "stop_loss": 460.98,
-        "risk_reward": 7.8,
-        "holding_category": "medium",
-        "sector": "Banking",
-        "penalty": 10,
-        "scores": {
-          "trend": 22,
-          "momentum": 9,
-          "volume": 6,
-          "breakout": 5,
-          "price_action": 9
-        },
-        "indicators": {
-          "rsi": 79.9,
-          "macd_signal": "Bullish",
-          "sma_alignment": "Full Bull (>20>50>200)",
-          "volume_ratio": 1.17,
-          "week52_pct": 0.7,
-          "bb_position": 0.98,
-          "adx": null
-        },
-        "reasons": [
-          "Full bullish SMA alignment",
-          "EMA 12/26 bullish",
-          "MACD bullish",
-          "MACD histogram expanding",
-          "OBV trending up",
-          "Near upper BB"
-        ],
-        "trade_plan": {
-          "category": "long",
-          "cat_score": 10,
-          "atr": 11.09,
-          "atr_pct": 2.26,
-          "entry": {
-            "ideal_price": 482.09,
-            "limit_order": 481.75,
-            "acceptable_max": 495.3,
-            "entry_window": "09:15\u201310:15 AM IST",
-            "order_strategy": "GTC limit \u2014 no urgency",
-            "note": "Prev close \u20b9490.40 | Dip ~\u20b98.31"
-          },
-          "exit": {
-            "target_conservative": 613.0,
-            "target_ideal": 711.08,
-            "target_stretch": 809.16,
-            "upside_conservative": 27.2,
-            "upside_ideal": 47.5,
-            "upside_stretch": 67.8,
-            "hold_min_days": 180,
-            "hold_max_days": 540,
-            "hold_duration": "4\u201312 weeks",
-            "sell_trigger": "Exit if fundamentals deteriorate or \u20b9711.08 hit",
-            "hold_note": "Review monthly"
-          }
-        },
-        "name": "Kotak Mahindra Bank",
-        "verdict": "HOLD",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 36.2,
-            "price_band": {
-              "low": 475.43,
-              "mid": 487.63,
-              "high": 499.83,
-              "move_pct_mid": -0.57
-            },
-            "catalyst": "RSI at 80 \u2014 momentum carryover likely",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 37.4,
-            "price_band": {
-              "low": 456.92,
-              "mid": 484.2,
-              "high": 511.48,
-              "move_pct_mid": -1.26
-            },
-            "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 39.2,
-            "price_band": {
-              "low": 421.79,
-              "mid": 477.69,
-              "high": 533.6,
-              "move_pct_mid": -2.59
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "narrative": "KOTAKBANK's momentum is running hot with RSI at 80. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. \u20b9476 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
         "rank": 4
       },
       {
@@ -1346,6 +1346,123 @@
       "rank": 1
     },
     {
+      "symbol": "KOTAKBANK",
+      "score": 49,
+      "signal": "WATCH",
+      "confidence": "MEDIUM",
+      "current_price": 490.4,
+      "change_pct": 0.55,
+      "change": 2.7,
+      "target_price": 711.08,
+      "stop_loss": 460.98,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Banking",
+      "penalty": 10,
+      "scores": {
+        "trend": 22,
+        "momentum": 9,
+        "volume": 6,
+        "breakout": 5,
+        "price_action": 9
+      },
+      "indicators": {
+        "rsi": 79.9,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Full Bull (>20>50>200)",
+        "volume_ratio": 1.17,
+        "week52_pct": 0.7,
+        "bb_position": 0.98,
+        "adx": null
+      },
+      "reasons": [
+        "Full bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "MACD bullish",
+        "MACD histogram expanding",
+        "OBV trending up",
+        "Near upper BB"
+      ],
+      "trade_plan": {
+        "category": "long",
+        "cat_score": 10,
+        "atr": 11.09,
+        "atr_pct": 2.26,
+        "entry": {
+          "ideal_price": 482.09,
+          "limit_order": 481.75,
+          "acceptable_max": 495.3,
+          "entry_window": "09:15\u201309:45 AM IST",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b9490.40 | Dip ~\u20b98.31"
+        },
+        "exit": {
+          "target_conservative": 613.0,
+          "target_ideal": 711.08,
+          "target_stretch": 809.16,
+          "upside_conservative": 27.2,
+          "upside_ideal": 47.5,
+          "upside_stretch": 67.8,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "5\u201315 trading days",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b9711.08 hit",
+          "hold_note": "Review monthly"
+        }
+      },
+      "name": "Kotak Mahindra Bank",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bullish",
+          "confidence": "Medium",
+          "composite": 56.2,
+          "price_band": {
+            "low": 480.97,
+            "mid": 493.17,
+            "high": 505.37,
+            "move_pct_mid": 0.57
+          },
+          "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 52.6,
+          "price_band": {
+            "low": 463.12,
+            "mid": 490.4,
+            "high": 517.68,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Neutral",
+          "confidence": "Medium",
+          "composite": 50.8,
+          "price_band": {
+            "low": 434.5,
+            "mid": 490.4,
+            "high": 546.3,
+            "move_pct_mid": 0.0
+          },
+          "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "primary_risk": "News-driven spike may fade without volume confirmation"
+        }
+      },
+      "narrative": "The newsflow around KOTAKBANK is constructive \u2014 'Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 80, this is the part of the move where late buyers provide exit liquidity for early ones. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Look for a close above \u20b9502 as confirmation. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
+      "rank": 2
+    },
+    {
       "symbol": "HEROMOTOCO",
       "score": 45,
       "signal": "WATCH",
@@ -1458,7 +1575,7 @@
         }
       },
       "narrative": "Here's the wrinkle: the trend is intact but momentum has started to cool. That usually means consolidation ahead, not a collapse \u2014 but chasing here is risky. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Momentum is flat \u2014 RSI at 59 sits in no-man's land. The stock is waiting for a trigger. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Automobiles is lagging the broader tape (score 31) \u2014 an extra headwind. \u20b95,182 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 2
+      "rank": 3
     },
     {
       "symbol": "DIXON",
@@ -1575,7 +1692,7 @@
         }
       },
       "narrative": "A word of caution \u2014 momentum is surging but the moving average structure hasn't confirmed. This could be a counter-trend bounce rather than a genuine reversal. Directionless. Neither bulls nor bears have control, and that won't change without a catalyst. Buyers are in control (RSI 71), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Watch \u20b912,602 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 3
+      "rank": 4
     },
     {
       "symbol": "SBIN",
@@ -1692,7 +1809,7 @@
         }
       },
       "narrative": "SBIN is on fire \u2014 RSI at 76 with volume running 1.9x average. Buyers are aggressive. Price has reclaimed its 200-day average \u2014 the first hurdle for any recovery. But the 50-day hasn't confirmed yet, so this is early days. Newsflow is mildly positive \u2014 2 items in the last 48 hours \u2014 'SBI Mutual Fund launches defence ETF fund of funds; NFO opens November 16' (Hindu BusinessLine) is the headline to watch. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b91,054 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 4
+      "rank": 5
     },
     {
       "symbol": "BHARTIARTL",
@@ -1741,7 +1858,7 @@
           "ideal_price": 2059.89,
           "limit_order": 2058.45,
           "acceptable_max": 2116.96,
-          "entry_window": "09:15\u201309:45 AM IST",
+          "entry_window": "09:15\u201310:15 AM IST",
           "order_strategy": "GTC limit \u2014 no urgency",
           "note": "Prev close \u20b92,096.00 | Dip ~\u20b936.11"
         },
@@ -1754,7 +1871,7 @@
           "upside_stretch": 67.9,
           "hold_min_days": 180,
           "hold_max_days": 540,
-          "hold_duration": "5\u201315 trading days",
+          "hold_duration": "4\u201312 weeks",
           "sell_trigger": "Exit if fundamentals deteriorate or \u20b93,039.20 hit",
           "hold_note": "Review monthly"
         }
@@ -1809,7 +1926,7 @@
         }
       },
       "narrative": "Overbought on declining volume \u2014 a classic combination for a pullback or at minimum a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Buyers are in control (RSI 76), but the stock is getting ahead of itself. Best entries come after a pause. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. \u20b92,033 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 5
+      "rank": 6
     },
     {
       "symbol": "INDUSINDBK",
@@ -1926,7 +2043,7 @@
         }
       },
       "narrative": "INDUSINDBK scores 43/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b9903 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 6
+      "rank": 7
     },
     {
       "symbol": "JSWSTEEL",
@@ -2043,7 +2160,7 @@
         }
       },
       "narrative": "RSI is stretched and the volume is thinning. That's the kind of setup where profit-taking hits without warning. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. RSI is at 74 \u2014 momentum is real but getting stretched. A consolidation here would be healthy, not alarming. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Metals is lagging the broader tape (score 24) \u2014 an extra headwind. \u20b91,312 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 7
+      "rank": 8
     },
     {
       "symbol": "ICICIBANK",
@@ -2160,123 +2277,6 @@
         }
       },
       "narrative": "ICICIBANK's momentum is running hot with RSI at 81. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b91,542 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 8
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "score": 41,
-      "signal": "WATCH",
-      "confidence": "MEDIUM",
-      "current_price": 490.4,
-      "change_pct": 0.55,
-      "change": 2.7,
-      "target_price": 711.08,
-      "stop_loss": 460.98,
-      "risk_reward": 7.8,
-      "holding_category": "long",
-      "sector": "Banking",
-      "penalty": 10,
-      "scores": {
-        "trend": 22,
-        "momentum": 9,
-        "volume": 6,
-        "breakout": 5,
-        "price_action": 9
-      },
-      "indicators": {
-        "rsi": 79.9,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 1.17,
-        "week52_pct": 0.7,
-        "bb_position": 0.98,
-        "adx": null
-      },
-      "reasons": [
-        "Full bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "MACD bullish",
-        "MACD histogram expanding",
-        "OBV trending up",
-        "Near upper BB"
-      ],
-      "trade_plan": {
-        "category": "long",
-        "cat_score": 10,
-        "atr": 11.09,
-        "atr_pct": 2.26,
-        "entry": {
-          "ideal_price": 482.09,
-          "limit_order": 481.75,
-          "acceptable_max": 495.3,
-          "entry_window": "09:15\u201310:15 AM IST",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b9490.40 | Dip ~\u20b98.31"
-        },
-        "exit": {
-          "target_conservative": 613.0,
-          "target_ideal": 711.08,
-          "target_stretch": 809.16,
-          "upside_conservative": 27.2,
-          "upside_ideal": 47.5,
-          "upside_stretch": 67.8,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "4\u201312 weeks",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b9711.08 hit",
-          "hold_note": "Review monthly"
-        }
-      },
-      "name": "Kotak Mahindra Bank",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 36.2,
-          "price_band": {
-            "low": 475.43,
-            "mid": 487.63,
-            "high": 499.83,
-            "move_pct_mid": -0.57
-          },
-          "catalyst": "RSI at 80 \u2014 momentum carryover likely",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 37.4,
-          "price_band": {
-            "low": 456.92,
-            "mid": 484.2,
-            "high": 511.48,
-            "move_pct_mid": -1.26
-          },
-          "catalyst": "Weak setup (41/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "Medium",
-          "composite": 39.2,
-          "price_band": {
-            "low": 421.79,
-            "mid": 477.69,
-            "high": 533.6,
-            "move_pct_mid": -2.59
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "KOTAKBANK's momentum is running hot with RSI at 80. The question is whether this leg has more room or needs a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. \u20b9476 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
       "rank": 9
     },
     {
@@ -2987,6 +2987,15 @@
       "reason": "Full bullish SMA alignment"
     },
     {
+      "symbol": "KOTAKBANK",
+      "name": "Kotak Mahindra Bank",
+      "sector": "Banking",
+      "current_price": 490.4,
+      "score": 49,
+      "signal": "WATCH",
+      "reason": "Full bullish SMA alignment"
+    },
+    {
       "symbol": "HEROMOTOCO",
       "name": "Hero MotoCorp",
       "sector": "Automobiles",
@@ -3012,15 +3021,6 @@
       "score": 44,
       "signal": "WATCH",
       "reason": "Above 200 SMA"
-    },
-    {
-      "symbol": "BHARTIARTL",
-      "name": "Bharti Airtel",
-      "sector": "Telecom",
-      "current_price": 2096.0,
-      "score": 43,
-      "signal": "WATCH",
-      "reason": "Full bullish SMA alignment"
     }
   ],
   "avoid": [
@@ -3112,7 +3112,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-11-12T17:21:48.451762+05:30",
+    "generated_at": "2026-11-12T18:18:57.244144+05:30",
     "date": "2026-11-12",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 65% breadth, tighten stops; macro neutral",
@@ -3125,8 +3125,8 @@
     },
     "macro_context": {
       "label": "NEUTRAL",
-      "score": 0.14,
-      "count": 135,
+      "score": 0.07,
+      "count": 131,
       "highlights": [
         {
           "title": "Multibagger stock: Cupid shares jump 10% as profit soars 133% in Q2 results 2026; already up 262% in 2026 \u2014 What's next?",
@@ -3139,16 +3139,6 @@
           "link": "https://www.livemint.com/market/stock-market-news/multibagger-stock-cupid-shares-jump-10-as-profit-soars-133-in-q2-results-2026-already-up-262-in-2026-whats-next-11794457689791.html"
         },
         {
-          "title": "Kalyan Jewellers shares hit 52-week high, rally 41% in 9 sessions; should you buy after Q2 results 2026? Check target",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Telecom"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/kalyan-jewellers-shares-hit-52-week-high-rally-41-in-9-sessions-should-you-buy-after-q2-results-2026-check-target-11794457015532.html"
-        },
-        {
           "title": "Down 27% in six months! This power stock could rally 36%, says ICICI Direct - Do you own it? Check target price",
           "source": "Mint Markets",
           "category": "market",
@@ -3157,16 +3147,6 @@
             "Power"
           ],
           "link": "https://www.livemint.com/market/stock-market-news/down-27-in-six-months-this-power-stock-could-rally-36-says-icici-direct-do-you-own-check-target-price-11794470175551.html"
-        },
-        {
-          "title": "Mishra Dhatu Nigam shares surge over 8% after Q2 profit more than doubles; MIDHANI jumps 19% in 2026 | Check key levels",
-          "source": "Mint Markets",
-          "category": "market",
-          "sentiment": "BULLISH",
-          "sectors": [
-            "Defence"
-          ],
-          "link": "https://www.livemint.com/market/stock-market-news/mishra-dhatu-nigam-shares-surge-over-8-after-q2-profit-more-than-doubles-midhani-jumps-19-in-2026-check-key-levels-11794455785852.html"
         },
         {
           "title": "Nifty target at 26,200 as BofA tweaks India strategy; upgrades hospitals, telecom, downgrades two-wheelers",
@@ -3187,14 +3167,34 @@
             "Infrastructure"
           ],
           "link": "https://www.livemint.com/market/stock-market-news/netweb-technologies-share-price-rebounds-over-13-in-four-sessions-after-long-downtrend-relief-rally-or-trend-reversal-11794466462093.html"
+        },
+        {
+          "title": "Bloom Energy shares jump 13%: Can the AI power stock sustain its rally?",
+          "source": "ET Markets",
+          "category": "market",
+          "sentiment": "BULLISH",
+          "sectors": [
+            "Infrastructure"
+          ],
+          "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/bloom-energy-shares-jump-13-can-the-ai-power-stock-sustain-its-rally/slideshow/135760252.cms"
+        },
+        {
+          "title": "Brent near $90 offers relief on fiscal, inflation fronts",
+          "source": "Mint Economy",
+          "category": "macro",
+          "sentiment": "BEARISH",
+          "sectors": [
+            "Oil & Gas"
+          ],
+          "link": "https://www.livemint.com/economy/brent-near-90-offers-relief-on-fiscal-inflation-fronts-11794317269583.html"
         }
       ]
     },
-    "key_insight": "Risk-off regime with 65% breadth and median momentum -0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 135 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Electronics leads at 44 while FMCG lags at 7 \u2014 a stock-picker's tape.",
+    "key_insight": "Risk-off regime with 65% breadth and median momentum -0.5%. Raise cash, honour stops, resist bottom-fishing until breadth recovers above 55%. Macro flow is neutral with 131 policy/global items in focus \u2014 factor this into position sizing. Sector dispersion is wide: Electronics leads at 44 while FMCG lags at 7 \u2014 a stock-picker's tape.",
     "narrative": [
       "Regime: BEAR \u00b7 breadth 65% \u00b7 median momentum -0.5% \u00b7 ATR 2.6%",
       "Book: 0 ADD \u00b7 0 ACCUMULATE \u00b7 48 HOLD \u00b7 0 EXIT",
-      "Macro tone: NEUTRAL from 135 items across 11 sources",
+      "Macro tone: NEUTRAL from 131 items across 11 sources",
       "Strongest sector: Electronics (avg score 44)"
     ],
     "market_pulse": {
@@ -3263,7 +3263,7 @@
         "change_pct": -2.1,
         "price": 1260.9,
         "action": "HOLD",
-        "score": 13
+        "score": 15
       },
       {
         "symbol": "RECLTD",
@@ -3360,6 +3360,74 @@
         }
       },
       {
+        "symbol": "KOTAKBANK",
+        "name": "Kotak Mahindra Bank",
+        "sector": "Banking",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 49,
+        "rsi": 79.9,
+        "trend": "Full Bull (>20>50>200)",
+        "reason": "Full bullish SMA alignment",
+        "narrative": "The newsflow around KOTAKBANK is constructive \u2014 'Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month' is the lead story driving sentiment. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. With RSI at 80, this is the part of the move where late buyers provide exit liquidity for early ones. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Look for a close above \u20b9502 as confirmation. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bullish \u2192 Neutral \u2192 Neutral.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bullish",
+            "confidence": "Medium",
+            "composite": 56.2,
+            "price_band": {
+              "low": 480.97,
+              "mid": 493.17,
+              "high": 505.37,
+              "move_pct_mid": 0.57
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "Overbought (RSI 80) \u2014 chase risk high"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 52.6,
+            "price_band": {
+              "low": 463.12,
+              "mid": 490.4,
+              "high": 517.68,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Neutral",
+            "confidence": "Medium",
+            "composite": 50.8,
+            "price_band": {
+              "low": 434.5,
+              "mid": 490.4,
+              "high": 546.3,
+              "move_pct_mid": 0.0
+            },
+            "catalyst": "News flow: Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+            "primary_risk": "News-driven spike may fade without volume confirmation"
+          }
+        },
+        "news_info": {
+          "score": 7.2,
+          "label": "BULLISH",
+          "count": 1,
+          "modifier": 8,
+          "top_headline": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+          "top_source": "ET Markets",
+          "top_link": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms"
+        }
+      },
+      {
         "symbol": "HEROMOTOCO",
         "name": "Hero MotoCorp",
         "sector": "Automobiles",
@@ -3418,13 +3486,11 @@
           }
         },
         "news_info": {
-          "score": 0.0,
+          "score": 0,
           "label": "NEUTRAL",
-          "count": 1,
+          "count": 0,
           "modifier": 0,
-          "top_headline": "Hero MotoCorp Share Price Live Updates: Current Trading Status of Hero MotoCorp",
-          "top_source": "ET Markets",
-          "top_link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hero-motocorp-stock-price-today-live-12-nov-2026/liveblog/135753143.cms"
+          "top_headline": null
         }
       },
       {
@@ -3626,92 +3692,24 @@
           "modifier": 0,
           "top_headline": null
         }
-      },
-      {
-        "symbol": "INDUSINDBK",
-        "name": "IndusInd Bank",
-        "sector": "Banking",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 43,
-        "rsi": 67.8,
-        "trend": "Above 200 SMA",
-        "reason": "Above 200 SMA",
-        "narrative": "INDUSINDBK scores 43/100 on our engine. Above the 200 SMA. That's the bare minimum for trend followers, and it's only just been reclaimed. Momentum is picking up nicely \u2014 RSI at 68 has room to run before hitting overbought territory. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Banking is lagging the broader tape (score 35) \u2014 an extra headwind. Watch \u20b9903 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 38.2,
-            "price_band": {
-              "low": 894.56,
-              "mid": 924.54,
-              "high": 954.51,
-              "move_pct_mid": -0.73
-            },
-            "catalyst": "RSI at 68 \u2014 momentum carryover likely",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 39.4,
-            "price_band": {
-              "low": 849.09,
-              "mid": 916.12,
-              "high": 983.14,
-              "move_pct_mid": -1.64
-            },
-            "catalyst": "Weak setup (43/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "Medium",
-            "composite": 41.2,
-            "price_band": {
-              "low": 762.77,
-              "mid": 900.13,
-              "high": 1037.49,
-              "move_pct_mid": -3.35
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": 0.0,
-          "label": "NEUTRAL",
-          "count": 1,
-          "modifier": 0,
-          "top_headline": "ET AI Business Transformation Masterclass heads to IIM Bangalore to decode enterprise AI adoption",
-          "top_source": "ET Industry",
-          "top_link": "https://economictimes.indiatimes.com/industry/services/education/et-ai-business-transformation-masterclass-heads-to-iim-bangalore-to-decode-enterprise-ai-adoption/articleshow/135732355.cms"
-        }
       }
     ],
     "risk_watchlist": [
-      {
-        "symbol": "ICICIBANK",
-        "name": "ICICI Bank",
-        "action": "HOLD",
-        "flags": [
-          "RSI 81 overbought"
-        ],
-        "verdict": "HOLD"
-      },
       {
         "symbol": "KOTAKBANK",
         "name": "Kotak Mahindra Bank",
         "action": "HOLD",
         "flags": [
           "RSI 80 overbought"
+        ],
+        "verdict": "HOLD"
+      },
+      {
+        "symbol": "ICICIBANK",
+        "name": "ICICI Bank",
+        "action": "HOLD",
+        "flags": [
+          "RSI 81 overbought"
         ],
         "verdict": "HOLD"
       },
@@ -3785,8 +3783,16 @@
         "avg_score": 43.0,
         "count": 1,
         "trend": "down",
-        "news_count": 7,
-        "news_label": "BULLISH"
+        "news_count": 5,
+        "news_label": "BEARISH"
+      },
+      {
+        "sector": "Banking",
+        "avg_score": 37.2,
+        "count": 6,
+        "trend": "down",
+        "news_count": 14,
+        "news_label": "NEUTRAL"
       },
       {
         "sector": "Infrastructure",
@@ -3795,14 +3801,6 @@
         "trend": "down",
         "news_count": 7,
         "news_label": "BULLISH"
-      },
-      {
-        "sector": "Banking",
-        "avg_score": 36.0,
-        "count": 6,
-        "trend": "down",
-        "news_count": 14,
-        "news_label": "NEUTRAL"
       },
       {
         "sector": "Automobiles",
@@ -3822,7 +3820,7 @@
       },
       {
         "sector": "Pharma",
-        "avg_score": 30.0,
+        "avg_score": 29.5,
         "count": 4,
         "trend": "down",
         "news_count": 2,
@@ -3894,16 +3892,17 @@
         "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-100-roto-pumps-shares-jump-19-today-soar-28-in-4-days-whats-fuelling-the-rally-11794458105178.html"
       },
       {
-        "title": "Kalyan Jewellers shares hit 52-week high, rally 41% in 9 sessions; should you buy after Q2 results 2026? Check target",
-        "source": "Mint Markets",
+        "title": "Punjab National Bank among 4 stocks hitting 52-week highs; rally up to 22% in a month",
+        "source": "ET Markets",
         "category": "market",
         "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [
-          "Telecom"
+        "tickers": [
+          "KOTAKBANK",
+          "FEDERALBNK"
         ],
-        "published": "2026-11-12T04:27:26+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/kalyan-jewellers-shares-hit-52-week-high-rally-41-in-9-sessions-should-you-buy-after-q2-results-2026-check-target-11794457015532.html"
+        "sectors": [],
+        "published": "2026-11-12T12:21:16+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/punjab-national-bank-among-4-stocks-hitting-52-week-highs-rally-up-to-22-in-a-month/slideshow/135769519.cms"
       },
       {
         "title": "AI stock Nvidia resumes losing run as brokerages turn bearish; Jensen Huang exit fears, board probe spook investors",
@@ -3958,16 +3957,14 @@
         "link": "https://www.livemint.com/market/stock-market-news/147-up-in-five-years-multibagger-stock-tgv-sraac-rally-8-today-whats-behind-the-rally-q2-results-returns-11794466155809.html"
       },
       {
-        "title": "Mishra Dhatu Nigam shares surge over 8% after Q2 profit more than doubles; MIDHANI jumps 19% in 2026 | Check key levels",
-        "source": "Mint Markets",
+        "title": "Zee Entertainment approves Rs 600-crore share buyback at Rs 91 apiece; promoters to stay out",
+        "source": "ET Markets",
         "category": "market",
         "sentiment": "BULLISH",
         "tickers": [],
-        "sectors": [
-          "Defence"
-        ],
-        "published": "2026-11-12T04:16:18+00:00",
-        "link": "https://www.livemint.com/market/stock-market-news/mishra-dhatu-nigam-shares-surge-over-8-after-q2-profit-more-than-doubles-midhani-jumps-19-in-2026-check-key-levels-11794455785852.html"
+        "sectors": [],
+        "published": "2026-11-12T11:46:29+00:00",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/zee-entertainment-approves-rs-600-crore-share-buyback-at-rs-91-apiece-promoters-to-stay-out/articleshow/135767979.cms"
       },
       {
         "title": "Unique Picks: 9 stocks held by just one MF scheme in October, rally up to 144% YTD",
@@ -4003,11 +4000,11 @@
       }
     ],
     "news_stats": {
-      "total_items": 249,
+      "total_items": 245,
       "sources": 11,
-      "with_tickers": 44,
-      "bullish": 71,
-      "bearish": 43
+      "with_tickers": 39,
+      "bullish": 74,
+      "bearish": 38
     }
   }
 }
