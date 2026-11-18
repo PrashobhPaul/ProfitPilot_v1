@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:44:15.851800+05:30",
+  "generated_at": "2026-11-18T18:35:45.231082+05:30",
   "market_date": "2026-11-18",
   "analysis_version": "5.0-rules+news+forecast+narrative",
   "engine": "rules_engine_v5_news_fusion",
@@ -760,6 +760,121 @@
       "rank": 3
     },
     {
+      "symbol": "ADANIPORTS",
+      "score": 39,
+      "signal": "AVOID",
+      "confidence": "LOW",
+      "current_price": 1902.6,
+      "change_pct": -0.75,
+      "change": -14.4,
+      "target_price": 2758.77,
+      "stop_loss": 1788.44,
+      "risk_reward": 7.8,
+      "holding_category": "long",
+      "sector": "Infrastructure",
+      "penalty": 0,
+      "scores": {
+        "trend": 22,
+        "momentum": 11,
+        "volume": 0,
+        "breakout": 3,
+        "price_action": 3
+      },
+      "indicators": {
+        "rsi": 67.2,
+        "macd_signal": "Bullish",
+        "sma_alignment": "Full Bull (>20>50>200)",
+        "volume_ratio": 0.3,
+        "week52_pct": 3.9,
+        "bb_position": 0.67,
+        "adx": null
+      },
+      "reasons": [
+        "Full bullish SMA alignment",
+        "EMA 12/26 bullish",
+        "RSI strong (67.2)",
+        "MACD bullish"
+      ],
+      "trade_plan": {
+        "category": "long",
+        "cat_score": 8,
+        "atr": 51.79,
+        "atr_pct": 2.72,
+        "entry": {
+          "ideal_price": 1863.76,
+          "limit_order": 1862.46,
+          "acceptable_max": 1921.63,
+          "entry_window": "09:15 AM IST (GTC)",
+          "order_strategy": "GTC limit \u2014 no urgency",
+          "note": "Prev close \u20b91,902.60 | Dip ~\u20b938.84"
+        },
+        "exit": {
+          "target_conservative": 2378.25,
+          "target_ideal": 2758.77,
+          "target_stretch": 3139.29,
+          "upside_conservative": 27.6,
+          "upside_ideal": 48.0,
+          "upside_stretch": 68.4,
+          "hold_min_days": 180,
+          "hold_max_days": 540,
+          "hold_duration": "6\u201318 months",
+          "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,758.77 hit",
+          "hold_note": "Review monthly"
+        }
+      },
+      "name": "Adani Ports",
+      "verdict": "HOLD",
+      "forecasts": {
+        "1d": {
+          "label": "Tomorrow",
+          "days": 1,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 34.2,
+          "price_band": {
+            "low": 1832.68,
+            "mid": 1889.65,
+            "high": 1946.62,
+            "move_pct_mid": -0.68
+          },
+          "catalyst": "RSI at 67 \u2014 momentum carryover likely",
+          "primary_risk": "Gap risk at open; size positions accordingly"
+        },
+        "1w": {
+          "label": "1 Week",
+          "days": 5,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 35.4,
+          "price_band": {
+            "low": 1746.26,
+            "mid": 1873.65,
+            "high": 2001.04,
+            "move_pct_mid": -1.52
+          },
+          "catalyst": "Weak setup (39/100) \u2014 expect continued pressure",
+          "primary_risk": "Regime shift or sector rotation could invalidate setup"
+        },
+        "1m": {
+          "label": "1 Month",
+          "days": 21,
+          "bias": "Mildly Bearish",
+          "confidence": "Medium",
+          "composite": 37.2,
+          "price_band": {
+            "low": 1582.2,
+            "mid": 1843.27,
+            "high": 2104.33,
+            "move_pct_mid": -3.12
+          },
+          "catalyst": "Structural weakness; BEAR regime adds pressure",
+          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+        }
+      },
+      "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 67. Neutral. Nothing to act on from momentum alone. Volume is thin (0.3x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 25) \u2014 an extra headwind. \u20b91,846 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+      "rank": 4
+    },
+    {
       "symbol": "BHARTIARTL",
       "score": 38,
       "signal": "AVOID",
@@ -873,7 +988,7 @@
         }
       },
       "narrative": "Overbought on declining volume \u2014 a classic combination for a pullback or at minimum a breather. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. Buyers are in control (RSI 77), but the stock is getting ahead of itself. Best entries come after a pause. Volume is thin (0.4x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Telecom is lagging the broader tape (score 38) \u2014 an extra headwind. \u20b92,068 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 4
+      "rank": 5
     },
     {
       "symbol": "DRREDDY",
@@ -989,121 +1104,6 @@
         }
       },
       "narrative": "Overbought on declining volume \u2014 a classic combination for a pullback or at minimum a breather. The trend is solidly positive \u2014 price sits above all key averages, though alignment isn't perfect. Buyers are in control (RSI 74), but the stock is getting ahead of itself. Best entries come after a pause. Volume is thin (0.6x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Pharma is lagging the broader tape (score 37) \u2014 an extra headwind. Watch \u20b91,356 \u2014 a break below opens further downside. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
-      "rank": 5
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "score": 37,
-      "signal": "AVOID",
-      "confidence": "LOW",
-      "current_price": 1902.6,
-      "change_pct": -0.75,
-      "change": -14.4,
-      "target_price": 2758.77,
-      "stop_loss": 1788.44,
-      "risk_reward": 7.8,
-      "holding_category": "long",
-      "sector": "Infrastructure",
-      "penalty": 0,
-      "scores": {
-        "trend": 22,
-        "momentum": 11,
-        "volume": 0,
-        "breakout": 3,
-        "price_action": 3
-      },
-      "indicators": {
-        "rsi": 67.2,
-        "macd_signal": "Bullish",
-        "sma_alignment": "Full Bull (>20>50>200)",
-        "volume_ratio": 0.3,
-        "week52_pct": 3.9,
-        "bb_position": 0.67,
-        "adx": null
-      },
-      "reasons": [
-        "Full bullish SMA alignment",
-        "EMA 12/26 bullish",
-        "RSI strong (67.2)",
-        "MACD bullish"
-      ],
-      "trade_plan": {
-        "category": "long",
-        "cat_score": 8,
-        "atr": 51.79,
-        "atr_pct": 2.72,
-        "entry": {
-          "ideal_price": 1863.76,
-          "limit_order": 1862.46,
-          "acceptable_max": 1921.63,
-          "entry_window": "09:15 AM IST (GTC)",
-          "order_strategy": "GTC limit \u2014 no urgency",
-          "note": "Prev close \u20b91,902.60 | Dip ~\u20b938.84"
-        },
-        "exit": {
-          "target_conservative": 2378.25,
-          "target_ideal": 2758.77,
-          "target_stretch": 3139.29,
-          "upside_conservative": 27.6,
-          "upside_ideal": 48.0,
-          "upside_stretch": 68.4,
-          "hold_min_days": 180,
-          "hold_max_days": 540,
-          "hold_duration": "6\u201318 months",
-          "sell_trigger": "Exit if fundamentals deteriorate or \u20b92,758.77 hit",
-          "hold_note": "Review monthly"
-        }
-      },
-      "name": "Adani Ports",
-      "verdict": "HOLD",
-      "forecasts": {
-        "1d": {
-          "label": "Tomorrow",
-          "days": 1,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 29.2,
-          "price_band": {
-            "low": 1814.56,
-            "mid": 1871.53,
-            "high": 1928.49,
-            "move_pct_mid": -1.63
-          },
-          "catalyst": "RSI at 67 \u2014 momentum carryover likely",
-          "primary_risk": "Gap risk at open; size positions accordingly"
-        },
-        "1w": {
-          "label": "1 Week",
-          "days": 5,
-          "bias": "Bearish",
-          "confidence": "High",
-          "composite": 31.6,
-          "price_band": {
-            "low": 1705.73,
-            "mid": 1833.12,
-            "high": 1960.5,
-            "move_pct_mid": -3.65
-          },
-          "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
-          "primary_risk": "Regime shift or sector rotation could invalidate setup"
-        },
-        "1m": {
-          "label": "1 Month",
-          "days": 21,
-          "bias": "Mildly Bearish",
-          "confidence": "High",
-          "composite": 34.3,
-          "price_band": {
-            "low": 1582.2,
-            "mid": 1843.27,
-            "high": 2104.33,
-            "move_pct_mid": -3.12
-          },
-          "catalyst": "Structural weakness; BEAR regime adds pressure",
-          "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-        }
-      },
-      "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 67. Neutral. Nothing to act on from momentum alone. Volume is thin (0.3x) \u2014 take any move with a pinch of salt. News sentiment is cautious across 1 recent item \u2014 'Adani Ports SEZ Share Price Live Updates: Adani Ports SEZ sees a price decline' (ET Markets) is the headline to watch. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 25) \u2014 an extra headwind. Downside risk towards \u20b91,846 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Mildly Bearish.",
       "rank": 6
     },
     {
@@ -2180,6 +2180,14 @@
   ],
   "avoid": [
     {
+      "symbol": "ADANIPORTS",
+      "name": "Adani Ports",
+      "sector": "Infrastructure",
+      "current_price": 1902.6,
+      "score": 39,
+      "reason": "Full bullish SMA alignment"
+    },
+    {
       "symbol": "BHARTIARTL",
       "name": "Bharti Airtel",
       "sector": "Telecom",
@@ -2193,14 +2201,6 @@
       "sector": "Pharma",
       "current_price": 1398.2,
       "score": 38,
-      "reason": "Full bullish SMA alignment"
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "name": "Adani Ports",
-      "sector": "Infrastructure",
-      "current_price": 1902.6,
-      "score": 37,
       "reason": "Full bullish SMA alignment"
     }
   ],
@@ -2267,7 +2267,7 @@
     }
   ],
   "daily_brief": {
-    "generated_at": "2026-11-18T17:46:01.663990+05:30",
+    "generated_at": "2026-11-18T18:38:09.950916+05:30",
     "date": "2026-11-18",
     "source": "rules_engine_v4_news_fusion",
     "headline": "Risk-off: 65% breadth, tighten stops; macro mildly positive",
@@ -2280,7 +2280,7 @@
     },
     "macro_context": {
       "label": "MILDLY_POSITIVE",
-      "score": 0.33,
+      "score": 0.31,
       "count": 127,
       "highlights": [
         {
@@ -2647,6 +2647,74 @@
         }
       },
       {
+        "symbol": "ADANIPORTS",
+        "name": "Adani Ports",
+        "sector": "Infrastructure",
+        "action": "HOLD",
+        "verdict": "HOLD",
+        "score": 39,
+        "rsi": 67.2,
+        "trend": "Full Bull (>20>50>200)",
+        "reason": "Full bullish SMA alignment",
+        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 67. Neutral. Nothing to act on from momentum alone. Volume is thin (0.3x) \u2014 take any move with a pinch of salt. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 25) \u2014 an extra headwind. \u20b91,846 is the line in the sand. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Mildly Bearish \u2192 Mildly Bearish \u2192 Mildly Bearish.",
+        "forecasts": {
+          "1d": {
+            "label": "Tomorrow",
+            "days": 1,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 34.2,
+            "price_band": {
+              "low": 1832.68,
+              "mid": 1889.65,
+              "high": 1946.62,
+              "move_pct_mid": -0.68
+            },
+            "catalyst": "RSI at 67 \u2014 momentum carryover likely",
+            "primary_risk": "Gap risk at open; size positions accordingly"
+          },
+          "1w": {
+            "label": "1 Week",
+            "days": 5,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 35.4,
+            "price_band": {
+              "low": 1746.26,
+              "mid": 1873.65,
+              "high": 2001.04,
+              "move_pct_mid": -1.52
+            },
+            "catalyst": "Weak setup (39/100) \u2014 expect continued pressure",
+            "primary_risk": "Regime shift or sector rotation could invalidate setup"
+          },
+          "1m": {
+            "label": "1 Month",
+            "days": 21,
+            "bias": "Mildly Bearish",
+            "confidence": "Medium",
+            "composite": 37.2,
+            "price_band": {
+              "low": 1582.2,
+              "mid": 1843.27,
+              "high": 2104.33,
+              "move_pct_mid": -3.12
+            },
+            "catalyst": "Structural weakness; BEAR regime adds pressure",
+            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
+          }
+        },
+        "news_info": {
+          "score": 0.0,
+          "label": "NEUTRAL",
+          "count": 1,
+          "modifier": 0,
+          "top_headline": "Adani Ports SEZ Share Price Highlights: Adani Ports SEZ Stock Price History",
+          "top_source": "ET Markets",
+          "top_link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-stock-price-live-updates-18-nov-2026/liveblog/135947016.cms"
+        }
+      },
+      {
         "symbol": "BHARTIARTL",
         "name": "Bharti Airtel",
         "sector": "Telecom",
@@ -2709,7 +2777,7 @@
           "label": "NEUTRAL",
           "count": 1,
           "modifier": 0,
-          "top_headline": "Bharti Airtel Share Price Live Updates: Bharti Airtel's Stock Price Analysis",
+          "top_headline": "Bharti Airtel Share Price Highlights: Bharti Airtel Stock Price History",
           "top_source": "ET Markets",
           "top_link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-updates-18-nov-2026/liveblog/135949072.cms"
         }
@@ -2778,74 +2846,6 @@
           "count": 0,
           "modifier": 0,
           "top_headline": null
-        }
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "name": "Adani Ports",
-        "sector": "Infrastructure",
-        "action": "HOLD",
-        "verdict": "HOLD",
-        "score": 37,
-        "rsi": 67.2,
-        "trend": "Full Bull (>20>50>200)",
-        "reason": "Full bullish SMA alignment",
-        "narrative": "One thing to watch: momentum is diverging from the trend. The structure is fine but the engine is losing steam. Moving averages are bullish. Not pristine, but the kind of structure where you buy dips rather than sell rallies. RSI 67. Neutral. Nothing to act on from momentum alone. Volume is thin (0.3x) \u2014 take any move with a pinch of salt. News sentiment is cautious across 1 recent item \u2014 'Adani Ports SEZ Share Price Live Updates: Adani Ports SEZ sees a price decline' (ET Markets) is the headline to watch. Market headwinds are real \u2014 65% breadth in a bearish regime means even good setups get sold. Infrastructure is lagging the broader tape (score 25) \u2014 an extra headwind. Downside risk towards \u20b91,846 is real. Capital preservation first. Verdict: HOLD. Own it? Let it work. Don't own it? Cleaner entries exist elsewhere. Outlook: Bearish \u2192 Bearish \u2192 Mildly Bearish.",
-        "forecasts": {
-          "1d": {
-            "label": "Tomorrow",
-            "days": 1,
-            "bias": "Bearish",
-            "confidence": "High",
-            "composite": 29.2,
-            "price_band": {
-              "low": 1814.56,
-              "mid": 1871.53,
-              "high": 1928.49,
-              "move_pct_mid": -1.63
-            },
-            "catalyst": "RSI at 67 \u2014 momentum carryover likely",
-            "primary_risk": "Gap risk at open; size positions accordingly"
-          },
-          "1w": {
-            "label": "1 Week",
-            "days": 5,
-            "bias": "Bearish",
-            "confidence": "High",
-            "composite": 31.6,
-            "price_band": {
-              "low": 1705.73,
-              "mid": 1833.12,
-              "high": 1960.5,
-              "move_pct_mid": -3.65
-            },
-            "catalyst": "Weak setup (37/100) \u2014 expect continued pressure",
-            "primary_risk": "Regime shift or sector rotation could invalidate setup"
-          },
-          "1m": {
-            "label": "1 Month",
-            "days": 21,
-            "bias": "Mildly Bearish",
-            "confidence": "High",
-            "composite": 34.3,
-            "price_band": {
-              "low": 1582.2,
-              "mid": 1843.27,
-              "high": 2104.33,
-              "move_pct_mid": -3.12
-            },
-            "catalyst": "Structural weakness; BEAR regime adds pressure",
-            "primary_risk": "Macro shocks or earnings surprises are the biggest swing factor"
-          }
-        },
-        "news_info": {
-          "score": -1.2,
-          "label": "MILDLY_BEARISH",
-          "count": 1,
-          "modifier": -2,
-          "top_headline": "Adani Ports SEZ Share Price Live Updates: Adani Ports SEZ sees a price decline",
-          "top_source": "ET Markets",
-          "top_link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/adani-ports-sez-stock-price-live-updates-18-nov-2026/liveblog/135947016.cms"
         }
       }
     ],
@@ -2947,7 +2947,7 @@
         "avg_score": 37.0,
         "count": 4,
         "trend": "down",
-        "news_count": 4,
+        "news_count": 3,
         "news_label": "BULLISH"
       },
       {
@@ -2976,7 +2976,7 @@
       },
       {
         "sector": "Infrastructure",
-        "avg_score": 24.5,
+        "avg_score": 25.5,
         "count": 2,
         "trend": "down",
         "news_count": 3,
@@ -3102,14 +3102,14 @@
         "link": "https://www.thehindubusinessline.com/markets/gold/gold-silver-prices-in-indian-markets-crash-to-nearly-a-years-low/article71714989.ece"
       },
       {
-        "title": "JPMorgan Warns Leveraged-Loan Defaults Set to Double in 2027",
+        "title": "Nvidia shares gain 3% in premarket after Q3 results, upbeat forecast top estimates: Is the AI rally back on track?",
         "source": "Mint Markets",
         "category": "market",
-        "sentiment": "BEARISH",
+        "sentiment": "BULLISH",
         "tickers": [],
         "sectors": [],
-        "published": "2026-11-17T21:10:32+00:00",
-        "link": "https://www.livemint.com/market/jpmorgan-warns-leveraged-loan-defaults-set-to-double-in-2027-11794949833068.html"
+        "published": "2026-11-18T12:45:48+00:00",
+        "link": "https://www.livemint.com/market/stock-market-news/nvidia-shares-gain-3-in-premarket-after-q3-results-upbeat-forecast-top-estimates-is-the-ai-rally-back-on-track-11795005376675.html"
       },
       {
         "title": "Midterm Meltdown: How US elections sparked a rethink on energy risks",
@@ -3124,6 +3124,26 @@
         "link": "https://economictimes.indiatimes.com/industry/energy/oil-gas/midterm-meltdown-how-us-elections-sparked-a-rethink-on-energy-risks/articleshow/135913165.cms"
       },
       {
+        "title": "Paytm public-market investors earn 1.7x returns in five years as shares hit record high",
+        "source": "Hindu BusinessLine",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-18T12:34:50+00:00",
+        "link": "https://www.thehindubusinessline.com/markets/stock-markets/paytm-public-market-investors-earn-17x-returns-in-five-years-as-shares-hit-record-high/article71715604.ece"
+      },
+      {
+        "title": "Markets rebound sharply after Diwali, but inflation clouds rate outlook",
+        "source": "Hindu BusinessLine",
+        "category": "market",
+        "sentiment": "BULLISH",
+        "tickers": [],
+        "sectors": [],
+        "published": "2026-11-18T12:34:07+00:00",
+        "link": "https://www.thehindubusinessline.com/markets/markets-rebound-sharply-after-diwali-but-inflation-clouds-rate-outlook/article71715674.ece"
+      },
+      {
         "title": "Flat opening as Nvidia earnings beat softens Wall Street\u2019s blow; Bank Nifty holds near record high",
         "source": "Hindu BusinessLine",
         "category": "market",
@@ -3134,26 +3154,6 @@
         ],
         "published": "2026-11-18T04:08:53+00:00",
         "link": "https://www.thehindubusinessline.com/markets/flat-opening-as-nvidia-earnings-beat-softens-wall-streets-blow-bank-nifty-holds-near-record-high/article71714462.ece"
-      },
-      {
-        "title": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BULLISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-11-18T10:25:00+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-flat-after-hitting-seven-month-high-as-firmer-dollar-offsets-inflows/articleshow/135959732.cms"
-      },
-      {
-        "title": "SanDisk stock selloff deepens: What's driving the crash?",
-        "source": "ET Markets",
-        "category": "market",
-        "sentiment": "BEARISH",
-        "tickers": [],
-        "sectors": [],
-        "published": "2026-11-18T06:02:11+00:00",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/sandisk-stock-selloff-deepens-whats-driving-the-crash/slideshow/135951707.cms"
       },
       {
         "title": "India's GDP growth pegged at 7.3% in FY26-27, may touch 7.7% next quarter: EAC-PM Chairman",
@@ -3167,11 +3167,11 @@
       }
     ],
     "news_stats": {
-      "total_items": 251,
+      "total_items": 248,
       "sources": 11,
-      "with_tickers": 43,
-      "bullish": 63,
-      "bearish": 52
+      "with_tickers": 41,
+      "bullish": 65,
+      "bearish": 46
     }
   }
 }
